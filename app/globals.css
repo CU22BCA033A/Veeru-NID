@@ -9,14 +9,14 @@
   --surface-2: #efece4;
   --ink: #1c1b19;
   --ink-2: #5d5a53;
-  --ink-3: #8b877d;
+  --ink-3: #6b675e;
   --line: #e2ded4;
-  --accent: #d9481c;
+  --accent: #b93d14;
   --accent-ink: #ffffff;
   --accent-soft: #fbe6dd;
-  --good: #2f7d4f;
+  --good: #27704a;
   --good-soft: #e2f1e7;
-  --warn: #a8650a;
+  --warn: #8a5208;
   --warn-soft: #fbefd9;
   --bad: #b3261e;
   --bad-soft: #f9e3e1;
@@ -37,7 +37,7 @@
     --surface-2: #282622;
     --ink: #f1eee7;
     --ink-2: #bdb8ad;
-    --ink-3: #8b877d;
+    --ink-3: #9a968c;
     --line: #34312c;
     --accent: #f06a3e;
     --accent-ink: #1a0d07;

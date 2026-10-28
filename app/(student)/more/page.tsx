@@ -5,6 +5,7 @@ import { PageHeader } from "@/components/ui/page-header";
 import { requireViewer } from "@/lib/auth";
 import { supabaseServer } from "@/lib/supabase/server";
 import { signOut } from "@/app/login/actions";
+import { SignOutButton } from "@/components/pwa/register-sw";
 import { WhyForm } from "./why-form";
 
 const LINKS = [
@@ -51,7 +52,7 @@ export default async function MorePage() {
         </ul>
       </Card>
       <form action={signOut}>
-        <button className="min-h-11 text-sm text-ink-2 underline">Sign out</button>
+        <SignOutButton />
       </form>
     </div>
   );

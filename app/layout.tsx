@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Space_Grotesk } from "next/font/google";
+import { RegisterServiceWorker } from "@/components/pwa/register-sw";
 import "./globals.css";
 
 const grotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-grotesk", display: "swap" });
@@ -9,7 +10,8 @@ export const metadata: Metadata = {
   title: "NID Prep Studio",
   description: "Veeru's 100-day NID DAT preparation studio",
   manifest: "/manifest.webmanifest",
-  icons: { icon: "/icon.svg" },
+  icons: { icon: "/icon.svg", apple: "/icon-192.png" },
+  appleWebApp: { capable: true, title: "NID Prep", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = {
@@ -24,7 +26,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${grotesk.variable} ${serif.variable}`}>
-      <body className="min-h-dvh">{children}</body>
+      <body className="min-h-dvh">
+        {children}
+        <RegisterServiceWorker />
+      </body>
     </html>
   );
 }

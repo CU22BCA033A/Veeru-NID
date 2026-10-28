@@ -5,6 +5,7 @@ import { loadSettings } from "@/lib/config/settings";
 import { supabaseAdmin, supabaseServer } from "@/lib/supabase/server";
 import { emailToUsername } from "@/lib/username";
 import { signOut } from "@/app/login/actions";
+import { SignOutButton } from "@/components/pwa/register-sw";
 import { AccountForm } from "./account-form";
 import { SettingsForm } from "./settings-form";
 import { SyncButton } from "./sync-button";
@@ -45,7 +46,7 @@ export default async function SettingsPage() {
         <AccountForm role="mentor" username={emailToUsername(viewer.email) ?? viewer.email ?? ""} displayName={viewer.displayName} />
       </Card>
       <form action={signOut}>
-        <button className="min-h-11 text-sm text-ink-2 underline">Sign out</button>
+        <SignOutButton />
       </form>
     </div>
   );

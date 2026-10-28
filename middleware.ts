@@ -2,7 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { createServerClient } from "@supabase/ssr";
 import { supabaseAnonKey, supabaseUrl } from "@/lib/supabase/env";
 
-const PUBLIC_PATHS = ["/login", "/setup", "/manifest.webmanifest", "/icon.svg"];
+const PUBLIC_PATHS = ["/login", "/setup", "/offline.html", "/manifest.webmanifest", "/icon.svg"];
 
 export async function middleware(request: NextRequest) {
   let response = NextResponse.next({ request });
@@ -40,5 +40,5 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|sw.js|.*\\.(?:png|jpg|svg|webp)$).*)"],
+  matcher: ["/((?!_next/static|_next/image|favicon.ico|sw.js|offline.html|.*\\.(?:png|jpg|svg|webp)$).*)"],
 };

@@ -1,12 +1,14 @@
 /**
- * Load /content into the database (idempotent upserts). Run after migrations:
- *   npm run content:seed
+ * Load /content (and generated puzzles) into the database. Idempotent.
+ *   npm run content:seed            (skips if nothing changed)
+ *   npm run content:seed -- --force
  */
-import { seedBaseContent } from "../lib/seed/base";
+import { syncContent } from "../lib/seed/sync";
 import { adminClient } from "./_env";
 
-seedBaseContent(adminClient())
-  .then(({ categories, subtopics }) => console.log(`✓ ${categories} categories, ${subtopics} subtopics`))
+const force = process.argv.includes("--force");
+syncContent(adminClient(), { force })
+  .then((r) => console.log(r.changed ? `✓ synced content ${r.version}: ${JSON.stringify(r.counts)}` : `✓ content already up to date (${r.version})`))
   .catch((e) => {
     console.error(e);
     process.exit(1);

@@ -17,7 +17,8 @@
     "content:generate": "tsx scripts/content-generate.ts",
     "images:needed": "tsx scripts/images-needed.ts",
     "setup:users": "tsx scripts/setup-users.ts",
-    "db:bundle": "tsx scripts/bundle-sql.ts"
+    "db:bundle": "tsx scripts/bundle-sql.ts",
+    "content:index": "tsx scripts/content-index.ts"
   },
   "engines": {
     "node": ">=20"
@@ -26,6 +27,7 @@
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.118.0",
     "clsx": "^2.1.1",
+    "lucide-react": "^0.545.0",
     "next": "^15.5.28",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",

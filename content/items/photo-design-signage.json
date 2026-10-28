@@ -1,0 +1,292 @@
+{
+  "items": [
+    {
+      "id": "ph-sign-01", "type": "mcq", "subtopic": "design.signage", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-sign-no-parking"],
+      "stem": "Indian road signs come in three main groups. Which group does this circular 'No Parking' sign belong to?",
+      "options": [{ "id": "a", "text": "Mandatory / regulatory signs" }, { "id": "b", "text": "Cautionary / warning signs" }, { "id": "c", "text": "Informatory signs" }, { "id": "d", "text": "Decorative signs" }],
+      "answer": "a",
+      "explanation": "In India, mandatory/regulatory signs (orders you must obey) are mostly circular, cautionary signs (warnings) are red-bordered triangles, and informatory signs (guidance) are rectangles. Shape alone tells a driver what kind of message is coming, even before they can read it.",
+      "distractors": { "b": "Warning signs are triangles (e.g. 'school ahead').", "c": "Information signs are rectangles (e.g. hospital, petrol pump).", "d": "Road signs are a legal, functional system, not decoration." },
+      "takeaway": "Circle = rule, triangle = warning, rectangle = information.",
+      "tags": ["photo", "road-signs"]
+    },
+    {
+      "id": "ph-sign-02", "type": "mcq", "subtopic": "design.signage", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-sign-hospital"],
+      "stem": "This sign directs drivers to a hospital. Why is it a blue rectangle rather than a red circle?",
+      "options": [{ "id": "a", "text": "It gives information, not an order, so it uses the informatory shape and colour" }, { "id": "b", "text": "Blue is cheaper to print" }, { "id": "c", "text": "Hospitals are always painted blue" }, { "id": "d", "text": "Red circles are only for night-time" }],
+      "answer": "a",
+      "explanation": "A consistent sign SYSTEM uses shape and colour to encode meaning. A hospital sign helps you find something; it doesn't command you, so it uses the informatory shape. Systems thinking like this is what good signage design questions test.",
+      "distractors": { "b": "Cost isn't the reason; meaning is.", "c": "Building colour is unrelated.", "d": "Signs work the same day and night (with reflective sheeting)." },
+      "takeaway": "Design sign systems: shape + colour = type of message.",
+      "tags": ["photo", "system"]
+    },
+    {
+      "id": "ph-sign-03", "type": "mcq", "subtopic": "design.principles", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-sign-shop-cluttered"],
+      "stem": "It is hard to tell at a glance what this shop sells. Which design principle is MOST lacking?",
+      "options": [{ "id": "a", "text": "Hierarchy — one main message should dominate" }, { "id": "b", "text": "Repetition" }, { "id": "c", "text": "Texture" }, { "id": "d", "text": "Symmetry" }],
+      "answer": "a",
+      "explanation": "When every board shouts at the same size and colour, nothing stands out. Hierarchy means deciding what is read first (shop name or what it sells), second (contact or offer) and last (details), and showing that with size, weight, colour and space.",
+      "distractors": { "b": "The scene already has lots of repetition; that's part of the noise.", "c": "Texture isn't why the message is unclear.", "d": "A message can be perfectly clear without symmetry." },
+      "takeaway": "Decide reading order first: 1 big thing, 2–3 medium, rest small.",
+      "tags": ["photo", "hierarchy"]
+    },
+    {
+      "id": "ph-sign-04", "type": "short", "subtopic": "design.signage", "difficulty": 3, "source": "PYQ-style",
+      "patternRef": "2026 Prelims: design signage for a constrained space",
+      "imageIds": ["img-sign-shop-cluttered"],
+      "stem": "Redesign the signboard for this shop in words: describe the layout, main text, colours and one pictogram you would use, so a person on a moving scooter understands it in 2 seconds. (Max 60 words.)",
+      "explanation": "Strong answers reduce the content to one key message, use high contrast, large type, one clear pictogram, and consider viewing distance and speed.",
+      "modelAnswer": "One horizontal board. Left: a large pictogram (e.g. a phone for a mobile shop). Right: one word, 'MOBILES', in bold sans-serif capitals, white on deep blue for high contrast. The phone number goes on a smaller strip below. Remove all other boards. Height is readable from 20 m, placed above head level so parked vehicles don't block it.",
+      "rubric": { "keywords": ["contrast", "large", "pictogram", "one message", "bold", "distance", "readable", "remove", "hierarchy", "simple"], "minIdeas": 3, "maxWords": 60 },
+      "tags": ["photo", "redesign"]
+    },
+    {
+      "id": "ph-sign-05", "type": "mcq", "subtopic": "design.typography", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-sign-bus-board"],
+      "stem": "On a bus destination board read from 20 metres away, which matters MOST for legibility?",
+      "options": [{ "id": "a", "text": "High contrast between text and background, and large letter height" }, { "id": "b", "text": "A decorative script font" }, { "id": "c", "text": "Using as many colours as possible" }, { "id": "d", "text": "Writing the full route in one long line" }],
+      "answer": "a",
+      "explanation": "At distance, the eye needs strong contrast and big, simple letterforms. Route numbers should be the largest element, since people scan for the number first. Bilingual boards need both scripts at readable sizes.",
+      "distractors": { "b": "Decorative scripts are harder to read fast.", "c": "Many colours reduce contrast and add noise.", "d": "Long lines are slow to scan; key stops and the number matter most." },
+      "takeaway": "Distance reading: contrast + size + hierarchy (number first).",
+      "tags": ["photo", "legibility"]
+    },
+    {
+      "id": "ph-sign-06", "type": "mcq", "subtopic": "design.pictograms", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-sign-toilet"],
+      "stem": "Why are pictograms (like these toilet figures) preferred over words in railway stations and airports?",
+      "options": [{ "id": "a", "text": "They are understood quickly across languages and literacy levels" }, { "id": "b", "text": "They are cheaper than words" }, { "id": "c", "text": "They are more decorative" }, { "id": "d", "text": "Words are not allowed on public signs" }],
+      "answer": "a",
+      "explanation": "A good pictogram communicates without reading, which is vital in a multilingual country and for international visitors. The best ones are simple, consistent across a set, and recognisable at small sizes.",
+      "distractors": { "b": "Cost is not the main reason.", "c": "Their purpose is communication, not decoration.", "d": "Words are allowed and often paired with pictograms." },
+      "takeaway": "Pictograms cross language barriers. Keep them simple and consistent.",
+      "tags": ["photo", "pictograms"]
+    },
+    {
+      "id": "ph-sign-07", "type": "mcq", "subtopic": "global.inclusive", "difficulty": 3, "source": "Expected-2027",
+      "imageIds": ["img-sign-toilet"],
+      "stem": "A station wants its toilet signage to be more inclusive. Which addition would help the MOST people?",
+      "options": [{ "id": "a", "text": "Add an accessible-toilet pictogram, Braille/tactile text, and mount signs at a height readable by wheelchair users" }, { "id": "b", "text": "Make the signs smaller and more stylish" }, { "id": "c", "text": "Use English text only" }, { "id": "d", "text": "Remove the pictograms and use colour codes only" }],
+      "answer": "a",
+      "explanation": "Inclusive (universal) design widens who can use something: a symbol for the accessible toilet, tactile/Braille text for visually impaired users, and mounting height that works for wheelchair users. Many signage standards also recommend gender-neutral or family facilities with clear symbols.",
+      "distractors": { "b": "Smaller signs exclude people with low vision.", "c": "English-only excludes many users in India.", "d": "Colour-only coding fails colour-blind users." },
+      "takeaway": "Inclusive design = more people, more situations, fewer barriers.",
+      "tags": ["photo", "accessibility"]
+    },
+
+    {
+      "id": "ph-good-01", "type": "mcq", "subtopic": "design.good-bad", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-design-door-handle"],
+      "stem": "This door has a pull handle, but you must push it, so someone has stuck a 'PUSH' note on it. What is the real design problem?",
+      "options": [{ "id": "a", "text": "The handle's form signals 'pull', contradicting how the door works" }, { "id": "b", "text": "The note is not big enough" }, { "id": "c", "text": "The door is the wrong colour" }, { "id": "d", "text": "People don't read instructions" }],
+      "answer": "a",
+      "explanation": "Don Norman, in 'The Design of Everyday Things', calls cues like this 'signifiers': a graspable handle says pull, a flat plate says push. When the design needs a written label to correct it, the design has failed. These are nicknamed 'Norman doors'.",
+      "distractors": { "b": "A bigger note treats the symptom, not the cause.", "c": "Colour isn't the issue; the handle's shape sends the wrong signal.", "d": "Good design shouldn't depend on reading instructions for something this simple." },
+      "takeaway": "If it needs a label to work, rethink the design.",
+      "tags": ["photo", "signifiers"]
+    },
+    {
+      "id": "ph-good-02", "type": "mcq", "subtopic": "design.good-bad", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-design-switchboard"],
+      "stem": "A row of identical, unlabelled switches makes you guess which one turns on the fan. Which design idea would fix this best?",
+      "options": [{ "id": "a", "text": "Natural mapping: arrange or mark switches to match what they control (icons, grouping, layout)" }, { "id": "b", "text": "Make all switches a brighter white" }, { "id": "c", "text": "Add more switches" }, { "id": "d", "text": "Put the board higher up" }],
+      "answer": "a",
+      "explanation": "'Mapping' is the relationship between controls and their effects. When switches are grouped or laid out like the room, or marked with small icons (bulb, fan), people get it right first time.",
+      "distractors": { "b": "Colour uniformity is the problem, not the solution.", "c": "More identical switches make it worse.", "d": "Height doesn't solve the confusion; it might hurt accessibility." },
+      "takeaway": "Map controls to what they control.",
+      "tags": ["photo", "mapping"]
+    },
+    {
+      "id": "ph-good-03", "type": "multi", "subtopic": "global.inclusive", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-design-stairs-no-rail"],
+      "stem": "Who is most at risk on these stairs without a handrail? Select all that apply.",
+      "options": [{ "id": "a", "text": "Elderly people" }, { "id": "b", "text": "Someone carrying a heavy bag in both hands" }, { "id": "c", "text": "People with poor eyesight" }, { "id": "d", "text": "Nobody — handrails are only decorative" }],
+      "answer": ["a", "b", "c"],
+      "explanation": "Handrails support balance, guide people with low vision, and give a hand-hold for anyone who slips. Someone with full hands is temporarily disabled by the situation. Universal design remembers that everyone is 'disabled' sometimes.",
+      "distractors": { "d": "Handrails are safety features required by building codes in many places." },
+      "takeaway": "Design for situational disability too: tired, carrying, rushing.",
+      "tags": ["photo", "safety"]
+    },
+
+    {
+      "id": "ph-pack-01", "type": "mcq", "subtopic": "design.packaging", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-pack-egg-tray"],
+      "stem": "Why does an egg tray have individual cup-shaped hollows?",
+      "options": [{ "id": "a", "text": "Each egg is held separately so knocks are spread out and eggs don't touch" }, { "id": "b", "text": "To make the tray heavier" }, { "id": "c", "text": "Only for decoration" }, { "id": "d", "text": "So eggs stay warm" }],
+      "answer": "a",
+      "explanation": "The cups isolate each egg and the moulded pulp absorbs shocks. Stacked trays interlock, so the load is carried by the tray, not the eggs. Moulded pulp is usually made from recycled paper and is biodegradable.",
+      "distractors": { "b": "The trays are designed to be light.", "c": "The form is entirely functional.", "d": "Thermal insulation is not the purpose." },
+      "takeaway": "Packaging form protects; separation + shock absorption.",
+      "tags": ["photo", "protective-packaging"]
+    },
+    {
+      "id": "ph-pack-02", "type": "mcq", "subtopic": "global.sustainability", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-pack-leaf-parcel"],
+      "stem": "What makes banana-leaf wraps and areca-leaf plates an excellent example of sustainable packaging?",
+      "options": [{ "id": "a", "text": "They come from renewable plant parts and fully biodegrade after use" }, { "id": "b", "text": "They can be recycled into plastic" }, { "id": "c", "text": "They last for decades" }, { "id": "d", "text": "They are imported" }],
+      "answer": "a",
+      "explanation": "Banana leaves are renewable and compostable. Areca plates are heat-pressed from naturally fallen palm sheaths, so no tree is cut. India's traditional packaging is a rich source of 'circular design' ideas.",
+      "distractors": { "b": "They aren't turned into plastic; they compost.", "c": "Their short life is a feature: they return to the soil.", "d": "They are local materials." },
+      "takeaway": "Traditional Indian packaging = circular design long before the term.",
+      "tags": ["photo", "circular-design"]
+    },
+    {
+      "id": "ph-pack-03", "type": "mcq", "subtopic": "global.sustainability", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-pack-tetra"],
+      "stem": "Juice cartons like this are hard to recycle. Why?",
+      "options": [{ "id": "a", "text": "They are made of bonded layers — paperboard, plastic and aluminium foil — that must be separated" }, { "id": "b", "text": "They are made of glass" }, { "id": "c", "text": "They are too small" }, { "id": "d", "text": "Their printing ink is radioactive" }],
+      "answer": "a",
+      "explanation": "Aseptic cartons laminate paperboard (strength), polyethylene (waterproofing) and thin aluminium foil (a barrier to light and oxygen). This lets juice and milk keep without refrigeration, but separating the layers needs special recycling plants. That's a classic design trade-off.",
+      "distractors": { "b": "There's no glass in a carton.", "c": "Size isn't the main issue.", "d": "Printing inks are not radioactive." },
+      "takeaway": "Multi-material = great performance, hard recycling: a trade-off.",
+      "tags": ["photo", "trade-offs"]
+    },
+
+    {
+      "id": "ph-comp-01", "type": "mcq", "subtopic": "design.composition", "difficulty": 1, "source": "Practice",
+      "imageIds": ["img-comp-thirds"],
+      "stem": "The subject sits on the left third and the horizon on the lower third. Which compositional guideline is being used?",
+      "options": [{ "id": "a", "text": "Rule of thirds" }, { "id": "b", "text": "Golden triangle" }, { "id": "c", "text": "Radial balance" }, { "id": "d", "text": "Central symmetry" }],
+      "answer": "a",
+      "explanation": "Dividing the frame into a 3×3 grid and placing key elements on the lines or intersections usually makes a more dynamic composition than putting everything dead centre. It works for exam posters and storyboard frames too.",
+      "distractors": { "b": "The golden triangle uses diagonals, not a 3×3 grid.", "c": "Radial balance spreads elements from a centre point.", "d": "Central symmetry places the subject in the middle, mirrored." },
+      "takeaway": "Off-centre on the thirds = more dynamic.",
+      "tags": ["photo", "composition"]
+    },
+    {
+      "id": "ph-comp-02", "type": "mcq", "subtopic": "design.principles", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-comp-symmetry"],
+      "stem": "This centred, mirror-image view of a gateway expresses which kind of balance, and what feeling does it usually give?",
+      "options": [{ "id": "a", "text": "Symmetrical (formal) balance: stability, order, grandeur" }, { "id": "b", "text": "Asymmetrical balance: tension and movement" }, { "id": "c", "text": "Radial balance: explosion and energy" }, { "id": "d", "text": "No balance: chaos" }],
+      "answer": "a",
+      "explanation": "Temples, palaces and government buildings often use symmetry to feel stable, formal and powerful. Asymmetry, by contrast, feels lively and modern. Choose deliberately in your compositions.",
+      "distractors": { "b": "Asymmetry is the opposite: unequal but balanced weights.", "c": "Radial designs spread from a centre, like a rangoli or a wheel.", "d": "The image is clearly balanced." },
+      "takeaway": "Symmetry = calm and formal; asymmetry = dynamic.",
+      "tags": ["photo", "balance"]
+    },
+    {
+      "id": "ph-comp-03", "type": "mcq", "subtopic": "design.principles", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-comp-repetition"],
+      "stem": "Rows of similar items like these create which visual effect?",
+      "options": [{ "id": "a", "text": "Rhythm through repetition" }, { "id": "b", "text": "Emphasis on a single focal point" }, { "id": "c", "text": "Negative space" }, { "id": "d", "text": "Foreshortening" }],
+      "answer": "a",
+      "explanation": "Repeating similar shapes at regular intervals creates rhythm and pattern; the eye moves along them. Add one item that is different (colour, angle) and it instantly becomes the focal point, a trick worth using in posters.",
+      "distractors": { "b": "No single item stands out here, so there's no single focal point.", "c": "The frame is filled, not empty.", "d": "Foreshortening is about objects pointing towards the viewer." },
+      "takeaway": "Repetition → rhythm. Break the pattern → emphasis.",
+      "tags": ["photo", "rhythm"]
+    },
+    {
+      "id": "ph-comp-04", "type": "mcq", "subtopic": "design.composition", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-comp-negative-space"],
+      "stem": "A tiny kite in a huge empty sky. The large empty area is called…",
+      "options": [{ "id": "a", "text": "Negative space" }, { "id": "b", "text": "Positive space" }, { "id": "c", "text": "Texture" }, { "id": "d", "text": "Value" }],
+      "answer": "a",
+      "explanation": "Negative space is the empty area around the subject. Used generously, it isolates the subject and can suggest freedom, loneliness or calm. In exam layouts, leaving breathing room also makes work look confident.",
+      "distractors": { "b": "Positive space is the subject itself, here the kite.", "c": "Texture describes surface quality.", "d": "Value describes lightness and darkness." },
+      "takeaway": "Empty space is a design tool, not wasted space.",
+      "tags": ["photo", "negative-space"]
+    },
+    {
+      "id": "ph-comp-05", "type": "mcq", "subtopic": "design.composition", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-persp-1pt"],
+      "stem": "Besides showing perspective, the converging road edges in this photo act as…",
+      "options": [{ "id": "a", "text": "Leading lines that pull the eye to the vanishing point" }, { "id": "b", "text": "A frame within a frame" }, { "id": "c", "text": "A colour harmony" }, { "id": "d", "text": "A texture study" }],
+      "answer": "a",
+      "explanation": "Lines that converge guide the viewer's eye along them. Put something important at the vanishing point and everyone will look at it. That's a powerful storyboard trick.",
+      "distractors": { "b": "A frame within a frame uses doorways or windows to surround the subject.", "c": "Colour harmony is about hue relationships.", "d": "The lines are structural, not a texture." },
+      "takeaway": "Leading lines direct attention; place the key action where they meet.",
+      "tags": ["photo", "leading-lines"]
+    },
+
+    {
+      "id": "ph-colour-01", "type": "mcq", "subtopic": "colour.harmony", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-colour-marigold"],
+      "stem": "Marigold garlands in yellow and orange form which colour harmony?",
+      "options": [{ "id": "a", "text": "Analogous" }, { "id": "b", "text": "Complementary" }, { "id": "c", "text": "Triadic" }, { "id": "d", "text": "Achromatic" }],
+      "answer": "a",
+      "explanation": "Yellow and orange sit next to each other on the colour wheel: an analogous harmony, which feels warm, festive and unified. That is one reason marigolds feel so 'celebration'.",
+      "distractors": { "b": "Complementary colours are opposite each other, like orange and blue.", "c": "Triadic uses three hues spaced equally, like red, yellow and blue.", "d": "Achromatic means no hue: black, white and greys." },
+      "takeaway": "Neighbours on the wheel = analogous = harmonious.",
+      "tags": ["photo", "harmony"]
+    },
+    {
+      "id": "ph-colour-02", "type": "mcq", "subtopic": "colour.harmony", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-colour-tomato-chilli"],
+      "stem": "Why do the red tomatoes and green chillies look so vivid next to each other?",
+      "options": [{ "id": "a", "text": "Red and green are complementary, so each intensifies the other" }, { "id": "b", "text": "They are analogous colours" }, { "id": "c", "text": "Both are cool colours" }, { "id": "d", "text": "Green is a primary colour" }],
+      "answer": "a",
+      "explanation": "On the traditional (RYB) colour wheel red and green are opposites (complementary). Placed side by side they create maximum hue contrast and appear more saturated, which vendors use instinctively when arranging stalls.",
+      "distractors": { "b": "Analogous colours are neighbours; red and green are opposites.", "c": "Red is warm.", "d": "In the painter's RYB model green is secondary (yellow + blue)." },
+      "takeaway": "Complements side by side = maximum vibrancy.",
+      "tags": ["photo", "complementary"]
+    },
+
+    {
+      "id": "ph-street-01", "type": "multi", "subtopic": "creative.problem-id", "difficulty": 2, "source": "PYQ-style",
+      "patternRef": "2026 Prelims: identify problems in a scenario",
+      "imageIds": ["img-street-footpath"],
+      "stem": "A wheelchair user wants to use this footpath. Which problems are clearly visible in the photo? Select all that apply.",
+      "options": [{ "id": "a", "text": "An obstruction blocks the footpath" }, { "id": "b", "text": "A high kerb with no ramp down to the road" }, { "id": "c", "text": "The footpath is too wide" }, { "id": "d", "text": "There are too many ramps" }],
+      "answer": ["a", "b"],
+      "explanation": "The obstruction forces the user onto the road, and the high kerb with no ramp means they can't even get down safely. Spotting the specific, visible problems (not generic ones) is exactly what problem-identification questions reward.",
+      "distractors": { "c": "Width isn't the problem; the blockage is.", "d": "The problem is the absence of a ramp." },
+      "takeaway": "Name problems you can SEE, then think who suffers most.",
+      "tags": ["photo", "accessibility"]
+    },
+    {
+      "id": "ph-street-02", "type": "short", "subtopic": "creative.problem-id", "difficulty": 3, "source": "PYQ-style",
+      "patternRef": "2026 Prelims: identify problems in a scenario",
+      "imageIds": ["img-street-narrow-lane"],
+      "stem": "An ambulance needs to reach a house at the end of this narrow lane at night. List 5 problems it may face, and suggest one design solution for any two of them.",
+      "explanation": "Think of space (parked vehicles, turning), visibility (lighting, house numbers), overhead hazards (low wires), communication (finding the house) and the return journey.",
+      "modelAnswer": "Problems: 1. Two-wheelers parked on both sides narrow the lane. 2. Low-hanging wires near the top of the van. 3. No street lights, so house numbers can't be read. 4. No space to turn around at the dead end. 5. Stretcher bearers must walk the last stretch over uneven ground. Solutions: painted 'keep clear' strips with a fold-away parking rule; reflective, numbered house plates at a standard height on every gate.",
+      "rubric": { "keywords": ["parking", "parked", "narrow", "wire", "light", "dark", "number", "turn", "stretcher", "uneven", "reflective", "sign"], "minIdeas": 5, "maxWords": 120 },
+      "tags": ["photo", "problem-finding"]
+    },
+    {
+      "id": "ph-people-01", "type": "short", "subtopic": "creative.empathy", "difficulty": 2, "source": "Expected-2027",
+      "imageIds": ["img-people-busstep"],
+      "stem": "Look at the older person climbing into the bus. List 6 difficulties they face from reaching the bus stop to sitting down inside.",
+      "explanation": "Strong empathy answers walk through the whole journey (before, during, after) and include physical, sensory and emotional difficulties.",
+      "modelAnswer": "1. The first step is very high for weak knees. 2. Nothing to hold at the right height at the door. 3. The bus may move before they sit. 4. Hard to read the route board from far. 5. Crowd pushing at the door causes anxiety. 6. Reserved seats are occupied and they hesitate to ask.",
+      "rubric": { "keywords": ["step", "high", "hold", "grab", "rail", "moves", "read", "board", "crowd", "seat", "balance", "knee", "anxiety", "time"], "minIdeas": 6, "maxWords": 100 },
+      "tags": ["photo", "empathy", "ageing"]
+    },
+    {
+      "id": "ph-people-02", "type": "mcq", "subtopic": "global.inclusive", "difficulty": 2, "source": "Expected-2027",
+      "imageIds": ["img-people-busstep"],
+      "stem": "Which bus design change would help this passenger the MOST?",
+      "options": [{ "id": "a", "text": "A low-floor entry with a vertical grab-pole at the door" }, { "id": "b", "text": "Brighter seat covers" }, { "id": "c", "text": "A louder horn" }, { "id": "d", "text": "Tinted windows" }],
+      "answer": "a",
+      "explanation": "The visible barrier is the step height. Low-floor buses remove the climb, and a grab-pole at hand height gives support. This also helps children, pregnant women, people with luggage and wheelchair users: universal design.",
+      "distractors": { "b": "Nice, but it doesn't solve getting in.", "c": "A horn doesn't address boarding.", "d": "Tinted windows don't help boarding at all." },
+      "takeaway": "Fix the biggest visible barrier first; universal fixes help many users.",
+      "tags": ["photo", "mobility"]
+    },
+    {
+      "id": "ph-people-03", "type": "mcq", "subtopic": "design.ergonomics", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-people-head-load"],
+      "stem": "Carrying loads on the head (as in many Indian markets) can be efficient but tiring. Which simple product could reduce neck strain the MOST?",
+      "options": [{ "id": "a", "text": "A padded head-ring (like a cloth 'chumbal') that spreads the load and stabilises it" }, { "id": "b", "text": "A brighter-coloured basket" }, { "id": "c", "text": "A heavier basket" }, { "id": "d", "text": "A taller basket" }],
+      "answer": "a",
+      "explanation": "A ring pad spreads pressure over a larger area of the head and keeps the load centred over the spine, which reduces the effort needed to balance it. Notice how traditional solutions are often good ergonomics, and can be improved, not replaced.",
+      "distractors": { "b": "Colour doesn't change the load.", "c": "A heavier basket adds strain.", "d": "A taller load raises the centre of gravity and is harder to balance." },
+      "takeaway": "Spread pressure, keep the centre of gravity low and centred.",
+      "tags": ["photo", "ergonomics", "vernacular"]
+    },
+    {
+      "id": "ph-street-03", "type": "mcq", "subtopic": "design.principles", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-street-market"],
+      "stem": "If you sketched this market scene for a storyboard, what is the quickest way to make the viewer look at ONE particular stall?",
+      "options": [{ "id": "a", "text": "Make it contrast: render it in colour or darker tone while the rest stays light and simple" }, { "id": "b", "text": "Draw every stall in equal detail" }, { "id": "c", "text": "Leave it out" }, { "id": "d", "text": "Draw the whole scene very small" }],
+      "answer": "a",
+      "explanation": "Emphasis comes from contrast: colour against grey, detail against simplicity, dark against light. Examiners look at storyboard frames for seconds, so make the focal point unmissable.",
+      "distractors": { "b": "Equal detail everywhere means no focal point.", "c": "Leaving it out removes the subject.", "d": "Shrinking everything reduces clarity." },
+      "takeaway": "One focal point per frame, created by contrast.",
+      "tags": ["photo", "emphasis", "storyboard"]
+    }
+  ]
+}

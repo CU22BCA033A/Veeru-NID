@@ -399,3 +399,10 @@ create policy "content images mentor write" on storage.objects for all to authen
 
 -- Live updates for dashboards.
 alter publication supabase_realtime add table public.attempts, public.studio_submissions, public.daily_plans;
+
+-- ── 20261029000001_content_sync.sql ──
+
+-- Content sync bookkeeping and mock days.
+alter table public.settings add column if not exists content_version text;
+alter table public.settings add column if not exists content_synced_at timestamptz;
+alter table public.daily_plans add column if not exists mock_id text references public.mocks (id);

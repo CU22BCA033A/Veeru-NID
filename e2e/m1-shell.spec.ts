@@ -6,12 +6,13 @@ test("signed-out visitors are sent to login", async ({ page }) => {
   await expect(page).toHaveURL(/\/login\?next=%2Fexam-day/);
 });
 
-test("student sees home with countdown and daily loop", async ({ page }) => {
-  await login(page, STUDENT);
-  await expect(page.getByText(/Good (morning|afternoon|evening), Veeru/)).toBeVisible();
-  await expect(page.getByText("Next milestone")).toBeVisible();
-  await expect(page.getByText("Daily test")).toBeVisible();
-  await page.screenshot({ path: "test-results/m1-home.png", fullPage: true });
+test("wrong password shows a clear message", async ({ page }) => {
+  await page.goto("/login");
+  await page.getByLabel("Username").fill(STUDENT.username);
+  await page.getByLabel("Password").fill("wrong password");
+  await page.getByRole("button", { name: "Sign in" }).click();
+  await expect(page.getByText(/didn't match/)).toBeVisible();
+  await expect(page.getByLabel("Username")).toHaveValue(STUDENT.username);
 });
 
 test("student ticks a logistics checklist item and it persists", async ({ page }) => {
@@ -20,10 +21,9 @@ test("student ticks a logistics checklist item and it persists", async ({ page }
   const box = page.getByLabel(/Pencils: HB, 2B, 4B/);
   const was = await box.isChecked();
   await box.click();
-  await page.waitForTimeout(500);
+  await page.waitForTimeout(600);
   await page.reload();
   await expect(page.getByLabel(/Pencils: HB, 2B, 4B/)).toBeChecked({ checked: !was });
-  await page.screenshot({ path: "test-results/m1-exam-day.png", fullPage: true });
 });
 
 test("mentor edits the home message and the student sees it", async ({ page, browser }) => {

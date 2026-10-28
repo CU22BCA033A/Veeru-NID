@@ -1,0 +1,181 @@
+{
+  "items": [
+    {
+      "id": "ph-mat-01", "type": "mcq", "subtopic": "drawing.texture", "difficulty": 1, "source": "Practice",
+      "imageIds": ["img-mat-cane"],
+      "stem": "Identify the material in this close-up.",
+      "options": [{ "id": "a", "text": "Woven cane" }, { "id": "b", "text": "Jute" }, { "id": "c", "text": "Plastic mesh" }, { "id": "d", "text": "Coir" }],
+      "answer": "a",
+      "explanation": "Cane is split into flat, glossy strands woven into an open, regular pattern (often a six-way 'hexagonal' weave in chair seats). It is light, flexible and strong, which is why it is used in chairs and baskets.",
+      "distractors": { "b": "Jute is a soft, hairy fibre spun into thread and woven into dense cloth.", "c": "Plastic mesh is uniform and moulded, without the natural sheen and slight irregularity of cane.", "d": "Coir is a bristly brown coconut fibre, not flat strands." },
+      "takeaway": "Cane: flat, glossy strands in an open weave.",
+      "tags": ["photo", "materials"]
+    },
+    {
+      "id": "ph-mat-02", "type": "mcq", "subtopic": "global.sustainability", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-mat-terracotta"],
+      "stem": "Why does water stay cooler in an unglazed terracotta pot like this one?",
+      "options": [{ "id": "a", "text": "Water seeps through the porous clay and evaporates from the surface, taking heat away" }, { "id": "b", "text": "Clay is a refrigerant chemical" }, { "id": "c", "text": "The red colour reflects all heat" }, { "id": "d", "text": "Terracotta is a metal that conducts cold" }],
+      "answer": "a",
+      "explanation": "Fired but unglazed clay has tiny pores. A little water seeps out, and evaporating it needs heat, which is drawn from the pot and the water inside. This is evaporative cooling: a zero-electricity design used for centuries.",
+      "distractors": { "b": "Clay is not a refrigerant; the cooling is physical (evaporation).", "c": "The colour has little effect; the porosity matters.", "d": "Terracotta is fired clay, a ceramic, not a metal." },
+      "takeaway": "Matka = evaporative cooling through porous clay.",
+      "tags": ["photo", "materials", "vernacular"]
+    },
+    {
+      "id": "ph-mat-03", "type": "mcq", "subtopic": "drawing.texture", "difficulty": 1, "source": "Practice",
+      "imageIds": ["img-mat-granite"],
+      "stem": "This speckled, polished surface is most likely…",
+      "options": [{ "id": "a", "text": "Granite" }, { "id": "b", "text": "Teak wood" }, { "id": "c", "text": "Terracotta" }, { "id": "d", "text": "Brass" }],
+      "answer": "a",
+      "explanation": "Granite is an igneous rock made of interlocking crystals (quartz, feldspar, mica), which shows as speckles when polished. Karnataka is one of India's major granite-producing states, and granite is common on kitchen platforms and steps.",
+      "distractors": { "b": "Wood shows grain lines, not speckles.", "c": "Terracotta is matte and evenly reddish.", "d": "Brass is a golden metal with smooth reflections." },
+      "takeaway": "Speckled crystals + polish = granite.",
+      "tags": ["photo", "materials"]
+    },
+    {
+      "id": "ph-mat-04", "type": "mcq", "subtopic": "global.sustainability", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-mat-jute"],
+      "stem": "This is jute. Which property makes jute a good replacement for single-use plastic bags?",
+      "options": [{ "id": "a", "text": "It is a strong, biodegradable plant fibre" }, { "id": "b", "text": "It is waterproof" }, { "id": "c", "text": "It is transparent" }, { "id": "d", "text": "It never wears out" }],
+      "answer": "a",
+      "explanation": "Jute is a natural bast fibre (mainly grown in West Bengal and Bangladesh). It is strong, cheap, reusable and biodegradable. Its weakness is that it absorbs water, so it is often laminated for groceries.",
+      "distractors": { "b": "Jute absorbs water; it is not naturally waterproof.", "c": "Jute is opaque.", "d": "All natural fibres wear out; that is part of why jute biodegrades." },
+      "takeaway": "Jute: strong, natural, biodegradable, but not waterproof.",
+      "tags": ["photo", "materials"]
+    },
+    {
+      "id": "ph-mat-05", "type": "mcq", "subtopic": "drawing.texture", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-mat-brass"],
+      "stem": "Brass, as seen in this lamp, is an alloy of…",
+      "options": [{ "id": "a", "text": "Copper and zinc" }, { "id": "b", "text": "Copper and tin" }, { "id": "c", "text": "Iron and carbon" }, { "id": "d", "text": "Zinc and silver" }],
+      "answer": "a",
+      "explanation": "Brass is copper + zinc, which gives the golden colour. Bronze is copper + tin, steel is iron + carbon. When drawing polished brass, keep sharp, high-contrast reflections and warm yellow mid-tones.",
+      "distractors": { "b": "Copper + tin is bronze.", "c": "Iron + carbon is steel.", "d": "That is not a standard alloy name; brass contains no silver." },
+      "takeaway": "Brass = Cu + Zn; bronze = Cu + Sn.",
+      "tags": ["photo", "materials"]
+    },
+    {
+      "id": "ph-mat-06", "type": "mcq", "subtopic": "design.form-function", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-mat-bamboo"],
+      "stem": "The ring-like joints visible on this bamboo are called nodes. What do they do for the bamboo's structure?",
+      "options": [{ "id": "a", "text": "They stiffen the hollow stem and stop it buckling" }, { "id": "b", "text": "They store water for the plant only" }, { "id": "c", "text": "They make the bamboo heavier so it doesn't blow away" }, { "id": "d", "text": "They have no structural role" }],
+      "answer": "a",
+      "explanation": "Bamboo is a hollow tube, which is light but can buckle. The solid walls (diaphragms) at the nodes act like rings in a pipe, stiffening it. That's why bamboo is used for scaffolding and structures across Asia.",
+      "distractors": { "b": "Nodes are mainly structural growth points, not water tanks.", "c": "Nodes add very little weight; bamboo is famously light.", "d": "They clearly stiffen the culm; nature 'designed' them." },
+      "takeaway": "Hollow tube + stiffening rings = light and strong.",
+      "tags": ["photo", "biomimicry"]
+    },
+    {
+      "id": "ph-mat-07", "type": "mcq", "subtopic": "drawing.texture", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-mat-wood-grain"],
+      "stem": "You want to render this wood surface in pencil. Which technique suits it best?",
+      "options": [{ "id": "a", "text": "Long, slightly wavy parallel lines with occasional oval knots" }, { "id": "b", "text": "Dense random dots" }, { "id": "c", "text": "Cross-hatched grid" }, { "id": "d", "text": "Solid flat black" }],
+      "answer": "a",
+      "explanation": "Wood grain runs in long, gently wavy lines that curve around knots. Drawing a few varied lines (not uniform stripes) plus a knot or two reads instantly as wood.",
+      "distractors": { "b": "Dots suit stone, sand or concrete.", "c": "Cross-hatching is for tone, not for describing grain.", "d": "Solid black loses all texture information." },
+      "takeaway": "Texture = direction + rhythm of marks. Match the material.",
+      "tags": ["photo", "rendering"]
+    },
+    {
+      "id": "ph-mat-08", "type": "mcq", "subtopic": "global.sustainability", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-mat-coir"],
+      "stem": "Coir, shown here, is made from…",
+      "options": [{ "id": "a", "text": "The husk fibre of coconuts" }, { "id": "b", "text": "Banana stems" }, { "id": "c", "text": "Recycled plastic" }, { "id": "d", "text": "Jute stalks" }],
+      "answer": "a",
+      "explanation": "Coir is the coarse fibre from the husk of the coconut. It is tough, resists salt water and is used for doormats, ropes and mattresses. South Indian coastal states, especially Kerala, are known for coir.",
+      "distractors": { "b": "Banana fibre is softer and paler.", "c": "Coir is a natural fibre.", "d": "Jute comes from a different plant and is much softer." },
+      "takeaway": "Coir = coconut husk fibre.",
+      "tags": ["photo", "materials"]
+    },
+    {
+      "id": "ph-mat-09", "type": "multi", "subtopic": "global.sustainability", "difficulty": 3, "source": "Expected-2027",
+      "imageIds": ["img-mat-cane", "img-mat-bamboo", "img-mat-coir"],
+      "stem": "You are designing a low-cost, eco-friendly bus-stop bench for a small town in Karnataka. Which of these pictured materials could sensibly be part of it? Select all that apply.",
+      "options": [{ "id": "a", "text": "Bamboo for the frame" }, { "id": "b", "text": "Cane weave for the seat" }, { "id": "c", "text": "Coir as the only structural support" }, { "id": "d", "text": "Coir rope for lashing joints" }],
+      "answer": ["a", "b", "d"],
+      "explanation": "Bamboo is strong and light (treat it against insects and rain), cane makes a comfortable, breathable seat, and coir rope is a traditional way to lash joints. Coir alone cannot carry load. Notice how good answers match each material to the job it is good at.",
+      "distractors": { "c": "Coir is a fibre; it has almost no stiffness on its own and cannot hold up a bench." },
+      "takeaway": "Match material to function, not just to 'eco'.",
+      "tags": ["photo", "material-selection"]
+    },
+
+    {
+      "id": "ph-obj-01", "type": "mcq", "subtopic": "design.ergonomics", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-cooker-front"],
+      "stem": "Why are pressure-cooker handles made of black plastic (Bakelite or similar) and not steel?",
+      "options": [{ "id": "a", "text": "Plastic is a poor conductor of heat, so the handle stays safe to hold" }, { "id": "b", "text": "Plastic is stronger than steel" }, { "id": "c", "text": "Black shows dirt less, which is the only reason" }, { "id": "d", "text": "It makes the cooker cook faster" }],
+      "answer": "a",
+      "explanation": "Thermosetting plastics like Bakelite don't conduct heat well and don't melt when heated. The handle stays cool enough to grip while the steel body is hot. That is a classic form-follows-function choice.",
+      "distractors": { "b": "Steel is far stronger; strength isn't the reason.", "c": "Colour is a minor factor; heat insulation is the main one.", "d": "The handle doesn't affect cooking speed." },
+      "takeaway": "Touch points of hot products need insulating materials.",
+      "tags": ["photo", "material-choice"]
+    },
+    {
+      "id": "ph-obj-02", "type": "mcq", "subtopic": "design.ergonomics", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-scissors-top"],
+      "stem": "Why do most scissors have one small handle loop and one larger loop?",
+      "options": [{ "id": "a", "text": "The small loop is for the thumb, the large loop for two or more fingers" }, { "id": "b", "text": "To save material" }, { "id": "c", "text": "So they can hang on a nail" }, { "id": "d", "text": "It is purely decorative" }],
+      "answer": "a",
+      "explanation": "The thumb goes in the smaller loop; the larger one fits several fingers, which gives more control and force. The shape follows the hand: basic ergonomics.",
+      "distractors": { "b": "The difference in size has a use; it isn't for saving material.", "c": "Hanging is incidental, not why the loops differ.", "d": "The asymmetry is functional." },
+      "takeaway": "Asymmetric shape often signals how a product is held.",
+      "tags": ["photo", "ergonomics"]
+    },
+    {
+      "id": "ph-obj-03", "type": "mcq", "subtopic": "design.form-function", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-chair-monobloc"],
+      "stem": "Plastic monobloc chairs can be stacked. Which feature of their form makes this possible?",
+      "options": [{ "id": "a", "text": "The legs splay outwards and taper, so one chair nests inside another" }, { "id": "b", "text": "They are lighter than wooden chairs" }, { "id": "c", "text": "They are made in one colour" }, { "id": "d", "text": "They have armrests" }],
+      "answer": "a",
+      "explanation": "Stacking needs nesting: legs angled outwards and an open shape under the seat let the next chair slide over. Being moulded in one piece also makes them cheap and fast to manufacture.",
+      "distractors": { "b": "Weight helps carrying, not stacking.", "c": "Colour has nothing to do with stacking.", "d": "Armrests are irrelevant to nesting, and many stackable chairs have none." },
+      "takeaway": "Stackability is a form decision (draft angles, nesting).",
+      "tags": ["photo", "manufacturing"]
+    },
+    {
+      "id": "ph-obj-04", "type": "short", "subtopic": "creative.alt-uses", "difficulty": 2, "source": "PYQ-style",
+      "patternRef": "2026 Prelims: one everyday object → different uses in different contexts",
+      "imageIds": ["img-chair-monobloc"],
+      "stem": "Look at this plastic chair. List 6 uses for it OTHER than sitting, in at least 3 different contexts (home, shop, school, farm, festival…). Write one line each.",
+      "explanation": "Strong answers move away from 'sitting' entirely and use the chair's properties: it's light, stackable, waterproof, has four legs, an open back and a flat seat.",
+      "modelAnswer": "1. Home: a step-stool to reach the top shelf (seat as platform). 2. Shop: a stand to display vegetables in baskets (seat as shelf). 3. School: a hurdle for PE (stack two, lay a pole across). 4. Festival: a pandal light stand (tie lights to the back). 5. Farm: a cover for seedlings, upside down to protect them from goats. 6. Home: a drying rack for clothes over its back on the terrace.",
+      "rubric": { "keywords": ["shelf", "stand", "step", "rack", "cover", "hurdle", "table", "display", "barrier", "frame"], "minIdeas": 6 },
+      "tags": ["photo", "ideation"]
+    },
+    {
+      "id": "ph-obj-05", "type": "mcq", "subtopic": "design.form-function", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-cycle-side"],
+      "stem": "Most bicycle frames are built from triangles (the 'diamond frame'). Why?",
+      "options": [{ "id": "a", "text": "A triangle is a rigid shape: it cannot change shape without changing a side's length" }, { "id": "b", "text": "Triangles look faster" }, { "id": "c", "text": "Triangles use the most material" }, { "id": "d", "text": "It is a legal requirement" }],
+      "answer": "a",
+      "explanation": "A rectangle can be pushed into a parallelogram, but a triangle can't deform unless a side bends or stretches. Joining tubes into triangles makes a light, very stiff frame, the same reason bridges and roof trusses use them.",
+      "distractors": { "b": "Appearance is a side effect; rigidity is the reason.", "c": "Triangulation actually lets designers use LESS material for the same stiffness.", "d": "There's no such law; it's engineering logic." },
+      "takeaway": "Triangles = rigidity with minimum material.",
+      "tags": ["photo", "structures"]
+    },
+
+    {
+      "id": "ph-hand-01", "type": "mcq", "subtopic": "design.ergonomics", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-hand-power-grip", "img-hand-precision-grip"],
+      "stem": "The first photo shows a power grip, the second a precision grip. Which product handle should be designed mainly for a PRECISION grip?",
+      "options": [{ "id": "a", "text": "A calligraphy pen" }, { "id": "b", "text": "A hammer" }, { "id": "c", "text": "A bucket handle" }, { "id": "d", "text": "A bus grab-rail" }],
+      "answer": "a",
+      "explanation": "A precision grip uses the thumb and fingertips for fine control (pens, tweezers, brushes). A power grip wraps the whole hand round for force (hammers, buckets, rails). Designers size and shape handles differently for each.",
+      "distractors": { "b": "A hammer needs force: power grip.", "c": "A bucket handle carries weight: power grip (hook grip).", "d": "A grab-rail must hold your body weight: power grip." },
+      "takeaway": "Fine control = precision grip; force = power grip.",
+      "tags": ["photo", "ergonomics"]
+    },
+    {
+      "id": "ph-hand-02", "type": "mcq", "subtopic": "design.ergonomics", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-hand-power-grip"],
+      "stem": "For a power-grip handle like this, which change would most improve comfort for long use?",
+      "options": [{ "id": "a", "text": "A slightly oval cross-section with a soft, non-slip surface" }, { "id": "b", "text": "A thinner, square metal handle" }, { "id": "c", "text": "A very smooth, glossy surface" }, { "id": "d", "text": "Sharp finger grooves sized for one particular hand" }],
+      "answer": "a",
+      "explanation": "An oval section spreads pressure across the palm and stops the handle from rotating; a soft, textured grip reduces the squeezing force needed. Thin, square or very smooth handles create pressure points or slip.",
+      "distractors": { "b": "Thin square edges dig into the palm.", "c": "Glossy surfaces slip, especially with sweat, so you squeeze harder.", "d": "Fixed finger grooves fit one hand size and hurt others; inclusive design avoids that." },
+      "takeaway": "Comfortable grips spread pressure and reduce required force.",
+      "tags": ["photo", "ergonomics", "inclusive"]
+    }
+  ]
+}

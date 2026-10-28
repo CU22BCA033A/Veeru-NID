@@ -22,14 +22,14 @@ export function SetupForm() {
     <form onSubmit={keepFormOnSubmit(action)} className="space-y-6">
       <fieldset className="space-y-3">
         <legend className="font-medium">Student</legend>
-        <Field label="Name" name="studentName" defaultValue="Veeru" />
-        <Field label="Email" name="studentEmail" type="email" />
-        <Field label="Password" name="studentPassword" type="password" hint="At least 8 characters." />
+        <Field label="Name (shown on screen)" name="studentName" defaultValue="Veeru" />
+        <Field label="Username (used to sign in)" name="studentUsername" defaultValue="Veeru04" />
+        <Field label="Password" name="studentPassword" type="password" hint="At least 8 characters. Spaces are fine, and it is case-sensitive." />
       </fieldset>
       <fieldset className="space-y-3">
         <legend className="font-medium">Mentor</legend>
-        <Field label="Name" name="mentorName" defaultValue="GB" />
-        <Field label="Email" name="mentorEmail" type="email" />
+        <Field label="Name (shown on screen)" name="mentorName" defaultValue="GB" />
+        <Field label="Username (used to sign in)" name="mentorUsername" defaultValue="GB-mentor" />
         <Field label="Password" name="mentorPassword" type="password" />
       </fieldset>
       <fieldset className="space-y-3">

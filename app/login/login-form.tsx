@@ -10,11 +10,14 @@ export function LoginForm({ next }: { next: string }) {
     <form onSubmit={keepFormOnSubmit(action)} className="space-y-4">
       <input type="hidden" name="next" value={next} />
       <label className="block">
-        <span className="text-sm text-ink-2">Email</span>
+        <span className="text-sm text-ink-2">Username</span>
         <input
-          name="email"
-          type="email"
-          autoComplete="email"
+          name="username"
+          type="text"
+          autoCapitalize="none"
+          autoCorrect="off"
+          spellCheck={false}
+          autoComplete="username"
           required
           className="mt-1 block min-h-11 w-full rounded-xl border border-line bg-surface px-3 text-base"
         />

@@ -10,6 +10,7 @@ export async function supabaseServer() {
   const store = await cookies();
   const { url, anonKey } = publicEnv();
   return createServerClient(url, anonKey, {
+    global: { fetch: freshFetch },
     cookies: {
       getAll: () => store.getAll(),
       setAll: (list) => {
@@ -23,10 +24,17 @@ export async function supabaseServer() {
   });
 }
 
+/**
+ * Next.js memoises identical GET fetches during a render, so "insert, then read back" in one
+ * render would return the stale first read. Database calls must always hit the database.
+ */
+const freshFetch: typeof fetch = (input, init) =>
+  fetch(input, { ...init, cache: "no-store", signal: init?.signal ?? new AbortController().signal });
+
 /** Service-role client. Server-only; bypasses RLS — use for seeding and trusted jobs only. */
 export function supabaseAdmin() {
   const { url } = publicEnv();
   const key = supabaseServiceKey();
   if (!key) throw new Error("Missing SUPABASE_SERVICE_ROLE_KEY");
-  return createClient(url, key, { auth: { persistSession: false } });
+  return createClient(url, key, { auth: { persistSession: false }, global: { fetch: freshFetch } });
 }

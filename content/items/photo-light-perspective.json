@@ -1,0 +1,193 @@
+{
+  "items": [
+    {
+      "id": "ph-light-01", "type": "mcq", "subtopic": "drawing.light-shade", "difficulty": 1, "source": "Practice",
+      "imageIds": ["img-light-ball-left"],
+      "stem": "Look at the shadow of the ball. Where is the light coming from?",
+      "options": [{ "id": "a", "text": "From the left" }, { "id": "b", "text": "From the right" }, { "id": "c", "text": "From directly above" }, { "id": "d", "text": "From behind the ball" }],
+      "answer": "a",
+      "explanation": "A cast shadow always falls on the side away from the light. Here it falls to the right, so the light is on the left. The brightest part of the ball (the highlight) also faces left.",
+      "distractors": { "b": "If the light were on the right, the shadow would fall to the left.", "c": "Light from above makes a small shadow directly under the object, not a shadow stretching sideways.", "d": "Backlight throws the shadow towards the viewer, not to one side." },
+      "takeaway": "Shadow points away from the light; highlight faces the light.",
+      "tags": ["photo", "light-direction"]
+    },
+    {
+      "id": "ph-light-02", "type": "mcq", "subtopic": "drawing.light-shade", "difficulty": 1, "source": "Practice",
+      "imageIds": ["img-light-ball-top"],
+      "stem": "The ball's shadow is a small dark pool right underneath it. What does this tell you about the light?",
+      "options": [{ "id": "a", "text": "The light is directly overhead" }, { "id": "b", "text": "The light is low, near the table" }, { "id": "c", "text": "There are two lights" }, { "id": "d", "text": "The light is behind the camera" }],
+      "answer": "a",
+      "explanation": "The higher the light, the shorter the shadow. A light straight above makes the shadow shrink to a pool directly under the object, like at noon.",
+      "distractors": { "b": "A low light makes a long shadow, the opposite of what you see.", "c": "Two lights would give two shadows.", "d": "Light from behind the camera throws the shadow straight back, away from you, and lights the front of the ball evenly." },
+      "takeaway": "High light = short shadow; low light = long shadow.",
+      "tags": ["photo", "shadow-length"]
+    },
+    {
+      "id": "ph-light-03", "type": "mcq", "subtopic": "drawing.light-shade", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-light-box-right"],
+      "stem": "In this photo of a box, which face is darkest, and why?",
+      "options": [{ "id": "a", "text": "The left face, because it faces away from the light" }, { "id": "b", "text": "The top face, because it is furthest from the floor" }, { "id": "c", "text": "The right face, because it is nearest the light" }, { "id": "d", "text": "All faces are equally dark" }],
+      "answer": "a",
+      "explanation": "With the light at front-right and a little above, the top and right faces receive light. The left face is turned away and stays in form shadow, so it is darkest. Three clear tones (light, mid, dark) are what make a box read as 3D in a drawing.",
+      "distractors": { "b": "The top face is lit because the lamp is slightly above.", "c": "The face nearest the light is lit, not dark.", "d": "Equal tones would make the box look flat, which you can see is not the case here." },
+      "takeaway": "Give each face of a box its own value: light, mid, dark.",
+      "tags": ["photo", "form-shadow"]
+    },
+    {
+      "id": "ph-light-04", "type": "mcq", "subtopic": "drawing.light-shade", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-light-box-right"],
+      "stem": "The dark shape on the table next to the box is called…",
+      "options": [{ "id": "a", "text": "Cast shadow" }, { "id": "b", "text": "Form shadow" }, { "id": "c", "text": "Highlight" }, { "id": "d", "text": "Reflected light" }],
+      "answer": "a",
+      "explanation": "A cast shadow is the shadow an object throws onto another surface. A form shadow is the darker side of the object itself, the side turned away from the light.",
+      "distractors": { "b": "Form shadow is on the object, not on the table.", "c": "The highlight is the brightest spot, nearest the light.", "d": "Reflected light is the faint light bounced back onto the object's shadow side from nearby surfaces." },
+      "takeaway": "Cast shadow = on the ground; form shadow = on the object.",
+      "tags": ["photo", "vocabulary"]
+    },
+    {
+      "id": "ph-light-05", "type": "mcq", "subtopic": "drawing.light-shade", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-light-tumbler-back"],
+      "stem": "Why does the tumbler's shadow stretch towards the camera in this photo?",
+      "options": [{ "id": "a", "text": "The light is behind the tumbler (backlighting)" }, { "id": "b", "text": "The camera flash is on" }, { "id": "c", "text": "The tumbler is made of steel" }, { "id": "d", "text": "The table is tilted" }],
+      "answer": "a",
+      "explanation": "Shadows fall away from the light. With the lamp behind the tumbler, 'away' means towards the viewer. Backlighting also makes edges glow (rim light) while the front stays dark. It's a dramatic effect worth using in posters.",
+      "distractors": { "b": "A flash at the camera would push the shadow away from you, behind the object.", "c": "The material changes reflections, not the direction of the shadow.", "d": "Nothing in the photo suggests a tilted table; the shadow direction is explained by the light." },
+      "takeaway": "Backlight: shadow comes towards you, rims glow.",
+      "tags": ["photo", "backlight"]
+    },
+    {
+      "id": "ph-light-06", "type": "mcq", "subtopic": "drawing.light-shade", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-light-egg-low"],
+      "stem": "The egg's shadow is several times longer than the egg. What is the most likely position of the light?",
+      "options": [{ "id": "a", "text": "Low, close to table height" }, { "id": "b", "text": "High, directly overhead" }, { "id": "c", "text": "Right behind the camera" }, { "id": "d", "text": "Underneath the table" }],
+      "answer": "a",
+      "explanation": "A low light hits the object at a shallow angle, so the shadow stretches far, like shadows in early morning or evening. Long shadows add mood and depth to scenes.",
+      "distractors": { "b": "Overhead light gives the shortest shadow.", "c": "Light from behind the camera hides most of the shadow behind the object.", "d": "Light under an opaque table can't reach the egg." },
+      "takeaway": "Want drama or 'evening'? Draw long, low-light shadows.",
+      "tags": ["photo", "shadow-length"]
+    },
+    {
+      "id": "ph-light-07", "type": "mcq", "subtopic": "drawing.light-shade", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-light-bottle-two"],
+      "stem": "How many light sources are lighting this bottle, and how can you tell?",
+      "options": [{ "id": "a", "text": "Two, because there are two separate shadows" }, { "id": "b", "text": "One, because there is only one bottle" }, { "id": "c", "text": "Three, because the bottle has three tones" }, { "id": "d", "text": "It cannot be known from a photo" }],
+      "answer": "a",
+      "explanation": "Each light source casts its own shadow. Two shadows fanning out in different directions means two lights. In exam drawings, stick to ONE clear light source unless the brief asks otherwise, because it keeps your shading consistent.",
+      "distractors": { "b": "The number of objects doesn't decide the number of shadows; the number of lights does.", "c": "Tones on the object depend on its shape, not on the count of lights.", "d": "Counting cast shadows is a reliable clue." },
+      "takeaway": "Count the cast shadows to count the lights.",
+      "tags": ["photo", "multiple-lights"]
+    },
+    {
+      "id": "ph-light-08", "type": "multi", "subtopic": "drawing.light-shade", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-light-ball-left"],
+      "stem": "You are drawing this ball. Select ALL the things you should include to make it look solid and correctly lit.",
+      "options": [{ "id": "a", "text": "A highlight on the upper-left of the ball" }, { "id": "b", "text": "The darkest tone on the right side of the ball" }, { "id": "c", "text": "A cast shadow falling to the right" }, { "id": "d", "text": "A cast shadow falling to the left" }, { "id": "e", "text": "A thick dark outline all round to make it stand out" }],
+      "answer": ["a", "b", "c"],
+      "explanation": "The light is on the left, so the highlight faces left, the form shadow is on the right, and the cast shadow falls right. A heavy outline flattens a round object; let the tones describe the form instead.",
+      "distractors": { "d": "That would mean light from the right, which contradicts your highlight.", "e": "Strong outlines make spheres look like flat discs; use tone, not line, to show roundness." },
+      "takeaway": "Highlight, form shadow and cast shadow must all agree on one light direction.",
+      "tags": ["photo", "drawing-checklist"]
+    },
+
+    {
+      "id": "ph-persp-01", "type": "mcq", "subtopic": "drawing.perspective", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-persp-1pt"],
+      "stem": "Which type of perspective best describes this view down the road/corridor?",
+      "options": [{ "id": "a", "text": "One-point perspective" }, { "id": "b", "text": "Two-point perspective" }, { "id": "c", "text": "Three-point perspective" }, { "id": "d", "text": "Isometric view" }],
+      "answer": "a",
+      "explanation": "All the receding edges (road sides, walls, rails) meet at a single vanishing point near the centre, while the horizontal and vertical lines stay parallel to the frame. That is one-point perspective.",
+      "distractors": { "b": "Two-point views have two vanishing points, one left and one right, typically when you face a corner.", "c": "Three-point needs a third vanishing point above or below, e.g. looking up at a tall building.", "d": "Isometric drawings have no vanishing points; parallel lines stay parallel." },
+      "takeaway": "Looking straight down a road = one vanishing point.",
+      "tags": ["photo", "perspective-type"]
+    },
+    {
+      "id": "ph-persp-02", "type": "mcq", "subtopic": "drawing.perspective", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-persp-2pt"],
+      "stem": "In this photo of a building corner, where do the two vanishing points lie?",
+      "options": [{ "id": "a", "text": "On the horizon line, one far to the left and one far to the right" }, { "id": "b", "text": "Both at the top of the building" }, { "id": "c", "text": "One at the top and one at the bottom of the photo" }, { "id": "d", "text": "In the centre of the photo" }],
+      "answer": "a",
+      "explanation": "In two-point perspective the horizontal edges of each wall run to their own vanishing point, and both points sit on the horizon line (your eye level). Vertical edges stay vertical, which is why the phone was held upright.",
+      "distractors": { "b": "A vanishing point above the building appears only in three-point perspective.", "c": "Points above and below describe vertical convergence, not this view.", "d": "A single central point is one-point perspective." },
+      "takeaway": "Two-point: both VPs on the horizon, verticals stay vertical.",
+      "tags": ["photo", "vanishing-points"]
+    },
+    {
+      "id": "ph-persp-03", "type": "mcq", "subtopic": "drawing.perspective", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-persp-3pt"],
+      "stem": "Why do the vertical edges of the building lean towards each other near the top of this photo?",
+      "options": [{ "id": "a", "text": "Because the camera is tilted upwards, adding a third vanishing point above" }, { "id": "b", "text": "Because the building is actually narrower at the top" }, { "id": "c", "text": "Because of the lens flare" }, { "id": "d", "text": "Because the horizon is at the top of the photo" }],
+      "answer": "a",
+      "explanation": "When you look up, vertical lines also recede, converging on a third vanishing point high above. This 'worm's-eye' three-point perspective makes things feel tall and powerful.",
+      "distractors": { "b": "The building has parallel walls; the convergence is a viewing effect.", "c": "Flare affects light and colour, not the geometry of edges.", "d": "Looking up puts the horizon low, near or below the bottom of the frame." },
+      "takeaway": "Look up → verticals converge upwards → three-point perspective.",
+      "tags": ["photo", "three-point"]
+    },
+    {
+      "id": "ph-persp-04", "type": "mcq", "subtopic": "drawing.perspective", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-persp-1pt"],
+      "stem": "The horizon line in a perspective drawing always represents…",
+      "options": [{ "id": "a", "text": "The viewer's eye level" }, { "id": "b", "text": "The ground the objects stand on" }, { "id": "c", "text": "The top edge of the page" }, { "id": "d", "text": "The tallest object in the scene" }],
+      "answer": "a",
+      "explanation": "The horizon line is the height of the viewer's eyes. In this photo it passes through the vanishing point. Raise it for a bird's-eye view, lower it for a worm's-eye view.",
+      "distractors": { "b": "The ground plane stretches towards the horizon but isn't the horizon itself.", "c": "The horizon can be placed anywhere on the page.", "d": "Objects can rise above the horizon; it doesn't depend on their height." },
+      "takeaway": "Horizon = eye level. Decide it first, every time.",
+      "tags": ["photo", "horizon"]
+    },
+    {
+      "id": "ph-persp-05", "type": "mcq", "subtopic": "drawing.foreshortening", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-hand-pointing"],
+      "stem": "The finger pointing at the camera looks very short and the fingertip looks large. This effect is called…",
+      "options": [{ "id": "a", "text": "Foreshortening" }, { "id": "b", "text": "Chiaroscuro" }, { "id": "c", "text": "Stippling" }, { "id": "d", "text": "Isometric projection" }],
+      "answer": "a",
+      "explanation": "Foreshortening is the visual compression of an object that points towards (or away from) the viewer. Parts closer to you look bigger, and the length along the line of sight shrinks. Drawing it well (overlapping shapes, larger near parts) makes figures feel 3D.",
+      "distractors": { "b": "Chiaroscuro is strong contrast of light and dark.", "c": "Stippling is shading with dots.", "d": "Isometric drawing keeps sizes constant and ignores distance, so it never foreshortens like this." },
+      "takeaway": "Pointing at you = shorter and bigger at the near end.",
+      "tags": ["photo", "hands"]
+    },
+
+    {
+      "id": "ph-view-01", "type": "mcq", "subtopic": "visual.ortho", "difficulty": 1, "source": "Practice",
+      "imageIds": ["img-cooker-top"],
+      "stem": "This photo shows a pressure cooker from which view?",
+      "options": [{ "id": "a", "text": "Top view (plan)" }, { "id": "b", "text": "Front view (elevation)" }, { "id": "c", "text": "Side view" }, { "id": "d", "text": "Bottom view" }],
+      "answer": "a",
+      "explanation": "The lid appears as a full circle with the whistle at its centre and the handles projecting outwards. You only see that when looking straight down: the top view, or plan.",
+      "distractors": { "b": "A front view would show the cooker's height and its body as a rectangle-like shape.", "c": "A side view would also show the height, with handles overlapping.", "d": "The bottom view would show the base, with no whistle." },
+      "takeaway": "Plan = looking straight down.",
+      "tags": ["photo", "views"]
+    },
+    {
+      "id": "ph-view-02", "type": "mcq", "subtopic": "visual.ortho", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-cooker-side"],
+      "stem": "In this view the two handles overlap and the whistle appears in the centre on top. Which view is it?",
+      "options": [{ "id": "a", "text": "Side view, looking along the handle" }, { "id": "b", "text": "Top view" }, { "id": "c", "text": "Isometric view" }, { "id": "d", "text": "Section view" }],
+      "answer": "a",
+      "explanation": "When the camera looks along the handle, the long handle and the short helper handle line up and hide each other, and you see the cooker's height with the whistle on top. That is a side elevation.",
+      "distractors": { "b": "The top view shows the lid as a circle and no height.", "c": "An isometric view shows three faces at once, at angles.", "d": "A section view is an imaginary cut showing the inside." },
+      "takeaway": "Elevations show height; plans don't.",
+      "tags": ["photo", "views"]
+    },
+    {
+      "id": "ph-view-03", "type": "mcq", "subtopic": "visual.ortho", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-umbrella-top"],
+      "stem": "Seen from directly above, what basic geometric figure does an open umbrella approximate?",
+      "options": [{ "id": "a", "text": "A regular polygon (like an octagon) divided into triangular segments" }, { "id": "b", "text": "A rectangle" }, { "id": "c", "text": "A crescent" }, { "id": "d", "text": "A spiral" }],
+      "answer": "a",
+      "explanation": "The ribs radiate from the centre and the fabric panels stretch between them, so from above an umbrella is a regular polygon (often 8 sides) split into equal triangles. Spotting simple geometry inside objects makes them much faster to draw.",
+      "distractors": { "b": "No straight long edges or right angles appear.", "c": "A crescent is a curved partial shape; the umbrella is closed all round.", "d": "The ribs are straight lines from the centre, not a spiral." },
+      "takeaway": "Find the basic shape first, then add detail.",
+      "tags": ["photo", "geometry"]
+    },
+    {
+      "id": "ph-view-04", "type": "mcq", "subtopic": "drawing.perspective", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-cycle-side"],
+      "stem": "In this exact side view the bicycle wheels look like perfect circles. If you walked round to view the cycle from a 45° angle, how would the wheels look?",
+      "options": [{ "id": "a", "text": "As ellipses" }, { "id": "b", "text": "Still as perfect circles" }, { "id": "c", "text": "As straight vertical lines" }, { "id": "d", "text": "As squares" }],
+      "answer": "a",
+      "explanation": "A circle seen at an angle becomes an ellipse. The more side-on to it you are, the rounder it looks; the more edge-on, the thinner the ellipse. Only exactly edge-on does it become a line.",
+      "distractors": { "b": "Circles only look perfectly round when viewed straight on.", "c": "A line appears only when you view the wheel exactly edge-on (from the front of the bicycle).", "d": "Perspective never turns a circle into a square." },
+      "takeaway": "Circle at an angle = ellipse. Practise ellipses daily.",
+      "tags": ["photo", "ellipses"]
+    }
+  ]
+}

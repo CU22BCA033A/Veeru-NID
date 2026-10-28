@@ -1,0 +1,168 @@
+{
+  "items": [
+    {
+      "id": "ph-craft-01", "type": "mcq", "subtopic": "indian.crafts", "difficulty": 1, "source": "Practice",
+      "imageIds": ["img-craft-channapatna"],
+      "stem": "These bright, glossy wooden toys are a famous craft of which Karnataka town?",
+      "options": [{ "id": "a", "text": "Channapatna" }, { "id": "b", "text": "Bidar" }, { "id": "c", "text": "Ilkal" }, { "id": "d", "text": "Udupi" }],
+      "answer": "a",
+      "explanation": "Channapatna (Ramanagara district), known as the 'town of toys', makes lacquered wooden toys turned on a lathe and coloured with lac. The craft has a Geographical Indication (GI) tag.",
+      "distractors": { "b": "Bidar is known for Bidriware metal inlay.", "c": "Ilkal is known for its handloom sarees.", "d": "Udupi is famous for its temple and cuisine, not these toys." },
+      "takeaway": "Channapatna = lacquered, lathe-turned wooden toys.",
+      "tags": ["photo", "karnataka"]
+    },
+    {
+      "id": "ph-craft-02", "type": "mcq", "subtopic": "indian.crafts", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-craft-channapatna"],
+      "stem": "What gives Channapatna toys their smooth, shiny coloured finish?",
+      "options": [{ "id": "a", "text": "Lac applied while the toy spins on a lathe" }, { "id": "b", "text": "Oil paint brushed on by hand" }, { "id": "c", "text": "Glazing in a kiln" }, { "id": "d", "text": "Plastic coating" }],
+      "answer": "a",
+      "explanation": "In lac-turnery a stick of coloured lac is pressed against the wood as it spins. Friction heats and melts it onto the surface, and it is then polished, traditionally finished with a dried screw-pine leaf. Many makers use natural/vegetable dyes, which makes the toys child-safe.",
+      "distractors": { "b": "The finish is lacquer applied on the lathe, not brushed paint.", "c": "Kiln glazing is for ceramics, not wood.", "d": "The traditional finish is natural lac, not plastic." },
+      "takeaway": "Lac + lathe friction = Channapatna's glossy colour.",
+      "tags": ["photo", "process"]
+    },
+    {
+      "id": "ph-craft-03", "type": "mcq", "subtopic": "indian.crafts", "difficulty": 1, "source": "Practice",
+      "imageIds": ["img-craft-bidri"],
+      "stem": "This black metal object with silver inlay is an example of…",
+      "options": [{ "id": "a", "text": "Bidriware" }, { "id": "b", "text": "Dhokra" }, { "id": "c", "text": "Blue pottery" }, { "id": "d", "text": "Pattachitra" }],
+      "answer": "a",
+      "explanation": "Bidriware comes from Bidar in Karnataka. Objects are cast in a zinc-based alloy, engraved, inlaid with silver wire or sheet, then blackened with a paste containing local soil so the silver stands out against the matte black.",
+      "distractors": { "b": "Dhokra is lost-wax cast brass/bell metal with a golden, thread-like texture.", "c": "Blue pottery is a ceramic with blue-and-white patterns.", "d": "Pattachitra is a cloth-based painting tradition from Odisha and West Bengal." },
+      "takeaway": "Bidri = black alloy + silver inlay, from Bidar.",
+      "tags": ["photo", "karnataka"]
+    },
+    {
+      "id": "ph-craft-04", "type": "mcq", "subtopic": "colour.terms", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-craft-bidri"],
+      "stem": "Which design principle makes Bidriware so striking at first glance?",
+      "options": [{ "id": "a", "text": "Strong contrast between matte black and shiny silver" }, { "id": "b", "text": "Analogous colour harmony" }, { "id": "c", "text": "Asymmetric balance of many bright colours" }, { "id": "d", "text": "Transparency" }],
+      "answer": "a",
+      "explanation": "Bidri relies on value contrast (near-black against bright silver) and on texture contrast (matte against shine). Contrast creates emphasis, the same reason black-and-white posters can be so powerful.",
+      "distractors": { "b": "Analogous harmony uses neighbouring hues; Bidri is essentially colourless contrast.", "c": "Bidri uses just two tones, not many colours.", "d": "The metal is opaque." },
+      "takeaway": "Value contrast is one of the fastest ways to create emphasis.",
+      "tags": ["photo", "contrast"]
+    },
+    {
+      "id": "ph-craft-05", "type": "mcq", "subtopic": "indian.textiles", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-craft-ilkal"],
+      "stem": "The Ilkal saree takes its name from a town in which district of Karnataka?",
+      "options": [{ "id": "a", "text": "Bagalkot" }, { "id": "b", "text": "Mysuru" }, { "id": "c", "text": "Shivamogga" }, { "id": "d", "text": "Dakshina Kannada" }],
+      "answer": "a",
+      "explanation": "Ilkal is in Bagalkot district, North Karnataka. Ilkal sarees typically have a cotton body and a distinctive pallu (often red with white patterns, in the 'tope teni' style) woven separately and joined to the body with an interlocking technique known as 'kondi'. The saree has a GI tag.",
+      "distractors": { "b": "Mysuru is famous for Mysore silk.", "c": "Shivamogga is not the home of the Ilkal saree.", "d": "Dakshina Kannada is on the coast, far from Ilkal." },
+      "takeaway": "Ilkal (Bagalkot) = handloom saree with a separately woven, interlocked pallu.",
+      "needsReview": true,
+      "tags": ["photo", "karnataka", "textiles"]
+    },
+    {
+      "id": "ph-craft-06", "type": "mcq", "subtopic": "indian.crafts", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-craft-kinnal"],
+      "stem": "Kinnal craft, like the figure shown, is a tradition of painted wooden figures and toys from which district of Karnataka?",
+      "options": [{ "id": "a", "text": "Koppal" }, { "id": "b", "text": "Ramanagara" }, { "id": "c", "text": "Bidar" }, { "id": "d", "text": "Kodagu" }],
+      "answer": "a",
+      "explanation": "Kinnal is a village in Koppal district, near Hampi. Artisans of the Chitragar community carve figures from light wood and paint them in bright colours. It is a different craft from Channapatna, which uses lac on a lathe.",
+      "distractors": { "b": "Ramanagara district is home to Channapatna toys.", "c": "Bidar is known for Bidriware.", "d": "Kodagu is not associated with Kinnal craft." },
+      "takeaway": "Kinnal (Koppal) = carved and painted figures; Channapatna (Ramanagara) = lac-turned toys.",
+      "tags": ["photo", "karnataka"]
+    },
+    {
+      "id": "ph-craft-07", "type": "mcq", "subtopic": "indian.textiles", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-craft-kasuti"],
+      "stem": "This counted-thread embroidery from Karnataka is called…",
+      "options": [{ "id": "a", "text": "Kasuti" }, { "id": "b", "text": "Phulkari" }, { "id": "c", "text": "Chikankari" }, { "id": "d", "text": "Kantha" }],
+      "answer": "a",
+      "explanation": "Kasuti is traditionally associated with the Dharwad region. Stitches are counted on the threads of the cloth, so the motifs (temple towers, chariots, lamps, flowers) are geometric and look nearly identical on both sides.",
+      "distractors": { "b": "Phulkari is from Punjab, with long darning stitches filling the cloth.", "c": "Chikankari is the delicate white-on-white embroidery of Lucknow.", "d": "Kantha is the running-stitch quilting of Bengal and Odisha." },
+      "takeaway": "Kasuti = Karnataka's geometric, counted-thread embroidery.",
+      "tags": ["photo", "karnataka", "textiles"]
+    },
+    {
+      "id": "ph-craft-08", "type": "mcq", "subtopic": "indian.painting", "difficulty": 1, "source": "Practice",
+      "imageIds": ["img-craft-warli"],
+      "stem": "Identify this painting style with white stick figures on an earthy background.",
+      "options": [{ "id": "a", "text": "Warli" }, { "id": "b", "text": "Madhubani" }, { "id": "c", "text": "Kalighat" }, { "id": "d", "text": "Gond" }],
+      "answer": "a",
+      "explanation": "Warli art comes from the Warli community of Maharashtra (around Thane and Palghar). It uses basic shapes (circle, triangle, square), traditionally painted in white rice paste on mud walls. A common motif is the circular tarpa dance.",
+      "distractors": { "b": "Madhubani is densely patterned and colourful, with double outlines.", "c": "Kalighat paintings are bold, curvy figures from Kolkata.", "d": "Gond art fills shapes with dots and dashes in bright colours." },
+      "takeaway": "Warli = white geometric stick figures, circle-triangle-square.",
+      "tags": ["photo", "folk-art"]
+    },
+    {
+      "id": "ph-craft-09", "type": "mcq", "subtopic": "design.elements", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-craft-warli"],
+      "stem": "A Warli human figure is built from two triangles joined at the tips. What does this teach a designer?",
+      "options": [{ "id": "a", "text": "Complex subjects can be communicated with very simple geometric shapes" }, { "id": "b", "text": "Human figures must always be realistic" }, { "id": "c", "text": "Triangles are only for decoration" }, { "id": "d", "text": "Colour is more important than shape" }],
+      "answer": "a",
+      "explanation": "Warli shows that reduction to essentials (abstraction) can still communicate action, rhythm and story. The same principle drives pictograms and quick exam figures: get the gesture with minimal lines.",
+      "distractors": { "b": "Warli proves the opposite: stylised figures communicate perfectly well.", "c": "In Warli, the triangles carry meaning and form.", "d": "Warli is almost monochrome; shape does the work." },
+      "takeaway": "Simplify to communicate; this is exactly what pictograms do.",
+      "tags": ["photo", "abstraction"]
+    },
+    {
+      "id": "ph-craft-10", "type": "mcq", "subtopic": "indian.painting", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-craft-madhubani"],
+      "stem": "This painting style, with double outlines and almost no empty space, comes from which region?",
+      "options": [{ "id": "a", "text": "Mithila, Bihar" }, { "id": "b", "text": "Kutch, Gujarat" }, { "id": "c", "text": "Thanjavur, Tamil Nadu" }, { "id": "d", "text": "Raghurajpur, Odisha" }],
+      "answer": "a",
+      "explanation": "Madhubani (Mithila) painting comes from the Mithila region of Bihar (and adjoining Nepal). Its typical features are double-line outlines, bright colours, nature and mythological themes, and filling every space with pattern.",
+      "distractors": { "b": "Kutch is famous for embroidery and Rogan art.", "c": "Thanjavur is known for gold-leaf Tanjore paintings.", "d": "Raghurajpur is the heritage village of Pattachitra." },
+      "takeaway": "Madhubani: double outlines, no empty space, Mithila (Bihar).",
+      "tags": ["photo", "folk-art"]
+    },
+    {
+      "id": "ph-craft-11", "type": "mcq", "subtopic": "indian.crafts", "difficulty": 2, "source": "Practice",
+      "imageIds": ["img-craft-dhokra"],
+      "stem": "Dhokra figures like this are made using which technique?",
+      "options": [{ "id": "a", "text": "Lost-wax casting" }, { "id": "b", "text": "Wheel throwing" }, { "id": "c", "text": "Block printing" }, { "id": "d", "text": "Lac turning" }],
+      "answer": "a",
+      "explanation": "A clay core is covered with a wax model (often with wax threads for detail) and coated in clay. Heating melts the wax out, and molten brass/bell metal is poured into the space. Each mould is broken to release the piece, so every Dhokra item is unique. The technique is ancient: the Mohenjo-daro 'dancing girl' is a lost-wax casting.",
+      "distractors": { "b": "Wheel throwing shapes clay pots.", "c": "Block printing applies dye to fabric.", "d": "Lac turning is the Channapatna toy technique." },
+      "takeaway": "Dhokra = lost-wax metal casting; every piece is one of a kind.",
+      "tags": ["photo", "process"]
+    },
+    {
+      "id": "ph-craft-12", "type": "mcq", "subtopic": "indian.crafts", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-craft-blue-pottery"],
+      "stem": "Jaipur blue pottery is unusual among Indian ceramics because…",
+      "options": [{ "id": "a", "text": "It is made mainly from quartz powder and glass, not clay" }, { "id": "b", "text": "It is fired in the sun without a kiln" }, { "id": "c", "text": "It is always unglazed" }, { "id": "d", "text": "It is made of wood" }],
+      "answer": "a",
+      "explanation": "Jaipur blue pottery uses a dough of quartz stone powder, powdered glass, fuller's earth (multani mitti), borax and gum, not ordinary clay. It is painted with cobalt-oxide blue and fired at low temperature. The style shows Turko-Persian influence.",
+      "distractors": { "b": "It is kiln-fired.", "c": "It has a glassy glaze.", "d": "It is a ceramic, not wood." },
+      "takeaway": "Blue pottery: quartz body, cobalt blue, Jaipur.",
+      "tags": ["photo", "ceramics"]
+    },
+    {
+      "id": "ph-craft-13", "type": "mcq", "subtopic": "indian.textiles", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-craft-kalamkari"],
+      "stem": "The word 'Kalamkari' literally refers to…",
+      "options": [{ "id": "a", "text": "Work done with a pen (kalam)" }, { "id": "b", "text": "Weaving on a pit loom" }, { "id": "c", "text": "Mirror embroidery" }, { "id": "d", "text": "Tie-and-dye" }],
+      "answer": "a",
+      "explanation": "Kalam (pen) + kari (work). In the Srikalahasti style of Andhra Pradesh, artisans draw freehand with a bamboo pen dipped in natural dyes. The Machilipatnam style is mainly block-printed. Both use natural dyes like the earthy rust, indigo and black seen here.",
+      "distractors": { "b": "Pit-loom weaving is a different craft entirely.", "c": "Mirror work is 'shisha' embroidery, common in Gujarat and Rajasthan.", "d": "Tie-and-dye is Bandhani/Bandhej." },
+      "takeaway": "Kalamkari = pen-work with natural dyes (Andhra Pradesh).",
+      "tags": ["photo", "textiles"]
+    },
+    {
+      "id": "ph-craft-14", "type": "multi", "subtopic": "indian.crafts", "difficulty": 3, "source": "Practice",
+      "imageIds": ["img-craft-channapatna", "img-craft-bidri", "img-craft-ilkal", "img-craft-kinnal", "img-craft-warli"],
+      "stem": "Of the five crafts shown, which ones belong to Karnataka? Select all that apply.",
+      "options": [{ "id": "a", "text": "Channapatna toys" }, { "id": "b", "text": "Bidriware" }, { "id": "c", "text": "Ilkal saree" }, { "id": "d", "text": "Kinnal craft" }, { "id": "e", "text": "Warli painting" }],
+      "answer": ["a", "b", "c", "d"],
+      "explanation": "Channapatna (Ramanagara), Bidri (Bidar), Ilkal (Bagalkot) and Kinnal (Koppal) are all Karnataka crafts. Warli belongs to Maharashtra. It's worth knowing your home state's crafts in depth for the interview too.",
+      "distractors": { "e": "Warli is from Maharashtra." },
+      "takeaway": "Know your own state's crafts: an easy edge in the interview.",
+      "tags": ["photo", "karnataka"]
+    },
+    {
+      "id": "ph-craft-15", "type": "short", "subtopic": "creative.writeup", "difficulty": 3, "source": "Expected-2027",
+      "imageIds": ["img-craft-channapatna"],
+      "stem": "Channapatna toy-makers face competition from cheap plastic toys. Suggest 4 design ideas that could help the craft reach new, young buyers WITHOUT losing what makes it special.",
+      "explanation": "Good answers keep the core (lathe-turned wood, safe natural colours, handmade) and change the product type, use or story, e.g. new product categories, collaborations, education or packaging.",
+      "modelAnswer": "1. Educational toys: lac-turned counting beads, shape sorters and abacus sets sold to Montessori schools, stressing the natural safe colours. 2. Desk products for young professionals: pen stands, phone stands and cable holders in modern pastel palettes. 3. 'Make-your-own' kit with a QR-code video of the artisan, so the story travels with the product. 4. Gift packaging made from recycled paper with the artisan's name, and a story card about the 'town of toys'.",
+      "rubric": { "keywords": ["educational", "school", "story", "artisan", "packaging", "online", "safe", "natural", "modern", "collaboration", "desk", "kit", "QR"], "minIdeas": 4, "maxWords": 150 },
+      "tags": ["photo", "craft-revival"]
+    }
+  ]
+}

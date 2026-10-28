@@ -21,7 +21,7 @@ export async function markImageReady(input: z.infer<typeof schema>): Promise<{ e
   const { error } = await db.from("images").update({ path: d.path, license: d.license, author: d.author || null, source_url: d.sourceUrl || null, status: "ready" }).eq("id", d.id);
   if (error) return { error: error.message };
   if (old?.path && old.path !== d.path) await db.storage.from("content-images").remove([old.path as string]);
-  revalidatePath("/admin/images");
+  // No revalidate: the "missing only" list would drop this card before GB sees its confirmation.
   return {};
 }
 

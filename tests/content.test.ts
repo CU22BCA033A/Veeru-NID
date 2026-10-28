@@ -29,3 +29,11 @@ describe("content/index.ts", () => {
     expect(readFileSync("content/index.ts", "utf8")).toBe(buildContentIndex());
   });
 });
+
+describe("IMAGES_NEEDED.md", () => {
+  it("is up to date (run `npm run images:needed`)", async () => {
+    const { readFileSync } = await import("node:fs");
+    const { buildImagesNeeded } = await import("@/scripts/images-needed");
+    expect(readFileSync("IMAGES_NEEDED.md", "utf8")).toBe(buildImagesNeeded());
+  });
+});

@@ -124,10 +124,17 @@ export function buildDay(input: BuildInput): BuiltPlan {
   }
 
   const phaseId = input.phase.id;
-  const studioFor = (kinds: string[]) =>
-    rng.shuffle(input.studioPool.filter((t) => kinds.includes(t.kind) && t.phases.includes(phaseId) && !input.usedStudio.has(t.id)));
-  const studioTest = interleaveByCategory(studioFor(phaseId === "P5" ? ["test", "mains"] : ["test"])).slice(0, nStudio).map((t) => t.id);
-  const dailyCands = studioFor(phaseId === "P5" ? ["mains", "daily"] : ["daily"]).filter((t) => !studioTest.includes(t.id));
+  // Tasks tagged for this phase first; once those run out, any unused task of the right kind.
+  const studioFor = (kinds: string[]) => {
+    const unused = input.studioPool.filter((t) => kinds.includes(t.kind) && !input.usedStudio.has(t.id));
+    return [...rng.shuffle(unused.filter((t) => t.phases.includes(phaseId))), ...rng.shuffle(unused.filter((t) => !t.phases.includes(phaseId)))];
+  };
+  const testKinds = phaseId === "P5" ? ["mains", "test"] : phaseId === "P4" ? ["test", "daily"] : ["test"];
+  const studioTest = interleaveByCategory(studioFor(testKinds).slice(0, Math.max(nStudio * 4, 8))).slice(0, nStudio).map((t) => t.id);
+  const dailyKinds = phaseId === "P5" ? ["mains", "daily"] : ["daily"];
+  let dailyCands = studioFor(dailyKinds).filter((t) => !studioTest.includes(t.id));
+  // Last resort: a longer exam-style task as the day's challenge.
+  if (!dailyCands.length) dailyCands = studioFor(["test", "mains", "daily"]).filter((t) => !studioTest.includes(t.id));
   const dailyTask = dailyCands[0]?.id ?? null;
 
   // Safety net: if short answers or studio tasks ran out, top up with quick items so the day

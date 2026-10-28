@@ -4,8 +4,11 @@ import items_photo_crafts from "./items/photo-crafts.json";
 import items_photo_design_signage from "./items/photo-design-signage.json";
 import items_photo_light_perspective from "./items/photo-light-perspective.json";
 import items_photo_materials_objects from "./items/photo-materials-objects.json";
+import studio_creative from "./studio/creative.json";
+import studio_mains from "./studio/mains.json";
+import studio_studio from "./studio/studio.json";
 
 export const itemsFiles: unknown[] = [items_photo_crafts, items_photo_design_signage, items_photo_light_perspective, items_photo_materials_objects];
-export const studioFiles: unknown[] = [];
+export const studioFiles: unknown[] = [studio_creative, studio_mains, studio_studio];
 export const mocksFiles: unknown[] = [];
 export const conceptsFiles: unknown[] = [];

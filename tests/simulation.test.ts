@@ -56,3 +56,21 @@ describe("100-day simulation", () => {
     expect(shortfalls, "days below the minimum item count").toEqual([]);
   });
 });
+
+describe("studio coverage", () => {
+  it("every study day gets its studio tasks and a daily challenge", () => {
+    const studio = loadStudioTasks().map((t) => ({ id: t.id, kind: t.kind, phases: t.phases, category: t.category }));
+    const used = new Set<string>();
+    const missing: string[] = [];
+    for (let day = 1; day <= defaultPhases.totalDays; day++) {
+      const kind = dayKind(day, defaultPhases);
+      if (kind === "exam" || kind === "rest" || kind === "mock") continue;
+      const phase = phaseForDay(day, defaultPhases)!;
+      const plan = buildDay({ dayNo: day, phase, pool: [], served: new Set(), ratings: new Map(), studioPool: studio, usedStudio: used, tips: [], usedTips: new Set(), seed: day });
+      if (plan.studioTest.length < phase.mix.studio) missing.push(`day ${day} test ${plan.studioTest.length}/${phase.mix.studio}`);
+      if (!plan.dailyTask) missing.push(`day ${day} no daily task`);
+      [...plan.studioTest, ...(plan.dailyTask ? [plan.dailyTask] : [])].forEach((t) => used.add(t));
+    }
+    expect(missing).toEqual([]);
+  });
+});

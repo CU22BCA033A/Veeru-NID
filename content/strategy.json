@@ -1,0 +1,133 @@
+{
+  "articles": [
+    {
+      "id": "read-a-brief",
+      "title": "How to read a design brief in 60 seconds",
+      "summary": "Underline the user, the context, the deliverable and the limits before you draw anything.",
+      "sections": [
+        { "heading": "Underline four things", "body": "WHO is it for (user), WHERE and WHEN (context), WHAT you must produce (deliverable: 3 frames, a poster, a symbol, 200 words) and the LIMITS (number of frames, word count, colours, time). Most marks are lost by answering a different question from the one asked." },
+        { "heading": "Count the deliverables", "body": "If the brief says '3 uses in 3 contexts', you owe exactly 3 drawings, each clearly in a different context. Write the count in the margin and tick each one off as you finish it." },
+        { "heading": "Find the hidden problem", "body": "Briefs often hide a problem: 'travelling with a grandparent' is really about mobility, medicines, toilets, comfort and patience. List 4–5 such needs in 30 seconds before you sketch." },
+        { "heading": "Decide the one idea", "body": "Pick the single idea you can communicate most clearly in the time, not the cleverest one you can't finish. Clear and complete beats clever and half-drawn." }
+      ]
+    },
+    {
+      "id": "plan-three-hours",
+      "title": "Planning the 3-hour paper",
+      "summary": "Minutes per mark, a buffer at the end, and never more than 20% over on any question.",
+      "sections": [
+        { "heading": "Minutes per mark", "body": "180 minutes ÷ 100 marks ≈ 1.8 minutes per mark. Reserve 10 minutes to read the paper first and 10 at the end to label and fix, leaving about 1.6 minutes per mark. A 15-mark question gets about 24 minutes." },
+        { "heading": "Write the plan on the paper", "body": "Next to each question, write its finishing clock time (e.g. Q1 → 10:24). Check the clock at every finish line. The 2026 paper was long; students who ran out of time lost easy marks on the last questions." },
+        { "heading": "The 20% rule", "body": "If a question runs 20% over its time, stop, add labels and a caption so it is readable, and move on. A finished simple answer scores more than a beautiful unfinished one." },
+        { "heading": "Order", "body": "Start with the question you feel most confident about to warm up, but don't leave the highest-mark question for last." }
+      ]
+    },
+    {
+      "id": "people-fast",
+      "title": "Drawing people fast",
+      "summary": "Stick → box → flesh. Get the gesture first; details last.",
+      "sections": [
+        { "heading": "Proportion shortcut", "body": "An adult is about 7–8 heads tall. The hips sit at roughly half the height, elbows at the waist, fingertips at mid-thigh, knees at about a quarter of the height up from the feet. Children have bigger heads relative to their bodies (about 4–5 heads tall)." },
+        { "heading": "Line of action", "body": "Start with one curved line for the spine showing the movement: bending, reaching, falling. Then hang a stick skeleton on it. If the stick figure tells the story, the final figure will too." },
+        { "heading": "Boxes and cylinders", "body": "Turn the stick into simple volumes: a box for the ribcage, a box for the hips, cylinders for limbs. This instantly adds 3D and makes overlapping limbs readable." },
+        { "heading": "Faces are optional", "body": "In exam storyboards, posture tells emotion faster than faces. A slumped back reads as sad, open arms as happy, a hand on the head as worried. Spend your time on gesture and context, not eyelashes." }
+      ]
+    },
+    {
+      "id": "emotion-posture",
+      "title": "Showing emotion with posture",
+      "summary": "Head, shoulders, spine and hands carry 80% of the feeling.",
+      "sections": [
+        { "heading": "Quick vocabulary", "body": "Happy: chest up, arms open, weight on the toes. Sad: head down, shoulders forward, arms hanging. Angry: leaning forward, fists, wide stance. Scared: shrinking, arms protecting the body, leaning away. Tired: heavy bend in the spine, dragging feet." },
+        { "heading": "Exaggerate a little", "body": "Push the pose further than feels natural. A small drawing on an exam sheet needs a clear silhouette to read from a distance." },
+        { "heading": "Use the environment", "body": "Rain lines, a long shadow, an empty bench or a crowd around one person all add emotion without drawing faces." }
+      ]
+    },
+    {
+      "id": "perspective-tricks",
+      "title": "Quick perspective tricks for scenes",
+      "summary": "Horizon first, one vanishing point, people's heads on the horizon.",
+      "sections": [
+        { "heading": "Horizon first", "body": "Draw a light horizon line at eye level before anything else. For a street, market or classroom scene, one-point perspective with the vanishing point slightly off-centre looks natural and is fast." },
+        { "heading": "Heads on the horizon", "body": "If the viewer is standing, the heads of all standing adults on flat ground sit on the horizon line, near or far. Just make the far people smaller. This one rule makes crowds look right instantly." },
+        { "heading": "Overlap and size", "body": "Things in front overlap things behind; things further away are smaller and lighter. Even without perfect lines, overlap plus size change creates depth." },
+        { "heading": "Ellipses", "body": "Circles in perspective are ellipses. They get flatter the closer they are to eye level. Practise a page of ellipses daily: cups, wheels, pots." }
+      ]
+    },
+    {
+      "id": "labels-captions",
+      "title": "Labels, captions and word limits",
+      "summary": "Examiners look for seconds, not minutes. Make your idea readable without you.",
+      "sections": [
+        { "heading": "Label the idea, not the obvious", "body": "Don't label 'chair'. Label what's new: 'fold-down handle: holds the bag while you climb'. Labels should explain the thinking." },
+        { "heading": "Captions", "body": "A good caption adds what the drawing can't show: time, sound, feeling, or why something matters. Keep within the word limit; count words when you finish." },
+        { "heading": "Neat block capitals", "body": "Write labels in small block capitals with a light guideline. Use leader lines that don't cross each other. Neat text makes the whole sheet look more professional." }
+      ]
+    },
+    {
+      "id": "what-examiners-want",
+      "title": "What NID examiners look for",
+      "summary": "Understanding, originality, clarity, then drawing skill.",
+      "sections": [
+        { "heading": "Understanding of the brief", "body": "Did you answer what was asked, for the user and context given? Off-brief answers score low however beautiful they are." },
+        { "heading": "Originality", "body": "The first idea that comes to everyone (a tree for 'environment') rarely stands out. Spend 1–2 minutes listing ideas and pick one from the second half of your list." },
+        { "heading": "Communication", "body": "Would someone 'get it' in 10 seconds? Use a clear focal point, contrast and labels." },
+        { "heading": "Skill and sensitivity", "body": "Proportion, perspective, line quality and observation matter, but they serve the idea. Confident simple lines beat hairy, overworked ones." }
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "title": "Common mistakes (and fixes)",
+      "summary": "Small details, unfinished questions, and timid drawings.",
+      "sections": [
+        { "heading": "Drawing too small", "body": "Use the space. A tiny drawing in the middle of an A4 sheet looks unconfident and hides detail. Fill about two-thirds of the area." },
+        { "heading": "Starting with details", "body": "Block in big shapes and composition first, then add detail only where the eye should go." },
+        { "heading": "Leaving questions blank", "body": "Even a 3-minute thumbnail with labels earns marks. Never leave a question empty." },
+        { "heading": "Ignoring the user", "body": "If the brief names a user (child, elderly person, vendor), show that person in your drawing using the solution." }
+      ]
+    },
+    {
+      "id": "idea-methods",
+      "title": "Idea generation: SCAMPER, mind maps, 5 whys, personas",
+      "summary": "Methods to get past your first idea quickly.",
+      "sections": [
+        { "heading": "SCAMPER", "body": "Ask of any object: Substitute (a material or part?), Combine (with another object?), Adapt (from nature or another field?), Modify (size, shape?), Put to another use, Eliminate (a part?), Reverse (order or direction?). Seven quick questions, seven new ideas." },
+        { "heading": "Mind map", "body": "Write the topic in the centre, branch out to 5–6 associations, then branch again. The best ideas often come from connecting two distant branches." },
+        { "heading": "5 whys", "body": "Ask 'why?' repeatedly to get to the root of a problem. Children brake hard in the bus → why? They stand → why? Too few seats → why? … You design for the root, not the symptom." },
+        { "heading": "Persona", "body": "Imagine one specific user: 'Lakshmi, 68, uses a walking stick, lives on the 2nd floor, takes the bus to the temple daily.' Specific users give specific, believable ideas." }
+      ]
+    },
+    {
+      "id": "storyboards",
+      "title": "Storyboards that read instantly",
+      "summary": "Vary the shots, keep characters consistent, one action per frame.",
+      "sections": [
+        { "heading": "Plan in thumbnails", "body": "Before drawing, write one line per frame: 1. Grandfather walking. 2. Trips. 3. Boy runs over. 4. Helps him up. Then sketch tiny thumbnails to test the camera angles." },
+        { "heading": "Vary the shot", "body": "Mix a wide shot (where are we?), a medium shot (what's happening?) and a close-up (how does it feel?). This is how films hold attention." },
+        { "heading": "Consistency", "body": "Give each character one recognisable feature (cap, saree border, walking stick) and keep it in every frame." },
+        { "heading": "Arrows and motion lines", "body": "Motion lines, small arrows and sound words (THUD) show action in a still image. Use them sparingly but clearly." }
+      ]
+    },
+    {
+      "id": "posters",
+      "title": "Posters and social-media series",
+      "summary": "One message, one image, one call to action.",
+      "sections": [
+        { "heading": "Hierarchy", "body": "Decide what is seen first (a strong image or headline), second (supporting line), third (details or call to action). Make each clearly different in size." },
+        { "heading": "Visual metaphor", "body": "Combine two ideas into one image (a melting Earth as an ice-cream, a phone as a cage) to make a message memorable in a second." },
+        { "heading": "Series consistency", "body": "For a 3-post series, keep the layout, colours and type style the same, and change the content. Number the posts and make the last one a call to action." },
+        { "heading": "Colour", "body": "Use 2–3 colours with strong contrast. Leave breathing space around the headline." }
+      ]
+    },
+    {
+      "id": "memory-drawing",
+      "title": "Memory and observation drawing",
+      "summary": "Look actively: shapes, proportions, details that tell the story.",
+      "sections": [
+        { "heading": "Look in layers", "body": "When observing, first note the big shapes and proportions, then the 3–4 details that make it specific (a cracked tile, a sticker on the fridge). Those details are what make memory drawings convincing." },
+        { "heading": "Practise recall", "body": "Look at a scene for 1 minute, then draw it from memory for 5 minutes. Compare and note what you missed. Repeat daily: it's the single best exercise for memory drawing questions." },
+        { "heading": "Indian context", "body": "Examiners love specific Indian details: steel tiffin carriers, rangoli at the door, a scooter with a child standing in front, a vegetable cart with a weighing scale. Collect them in your sketchbook." }
+      ]
+    }
+  ]
+}

@@ -37,3 +37,13 @@ describe("IMAGES_NEEDED.md", () => {
     expect(readFileSync("IMAGES_NEEDED.md", "utf8")).toBe(buildImagesNeeded());
   });
 });
+
+describe("near-duplicate rule", () => {
+  it("flags trivial rewordings but not different key words", async () => {
+    const { differsMeaningfully, trigramSimilarity } = await import("@/lib/content/hash");
+    const a = "List 6 images that could represent \"freedom\" in a poster.";
+    expect(differsMeaningfully(a, a.replace("freedom", "patience"))).toBe(true);
+    expect(differsMeaningfully(a, a.replace("6", "six").replace(".", "!"))).toBe(false);
+    expect(trigramSimilarity("Which is a primary colour?", "Which is a primary colour ?")).toBeGreaterThan(0.85);
+  });
+});

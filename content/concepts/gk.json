@@ -1,0 +1,46 @@
+{
+ "cards": [
+  {
+   "id": "cc-gk.geography",
+   "subtopic": "gk.geography",
+   "title": "Geography basics",
+   "body": "Know India's states and capitals, major rivers (Ganga, Brahmaputra, Godavari, Krishna, Kaveri), mountain ranges (Himalayas, Western and Eastern Ghats) and neighbours. Karnataka: capital Bengaluru, Kaveri and Krishna rivers, Western Ghats biodiversity. World: continents, oceans, major countries and capitals. Maps and scale also help in design questions."
+  },
+  {
+   "id": "cc-gk.environment",
+   "subtopic": "gk.environment",
+   "title": "Environment & ecology",
+   "body": "Key ideas: biodiversity hotspots (the Western Ghats is one), the greenhouse effect and climate change, renewable energy (solar, wind, hydro), the 3Rs (reduce, reuse, recycle), single-use plastic, water conservation and rainwater harvesting, and protected areas such as national parks and tiger reserves (Bandipur and Nagarhole in Karnataka)."
+  },
+  {
+   "id": "cc-gk.sports",
+   "subtopic": "gk.sports",
+   "title": "Sports awareness",
+   "body": "Know India's major sports, famous athletes and events: the Olympics (summer and winter), the Commonwealth and Asian Games, cricket World Cups, the Khel Ratna award. Design link: sports logos, mascots, pictograms, stadium wayfinding and equipment design."
+  },
+  {
+   "id": "cc-gk.books",
+   "subtopic": "gk.books",
+   "title": "Books & authors",
+   "body": "Classic Indian authors: R. K. Narayan (Malgudi Days), Rabindranath Tagore (Gitanjali; first Asian Nobel laureate in Literature, 1913), Kuvempu and other Jnanpith Award winners in Kannada, Ruskin Bond, Premchand. Design-related books: 'The Design of Everyday Things' (Don Norman), 'Steal Like an Artist' (Austin Kleon)."
+  },
+  {
+   "id": "cc-gk.business",
+   "subtopic": "gk.business",
+   "title": "Business & brands",
+   "body": "Know well-known Indian and global brands, their founders and logos, and why their identity works: Amul's long-running topical ads, Tata, Infosys, Nandini (Karnataka Milk Federation), Mysore Sandal Soap. Understand basic terms: brand identity, logo, slogan, target audience, e-commerce."
+  },
+  {
+   "id": "cc-gk.it",
+   "subtopic": "gk.it",
+   "title": "IT & computers",
+   "body": "Basics: hardware vs software, operating systems, the internet and the web, cloud computing, cybersecurity, AI and machine learning. File formats designers use: JPEG/PNG (raster images), SVG (vector), PDF. Resolution: pixels for screens; DPI for print. RGB for screens, CMYK for print."
+  },
+  {
+   "id": "cc-gk.current",
+   "subtopic": "gk.current",
+   "title": "Current affairs",
+   "body": "Follow one reliable newspaper daily for major events in India and the world, especially design-related news: new public buildings, Indian crafts with GI tags, big design or architecture awards, environment and technology. Note dates and names in a notebook. GB updates current-affairs questions in the app regularly."
+  }
+ ]
+}

@@ -8,7 +8,7 @@ import { supabaseServer } from "@/lib/supabase/server";
 export default async function ReviewQueue({ searchParams }: { searchParams: Promise<{ show?: string }> }) {
   const { show } = await searchParams;
   const db = await supabaseServer();
-  let q = db.from("studio_submissions").select("id,image_paths,created_at,self_scores,final_score,context,reviewed_at,studio_tasks(title,category)").order("created_at", { ascending: false }).limit(100);
+  let q = db.from("studio_submissions").select("id,image_paths,created_at,self_scores,final_score,context,reviewed_at,studio_tasks(title,category)").neq("context", "mock").order("created_at", { ascending: false }).limit(100);
   if (show !== "all") q = q.is("reviewed_at", null);
   const { data } = await q;
   type Row = { id: string; image_paths: string[]; created_at: string; final_score: number | null; context: string; reviewed_at: string | null; studio_tasks: { title: string; category: string } | null };
@@ -20,6 +20,8 @@ export default async function ReviewQueue({ searchParams }: { searchParams: Prom
       <PageHeader title="Review queue" kicker={show === "all" ? "All submissions" : `${rows.length} waiting`}>
         Score Veeru&apos;s sheets on the same rubric he used. Your score overrides his self-score and the AI.
         <Link href={show === "all" ? "/admin/review" : "/admin/review?show=all"} className="ml-2 text-accent underline">{show === "all" ? "Only unreviewed" : "Show all"}</Link>
+        <Link href="/admin/mocks" className="ml-3 text-accent underline">Mock papers</Link>
+        <Link href="/admin/interview" className="ml-3 text-accent underline">Interview recordings</Link>
       </PageHeader>
       {!rows.length ? (
         <Empty title="Nothing to review">New studio uploads will appear here.</Empty>

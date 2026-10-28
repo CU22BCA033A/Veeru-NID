@@ -88,7 +88,8 @@ async function createHomework(
       .filter((r) => (r.image_ids as string[]).length === 0 || r.id === item.id) // keep photo variants simple: only image-free ones
       .map((r) => ({ id: r.id as string, type: r.type as PoolItem["type"], subtopic: r.subtopic_id as string, category: r.category_id as string, difficulty: r.difficulty as number, generator: r.generator as string | null }));
     const src: PoolItem = { id: item.id, type: item.type, subtopic: item.subtopic_id, category: item.category_id, difficulty: item.difficulty, generator: item.generator };
-    for (const v of pickVariants(src, pool, served, genuinelyWrong ? 2 : 1)) {
+    // Short answers get one fresh variant (that pool is smaller); quick items get two.
+    for (const v of pickVariants(src, pool, served, genuinelyWrong && item.type !== "short" ? 2 : 1)) {
       served.add(v.id);
       newlyServed.push(v.id);
       homework.push({ user_id: opts.userId, day_no: opts.dayNo, item_id: v.id, kind: "variant", source_attempt_id: null });

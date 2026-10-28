@@ -85,7 +85,16 @@ export async function syncContent(db: SupabaseClient, opts: { force?: boolean } 
     await db.from("images").update({ description: m.description, shot_notes: m.shotNotes, aspect: m.aspect }).eq("id", m.id);
   }
 
-  await upsertBatched(db, "items", items.map(authoredItemRow));
+  // Keep the mentor's decisions: retired questions stay retired, verified facts stay verified.
+  const { data: notLive } = await db.from("items").select("id,status").neq("status", "live").neq("source", "Generated");
+  const flagged = items.filter((i) => i.needsReview).map((i) => i.id);
+  const { data: verified } = flagged.length ? await db.from("items").select("id").eq("needs_review", false).in("id", flagged) : { data: [] };
+  const statusOf = new Map((notLive ?? []).map((d) => [d.id as string, d.status as string]));
+  const verifiedIds = new Set((verified ?? []).map((d) => d.id as string));
+  await upsertBatched(db, "items", items.map((i) => {
+    const row = authoredItemRow(i);
+    return { ...row, status: statusOf.get(i.id) ?? row.status, needs_review: row.needs_review && !verifiedIds.has(i.id) };
+  }));
 
   const pool = buildGeneratedPool();
   await upsertBatched(db, "items", pool.map((g) => ({

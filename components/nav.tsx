@@ -29,7 +29,7 @@ export function Nav({ items, brand }: { items: NavItem[]; brand: string }) {
       : path.startsWith(item.href) || (item.match ?? []).some((m) => path.startsWith(m));
   return (
     <>
-      <header className="sticky top-0 z-20 hidden border-b border-line bg-paper/90 backdrop-blur md:block">
+      <header className="sticky top-0 z-20 hidden border-b border-line bg-paper/90 backdrop-blur md:block print:hidden">
         <div className="mx-auto flex max-w-5xl items-center gap-6 px-6 py-3">
           <Link href={items[0]!.href} className="font-serif text-lg">
             {brand}
@@ -54,7 +54,7 @@ export function Nav({ items, brand }: { items: NavItem[]; brand: string }) {
           </nav>
         </div>
       </header>
-      <nav aria-label="Main" className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
+      <nav aria-label="Main" className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden print:hidden">
         <ul className="mx-auto flex max-w-lg justify-around">
           {items.map((item) => {
             const Icon = ICONS[item.icon]!;

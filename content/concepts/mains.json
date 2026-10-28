@@ -1,0 +1,40 @@
+{
+ "cards": [
+  {
+   "id": "cc-mains.model",
+   "subtopic": "mains.model",
+   "title": "Model making",
+   "body": "Sketch 3 ideas first. Test the material's behaviour (folding, bending, joining) before committing. Use triangles, folds and wide bases for strength. Clean craftsmanship (straight cuts, hidden glue) shows care. Be ready to explain your choices."
+  },
+  {
+   "id": "cc-mains.material",
+   "subtopic": "mains.material",
+   "title": "Material exploration",
+   "body": "Push one material through many actions: fold, tear, roll, twist, stack, weave, cut, press. Notice what it does well and where it fails. Surprising results are the point. Record each experiment and what you learned."
+  },
+  {
+   "id": "cc-mains.av",
+   "subtopic": "mains.av",
+   "title": "Audio-visual perception",
+   "body": "Translate qualities across senses: loud/soft → bold/light marks, fast/slow → dense/sparse rhythm, sharp/smooth → angular/curved lines, warm/cool → colour. Note first impressions quickly, avoid literal clichés, and explain your choices briefly."
+  },
+  {
+   "id": "cc-mains.sensitivity",
+   "subtopic": "mains.sensitivity",
+   "title": "Colour & texture sensitivity",
+   "body": "Observe subtle differences: many greens in one tree, many whites in one room, textures that look alike but feel different. Train by making colour swatches from nature and texture rubbings from your surroundings."
+  },
+  {
+   "id": "cc-mains.presentation",
+   "subtopic": "mains.presentation",
+   "title": "Presenting your work",
+   "body": "Structure: what the brief asked → what you understood → your idea → why your materials and form → what you'd improve. One supporting sheet with big visuals and few words. Practise aloud and keep it under two minutes."
+  },
+  {
+   "id": "cc-mains.interview",
+   "subtopic": "mains.interview",
+   "title": "The in-person interview",
+   "body": "Be yourself and be specific. Answer with point → example → close. Talk about what you have observed, made and learned. Know NID's history and approach. It's fine to pause and think. Honest answers about weaknesses, and what you're doing about them, show maturity."
+  }
+ ]
+}

@@ -1,0 +1,1040 @@
+{
+ "items": [
+  {
+   "id": "mq-drw-001",
+   "type": "mcq",
+   "subtopic": "drawing.perspective",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "In perspective drawing, the horizon line always represents…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The top of the page"
+    },
+    {
+     "id": "b",
+     "text": "The tallest object"
+    },
+    {
+     "id": "c",
+     "text": "The viewer's eye level"
+    },
+    {
+     "id": "d",
+     "text": "The ground"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Raise the horizon for a bird's-eye view, lower it for a worm's-eye view.",
+   "distractors": {
+    "d": "The ground plane runs towards it.",
+    "a": "It can be anywhere.",
+    "b": "Objects can be taller."
+   },
+   "takeaway": "Horizon = eye level.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-002",
+   "type": "mcq",
+   "subtopic": "drawing.perspective",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Looking straight down a long, straight road, how many vanishing points are there?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "None"
+    },
+    {
+     "id": "b",
+     "text": "One"
+    },
+    {
+     "id": "c",
+     "text": "Two"
+    },
+    {
+     "id": "d",
+     "text": "Three"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Parallel lines going away from you meet at a single vanishing point on the horizon.",
+   "distractors": {
+    "c": "Two-point is for corners.",
+    "d": "Three-point needs vertical convergence.",
+    "a": "The road edges clearly converge."
+   },
+   "takeaway": "Straight-on = one point.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-003",
+   "type": "mcq",
+   "subtopic": "drawing.perspective",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "In two-point perspective, vertical lines…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Meet at a third vanishing point"
+    },
+    {
+     "id": "b",
+     "text": "Lean to the left"
+    },
+    {
+     "id": "c",
+     "text": "Become curved"
+    },
+    {
+     "id": "d",
+     "text": "Stay vertical and parallel"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Only horizontal edges recede to the two vanishing points; verticals stay vertical.",
+   "distractors": {
+    "a": "That's three-point.",
+    "b": "They don't lean.",
+    "c": "They stay straight."
+   },
+   "takeaway": "Two-point: verticals stay upright.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-004",
+   "type": "mcq",
+   "subtopic": "drawing.perspective",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Where do the vanishing points sit in two-point perspective?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Both on the horizon line"
+    },
+    {
+     "id": "b",
+     "text": "One above and one below the horizon"
+    },
+    {
+     "id": "c",
+     "text": "Anywhere on the page"
+    },
+    {
+     "id": "d",
+     "text": "At the corners of the page"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Horizontal edges of objects on level ground recede to points on the horizon.",
+   "distractors": {
+    "b": "That's not two-point.",
+    "c": "They sit on the horizon.",
+    "d": "Not necessarily."
+   },
+   "takeaway": "Vanishing points live on the horizon.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-005",
+   "type": "mcq",
+   "subtopic": "drawing.perspective",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Drawing a skyscraper from street level looking up usually needs…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "No perspective"
+    },
+    {
+     "id": "b",
+     "text": "Three-point perspective"
+    },
+    {
+     "id": "c",
+     "text": "One-point perspective"
+    },
+    {
+     "id": "d",
+     "text": "Isometric projection"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Looking up, verticals also converge towards a third vanishing point high above.",
+   "distractors": {
+    "c": "That's for facing a flat surface.",
+    "d": "Isometric has no vanishing points.",
+    "a": "Strong convergence occurs."
+   },
+   "takeaway": "Look up/down → three-point.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-006",
+   "type": "mcq",
+   "subtopic": "drawing.perspective",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Two people of the same height stand on flat ground, one near and one far. If the viewer is also standing, where are their heads?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "It depends on their clothes"
+    },
+    {
+     "id": "b",
+     "text": "Both near the horizon line"
+    },
+    {
+     "id": "c",
+     "text": "The far person's head is far below the horizon"
+    },
+    {
+     "id": "d",
+     "text": "The near person's head is far above the page"
+    }
+   ],
+   "answer": "b",
+   "explanation": "When eye levels are the same, standing people's eyes and heads line up with the horizon whatever their distance; only their size changes.",
+   "distractors": {
+    "c": "Heads stay on the horizon when eye levels match.",
+    "d": "It sits near the horizon.",
+    "a": "No."
+   },
+   "takeaway": "Same height → heads on the horizon.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-007",
+   "type": "mcq",
+   "subtopic": "drawing.perspective",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Isometric drawing differs from perspective because…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "It uses three vanishing points"
+    },
+    {
+     "id": "b",
+     "text": "Objects get smaller with distance"
+    },
+    {
+     "id": "c",
+     "text": "It only shows the top view"
+    },
+    {
+     "id": "d",
+     "text": "Parallel lines stay parallel and there are no vanishing points"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Isometric uses axes 120° apart; it's great for technical clarity but doesn't show distance like perspective.",
+   "distractors": {
+    "a": "That's three-point perspective.",
+    "b": "Isometric keeps sizes constant.",
+    "c": "It shows three faces."
+   },
+   "takeaway": "Isometric = no convergence.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-008",
+   "type": "mcq",
+   "subtopic": "drawing.perspective",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A circle drawn on the floor in perspective looks like…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "A perfect circle"
+    },
+    {
+     "id": "b",
+     "text": "A vertical ellipse"
+    },
+    {
+     "id": "c",
+     "text": "A square"
+    },
+    {
+     "id": "d",
+     "text": "An ellipse whose long axis is horizontal"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Circles on horizontal surfaces become horizontal ellipses, flatter as they get closer to eye level.",
+   "distractors": {
+    "a": "Only seen straight on.",
+    "b": "Floor circles flatten vertically.",
+    "c": "Perspective doesn't change circles into squares."
+   },
+   "takeaway": "Floor circle → flat horizontal ellipse.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-009",
+   "type": "mcq",
+   "subtopic": "drawing.perspective",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The ellipse of a glass's rim looks flattest when the rim is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Lit from the left"
+    },
+    {
+     "id": "b",
+     "text": "Near your eye level"
+    },
+    {
+     "id": "c",
+     "text": "Far below your eye level"
+    },
+    {
+     "id": "d",
+     "text": "Upside down"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Ellipses get rounder the further they are from eye level. Draw a cup's top ellipse flatter than its base if the cup is below your eyes.",
+   "distractors": {
+    "c": "It looks rounder when you look down on it.",
+    "d": "Orientation isn't the factor.",
+    "a": "Light doesn't change shape."
+   },
+   "takeaway": "Closer to eye level = flatter ellipse.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-010",
+   "type": "mcq",
+   "subtopic": "drawing.foreshortening",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "An arm pointing straight at the viewer appears…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Invisible"
+    },
+    {
+     "id": "b",
+     "text": "Short, with the hand looking large"
+    },
+    {
+     "id": "c",
+     "text": "Longer than normal"
+    },
+    {
+     "id": "d",
+     "text": "Exactly as long as normal"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Foreshortening compresses length towards the viewer and enlarges the nearer parts.",
+   "distractors": {
+    "c": "It looks compressed.",
+    "d": "Length shrinks along the line of sight.",
+    "a": "It's visible, just compressed."
+   },
+   "takeaway": "Pointing at you = short and big-ended.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-011",
+   "type": "mcq",
+   "subtopic": "drawing.foreshortening",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The best way to draw a strongly foreshortened limb is to…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Use overlapping shapes, with the near parts larger"
+    },
+    {
+     "id": "b",
+     "text": "Draw its full measured length"
+    },
+    {
+     "id": "c",
+     "text": "Outline it with one long line"
+    },
+    {
+     "id": "d",
+     "text": "Avoid shading it"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Overlapping ellipses and circles, plus size change, create a convincing foreshortened form.",
+   "distractors": {
+    "b": "That ignores perspective.",
+    "c": "That flattens it.",
+    "d": "Shading helps show form."
+   },
+   "takeaway": "Overlap + size change.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-012",
+   "type": "mcq",
+   "subtopic": "drawing.light-shade",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "The brightest spot on a shiny object, facing the light, is called the…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Cast shadow"
+    },
+    {
+     "id": "b",
+     "text": "Core shadow"
+    },
+    {
+     "id": "c",
+     "text": "Reflected light"
+    },
+    {
+     "id": "d",
+     "text": "Highlight"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Highlights show the light's direction and the surface's shininess.",
+   "distractors": {
+    "a": "That's on the ground.",
+    "b": "That's the darkest band on the object.",
+    "c": "That's a glow in the shadow side."
+   },
+   "takeaway": "Highlight faces the light.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-013",
+   "type": "mcq",
+   "subtopic": "drawing.light-shade",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The darkest band on a sphere, between its lit and shadow sides, is the…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mid-tone"
+    },
+    {
+     "id": "b",
+     "text": "Core shadow"
+    },
+    {
+     "id": "c",
+     "text": "Highlight"
+    },
+    {
+     "id": "d",
+     "text": "Cast shadow"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Light → highlight → mid-tone → core shadow → reflected light → cast shadow. Getting this order right makes forms look round.",
+   "distractors": {
+    "c": "That's the brightest point.",
+    "d": "That falls on another surface.",
+    "a": "That's in the lit area."
+   },
+   "takeaway": "Core shadow sits at the turning edge.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-014",
+   "type": "mcq",
+   "subtopic": "drawing.light-shade",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A low sun (morning or evening) produces shadows that are…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Always blue"
+    },
+    {
+     "id": "b",
+     "text": "Long"
+    },
+    {
+     "id": "c",
+     "text": "Very short"
+    },
+    {
+     "id": "d",
+     "text": "Invisible"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Shadow length depends on the light's height: low light, long shadows.",
+   "distractors": {
+    "c": "That's midday.",
+    "d": "They're very visible.",
+    "a": "Colour varies."
+   },
+   "takeaway": "Low light = long shadows.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-015",
+   "type": "mcq",
+   "subtopic": "drawing.light-shade",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Faint light bouncing into an object's shadow side from nearby surfaces is called…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Highlight"
+    },
+    {
+     "id": "b",
+     "text": "Cast shadow"
+    },
+    {
+     "id": "c",
+     "text": "Glare"
+    },
+    {
+     "id": "d",
+     "text": "Reflected light"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Reflected light keeps shadows from looking flat. Keep it darker than any lit area.",
+   "distractors": {
+    "a": "That's on the lit side.",
+    "b": "That's on the ground.",
+    "c": "Glare is direct bright light."
+   },
+   "takeaway": "Reflected light: subtle, in the shadow.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-016",
+   "type": "mcq",
+   "subtopic": "drawing.light-shade",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "If a cast shadow falls towards the viewer, the light source is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Directly above"
+    },
+    {
+     "id": "b",
+     "text": "Inside the object"
+    },
+    {
+     "id": "c",
+     "text": "Behind the object"
+    },
+    {
+     "id": "d",
+     "text": "Behind the viewer"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Shadows point away from the light. Backlighting throws shadows towards you and makes rims glow.",
+   "distractors": {
+    "d": "Then the shadow would fall away from you.",
+    "a": "Then the shadow would be underneath.",
+    "b": "Not possible here."
+   },
+   "takeaway": "Shadow points away from the light.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-017",
+   "type": "mcq",
+   "subtopic": "drawing.figure",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "An average adult human figure is about how many heads tall?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "7 to 8"
+    },
+    {
+     "id": "b",
+     "text": "4"
+    },
+    {
+     "id": "c",
+     "text": "10 to 12"
+    },
+    {
+     "id": "d",
+     "text": "5"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Using the head as a unit makes proportions easier to check.",
+   "distractors": {
+    "b": "That's closer to a toddler.",
+    "c": "That's exaggerated fashion illustration.",
+    "d": "Too short for an adult."
+   },
+   "takeaway": "Adult ≈ 7–8 heads.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-018",
+   "type": "mcq",
+   "subtopic": "drawing.figure",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "With arms hanging at the sides, an adult's fingertips usually reach…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The hips"
+    },
+    {
+     "id": "b",
+     "text": "About mid-thigh"
+    },
+    {
+     "id": "c",
+     "text": "The knees"
+    },
+    {
+     "id": "d",
+     "text": "The waist"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Elbows at the waist, wrists at the hips, fingertips at mid-thigh.",
+   "distractors": {
+    "c": "Too low.",
+    "d": "That's the elbows.",
+    "a": "Too high."
+   },
+   "takeaway": "Elbows-waist, fingertips-mid-thigh.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-019",
+   "type": "mcq",
+   "subtopic": "drawing.figure",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Compared with adults, young children have…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Smaller heads relative to their bodies"
+    },
+    {
+     "id": "b",
+     "text": "The same proportions"
+    },
+    {
+     "id": "c",
+     "text": "Longer legs relative to their bodies"
+    },
+    {
+     "id": "d",
+     "text": "Larger heads relative to their bodies"
+    }
+   ],
+   "answer": "d",
+   "explanation": "A young child is about 4–6 heads tall. Drawing children with adult proportions makes them look like small adults.",
+   "distractors": {
+    "a": "The opposite.",
+    "b": "Proportions change with age.",
+    "c": "Their legs are relatively shorter."
+   },
+   "takeaway": "Kids: big heads, short legs.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-020",
+   "type": "mcq",
+   "subtopic": "drawing.figure",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The 'line of action' in figure drawing is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The horizon line"
+    },
+    {
+     "id": "b",
+     "text": "A line for the shadow"
+    },
+    {
+     "id": "c",
+     "text": "One curved line showing the main flow of the pose"
+    },
+    {
+     "id": "d",
+     "text": "The outline of the figure"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Starting with a line of action (usually the spine) makes poses dynamic instead of stiff.",
+   "distractors": {
+    "d": "That's the contour.",
+    "a": "That's about eye level.",
+    "b": "Unrelated."
+   },
+   "takeaway": "Gesture first.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-021",
+   "type": "mcq",
+   "subtopic": "drawing.texture",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Stippling is a shading technique that uses…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Crossed lines"
+    },
+    {
+     "id": "b",
+     "text": "Smudged graphite"
+    },
+    {
+     "id": "c",
+     "text": "Many small dots"
+    },
+    {
+     "id": "d",
+     "text": "Parallel lines"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Denser dots make darker tones. Stippling suits stone, sand and soft textures.",
+   "distractors": {
+    "d": "That's hatching.",
+    "a": "That's cross-hatching.",
+    "b": "That's blending."
+   },
+   "takeaway": "Stippling = dots.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-022",
+   "type": "mcq",
+   "subtopic": "drawing.texture",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Cross-hatching creates darker tones by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Erasing"
+    },
+    {
+     "id": "b",
+     "text": "Using colour"
+    },
+    {
+     "id": "c",
+     "text": "Layering lines in different directions"
+    },
+    {
+     "id": "d",
+     "text": "Using dots"
+    }
+   ],
+   "answer": "c",
+   "explanation": "More layers of crossing lines create darker values.",
+   "distractors": {
+    "d": "That's stippling.",
+    "a": "Erasing lightens.",
+    "b": "It works in monochrome."
+   },
+   "takeaway": "More layers, darker tone.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-023",
+   "type": "mcq",
+   "subtopic": "drawing.texture",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "To make polished steel look shiny in a pencil drawing, you should…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Add wood-grain lines"
+    },
+    {
+     "id": "b",
+     "text": "Use only light pressure"
+    },
+    {
+     "id": "c",
+     "text": "Use strong contrast: sharp dark reflections next to bright highlights"
+    },
+    {
+     "id": "d",
+     "text": "Shade it evenly grey"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Reflective surfaces show sharp, high-contrast reflections of their surroundings.",
+   "distractors": {
+    "d": "Even grey looks dull.",
+    "a": "That's for wood.",
+    "b": "Shine needs strong darks too."
+   },
+   "takeaway": "Shine = sharp contrast.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-024",
+   "type": "mcq",
+   "subtopic": "drawing.line",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "In line drawing, thicker lines are typically used for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Edges closer to the viewer or in shadow"
+    },
+    {
+     "id": "b",
+     "text": "Distant edges"
+    },
+    {
+     "id": "c",
+     "text": "Highlights"
+    },
+    {
+     "id": "d",
+     "text": "Construction lines"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Varying line weight adds depth: heavy for near and shadowed edges, light for far and lit edges.",
+   "distractors": {
+    "b": "Distant edges use thinner lines.",
+    "c": "Highlights are usually left light.",
+    "d": "These should be light."
+   },
+   "takeaway": "Line weight = depth.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-025",
+   "type": "mcq",
+   "subtopic": "drawing.line",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Construction lines in a drawing should be…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "As dark as possible"
+    },
+    {
+     "id": "b",
+     "text": "In red ink"
+    },
+    {
+     "id": "c",
+     "text": "Avoided completely"
+    },
+    {
+     "id": "d",
+     "text": "Light, so they can be erased or ignored"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Light guide lines help get proportions and perspective right without ruining the final drawing.",
+   "distractors": {
+    "a": "Dark construction lines are hard to hide.",
+    "b": "Not necessary.",
+    "c": "They help accuracy."
+   },
+   "takeaway": "Guide lines light; final lines confident.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-026",
+   "type": "mcq",
+   "subtopic": "drawing.line",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A 'contour drawing' focuses on…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The edges and outlines of forms"
+    },
+    {
+     "id": "b",
+     "text": "Only shadows"
+    },
+    {
+     "id": "c",
+     "text": "Colour mixing"
+    },
+    {
+     "id": "d",
+     "text": "Perspective grids"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Contour drawing trains observation of edges; blind contour (not looking at the paper) sharpens hand–eye coordination.",
+   "distractors": {
+    "b": "That's tonal drawing.",
+    "c": "Unrelated.",
+    "d": "Not the focus."
+   },
+   "takeaway": "Contours train observation.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-027",
+   "type": "mcq",
+   "subtopic": "drawing.perspective",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "To make a crowd look deep in a scene, which technique helps MOST?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Using only outlines"
+    },
+    {
+     "id": "b",
+     "text": "Placing everyone in one row"
+    },
+    {
+     "id": "c",
+     "text": "Overlap and making far figures smaller"
+    },
+    {
+     "id": "d",
+     "text": "Drawing everyone the same size"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Overlap and diminishing size are the two strongest depth cues in drawing.",
+   "distractors": {
+    "d": "That flattens the scene.",
+    "a": "Doesn't create depth.",
+    "b": "That removes depth."
+   },
+   "takeaway": "Overlap + smaller = further.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-drw-028",
+   "type": "mcq",
+   "subtopic": "drawing.light-shade",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Without a cast shadow, an object drawn on a table often looks like it is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Sinking"
+    },
+    {
+     "id": "b",
+     "text": "Moving"
+    },
+    {
+     "id": "c",
+     "text": "Brighter"
+    },
+    {
+     "id": "d",
+     "text": "Floating"
+    }
+   ],
+   "answer": "d",
+   "explanation": "A cast shadow, especially the dark contact shadow, connects the object to the surface.",
+   "distractors": {
+    "a": "Not usually.",
+    "b": "Not usually.",
+    "c": "Not necessarily."
+   },
+   "takeaway": "Shadows ground objects.",
+   "tags": [],
+   "needsReview": false
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "cards": [
+  {
+   "id": "cc-indian.textiles",
+   "subtopic": "indian.textiles",
+   "title": "Indian textiles & weaves",
+   "body": "India has hundreds of textile traditions. Weaves: Ilkal (Karnataka, cotton body with a joined pallu), Mysore silk, Chanderi (Madhya Pradesh, sheer silk-cotton), Banarasi (brocade with zari), Ikat (patterns dyed into threads before weaving, e.g. Pochampally). Dyeing and printing: Bandhani (tie-and-dye, Gujarat & Rajasthan), Kalamkari (pen-drawn or block-printed, Andhra Pradesh). Embroideries: Kasuti (Karnataka), Chikankari (Lucknow), Phulkari (Punjab), Kantha (Bengal)."
+  },
+  {
+   "id": "cc-indian.crafts",
+   "subtopic": "indian.crafts",
+   "title": "Indian crafts",
+   "body": "Craft = material + technique + place + community. Karnataka: Channapatna lacquered wooden toys, Bidriware (blackened zinc alloy with silver inlay, Bidar), Kinnal painted figures (Koppal), Mysore rosewood inlay, sandalwood carving. Elsewhere: Dhokra (lost-wax brass casting), Jaipur blue pottery (quartz-based), Bastar wrought iron, Kutch embroidery and mirror work, Kondapalli toys (Andhra Pradesh). Many have GI (Geographical Indication) tags protecting their origin."
+  },
+  {
+   "id": "cc-indian.painting",
+   "subtopic": "indian.painting",
+   "title": "Folk & tribal painting",
+   "body": "Warli (Maharashtra): white geometric stick figures on mud walls. Madhubani/Mithila (Bihar): double outlines, dense patterns, no empty space. Gond (Madhya Pradesh): figures filled with dots and dashes. Pattachitra (Odisha): cloth scrolls with mythological stories and bold borders. Kalighat (Kolkata): bold, curving figures. Pithora (Gujarat): horses and ritual scenes. Mysore and Tanjore paintings use gesso and gold."
+  },
+  {
+   "id": "cc-indian.architecture",
+   "subtopic": "indian.architecture",
+   "title": "Indian architecture & monuments",
+   "body": "Hampi (Karnataka): ruins of the Vijayanagara capital, with the Vittala temple's stone chariot. Belur and Halebidu: Hoysala temples with intricate soapstone carving on star-shaped plans. Konark (Odisha): the Sun Temple built as a giant chariot with carved wheels. Other landmarks: Mughal tombs (Humayun's Tomb, Taj Mahal) with charbagh gardens; stepwells (Rani ki Vav); modern works such as Chandigarh by Le Corbusier and IIM Ahmedabad by Louis Kahn."
+  },
+  {
+   "id": "cc-indian.design-history",
+   "subtopic": "indian.design-history",
+   "title": "Indian design & NID history",
+   "body": "In 1958 Charles and Ray Eames wrote the 'India Report', recommending a design institute to help India's development. This led to the National Institute of Design, founded in 1961 in Ahmedabad. NID pioneered design education in India with a learning-by-doing studio approach. Indian design has since grown across products, communication, textiles and crafts."
+  },
+  {
+   "id": "cc-indian.products",
+   "subtopic": "indian.products",
+   "title": "Indian product icons",
+   "body": "Everyday Indian icons show smart, frugal design: the pressure cooker (fast cooking, saves fuel), the steel tiffin carrier (stackable, reusable), the auto-rickshaw, the Ambassador car, the matka (evaporative cooling), the kulhad, the 'jugaad' repairs, and the stainless-steel tumbler-and-dabara for filter coffee. Their designs balance cost, durability and local needs."
+  }
+ ]
+}

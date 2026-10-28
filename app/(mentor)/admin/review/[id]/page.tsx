@@ -14,7 +14,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ id: str
   if (!s) notFound();
   const { data: task } = s.task_id ? await db.from("studio_tasks").select("title,brief,minutes,examiner_checklist").eq("id", s.task_id).maybeSingle() : { data: null };
   const urls = await signedSheetUrls(db, s.image_paths as string[]);
-  const { data: next } = await db.from("studio_submissions").select("id").is("reviewed_at", null).neq("id", id).order("created_at", { ascending: false }).limit(1).maybeSingle();
+  const { data: next } = await db.from("studio_submissions").select("id").is("reviewed_at", null).neq("context", "mock").neq("id", id).order("created_at", { ascending: false }).limit(1).maybeSingle();
   const checklist = (s.checklist ?? {}) as Record<string, boolean>;
   return (
     <div className="space-y-5">

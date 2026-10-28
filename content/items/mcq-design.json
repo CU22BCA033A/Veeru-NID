@@ -1,0 +1,2668 @@
+{
+ "items": [
+  {
+   "id": "mq-des-001",
+   "type": "mcq",
+   "subtopic": "design.elements",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Which of these is an ELEMENT of design (a building block), not a principle?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rhythm"
+    },
+    {
+     "id": "b",
+     "text": "Texture"
+    },
+    {
+     "id": "c",
+     "text": "Balance"
+    },
+    {
+     "id": "d",
+     "text": "Emphasis"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Elements are the raw ingredients: point, line, shape, form, space, colour, value and texture. Principles (balance, contrast, emphasis, rhythm, unity, proportion) describe how those ingredients are arranged.",
+   "distractors": {
+    "c": "Balance is a principle: how elements are arranged.",
+    "d": "Emphasis is a principle that creates a focal point.",
+    "a": "Rhythm is a principle created by repetition."
+   },
+   "takeaway": "Elements = ingredients; principles = recipe.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-002",
+   "type": "mcq",
+   "subtopic": "design.elements",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "The difference between 'shape' and 'form' in design is that…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Shape is coloured; form is not"
+    },
+    {
+     "id": "b",
+     "text": "They mean exactly the same"
+    },
+    {
+     "id": "c",
+     "text": "Shape is two-dimensional; form is three-dimensional"
+    },
+    {
+     "id": "d",
+     "text": "Shape is curved; form is straight"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A circle is a shape; a sphere is a form. Shading, perspective and overlap turn shapes into forms on paper.",
+   "distractors": {
+    "d": "Both can be curved or straight.",
+    "a": "Colour is a separate element.",
+    "b": "Designers use them for 2D vs 3D."
+   },
+   "takeaway": "Shape = flat; form = volume.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-003",
+   "type": "mcq",
+   "subtopic": "design.elements",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The empty area around and between objects in a design is called…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Positive space"
+    },
+    {
+     "id": "b",
+     "text": "Texture"
+    },
+    {
+     "id": "c",
+     "text": "Hierarchy"
+    },
+    {
+     "id": "d",
+     "text": "Negative space"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Negative space gives objects room to breathe and can form shapes of its own; the FedEx logo hides an arrow between the E and x.",
+   "distractors": {
+    "a": "Positive space is the area the objects themselves occupy.",
+    "b": "Texture is surface quality.",
+    "c": "Hierarchy is reading order."
+   },
+   "takeaway": "Design the gaps, not just the things.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-004",
+   "type": "mcq",
+   "subtopic": "design.elements",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which element describes how light or dark a colour is?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Saturation"
+    },
+    {
+     "id": "b",
+     "text": "Line"
+    },
+    {
+     "id": "c",
+     "text": "Value"
+    },
+    {
+     "id": "d",
+     "text": "Hue"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Value is lightness/darkness. Strong value contrast keeps a design readable even in black and white.",
+   "distractors": {
+    "d": "Hue is the colour family, like red or blue.",
+    "a": "Saturation is intensity or dullness.",
+    "b": "Line is a mark between two points."
+   },
+   "takeaway": "Squint test = value test.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-005",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "A poster where one big red circle stands out among small grey squares mainly uses…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Repetition to create rhythm"
+    },
+    {
+     "id": "b",
+     "text": "Symmetry to create balance"
+    },
+    {
+     "id": "c",
+     "text": "Unity through similarity"
+    },
+    {
+     "id": "d",
+     "text": "Contrast to create emphasis"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Making one element different in colour, size and shape creates a focal point: contrast in service of emphasis.",
+   "distractors": {
+    "a": "The grey squares repeat, but the point is the circle standing out.",
+    "b": "Nothing here depends on mirror symmetry.",
+    "c": "The circle is deliberately dissimilar."
+   },
+   "takeaway": "Break the pattern to create a focal point.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-006",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Asymmetrical balance is achieved when…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Elements radiate from the centre"
+    },
+    {
+     "id": "b",
+     "text": "All elements are the same size"
+    },
+    {
+     "id": "c",
+     "text": "Unequal elements on either side feel equally weighted"
+    },
+    {
+     "id": "d",
+     "text": "Both halves are mirror images"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A large light shape can balance a small dark one; a big object near the centre can balance a small one near the edge. It feels dynamic yet stable.",
+   "distractors": {
+    "d": "That's symmetrical balance.",
+    "a": "That's radial balance.",
+    "b": "That's uniformity, not balance."
+   },
+   "takeaway": "Asymmetry = different but equal weight.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-007",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A rangoli or a mandala usually shows which type of balance?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Radial balance"
+    },
+    {
+     "id": "b",
+     "text": "Asymmetrical balance"
+    },
+    {
+     "id": "c",
+     "text": "No balance"
+    },
+    {
+     "id": "d",
+     "text": "Vertical symmetry only"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Elements radiating evenly from a central point create radial balance, also seen in wheels, flowers and clock faces.",
+   "distractors": {
+    "b": "Rangoli patterns repeat evenly around a centre.",
+    "c": "They are very balanced.",
+    "d": "They repeat in many directions, not just left-right."
+   },
+   "takeaway": "Radial = repeats around a centre.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-008",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "'Visual hierarchy' in a layout refers to…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The order in which the eye reads elements, from most to least important"
+    },
+    {
+     "id": "b",
+     "text": "The number of colours used"
+    },
+    {
+     "id": "c",
+     "text": "Placing the logo at the top"
+    },
+    {
+     "id": "d",
+     "text": "Using only one typeface"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Size, weight, colour, contrast and position tell the viewer what to read first, second and third. Without hierarchy, everything competes and nothing is read.",
+   "distractors": {
+    "b": "Colour can create hierarchy, but hierarchy is about reading order.",
+    "c": "That's one possible choice, not the definition.",
+    "d": "Typeface count doesn't define hierarchy."
+   },
+   "takeaway": "Decide reading order: 1 big, 2–3 medium, rest small.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-009",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Rows of identical windows on a building create…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Emphasis"
+    },
+    {
+     "id": "b",
+     "text": "Radial balance"
+    },
+    {
+     "id": "c",
+     "text": "Contrast"
+    },
+    {
+     "id": "d",
+     "text": "Rhythm through repetition"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Repeating similar elements at regular intervals creates rhythm, which the eye follows like a beat in music.",
+   "distractors": {
+    "a": "Nothing stands out; they're all the same.",
+    "b": "They're in rows, not around a centre.",
+    "c": "Identical windows have little contrast with each other."
+   },
+   "takeaway": "Repetition → rhythm.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-010",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Which principle is most violated by a shop board where every word is the same size and colour?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Texture"
+    },
+    {
+     "id": "b",
+     "text": "Radial balance"
+    },
+    {
+     "id": "c",
+     "text": "Hierarchy"
+    },
+    {
+     "id": "d",
+     "text": "Rhythm"
+    }
+   ],
+   "answer": "c",
+   "explanation": "When everything is equally loud, nothing is heard. The shop name or product should dominate; details should be smaller.",
+   "distractors": {
+    "d": "Repetition isn't the problem.",
+    "a": "Texture isn't relevant here.",
+    "b": "Boards don't need radial balance."
+   },
+   "takeaway": "Equal emphasis = no emphasis.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-011",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The golden ratio is approximately…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "1 : 1.618"
+    },
+    {
+     "id": "b",
+     "text": "1 : 2"
+    },
+    {
+     "id": "c",
+     "text": "1 : 1.414"
+    },
+    {
+     "id": "d",
+     "text": "1 : 3"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The golden ratio (≈1.618) appears in nature and classical art and architecture, and is used for pleasing proportions. A-series paper uses √2 (≈1.414) so halving keeps the same shape.",
+   "distractors": {
+    "b": "That's a simple double.",
+    "c": "That's √2, the ratio of A-series paper.",
+    "d": "Too large."
+   },
+   "takeaway": "Golden ≈ 1.618; A4 ≈ 1.414.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-012",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A4 paper folded in half gives A5 with the same proportions. This works because the ratio of the sides is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "2 : 1"
+    },
+    {
+     "id": "b",
+     "text": "3 : 2"
+    },
+    {
+     "id": "c",
+     "text": "√2 (about 1.414)"
+    },
+    {
+     "id": "d",
+     "text": "The golden ratio"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Only a √2 rectangle keeps its proportions when halved. That's why A-series sizes (A0 → A1 → A2…) scale neatly.",
+   "distractors": {
+    "d": "Halving a golden rectangle doesn't keep its proportions.",
+    "a": "Halving a 2:1 sheet gives a square.",
+    "b": "Halving 3:2 gives 4:3, a different shape."
+   },
+   "takeaway": "A-series = √2 rectangles.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-013",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "'Unity' in a design means…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Placing everything in the centre"
+    },
+    {
+     "id": "b",
+     "text": "Having no white space"
+    },
+    {
+     "id": "c",
+     "text": "All parts look like they belong together"
+    },
+    {
+     "id": "d",
+     "text": "Using only one colour"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Unity comes from consistency in colour, type, shape language and spacing, so the design reads as one whole rather than a collection.",
+   "distractors": {
+    "d": "Unity can include many colours.",
+    "a": "Placement alone doesn't create unity.",
+    "b": "White space often helps unity."
+   },
+   "takeaway": "Consistency creates unity.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-014",
+   "type": "mcq",
+   "subtopic": "design.gestalt",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "We see a dotted outline of a circle as a complete circle. Which Gestalt principle is this?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Proximity"
+    },
+    {
+     "id": "b",
+     "text": "Similarity"
+    },
+    {
+     "id": "c",
+     "text": "Figure-ground"
+    },
+    {
+     "id": "d",
+     "text": "Closure"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Our brain fills gaps to complete familiar shapes. Many logos (IBM's striped letters, the WWF panda) depend on closure.",
+   "distractors": {
+    "a": "Proximity groups things that are close together.",
+    "b": "Similarity groups things that look alike.",
+    "c": "Figure-ground separates object from background."
+   },
+   "takeaway": "Brains complete incomplete shapes.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-015",
+   "type": "mcq",
+   "subtopic": "design.gestalt",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Buttons placed close together on a remote are understood as one group. This is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Closure"
+    },
+    {
+     "id": "b",
+     "text": "Continuity"
+    },
+    {
+     "id": "c",
+     "text": "Common fate"
+    },
+    {
+     "id": "d",
+     "text": "Proximity"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Things close to each other are seen as related. Designers group related controls and separate unrelated ones with space.",
+   "distractors": {
+    "a": "Nothing incomplete is being completed.",
+    "b": "Continuity is about following lines.",
+    "c": "Common fate is about things moving together."
+   },
+   "takeaway": "Near = related.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-016",
+   "type": "mcq",
+   "subtopic": "design.gestalt",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The famous 'vase or two faces' picture demonstrates…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Similarity"
+    },
+    {
+     "id": "b",
+     "text": "Proximity"
+    },
+    {
+     "id": "c",
+     "text": "Repetition"
+    },
+    {
+     "id": "d",
+     "text": "Figure–ground"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The image can be read as a vase (figure) on a background, or two faces with the vase as background. Figure–ground lets designers hide second images in negative space.",
+   "distractors": {
+    "a": "Similarity is about matching appearance.",
+    "b": "Proximity is about distance between elements.",
+    "c": "Repetition is a design principle, not this effect."
+   },
+   "takeaway": "What's object and what's background can flip.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-017",
+   "type": "mcq",
+   "subtopic": "design.gestalt",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In a chart, all the red dots are read as one group even though they're scattered. Which principle?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Similarity"
+    },
+    {
+     "id": "b",
+     "text": "Proximity"
+    },
+    {
+     "id": "c",
+     "text": "Closure"
+    },
+    {
+     "id": "d",
+     "text": "Figure-ground"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Elements that share colour, shape or size are perceived as related. That's why consistent colour coding works.",
+   "distractors": {
+    "b": "They aren't close together.",
+    "c": "There's no incomplete shape.",
+    "d": "That's about object vs background."
+   },
+   "takeaway": "Alike = related.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-018",
+   "type": "mcq",
+   "subtopic": "design.gestalt",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The eye follows a smooth curve through a cluster of shapes rather than jumping at sharp angles. This is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Closure"
+    },
+    {
+     "id": "b",
+     "text": "Similarity"
+    },
+    {
+     "id": "c",
+     "text": "Symmetry"
+    },
+    {
+     "id": "d",
+     "text": "Continuity"
+    }
+   ],
+   "answer": "d",
+   "explanation": "We prefer smooth, continuous paths. Designers use curves and lines to guide the eye through a layout.",
+   "distractors": {
+    "a": "Closure completes gaps in a shape.",
+    "b": "Similarity is about matching features.",
+    "c": "Symmetry is mirror balance."
+   },
+   "takeaway": "The eye follows smooth paths.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-019",
+   "type": "mcq",
+   "subtopic": "design.form-function",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "'Form follows function' means that…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Decoration is more important than use"
+    },
+    {
+     "id": "b",
+     "text": "All objects should be square"
+    },
+    {
+     "id": "c",
+     "text": "Function should copy fashion"
+    },
+    {
+     "id": "d",
+     "text": "An object's shape should come from what it needs to do"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The phrase, associated with architect Louis Sullivan, guided modernist design: purpose first, then form that serves it.",
+   "distractors": {
+    "a": "It argues the opposite.",
+    "b": "It's not about one shape.",
+    "c": "It's about purpose, not trends."
+   },
+   "takeaway": "Purpose shapes form.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-020",
+   "type": "mcq",
+   "subtopic": "design.form-function",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Why do many kettle handles have a gap between handle and body?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "To make it lighter to pour"
+    },
+    {
+     "id": "b",
+     "text": "For decoration only"
+    },
+    {
+     "id": "c",
+     "text": "To keep hands away from the hot surface"
+    },
+    {
+     "id": "d",
+     "text": "To save material"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Heat insulation and knuckle clearance are classic form-follows-function decisions.",
+   "distractors": {
+    "d": "The gap is for safety and comfort, not saving material.",
+    "a": "Weight barely changes.",
+    "b": "It's functional."
+   },
+   "takeaway": "Touch points need heat and clearance thinking.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-021",
+   "type": "mcq",
+   "subtopic": "design.form-function",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A stainless-steel tumbler is slightly narrower at the bottom than at the top. The main reason is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "To keep drinks cold"
+    },
+    {
+     "id": "b",
+     "text": "To save steel"
+    },
+    {
+     "id": "c",
+     "text": "So tumblers can be stacked inside each other"
+    },
+    {
+     "id": "d",
+     "text": "To look elegant"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A tapered form nests, saving shelf space in homes, hotels and canteens. Many stackable objects (cups, chairs, buckets) are tapered.",
+   "distractors": {
+    "d": "Appearance isn't the main reason.",
+    "a": "Shape doesn't significantly change temperature.",
+    "b": "The saving is negligible."
+   },
+   "takeaway": "Taper = stackable.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-022",
+   "type": "mcq",
+   "subtopic": "design.good-bad",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "In Don Norman's terms, a flat metal plate on a door 'says' push. This cue is called a…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Feedback"
+    },
+    {
+     "id": "b",
+     "text": "Mapping"
+    },
+    {
+     "id": "c",
+     "text": "Signifier"
+    },
+    {
+     "id": "d",
+     "text": "Constraint"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Signifiers communicate how to use something. A plate signals push; a handle signals pull. 'The Design of Everyday Things' popularised the term.",
+   "distractors": {
+    "d": "A constraint prevents wrong actions.",
+    "a": "Feedback tells you an action worked.",
+    "b": "Mapping is the control–effect relationship."
+   },
+   "takeaway": "Good objects explain themselves.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-023",
+   "type": "mcq",
+   "subtopic": "design.good-bad",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A lift button lights up when pressed. This is an example of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mapping"
+    },
+    {
+     "id": "b",
+     "text": "Feedback"
+    },
+    {
+     "id": "c",
+     "text": "Affordance"
+    },
+    {
+     "id": "d",
+     "text": "Constraint"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Feedback tells the user their action was received, which prevents repeated pressing and uncertainty.",
+   "distractors": {
+    "c": "Affordance is what an object allows you to do.",
+    "d": "A constraint limits actions.",
+    "a": "Mapping is control layout."
+   },
+   "takeaway": "Always confirm the user's action.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-024",
+   "type": "mcq",
+   "subtopic": "design.good-bad",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A USB-C plug that works either way up removes the need to check orientation. This design reduces…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Errors and frustration through forgiving design"
+    },
+    {
+     "id": "b",
+     "text": "Feedback"
+    },
+    {
+     "id": "c",
+     "text": "Aesthetics"
+    },
+    {
+     "id": "d",
+     "text": "Mapping"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Designing so that mistakes can't happen (or don't matter) is better than warning people about them.",
+   "distractors": {
+    "b": "It doesn't change feedback.",
+    "c": "It's about usability.",
+    "d": "Mapping is about controls and their effects."
+   },
+   "takeaway": "Design out the error.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-025",
+   "type": "mcq",
+   "subtopic": "design.good-bad",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Stove knobs arranged in the same layout as the burners they control show good…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mapping"
+    },
+    {
+     "id": "b",
+     "text": "Feedback"
+    },
+    {
+     "id": "c",
+     "text": "Signifiers"
+    },
+    {
+     "id": "d",
+     "text": "Texture"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Natural mapping makes the relationship between controls and results obvious, so no labels are needed.",
+   "distractors": {
+    "b": "Feedback is response to action.",
+    "c": "Signifiers show how to use something.",
+    "d": "Not relevant."
+   },
+   "takeaway": "Lay out controls like what they control.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-026",
+   "type": "mcq",
+   "subtopic": "design.good-bad",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which is the BEST sign that a product is poorly designed?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Users need written instructions stuck on it to use it correctly"
+    },
+    {
+     "id": "b",
+     "text": "It's made of plastic"
+    },
+    {
+     "id": "c",
+     "text": "It's expensive"
+    },
+    {
+     "id": "d",
+     "text": "It's a bright colour"
+    }
+   ],
+   "answer": "a",
+   "explanation": "If people need a note saying 'PUSH' or 'Switch 3 = fan', the design itself isn't communicating.",
+   "distractors": {
+    "b": "Material alone doesn't make design bad.",
+    "c": "Price isn't a usability measure.",
+    "d": "Colour isn't the problem."
+   },
+   "takeaway": "Labels on labels mean a design failed.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-027",
+   "type": "mcq",
+   "subtopic": "design.ergonomics",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Anthropometry is the study of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Human body measurements"
+    },
+    {
+     "id": "b",
+     "text": "Human emotions"
+    },
+    {
+     "id": "c",
+     "text": "Ancient people"
+    },
+    {
+     "id": "d",
+     "text": "Animal movement"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Designers use anthropometric data (heights, reach, grip sizes) to size furniture, tools and spaces for real people.",
+   "distractors": {
+    "b": "That's psychology.",
+    "c": "That's anthropology.",
+    "d": "Not relevant."
+   },
+   "takeaway": "Design to real body data.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-028",
+   "type": "mcq",
+   "subtopic": "design.ergonomics",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "When designing a public bus grab-rail height, designers usually aim to fit…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The tallest person only"
+    },
+    {
+     "id": "b",
+     "text": "Children only"
+    },
+    {
+     "id": "c",
+     "text": "A wide range of users, e.g. from the 5th to the 95th percentile"
+    },
+    {
+     "id": "d",
+     "text": "Only the average person"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Designing for a range (often 5th–95th percentile, plus extra options like lower rails) includes most people. Designing for an 'average' fits almost nobody well.",
+   "distractors": {
+    "d": "An 'average' fit excludes many people.",
+    "a": "Short users couldn't reach it.",
+    "b": "Adults are the main users."
+   },
+   "takeaway": "There's no average user.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-029",
+   "type": "mcq",
+   "subtopic": "design.ergonomics",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which chair feature most helps someone sitting for a 3-hour exam?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Lower-back (lumbar) support and the right seat height"
+    },
+    {
+     "id": "b",
+     "text": "A glossy finish"
+    },
+    {
+     "id": "c",
+     "text": "Bright colour"
+    },
+    {
+     "id": "d",
+     "text": "Very hard, flat back"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Supporting the lower back's natural curve and letting feet rest flat reduces fatigue over long periods.",
+   "distractors": {
+    "b": "Finish doesn't affect posture.",
+    "c": "Colour doesn't support the spine.",
+    "d": "A flat hard back doesn't support the spine's curve."
+   },
+   "takeaway": "Support the spine, feet flat.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-030",
+   "type": "mcq",
+   "subtopic": "design.ergonomics",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Why are many cutting tools for elderly users made with thicker, softer handles?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Thicker handles are cheaper"
+    },
+    {
+     "id": "b",
+     "text": "To make the tool heavier"
+    },
+    {
+     "id": "c",
+     "text": "A thicker, cushioned grip needs less finger strength and reduces pain"
+    },
+    {
+     "id": "d",
+     "text": "They look more modern"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Larger diameters spread force and suit weaker or arthritic hands, which is inclusive design benefiting everyone.",
+   "distractors": {
+    "d": "The reason is functional.",
+    "a": "They usually cost more.",
+    "b": "Weight isn't the goal."
+   },
+   "takeaway": "Bigger, softer grips need less force.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-031",
+   "type": "mcq",
+   "subtopic": "design.composition",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "The rule of thirds suggests placing key elements…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Only at the edges"
+    },
+    {
+     "id": "b",
+     "text": "At random"
+    },
+    {
+     "id": "c",
+     "text": "Along the lines dividing the frame into thirds"
+    },
+    {
+     "id": "d",
+     "text": "Exactly in the centre"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A 3×3 grid's lines and intersections are strong positions that usually feel more dynamic than the centre.",
+   "distractors": {
+    "d": "That's central composition.",
+    "a": "Edges aren't the guideline.",
+    "b": "It's a deliberate guideline."
+   },
+   "takeaway": "Off-centre on thirds = dynamic.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-032",
+   "type": "mcq",
+   "subtopic": "design.composition",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A doorway around a person in a photo, focusing attention on them, is called…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Frame within a frame"
+    },
+    {
+     "id": "b",
+     "text": "Leading lines"
+    },
+    {
+     "id": "c",
+     "text": "Rule of thirds"
+    },
+    {
+     "id": "d",
+     "text": "Negative space"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Natural frames (doors, windows, arches) isolate the subject and add depth.",
+   "distractors": {
+    "b": "Leading lines guide the eye along lines.",
+    "c": "That's about grid placement.",
+    "d": "That's empty area around a subject."
+   },
+   "takeaway": "Use the scene to frame the subject.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-033",
+   "type": "mcq",
+   "subtopic": "design.composition",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A layout grid in a magazine mainly helps by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Reducing the number of words"
+    },
+    {
+     "id": "b",
+     "text": "Creating consistent alignment and spacing across pages"
+    },
+    {
+     "id": "c",
+     "text": "Adding decoration"
+    },
+    {
+     "id": "d",
+     "text": "Making pages colourful"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Grids bring order: columns, margins and gutters keep layouts consistent, readable and fast to design.",
+   "distractors": {
+    "c": "Grids are structural, mostly invisible.",
+    "d": "Colour is separate.",
+    "a": "Grids don't change content."
+   },
+   "takeaway": "Grids = invisible order.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-034",
+   "type": "mcq",
+   "subtopic": "design.typography",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "A typeface with small strokes at the ends of letters is called…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Script"
+    },
+    {
+     "id": "b",
+     "text": "Monospace"
+    },
+    {
+     "id": "c",
+     "text": "Serif"
+    },
+    {
+     "id": "d",
+     "text": "Sans-serif"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Serifs (like Times New Roman) feel traditional and bookish; sans-serifs (like Helvetica) feel clean and modern.",
+   "distractors": {
+    "d": "'Sans' means without serifs.",
+    "a": "Script imitates handwriting.",
+    "b": "Monospace means equal letter widths."
+   },
+   "takeaway": "Serif = little feet.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-035",
+   "type": "mcq",
+   "subtopic": "design.typography",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "For a railway station sign read from far away, which typeface choice is generally best?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "All text in italics"
+    },
+    {
+     "id": "b",
+     "text": "A very condensed font"
+    },
+    {
+     "id": "c",
+     "text": "A clear sans-serif with generous spacing"
+    },
+    {
+     "id": "d",
+     "text": "A thin decorative script"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Simple, open letterforms with good spacing and high contrast stay legible at distance and speed.",
+   "distractors": {
+    "d": "Scripts are hard to read at distance.",
+    "a": "Italics reduce legibility on signs.",
+    "b": "Condensed letters blur together at distance."
+   },
+   "takeaway": "Signs need plain, open letters.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-036",
+   "type": "mcq",
+   "subtopic": "design.typography",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The space between lines of text is called…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Baseline"
+    },
+    {
+     "id": "b",
+     "text": "Leading"
+    },
+    {
+     "id": "c",
+     "text": "Kerning"
+    },
+    {
+     "id": "d",
+     "text": "Tracking"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Leading (pronounced 'ledding') comes from strips of lead placed between lines of metal type. Too little feels cramped; too much breaks paragraphs apart.",
+   "distractors": {
+    "c": "Kerning is space between specific letter pairs.",
+    "d": "Tracking is overall letter spacing.",
+    "a": "The baseline is the line letters sit on."
+   },
+   "takeaway": "Leading = line spacing.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-037",
+   "type": "mcq",
+   "subtopic": "design.typography",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Adjusting the space between two specific letters, like 'A' and 'V', is called…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hinting"
+    },
+    {
+     "id": "b",
+     "text": "Kerning"
+    },
+    {
+     "id": "c",
+     "text": "Leading"
+    },
+    {
+     "id": "d",
+     "text": "Tracking"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Kerning fixes awkward gaps between certain letter pairs, important in logos and headlines.",
+   "distractors": {
+    "c": "Leading is between lines.",
+    "d": "Tracking adjusts all letters evenly.",
+    "a": "Hinting is technical screen rendering."
+   },
+   "takeaway": "Kerning = letter pairs.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-038",
+   "type": "mcq",
+   "subtopic": "design.typography",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which makes a headline stand out MOST in a text-heavy poster?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Large size and heavy weight with space around it"
+    },
+    {
+     "id": "b",
+     "text": "Using five different fonts"
+    },
+    {
+     "id": "c",
+     "text": "Making all text bold"
+    },
+    {
+     "id": "d",
+     "text": "Underlining everything"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Hierarchy comes from contrast: size, weight and space. Isolate the headline and make it clearly different.",
+   "distractors": {
+    "b": "Too many fonts create chaos.",
+    "c": "If everything is bold, nothing stands out.",
+    "d": "Underlining everything has no hierarchy."
+   },
+   "takeaway": "Contrast creates hierarchy.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-039",
+   "type": "mcq",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Pictograms used at international airports work well mainly because they…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Are always colourful"
+    },
+    {
+     "id": "b",
+     "text": "Contain detailed drawings"
+    },
+    {
+     "id": "c",
+     "text": "Use English words"
+    },
+    {
+     "id": "d",
+     "text": "Communicate without depending on one language"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Simple, consistent pictograms cross language barriers, crucial in a multilingual country like India.",
+   "distractors": {
+    "a": "Many are single-colour.",
+    "b": "Simplicity is key.",
+    "c": "They avoid relying on words."
+   },
+   "takeaway": "Pictograms cross languages.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-040",
+   "type": "mcq",
+   "subtopic": "design.pictograms",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The influential sports pictograms for the 1972 Munich Olympics were designed by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Otl Aicher"
+    },
+    {
+     "id": "b",
+     "text": "Paul Rand"
+    },
+    {
+     "id": "c",
+     "text": "Milton Glaser"
+    },
+    {
+     "id": "d",
+     "text": "Dieter Rams"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Aicher built the pictograms on a strict grid with lines at fixed angles, setting a model for later systems.",
+   "distractors": {
+    "b": "Paul Rand designed corporate logos like IBM.",
+    "c": "Glaser designed 'I ♥ NY'.",
+    "d": "Rams designed products for Braun."
+   },
+   "takeaway": "Consistent grid = consistent pictogram set.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-041",
+   "type": "mcq",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A good set of pictograms (e.g. for a hospital) should share…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The same line weight, style and grid"
+    },
+    {
+     "id": "b",
+     "text": "Different styles to stand out from each other"
+    },
+    {
+     "id": "c",
+     "text": "Lots of text"
+    },
+    {
+     "id": "d",
+     "text": "Photographic detail"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Consistency makes a set read as one system, so people learn it once and recognise it everywhere.",
+   "distractors": {
+    "b": "Mixed styles look chaotic and confuse users.",
+    "c": "Pictograms minimise text.",
+    "d": "Detail reduces clarity at small sizes."
+   },
+   "takeaway": "A set is a system.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-042",
+   "type": "mcq",
+   "subtopic": "design.logos",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A logo made only of the company's name in a special typeface is called a…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Wordmark"
+    },
+    {
+     "id": "b",
+     "text": "Emblem"
+    },
+    {
+     "id": "c",
+     "text": "Pictorial mark"
+    },
+    {
+     "id": "d",
+     "text": "Mascot"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Wordmarks (e.g. Google, Coca-Cola) rely on distinctive lettering.",
+   "distractors": {
+    "b": "An emblem encloses text in a badge or shape.",
+    "c": "A pictorial mark is an image.",
+    "d": "A mascot is a character."
+   },
+   "takeaway": "Wordmark = the name as the logo.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-043",
+   "type": "mcq",
+   "subtopic": "design.logos",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Which quality matters MOST for a logo that will appear on app icons and on large hoardings?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "It works at very small and very large sizes, in one colour"
+    },
+    {
+     "id": "b",
+     "text": "It has many fine details"
+    },
+    {
+     "id": "c",
+     "text": "It uses gradients"
+    },
+    {
+     "id": "d",
+     "text": "It includes a long slogan"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Scalability and one-colour reproduction are core tests of a strong logo.",
+   "distractors": {
+    "b": "Details disappear at small sizes.",
+    "c": "Gradients don't always reproduce well.",
+    "d": "Slogans become unreadable when small."
+   },
+   "takeaway": "Test logos tiny and in black.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-044",
+   "type": "mcq",
+   "subtopic": "design.logos",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The 'I ♥ NY' logo is a famous example of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "A mascot logo"
+    },
+    {
+     "id": "b",
+     "text": "Using a symbol to replace a word"
+    },
+    {
+     "id": "c",
+     "text": "Using only photographs"
+    },
+    {
+     "id": "d",
+     "text": "A logo with no letters"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Milton Glaser replaced 'love' with a heart: instantly readable across languages and endlessly copied.",
+   "distractors": {
+    "c": "It uses type and a symbol.",
+    "d": "It has letters.",
+    "a": "There's no character."
+   },
+   "takeaway": "A symbol can stand in for a word.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-045",
+   "type": "mcq",
+   "subtopic": "design.packaging",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The main functions of packaging include all EXCEPT…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Protecting the product"
+    },
+    {
+     "id": "b",
+     "text": "Giving information"
+    },
+    {
+     "id": "c",
+     "text": "Making it easy to carry and store"
+    },
+    {
+     "id": "d",
+     "text": "Making the product heavier so it seems valuable"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Packaging protects, contains, informs, sells and should be easy to dispose of. Adding weight only adds waste and transport cost.",
+   "distractors": {
+    "a": "Protection is a core function.",
+    "b": "Labels inform users.",
+    "c": "Convenience is a core function."
+   },
+   "takeaway": "Protect, inform, carry, dispose.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-046",
+   "type": "mcq",
+   "subtopic": "design.packaging",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Why are kulhads (unglazed clay cups) considered sustainable?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "They last for decades"
+    },
+    {
+     "id": "b",
+     "text": "They are imported"
+    },
+    {
+     "id": "c",
+     "text": "They are made of local clay and break down back into soil"
+    },
+    {
+     "id": "d",
+     "text": "They are recyclable plastic"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Kulhads use local material and labour and return to the earth, though firing uses energy and fertile topsoil, so they aren't perfect.",
+   "distractors": {
+    "d": "They are clay, not plastic.",
+    "a": "They're used once.",
+    "b": "They're local."
+   },
+   "takeaway": "Local + compostable = lower impact.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-047",
+   "type": "mcq",
+   "subtopic": "design.packaging",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "'Slack fill' in packaging means…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Refillable packaging"
+    },
+    {
+     "id": "b",
+     "text": "Packaging made of fabric"
+    },
+    {
+     "id": "c",
+     "text": "Packages with much more empty space than product"
+    },
+    {
+     "id": "d",
+     "text": "Packages that are too tight"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Slack fill misleads buyers and wastes material, a common complaint with chips packets.",
+   "distractors": {
+    "d": "That's the opposite.",
+    "a": "Unrelated.",
+    "b": "Unrelated."
+   },
+   "takeaway": "Package size should match contents.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-048",
+   "type": "mcq",
+   "subtopic": "design.signage",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "In India, a triangular road sign with a red border usually gives a…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Direction to a place"
+    },
+    {
+     "id": "b",
+     "text": "Advertisement"
+    },
+    {
+     "id": "c",
+     "text": "Warning (cautionary sign)"
+    },
+    {
+     "id": "d",
+     "text": "Command you must obey"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Shape encodes message type: triangle = caution, circle = rule, rectangle = information.",
+   "distractors": {
+    "d": "Mandatory signs are usually circular.",
+    "a": "Information signs are rectangular.",
+    "b": "Road signs don't advertise."
+   },
+   "takeaway": "Triangle = careful.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-049",
+   "type": "mcq",
+   "subtopic": "design.signage",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Where should a wayfinding sign be placed to be MOST useful?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "At the very end of a corridor"
+    },
+    {
+     "id": "b",
+     "text": "As high as possible"
+    },
+    {
+     "id": "c",
+     "text": "Only at the entrance"
+    },
+    {
+     "id": "d",
+     "text": "At decision points, where people must choose a direction"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Wayfinding works when information appears exactly where a decision is needed, at eye level.",
+   "distractors": {
+    "a": "By then the choice is made.",
+    "b": "Too high is hard to notice.",
+    "c": "People need help along the way."
+   },
+   "takeaway": "Signs belong at decisions.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-050",
+   "type": "mcq",
+   "subtopic": "design.signage",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A hospital uses coloured lines on the floor leading to different departments. This is an example of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Decoration only"
+    },
+    {
+     "id": "b",
+     "text": "Typography"
+    },
+    {
+     "id": "c",
+     "text": "Radial balance"
+    },
+    {
+     "id": "d",
+     "text": "Wayfinding through colour coding and continuity"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Floor lines are easy to follow for anxious or non-reading visitors: a simple, inclusive wayfinding system.",
+   "distractors": {
+    "a": "The lines have a clear function.",
+    "b": "It doesn't rely on text.",
+    "c": "Not relevant."
+   },
+   "takeaway": "Follow-the-line wayfinding.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-051",
+   "type": "mcq",
+   "subtopic": "design.signage",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Why do many Indian signs show text in two or three scripts?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Because one script is decorative"
+    },
+    {
+     "id": "b",
+     "text": "It's required on all private signs"
+    },
+    {
+     "id": "c",
+     "text": "To be readable by speakers of different languages"
+    },
+    {
+     "id": "d",
+     "text": "To fill space"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Multilingual signage is essential in India. Designers must balance multiple scripts while keeping hierarchy and legibility.",
+   "distractors": {
+    "d": "Not the purpose.",
+    "a": "All scripts carry the message.",
+    "b": "It's a communication choice, often required on public signs."
+   },
+   "takeaway": "Design for every reader.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-052",
+   "type": "mcq",
+   "subtopic": "design.elements",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A line that guides the viewer's eye towards the main subject is called…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "A leading line"
+    },
+    {
+     "id": "b",
+     "text": "A contour line"
+    },
+    {
+     "id": "c",
+     "text": "A hatch line"
+    },
+    {
+     "id": "d",
+     "text": "A baseline"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Roads, rivers, rails and edges can lead the eye to the subject, a powerful composition tool.",
+   "distractors": {
+    "b": "Contour lines describe edges of forms.",
+    "c": "Hatching creates tone.",
+    "d": "A typographic term."
+   },
+   "takeaway": "Lines lead the eye.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-053",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Making a child much smaller than a giant tree in an illustration mainly creates…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Unity"
+    },
+    {
+     "id": "b",
+     "text": "Pattern"
+    },
+    {
+     "id": "c",
+     "text": "Scale contrast that suggests vastness"
+    },
+    {
+     "id": "d",
+     "text": "Rhythm"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Contrast in scale tells a story about size and feeling: smallness, awe, vulnerability.",
+   "distractors": {
+    "d": "Rhythm needs repetition.",
+    "a": "Unity is about belonging together.",
+    "b": "Pattern is repeated motifs."
+   },
+   "takeaway": "Scale tells emotion.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-054",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which arrangement feels most stable and calm?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Many diagonal lines crossing"
+    },
+    {
+     "id": "b",
+     "text": "Everything crowded at one corner"
+    },
+    {
+     "id": "c",
+     "text": "Objects tilting at random"
+    },
+    {
+     "id": "d",
+     "text": "A wide, symmetrical composition with strong horizontals"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Horizontals and symmetry suggest rest; diagonals suggest movement; crowding suggests tension.",
+   "distractors": {
+    "a": "Diagonals feel dynamic.",
+    "b": "That creates tension.",
+    "c": "That feels unstable."
+   },
+   "takeaway": "Horizontals calm; diagonals energise.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-055",
+   "type": "mcq",
+   "subtopic": "design.composition",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Leaving large empty space around a single object in a poster usually makes the object feel…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "More important and calm"
+    },
+    {
+     "id": "b",
+     "text": "Less important"
+    },
+    {
+     "id": "c",
+     "text": "Crowded"
+    },
+    {
+     "id": "d",
+     "text": "Unfinished"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Negative space isolates and elevates the subject, which premium brands often use.",
+   "distractors": {
+    "b": "Isolation draws attention to it.",
+    "c": "It's the opposite of crowded.",
+    "d": "Deliberate space looks confident."
+   },
+   "takeaway": "Space signals importance.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-056",
+   "type": "mcq",
+   "subtopic": "design.form-function",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Why do public-park benches often have armrests in the middle?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "To save material"
+    },
+    {
+     "id": "b",
+     "text": "To make the bench heavier"
+    },
+    {
+     "id": "c",
+     "text": "To help people stand up, and to divide seating space"
+    },
+    {
+     "id": "d",
+     "text": "Purely for decoration"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Middle armrests help elderly people push themselves up and define personal space. Critics note they are sometimes added to stop people sleeping, which raises an ethical question about 'hostile' design.",
+   "distractors": {
+    "d": "They serve users.",
+    "a": "They add material.",
+    "b": "Not the reason."
+   },
+   "takeaway": "Every feature has users, and sometimes victims.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-057",
+   "type": "mcq",
+   "subtopic": "design.good-bad",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "'Hostile architecture' refers to…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Very tall buildings"
+    },
+    {
+     "id": "b",
+     "text": "Design features meant to stop certain uses, like spikes preventing people from sitting"
+    },
+    {
+     "id": "c",
+     "text": "Buildings that collapse"
+    },
+    {
+     "id": "d",
+     "text": "War memorials"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Spikes on ledges or sloped benches exclude homeless people and others. Designers must consider who a design excludes.",
+   "distractors": {
+    "c": "That's structural failure.",
+    "d": "Unrelated.",
+    "a": "Unrelated."
+   },
+   "takeaway": "Ask who a design pushes away.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-058",
+   "type": "mcq",
+   "subtopic": "design.ergonomics",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A computer screen's top edge should ideally be…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "At knee level"
+    },
+    {
+     "id": "b",
+     "text": "Behind the user"
+    },
+    {
+     "id": "c",
+     "text": "At or slightly below eye level"
+    },
+    {
+     "id": "d",
+     "text": "Far above eye level"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A screen at or just below eye level keeps the neck neutral during long work.",
+   "distractors": {
+    "d": "That strains the neck upward.",
+    "a": "That strains the neck downward.",
+    "b": "Not usable."
+   },
+   "takeaway": "Neutral posture reduces strain.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-059",
+   "type": "mcq",
+   "subtopic": "design.packaging",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The moulded paper-pulp trays used for eggs are usually made from…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Glass fibre"
+    },
+    {
+     "id": "b",
+     "text": "Aluminium"
+    },
+    {
+     "id": "c",
+     "text": "Recycled paper"
+    },
+    {
+     "id": "d",
+     "text": "Virgin plastic"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Moulded pulp is cheap, shock-absorbing, compostable and made from waste paper: a classic sustainable package.",
+   "distractors": {
+    "d": "Egg trays are typically pulp.",
+    "a": "Not used.",
+    "b": "Not used."
+   },
+   "takeaway": "Waste paper → protective packaging.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-060",
+   "type": "mcq",
+   "subtopic": "design.typography",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which is generally EASIEST to read in long paragraphs on paper?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Very light grey on white"
+    },
+    {
+     "id": "b",
+     "text": "Sentence case in a regular-weight text face"
+    },
+    {
+     "id": "c",
+     "text": "ALL CAPITALS"
+    },
+    {
+     "id": "d",
+     "text": "Bold italic throughout"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Lower-case words have distinctive shapes that help fast reading; all caps and heavy styling slow it down.",
+   "distractors": {
+    "c": "All caps slow reading because word shapes disappear.",
+    "d": "Heavy styling tires the eye.",
+    "a": "Low contrast hurts readability."
+   },
+   "takeaway": "Save caps for short labels.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-061",
+   "type": "mcq",
+   "subtopic": "design.pictograms",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "When testing a new pictogram, the most useful question is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Is it colourful?"
+    },
+    {
+     "id": "b",
+     "text": "Does it have many details?"
+    },
+    {
+     "id": "c",
+     "text": "Can people unfamiliar with it guess its meaning quickly?"
+    },
+    {
+     "id": "d",
+     "text": "Does the designer like it?"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Comprehension testing with real users (including non-readers and visitors) is the best check.",
+   "distractors": {
+    "d": "Personal taste doesn't test communication.",
+    "a": "Colour is secondary.",
+    "b": "Detail usually hurts recognition."
+   },
+   "takeaway": "Test with strangers.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-062",
+   "type": "mcq",
+   "subtopic": "design.logos",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Why might a company 'flatten' its logo (removing 3D effects and gradients)?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Flat designs reproduce clearly on screens, small icons and print"
+    },
+    {
+     "id": "b",
+     "text": "Flat logos are always cheaper to print"
+    },
+    {
+     "id": "c",
+     "text": "To hide the brand name"
+    },
+    {
+     "id": "d",
+     "text": "Because 3D is illegal"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Simplified logos stay crisp across app icons, favicons, embroidery and single-colour printing.",
+   "distractors": {
+    "b": "Cost isn't the main reason.",
+    "c": "It doesn't hide anything.",
+    "d": "It's not."
+   },
+   "takeaway": "Simplicity travels across media.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-063",
+   "type": "mcq",
+   "subtopic": "design.signage",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "An exit sign is usually green with a running figure because…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Green signals safety and the figure communicates without words"
+    },
+    {
+     "id": "b",
+     "text": "Green is cheaper to print"
+    },
+    {
+     "id": "c",
+     "text": "Red would look nicer"
+    },
+    {
+     "id": "d",
+     "text": "It's a brand colour"
+    }
+   ],
+   "answer": "a",
+   "explanation": "International safety signs use green for safe conditions and exits, and pictograms that work for everyone in an emergency.",
+   "distractors": {
+    "b": "Not the reason.",
+    "c": "Red suggests danger or prohibition.",
+    "d": "It's a safety convention."
+   },
+   "takeaway": "Safety colours carry meaning.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-064",
+   "type": "mcq",
+   "subtopic": "design.form-function",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Many water bottles for cyclists have a squeezable body and a push-pull valve. The design priority here is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Holding hot drinks"
+    },
+    {
+     "id": "b",
+     "text": "Stacking in shops"
+    },
+    {
+     "id": "c",
+     "text": "Drinking quickly with one hand while moving"
+    },
+    {
+     "id": "d",
+     "text": "Looking expensive"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The user's context (riding, one hand free) determines the form: soft body, quick valve, grippy shape.",
+   "distractors": {
+    "d": "Not the priority.",
+    "a": "They're for cold water.",
+    "b": "Not the main use."
+   },
+   "takeaway": "Context decides form.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-065",
+   "type": "mcq",
+   "subtopic": "design.good-bad",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A switchboard with ten identical unlabelled switches mostly lacks…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Strength"
+    },
+    {
+     "id": "b",
+     "text": "Texture"
+    },
+    {
+     "id": "c",
+     "text": "Mapping and signifiers"
+    },
+    {
+     "id": "d",
+     "text": "Colour harmony"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Users can't tell which switch controls what. Grouping by area, icons or layout matching the room would fix it.",
+   "distractors": {
+    "d": "Colour isn't the core issue.",
+    "a": "They work; they're just confusing.",
+    "b": "Not the core issue."
+   },
+   "takeaway": "Controls should explain themselves.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-066",
+   "type": "mcq",
+   "subtopic": "design.ergonomics",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Lever-style door handles are recommended over round knobs in inclusive design because they…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Lock automatically"
+    },
+    {
+     "id": "b",
+     "text": "Can be operated with an elbow or a closed fist, no grip needed"
+    },
+    {
+     "id": "c",
+     "text": "Are cheaper"
+    },
+    {
+     "id": "d",
+     "text": "Look more traditional"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Round knobs need grip and twist, hard for arthritic hands, children or someone carrying bags. Levers work for almost everyone.",
+   "distractors": {
+    "c": "Cost isn't the reason.",
+    "d": "Not the reason.",
+    "a": "Unrelated."
+   },
+   "takeaway": "Levers beat knobs.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-067",
+   "type": "mcq",
+   "subtopic": "design.composition",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In a storyboard frame, the 'establishing shot' is usually a…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Wide shot showing where the scene takes place"
+    },
+    {
+     "id": "b",
+     "text": "Close-up of a face"
+    },
+    {
+     "id": "c",
+     "text": "Shot of a single object"
+    },
+    {
+     "id": "d",
+     "text": "Blank frame"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Films and storyboards often open with a wide shot to orient the viewer before moving closer.",
+   "distractors": {
+    "b": "That's for emotion.",
+    "c": "That's an insert shot.",
+    "d": "Not a shot."
+   },
+   "takeaway": "Start wide, then go close.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-068",
+   "type": "mcq",
+   "subtopic": "design.elements",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which element is created when a surface looks rough, smooth or bumpy in a drawing?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Value"
+    },
+    {
+     "id": "b",
+     "text": "Hue"
+    },
+    {
+     "id": "c",
+     "text": "Space"
+    },
+    {
+     "id": "d",
+     "text": "Texture"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Visual texture is suggested by mark-making; tactile texture is physical.",
+   "distractors": {
+    "a": "Value is lightness.",
+    "b": "Hue is colour family.",
+    "c": "Space is area around objects."
+   },
+   "takeaway": "Marks make texture.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-069",
+   "type": "mcq",
+   "subtopic": "design.principles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "In a group of identical blue chairs, one red chair stands out. The red chair becomes the…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Focal point"
+    },
+    {
+     "id": "b",
+     "text": "Background"
+    },
+    {
+     "id": "c",
+     "text": "Rhythm"
+    },
+    {
+     "id": "d",
+     "text": "Grid"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Breaking a pattern with one different element creates an instant focal point.",
+   "distractors": {
+    "b": "It's foreground interest.",
+    "c": "The blue chairs form the rhythm.",
+    "d": "Unrelated."
+   },
+   "takeaway": "One difference = focus.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-070",
+   "type": "mcq",
+   "subtopic": "design.gestalt",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Birds flying in the same direction are perceived as one flock. This is the Gestalt principle of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Common fate"
+    },
+    {
+     "id": "b",
+     "text": "Closure"
+    },
+    {
+     "id": "c",
+     "text": "Proximity"
+    },
+    {
+     "id": "d",
+     "text": "Figure-ground"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Elements moving in the same direction are perceived as a group, useful in animation and interface motion.",
+   "distractors": {
+    "b": "Nothing is being completed.",
+    "c": "They may not be close.",
+    "d": "Unrelated."
+   },
+   "takeaway": "Moving together = grouped.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-071",
+   "type": "mcq",
+   "subtopic": "design.signage",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which colour combination gives the highest legibility for a sign?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Yellow text on white"
+    },
+    {
+     "id": "b",
+     "text": "Red text on green"
+    },
+    {
+     "id": "c",
+     "text": "Light grey on white"
+    },
+    {
+     "id": "d",
+     "text": "Black text on yellow"
+    }
+   ],
+   "answer": "d",
+   "explanation": "High value contrast matters most. Black on yellow is among the most legible combinations, which is why it's used for warnings.",
+   "distractors": {
+    "a": "Very low contrast.",
+    "b": "Low value contrast and problematic for colour blindness.",
+    "c": "Very low contrast."
+   },
+   "takeaway": "Contrast first.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-des-072",
+   "type": "mcq",
+   "subtopic": "design.packaging",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which packaging change would MOST reduce waste for a spice brand?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Refillable containers with paper refill pouches"
+    },
+    {
+     "id": "b",
+     "text": "Adding a plastic outer box"
+    },
+    {
+     "id": "c",
+     "text": "Using multi-layer foil for each spoonful"
+    },
+    {
+     "id": "d",
+     "text": "Making the jar larger with the same amount inside"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Refill systems reuse the durable container and minimise disposable material.",
+   "distractors": {
+    "b": "More material.",
+    "c": "More waste.",
+    "d": "That's slack fill."
+   },
+   "takeaway": "Reuse beats recycle.",
+   "tags": [],
+   "needsReview": false
+  }
+ ]
+}

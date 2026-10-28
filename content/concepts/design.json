@@ -1,0 +1,76 @@
+{
+ "cards": [
+  {
+   "id": "cc-design.elements",
+   "subtopic": "design.elements",
+   "title": "Elements of design",
+   "body": "The building blocks: point, line, shape (2D), form (3D), space (positive and negative), colour, value (light/dark), and texture. Every design question can be answered by asking how these elements are used. Example: a poster with one large red circle in white space uses shape, colour and negative space to create focus."
+  },
+  {
+   "id": "cc-design.principles",
+   "subtopic": "design.principles",
+   "title": "Principles of design",
+   "body": "How elements are arranged: balance (symmetric/asymmetric/radial), contrast, emphasis (focal point), rhythm and repetition, proportion and scale, unity, movement, and hierarchy (the reading order). When something 'feels right', it's usually balance and hierarchy working together."
+  },
+  {
+   "id": "cc-design.gestalt",
+   "subtopic": "design.gestalt",
+   "title": "Gestalt principles",
+   "body": "How we group what we see: proximity (close things belong together), similarity (alike things belong together), closure (we complete incomplete shapes), continuity (we follow smooth lines), figure–ground (we separate object from background), and common fate (things moving together belong together). Logos such as the WWF panda rely on closure."
+  },
+  {
+   "id": "cc-design.form-function",
+   "subtopic": "design.form-function",
+   "title": "Form & function",
+   "body": "'Form follows function' (Louis Sullivan) means a design's shape should come from what it has to do. A pressure-cooker handle is plastic because it must stay cool; a chair stacks because its legs splay. Good designs balance function, meaning and beauty, and none of them is an afterthought."
+  },
+  {
+   "id": "cc-design.good-bad",
+   "subtopic": "design.good-bad",
+   "title": "Good vs bad design",
+   "body": "Don Norman's 'The Design of Everyday Things' explains it with a few ideas. Affordances: what an object lets you do. Signifiers: cues showing how to use it. Mapping: controls laid out like what they control. Feedback: knowing your action worked. Constraints: preventing mistakes. If a door needs a 'PUSH' sign, its design has failed."
+  },
+  {
+   "id": "cc-design.ergonomics",
+   "subtopic": "design.ergonomics",
+   "title": "Ergonomics",
+   "body": "Designing for the human body and mind. Sizes come from anthropometry (body measurements of real populations). Grips: power grip for force, precision grip for control. Good handles spread pressure; good seats support the lower back; controls sit within easy reach. Design for the range of users, not an 'average' person."
+  },
+  {
+   "id": "cc-design.composition",
+   "subtopic": "design.composition",
+   "title": "Composition & grids",
+   "body": "Composition is arranging elements within a frame. The rule of thirds puts key elements on the thirds lines; leading lines guide the eye; framing, symmetry and negative space create mood. Grids give layouts consistent alignment and spacing, which is why newspapers and websites look orderly."
+  },
+  {
+   "id": "cc-design.typography",
+   "subtopic": "design.typography",
+   "title": "Typography & lettering",
+   "body": "Serif typefaces have small strokes at letter ends (traditional, bookish); sans-serif ones don't (clean, modern, good for signs). Hierarchy comes from size, weight and spacing. Legibility at distance needs high contrast, simple letterforms and generous spacing. Kerning adjusts the space between letter pairs; leading is the space between lines."
+  },
+  {
+   "id": "cc-design.pictograms",
+   "subtopic": "design.pictograms",
+   "title": "Pictograms & icons",
+   "body": "A pictogram communicates without words. It needs a simple silhouette, a consistent style within a set (same line weight and grid), and meaning that crosses languages. Well-known pictogram systems include the 1964 Tokyo and 1972 Munich Olympics sets (Otl Aicher). Test it: does it read at stamp size?"
+  },
+  {
+   "id": "cc-design.logos",
+   "subtopic": "design.logos",
+   "title": "Logos & symbols",
+   "body": "A logo identifies; a symbol can carry meaning. Strong logos are simple, memorable, work in one colour and at small sizes, and suit the organisation's character. Types: wordmark (text only), lettermark (initials), pictorial mark, abstract mark and emblem. Analysing a logo: what shapes, what colours, what feeling, what story?"
+  },
+  {
+   "id": "cc-design.packaging",
+   "subtopic": "design.packaging",
+   "title": "Packaging",
+   "body": "Packaging protects, contains, informs, sells and should be easy to open, carry and dispose of. Trade-offs: protection vs material use, shelf appeal vs waste. Indian examples teach a lot: banana-leaf wraps, kulhads, moulded egg trays and steel tiffins. Ask what happens to it after use."
+  },
+  {
+   "id": "cc-design.signage",
+   "subtopic": "design.signage",
+   "title": "Signage & wayfinding",
+   "body": "Wayfinding helps people know where they are, where to go and how to get there. Good signs are placed at decision points, at eye level, with high contrast, pictograms and minimal words. Indian road signs: circular = mandatory/regulatory, triangular = cautionary, rectangular = informatory. A sign system is consistent in shape, colour and type."
+  }
+ ]
+}

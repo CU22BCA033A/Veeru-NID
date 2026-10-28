@@ -1,0 +1,1484 @@
+{
+ "items": [
+  {
+   "id": "mq-ind-001",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Bandhani is a textile technique based on…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Block printing"
+    },
+    {
+     "id": "b",
+     "text": "Mirror embroidery"
+    },
+    {
+     "id": "c",
+     "text": "Brocade weaving"
+    },
+    {
+     "id": "d",
+     "text": "Tie-and-dye"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Small points of cloth are tied tightly with thread before dyeing, leaving undyed dots. Bandhani is strongly associated with Gujarat and Rajasthan.",
+   "distractors": {
+    "a": "That's printing with carved blocks.",
+    "b": "That's shisha work.",
+    "c": "That's woven patterns with extra threads."
+   },
+   "takeaway": "Bandhani = tied dots.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-002",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "In Ikat weaving, the pattern is created by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Embroidering after weaving"
+    },
+    {
+     "id": "b",
+     "text": "Painting with a pen"
+    },
+    {
+     "id": "c",
+     "text": "Dyeing the threads in a pattern before weaving"
+    },
+    {
+     "id": "d",
+     "text": "Printing on finished cloth"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The resist-dyed threads give Ikat its characteristic slightly blurred edges. Pochampally (Telangana) and Patola (Gujarat) are famous examples.",
+   "distractors": {
+    "d": "Ikat patterns are dyed into the yarn.",
+    "a": "No embroidery is involved.",
+    "b": "That's Kalamkari."
+   },
+   "takeaway": "Ikat: pattern in the yarn.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-003",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Chikankari, a delicate white-on-white embroidery, is most associated with…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kanchipuram"
+    },
+    {
+     "id": "b",
+     "text": "Lucknow"
+    },
+    {
+     "id": "c",
+     "text": "Mysuru"
+    },
+    {
+     "id": "d",
+     "text": "Kutch"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Chikankari uses fine stitches on light fabrics like muslin, traditionally white thread on white cloth.",
+   "distractors": {
+    "c": "Mysuru is known for silk.",
+    "d": "Kutch is known for colourful mirror embroidery.",
+    "a": "Kanchipuram is known for silk sarees."
+   },
+   "takeaway": "Chikankari = Lucknow.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-004",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Phulkari, which means 'flower work', is an embroidery tradition of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "West Bengal"
+    },
+    {
+     "id": "b",
+     "text": "Kerala"
+    },
+    {
+     "id": "c",
+     "text": "Punjab"
+    },
+    {
+     "id": "d",
+     "text": "Karnataka"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Phulkari uses long darning stitches in bright silk thread on the back of the cloth, often covering the whole surface.",
+   "distractors": {
+    "d": "Karnataka's embroidery is Kasuti.",
+    "a": "Bengal's quilting embroidery is Kantha.",
+    "b": "Not Phulkari."
+   },
+   "takeaway": "Phulkari = Punjab.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-005",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Kantha embroidery is known for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Running stitches layering old saris into quilts and wraps"
+    },
+    {
+     "id": "b",
+     "text": "Gold zari brocade"
+    },
+    {
+     "id": "c",
+     "text": "Mirror pieces"
+    },
+    {
+     "id": "d",
+     "text": "Resist-dyed threads"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Kantha, from Bengal and Odisha, is a beautiful example of reuse: old fabric layered and stitched into something new.",
+   "distractors": {
+    "b": "That's Banarasi weaving.",
+    "c": "That's shisha work.",
+    "d": "That's Ikat."
+   },
+   "takeaway": "Kantha = running-stitch reuse.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-006",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Banarasi sarees are best known for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rich brocade with gold and silver zari"
+    },
+    {
+     "id": "b",
+     "text": "Tie-and-dye dots"
+    },
+    {
+     "id": "c",
+     "text": "Plain cotton weaves"
+    },
+    {
+     "id": "d",
+     "text": "Painted mythological scenes"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Woven in Varanasi, Banarasi silks feature intricate floral and paisley brocade.",
+   "distractors": {
+    "b": "That's Bandhani.",
+    "c": "Banarasi is rich silk brocade.",
+    "d": "That's Kalamkari or Pattachitra."
+   },
+   "takeaway": "Banarasi = brocade.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-007",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Mysore silk is closely associated with which organisation, founded during the Mysore kingdom?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Amul"
+    },
+    {
+     "id": "b",
+     "text": "Khadi and Village Industries Commission only"
+    },
+    {
+     "id": "c",
+     "text": "Tata Group"
+    },
+    {
+     "id": "d",
+     "text": "Karnataka Silk Industries Corporation (KSIC)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The Mysore silk factory was set up under the Mysore Maharaja; today KSIC makes Mysore silk sarees with real gold zari, and the product has a GI tag.",
+   "distractors": {
+    "a": "Amul is a dairy cooperative.",
+    "b": "KVIC is national; Mysore silk is KSIC's flagship.",
+    "c": "Not associated."
+   },
+   "takeaway": "Mysore silk = KSIC, GI-tagged.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-008",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "'Khadi' refers to cloth that is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Machine-made polyester"
+    },
+    {
+     "id": "b",
+     "text": "Only silk"
+    },
+    {
+     "id": "c",
+     "text": "Imported from abroad"
+    },
+    {
+     "id": "d",
+     "text": "Hand-spun and hand-woven"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Khadi became a symbol of the freedom movement and Swadeshi, promoted by Mahatma Gandhi.",
+   "distractors": {
+    "a": "Khadi is hand-made.",
+    "b": "Khadi is mostly cotton, also silk and wool.",
+    "c": "It's a symbol of self-reliance."
+   },
+   "takeaway": "Khadi = hand-spun, hand-woven.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-009",
+   "type": "mcq",
+   "subtopic": "indian.crafts",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Channapatna, famous for wooden toys, is in which state?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "West Bengal"
+    },
+    {
+     "id": "b",
+     "text": "Tamil Nadu"
+    },
+    {
+     "id": "c",
+     "text": "Karnataka"
+    },
+    {
+     "id": "d",
+     "text": "Rajasthan"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Channapatna, in Ramanagara district, is known as the 'town of toys'.",
+   "distractors": {
+    "d": "Rajasthan has other toy traditions.",
+    "a": "Not Channapatna.",
+    "b": "Not Channapatna."
+   },
+   "takeaway": "Channapatna = Karnataka toys.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-010",
+   "type": "mcq",
+   "subtopic": "indian.crafts",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Bidriware takes its name from…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "A river in Gujarat"
+    },
+    {
+     "id": "b",
+     "text": "The town of Bidar in Karnataka"
+    },
+    {
+     "id": "c",
+     "text": "A type of bird"
+    },
+    {
+     "id": "d",
+     "text": "A Persian word for silver"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Bidriware uses a blackened zinc-copper alloy inlaid with silver; it has a GI tag.",
+   "distractors": {
+    "c": "No.",
+    "d": "It's named after the town.",
+    "a": "No."
+   },
+   "takeaway": "Bidri = from Bidar.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-011",
+   "type": "mcq",
+   "subtopic": "indian.crafts",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Dhokra metal casting uses which technique?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Sand moulding only"
+    },
+    {
+     "id": "b",
+     "text": "Hammering sheets"
+    },
+    {
+     "id": "c",
+     "text": "Wire weaving"
+    },
+    {
+     "id": "d",
+     "text": "Lost-wax casting"
+    }
+   ],
+   "answer": "d",
+   "explanation": "A wax model is coated in clay and heated; the wax melts out and molten metal replaces it. Each mould is broken, so every piece is unique.",
+   "distractors": {
+    "a": "Dhokra uses wax models.",
+    "b": "That's repoussé.",
+    "c": "Not Dhokra."
+   },
+   "takeaway": "Dhokra = lost wax.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-012",
+   "type": "mcq",
+   "subtopic": "indian.crafts",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Jaipur blue pottery is made mainly from…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Brass"
+    },
+    {
+     "id": "b",
+     "text": "Quartz powder and glass, not clay"
+    },
+    {
+     "id": "c",
+     "text": "Red clay only"
+    },
+    {
+     "id": "d",
+     "text": "Wood"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Its quartz-based body and cobalt blue designs show Turko-Persian influence.",
+   "distractors": {
+    "c": "It uses a quartz-based body.",
+    "d": "It's a ceramic.",
+    "a": "It's a ceramic."
+   },
+   "takeaway": "Blue pottery: quartz, not clay.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-013",
+   "type": "mcq",
+   "subtopic": "indian.crafts",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Kondapalli toys, carved from light wood and painted, come from…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Assam"
+    },
+    {
+     "id": "b",
+     "text": "Andhra Pradesh"
+    },
+    {
+     "id": "c",
+     "text": "Karnataka"
+    },
+    {
+     "id": "d",
+     "text": "Gujarat"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Kondapalli toys often show village life and mythology, made from soft 'tella poniki' wood.",
+   "distractors": {
+    "c": "Karnataka has Channapatna and Kinnal.",
+    "d": "No.",
+    "a": "No."
+   },
+   "takeaway": "Know toys by state.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-014",
+   "type": "mcq",
+   "subtopic": "indian.crafts",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The GI (Geographical Indication) tag on a craft means…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "It is officially linked to its place of origin and traditional method"
+    },
+    {
+     "id": "b",
+     "text": "It's made by a government factory"
+    },
+    {
+     "id": "c",
+     "text": "It's machine-made"
+    },
+    {
+     "id": "d",
+     "text": "It's banned from export"
+    }
+   ],
+   "answer": "a",
+   "explanation": "GI tags protect crafts like Channapatna toys, Mysore silk and Bidriware from imitations claiming the same name.",
+   "distractors": {
+    "b": "Not necessarily.",
+    "c": "GI is about origin and tradition.",
+    "d": "GI often helps export."
+   },
+   "takeaway": "GI = protected origin.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-015",
+   "type": "mcq",
+   "subtopic": "indian.crafts",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Mysuru is especially known for which wood craft?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rosewood inlay and sandalwood carving"
+    },
+    {
+     "id": "b",
+     "text": "Lacquered toys"
+    },
+    {
+     "id": "c",
+     "text": "Painted figures"
+    },
+    {
+     "id": "d",
+     "text": "Bamboo weaving"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Mysuru artisans inlay rosewood with contrasting woods and carve fragrant sandalwood.",
+   "distractors": {
+    "b": "That's Channapatna.",
+    "c": "That's Kinnal.",
+    "d": "Mostly the Northeast."
+   },
+   "takeaway": "Mysuru = inlay + sandalwood.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-016",
+   "type": "mcq",
+   "subtopic": "indian.crafts",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Shisha work is a type of embroidery that uses…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gold coins"
+    },
+    {
+     "id": "b",
+     "text": "Beads only"
+    },
+    {
+     "id": "c",
+     "text": "Feathers"
+    },
+    {
+     "id": "d",
+     "text": "Small mirrors"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Shisha (mirror) work is popular in Gujarat and Rajasthan, catching light in festive garments.",
+   "distractors": {
+    "a": "No.",
+    "b": "Beads are a different technique.",
+    "c": "No."
+   },
+   "takeaway": "Shisha = mirrors.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-017",
+   "type": "mcq",
+   "subtopic": "indian.crafts",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Which craft from Karnataka uses the 'lac-turnery' technique?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Channapatna toys"
+    },
+    {
+     "id": "b",
+     "text": "Bidriware"
+    },
+    {
+     "id": "c",
+     "text": "Kasuti"
+    },
+    {
+     "id": "d",
+     "text": "Ilkal sarees"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Lac is pressed onto wood spinning on a lathe; friction melts it into a glossy coat.",
+   "distractors": {
+    "b": "That's metal inlay.",
+    "c": "That's embroidery.",
+    "d": "That's weaving."
+   },
+   "takeaway": "Lac + lathe = Channapatna.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-018",
+   "type": "mcq",
+   "subtopic": "indian.crafts",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Bastar in Chhattisgarh is known for which metal craft?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Blue pottery"
+    },
+    {
+     "id": "b",
+     "text": "Brass lamps of Kerala only"
+    },
+    {
+     "id": "c",
+     "text": "Dhokra and wrought-iron craft"
+    },
+    {
+     "id": "d",
+     "text": "Bidriware"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Bastar's tribal artisans make Dhokra brass figures and wrought-iron sculptures.",
+   "distractors": {
+    "d": "That's Bidar.",
+    "a": "That's Jaipur.",
+    "b": "Not Bastar."
+   },
+   "takeaway": "Bastar = Dhokra & iron.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-019",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Warli painting comes from which state?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Odisha"
+    },
+    {
+     "id": "b",
+     "text": "Madhya Pradesh"
+    },
+    {
+     "id": "c",
+     "text": "Maharashtra"
+    },
+    {
+     "id": "d",
+     "text": "Bihar"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Warli art uses simple geometric figures in white on an earthy background.",
+   "distractors": {
+    "d": "Bihar has Madhubani.",
+    "a": "Odisha has Pattachitra.",
+    "b": "MP has Gond."
+   },
+   "takeaway": "Warli = Maharashtra.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-020",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Gond paintings are recognised by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gold leaf and gesso"
+    },
+    {
+     "id": "b",
+     "text": "Black ink only"
+    },
+    {
+     "id": "c",
+     "text": "Figures filled with patterns of dots, dashes and lines"
+    },
+    {
+     "id": "d",
+     "text": "Only white stick figures"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Gond art from Madhya Pradesh depicts nature and folklore with detailed patterned fills.",
+   "distractors": {
+    "d": "That's Warli.",
+    "a": "That's Tanjore.",
+    "b": "Gond is very colourful."
+   },
+   "takeaway": "Gond = patterned fills.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-021",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Pattachitra, painted on cloth with mythological stories, is a tradition of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kerala"
+    },
+    {
+     "id": "b",
+     "text": "Punjab"
+    },
+    {
+     "id": "c",
+     "text": "Karnataka"
+    },
+    {
+     "id": "d",
+     "text": "Odisha (and West Bengal)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Raghurajpur in Odisha is a famous Pattachitra village; 'patta' means cloth and 'chitra' means picture.",
+   "distractors": {
+    "a": "Kerala has mural traditions.",
+    "b": "No.",
+    "c": "No."
+   },
+   "takeaway": "Pattachitra = cloth pictures.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-022",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Tanjore (Thanjavur) paintings are known for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gold foil, gesso relief and rich colours"
+    },
+    {
+     "id": "b",
+     "text": "Monochrome ink"
+    },
+    {
+     "id": "c",
+     "text": "Stick figures"
+    },
+    {
+     "id": "d",
+     "text": "Dots and dashes"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Tanjore paintings, usually of deities, use raised gesso work covered with gold foil.",
+   "distractors": {
+    "b": "They're colourful and gilded.",
+    "c": "That's Warli.",
+    "d": "That's Gond."
+   },
+   "takeaway": "Tanjore = gold relief.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-023",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Kalighat paintings originated near a famous temple in…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Varanasi"
+    },
+    {
+     "id": "b",
+     "text": "Madurai"
+    },
+    {
+     "id": "c",
+     "text": "Mumbai"
+    },
+    {
+     "id": "d",
+     "text": "Kolkata"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Kalighat paintings (19th century) used bold outlines and flowing figures, often with social satire.",
+   "distractors": {
+    "a": "No.",
+    "b": "No.",
+    "c": "No."
+   },
+   "takeaway": "Kalighat = Kolkata.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-024",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Madhubani paintings were traditionally made by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Monks in monasteries"
+    },
+    {
+     "id": "b",
+     "text": "Sailors on ships"
+    },
+    {
+     "id": "c",
+     "text": "Women of the Mithila region, on walls and floors"
+    },
+    {
+     "id": "d",
+     "text": "Court painters of the Mughals"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Madhubani art moved from walls to paper and cloth in the 20th century and is now internationally known.",
+   "distractors": {
+    "d": "That's miniature painting.",
+    "a": "That's Thangka.",
+    "b": "No."
+   },
+   "takeaway": "Madhubani: women's art from Mithila.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-025",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Mughal miniature paintings are characterised by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Dot patterns"
+    },
+    {
+     "id": "b",
+     "text": "Fine detail, rich colour and court and nature scenes"
+    },
+    {
+     "id": "c",
+     "text": "Large wall murals"
+    },
+    {
+     "id": "d",
+     "text": "Abstract shapes only"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Miniatures were made for manuscripts and albums, with fine brushes and natural pigments.",
+   "distractors": {
+    "c": "They're small.",
+    "d": "They're detailed and figurative.",
+    "a": "No."
+   },
+   "takeaway": "Miniatures = fine detail.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-026",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Hampi, a UNESCO World Heritage Site, was the capital of which empire?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Chola Empire"
+    },
+    {
+     "id": "b",
+     "text": "Vijayanagara Empire"
+    },
+    {
+     "id": "c",
+     "text": "Maurya Empire"
+    },
+    {
+     "id": "d",
+     "text": "Mughal Empire"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Hampi's ruins include the Vittala temple with its famous stone chariot.",
+   "distractors": {
+    "c": "Capital was Pataliputra.",
+    "d": "Capitals included Agra and Delhi.",
+    "a": "Capitals included Thanjavur."
+   },
+   "takeaway": "Hampi = Vijayanagara.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-027",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The temples of Belur and Halebidu were built by which dynasty?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hoysala"
+    },
+    {
+     "id": "b",
+     "text": "Chola"
+    },
+    {
+     "id": "c",
+     "text": "Pallava"
+    },
+    {
+     "id": "d",
+     "text": "Maratha"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Hoysala temples feature star-shaped plans and extraordinarily detailed soapstone carving.",
+   "distractors": {
+    "b": "Cholas built in Tamil Nadu.",
+    "c": "Pallavas built Mahabalipuram.",
+    "d": "Not these temples."
+   },
+   "takeaway": "Belur & Halebidu = Hoysala.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-028",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The Sun Temple at Konark is designed in the form of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "A lotus"
+    },
+    {
+     "id": "b",
+     "text": "A ship"
+    },
+    {
+     "id": "c",
+     "text": "A mountain"
+    },
+    {
+     "id": "d",
+     "text": "A giant chariot with carved stone wheels"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Konark (Odisha) represents the Sun god's chariot with 24 carved wheels and horses.",
+   "distractors": {
+    "a": "That's the Lotus Temple in Delhi.",
+    "b": "No.",
+    "c": "No."
+   },
+   "takeaway": "Konark = chariot.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-029",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The city of Chandigarh was planned by which architect?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Charles Correa"
+    },
+    {
+     "id": "b",
+     "text": "Louis Kahn"
+    },
+    {
+     "id": "c",
+     "text": "B. V. Doshi"
+    },
+    {
+     "id": "d",
+     "text": "Le Corbusier"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Le Corbusier planned Chandigarh in the 1950s with sectors, a capitol complex and modernist buildings.",
+   "distractors": {
+    "a": "Correa designed many Indian buildings but not Chandigarh's plan.",
+    "b": "Kahn designed IIM Ahmedabad.",
+    "c": "Doshi worked with Le Corbusier but didn't lead Chandigarh."
+   },
+   "takeaway": "Chandigarh = Le Corbusier.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-030",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Which Indian architect won the Pritzker Prize in 2018?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Geoffrey Bawa"
+    },
+    {
+     "id": "b",
+     "text": "Balkrishna Doshi"
+    },
+    {
+     "id": "c",
+     "text": "Charles Correa"
+    },
+    {
+     "id": "d",
+     "text": "Laurie Baker"
+    }
+   ],
+   "answer": "b",
+   "explanation": "B. V. Doshi was the first Indian to win architecture's highest honour; he designed IIM Bangalore and the Sangath studio in Ahmedabad.",
+   "distractors": {
+    "c": "Correa didn't win the Pritzker.",
+    "d": "Baker was famous for low-cost building but didn't win it.",
+    "a": "Bawa was Sri Lankan."
+   },
+   "takeaway": "Doshi: first Indian Pritzker (2018).",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-031",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Laurie Baker is remembered for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Low-cost, climate-sensitive buildings using local materials like brick"
+    },
+    {
+     "id": "b",
+     "text": "Glass skyscrapers"
+    },
+    {
+     "id": "c",
+     "text": "Designing the Taj Mahal"
+    },
+    {
+     "id": "d",
+     "text": "Car design"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Baker's work in Kerala used exposed brick, jaali walls and natural ventilation: sustainable design before the term was common.",
+   "distractors": {
+    "b": "The opposite of his approach.",
+    "c": "That was in the 1600s.",
+    "d": "He was an architect."
+   },
+   "takeaway": "Baker = local, low-cost, sustainable.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-032",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A stepwell (like Rani ki Vav in Gujarat) was built mainly to…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Store and give access to groundwater"
+    },
+    {
+     "id": "b",
+     "text": "Store grain"
+    },
+    {
+     "id": "c",
+     "text": "House soldiers"
+    },
+    {
+     "id": "d",
+     "text": "Display sculptures only"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Stepwells let people reach water as levels changed with the seasons, and their shaded depths stayed cool.",
+   "distractors": {
+    "b": "No.",
+    "c": "No.",
+    "d": "Sculptures decorate, but water was the purpose."
+   },
+   "takeaway": "Stepwell = water + shade.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-033",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The jaali (perforated stone screen) in Indian architecture helps with…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Sound recording"
+    },
+    {
+     "id": "b",
+     "text": "Ventilation, light and privacy"
+    },
+    {
+     "id": "c",
+     "text": "Holding up the roof"
+    },
+    {
+     "id": "d",
+     "text": "Waterproofing"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Jaalis filter harsh sun, allow breezes, and let people see out without being seen.",
+   "distractors": {
+    "c": "Jaalis are screens.",
+    "d": "No.",
+    "a": "No."
+   },
+   "takeaway": "Jaali = climate + privacy.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-034",
+   "type": "mcq",
+   "subtopic": "indian.design-history",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "The National Institute of Design (NID) was established in…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "1947"
+    },
+    {
+     "id": "b",
+     "text": "1985"
+    },
+    {
+     "id": "c",
+     "text": "2001"
+    },
+    {
+     "id": "d",
+     "text": "1961"
+    }
+   ],
+   "answer": "d",
+   "explanation": "NID was founded in Ahmedabad in 1961.",
+   "distractors": {
+    "a": "That's Independence.",
+    "b": "Too late.",
+    "c": "Too late."
+   },
+   "takeaway": "NID: 1961, Ahmedabad.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-035",
+   "type": "mcq",
+   "subtopic": "indian.design-history",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The 1958 'India Report', which led to NID, was written by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mahatma Gandhi"
+    },
+    {
+     "id": "b",
+     "text": "Charles and Ray Eames"
+    },
+    {
+     "id": "c",
+     "text": "Le Corbusier"
+    },
+    {
+     "id": "d",
+     "text": "Dieter Rams"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The Eames couple toured India and recommended a design institute to support small industries and development.",
+   "distractors": {
+    "c": "He planned Chandigarh.",
+    "d": "He worked for Braun.",
+    "a": "No."
+   },
+   "takeaway": "India Report = Eameses, 1958.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-036",
+   "type": "mcq",
+   "subtopic": "indian.design-history",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "NID's main campus is in…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "New Delhi"
+    },
+    {
+     "id": "b",
+     "text": "Mumbai"
+    },
+    {
+     "id": "c",
+     "text": "Bengaluru"
+    },
+    {
+     "id": "d",
+     "text": "Ahmedabad"
+    }
+   ],
+   "answer": "d",
+   "explanation": "NID also has campuses in Gandhinagar and Bengaluru, and new NIDs in other states.",
+   "distractors": {
+    "a": "No.",
+    "b": "No.",
+    "c": "NID has a Bengaluru campus, but the main campus is Ahmedabad."
+   },
+   "takeaway": "Main campus: Ahmedabad.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-037",
+   "type": "mcq",
+   "subtopic": "indian.products",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Why is the pressure cooker considered a great Indian design success?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "It's decorative"
+    },
+    {
+     "id": "b",
+     "text": "It's only used in restaurants"
+    },
+    {
+     "id": "c",
+     "text": "It cooks faster and saves fuel in everyday kitchens"
+    },
+    {
+     "id": "d",
+     "text": "It's the cheapest pot"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Pressure raises the boiling point, cooking dal and rice faster, which saves time and fuel.",
+   "distractors": {
+    "d": "Not the main reason.",
+    "a": "It's functional.",
+    "b": "It's in most homes."
+   },
+   "takeaway": "Design for daily efficiency.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-038",
+   "type": "mcq",
+   "subtopic": "indian.products",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The steel tiffin carrier is an example of good design because it is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Disposable"
+    },
+    {
+     "id": "b",
+     "text": "Made of glass"
+    },
+    {
+     "id": "c",
+     "text": "Only decorative"
+    },
+    {
+     "id": "d",
+     "text": "Stackable, reusable, durable and keeps foods separate"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Mumbai's dabbawalas rely on these carriers to deliver lakhs of lunches daily.",
+   "distractors": {
+    "a": "It's reusable.",
+    "b": "It's steel.",
+    "c": "It's very practical."
+   },
+   "takeaway": "Reusable systems scale.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-039",
+   "type": "mcq",
+   "subtopic": "indian.products",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Mumbai's dabbawala system is famous for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Using GPS on every box"
+    },
+    {
+     "id": "b",
+     "text": "Very accurate lunchbox delivery using a simple colour and symbol code"
+    },
+    {
+     "id": "c",
+     "text": "Using drones"
+    },
+    {
+     "id": "d",
+     "text": "Delivering parcels only"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The dabbawalas' painted codes are a lesson in information design and system thinking.",
+   "distractors": {
+    "c": "It uses people, bicycles and trains.",
+    "d": "Lunchboxes are the core service.",
+    "a": "It uses a hand-painted coding system."
+   },
+   "takeaway": "Simple codes can run complex systems.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-ind-040",
+   "type": "mcq",
+   "subtopic": "indian.products",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The term 'jugaad' refers to…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "A railway system"
+    },
+    {
+     "id": "b",
+     "text": "Frugal, improvised problem-solving with available resources"
+    },
+    {
+     "id": "c",
+     "text": "A type of embroidery"
+    },
+    {
+     "id": "d",
+     "text": "A classical dance"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Jugaad shows creativity under constraints, though designers must also consider safety and durability.",
+   "distractors": {
+    "c": "No.",
+    "d": "No.",
+    "a": "No."
+   },
+   "takeaway": "Jugaad = frugal improvisation.",
+   "tags": [],
+   "needsReview": false
+  }
+ ]
+}

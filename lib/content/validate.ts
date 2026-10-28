@@ -1,5 +1,5 @@
 import type { ImageSpec, ItemInput } from "./schemas";
-import { itemContentHash, trigramSimilarity } from "./hash";
+import { differsMeaningfully, itemContentHash, trigramSimilarity } from "./hash";
 
 export interface ValidationReport {
   errors: string[];
@@ -44,7 +44,7 @@ export function validateContent(items: ItemInput[], images: ImageSpec[], subtopi
     for (let i = 0; i < group.length; i++) {
       for (let j = i + 1; j < group.length; j++) {
         const a = group[i]!, b = group[j]!;
-        if (trigramSimilarity(a.stem, b.stem) > 0.85) errors.push(`${a.id} and ${b.id} are near-duplicates`);
+        if (trigramSimilarity(a.stem, b.stem) > 0.85 && !differsMeaningfully(a.stem, b.stem)) errors.push(`${a.id} and ${b.id} are near-duplicates`);
       }
     }
   }

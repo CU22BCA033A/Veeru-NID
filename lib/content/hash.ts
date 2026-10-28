@@ -31,3 +31,15 @@ export function trigramSimilarity(a: string, b: string): number {
   for (const g of A) if (B.has(g)) inter++;
   return inter / (A.size + B.size - inter || 1);
 }
+
+const STOP = new Set(["the", "and", "for", "with", "that", "this", "your", "from", "into", "what", "which", "about", "their", "they", "them", "these", "those", "there", "here", "than", "then", "when", "where", "while", "would", "could", "should"]);
+
+/**
+ * True if two similar-looking texts differ in at least one meaningful word (e.g. a different
+ * object or word in a templated prompt), so they are distinct questions, not duplicates.
+ */
+export function differsMeaningfully(a: string, b: string): boolean {
+  const ta = new Set(normaliseText(a).split(" ")), tb = new Set(normaliseText(b).split(" "));
+  const diff = [...ta].filter((t) => !tb.has(t)).concat([...tb].filter((t) => !ta.has(t)));
+  return diff.some((t) => t.length >= 4 && !STOP.has(t));
+}

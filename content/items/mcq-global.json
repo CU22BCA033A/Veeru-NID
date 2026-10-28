@@ -1,0 +1,929 @@
+{
+ "items": [
+  {
+   "id": "mq-glb-001",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "The Bauhaus school was founded in 1919 in…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "France"
+    },
+    {
+     "id": "b",
+     "text": "Italy"
+    },
+    {
+     "id": "c",
+     "text": "USA"
+    },
+    {
+     "id": "d",
+     "text": "Germany"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Founded by Walter Gropius in Weimar, the Bauhaus united art, craft and industry; it closed in 1933.",
+   "distractors": {
+    "a": "No.",
+    "b": "No.",
+    "c": "Some Bauhaus teachers later moved to the USA."
+   },
+   "takeaway": "Bauhaus: Germany, 1919.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-002",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which phrase best captures the Bauhaus approach?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Nature is decoration"
+    },
+    {
+     "id": "b",
+     "text": "Handmade only, no machines"
+    },
+    {
+     "id": "c",
+     "text": "Form follows function; art and industry united"
+    },
+    {
+     "id": "d",
+     "text": "More is more"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Bauhaus designers simplified forms for mass production, influencing furniture, typography and architecture.",
+   "distractors": {
+    "d": "That's closer to Memphis or Postmodernism.",
+    "a": "Closer to Art Nouveau.",
+    "b": "That's closer to Arts and Crafts."
+   },
+   "takeaway": "Bauhaus = function + industry.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-003",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The Memphis Group (1980s) is known for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Bright colours, bold patterns and playful geometric shapes"
+    },
+    {
+     "id": "b",
+     "text": "Strict grids and minimalism"
+    },
+    {
+     "id": "c",
+     "text": "Flowing plant-like curves"
+    },
+    {
+     "id": "d",
+     "text": "Handcrafted medieval designs"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Founded by Ettore Sottsass, Memphis rebelled against minimalism with fun, clashing designs.",
+   "distractors": {
+    "b": "That's Swiss style.",
+    "c": "That's Art Nouveau.",
+    "d": "Arts and Crafts."
+   },
+   "takeaway": "Memphis = playful rebellion.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-004",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Art Nouveau is recognisable by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Grids and sans-serif type"
+    },
+    {
+     "id": "b",
+     "text": "Neon colours"
+    },
+    {
+     "id": "c",
+     "text": "Flowing, organic lines inspired by plants and flowers"
+    },
+    {
+     "id": "d",
+     "text": "Hard geometric zigzags"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Around 1890–1910, Art Nouveau appeared in posters, metro entrances and jewellery.",
+   "distractors": {
+    "d": "That's Art Deco.",
+    "a": "Swiss style.",
+    "b": "Memphis."
+   },
+   "takeaway": "Art Nouveau = natural curves.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-005",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The Swiss (International) Style of graphic design emphasised…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gothic letters"
+    },
+    {
+     "id": "b",
+     "text": "Grids, sans-serif type and objective clarity"
+    },
+    {
+     "id": "c",
+     "text": "Hand-drawn ornament"
+    },
+    {
+     "id": "d",
+     "text": "Random collage"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Typefaces like Helvetica and Univers came from this era of clean, rational design.",
+   "distractors": {
+    "c": "The opposite.",
+    "d": "Not typical.",
+    "a": "No."
+   },
+   "takeaway": "Swiss = grid + clarity.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-006",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The Arts and Crafts movement, led by William Morris, reacted against…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Medieval design"
+    },
+    {
+     "id": "b",
+     "text": "Poor-quality mass-produced industrial goods"
+    },
+    {
+     "id": "c",
+     "text": "Handmade crafts"
+    },
+    {
+     "id": "d",
+     "text": "Nature motifs"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Morris valued craftsmanship, honest materials and beautiful everyday objects.",
+   "distractors": {
+    "c": "It celebrated them.",
+    "d": "It used them.",
+    "a": "It admired it."
+   },
+   "takeaway": "Arts & Crafts = craftsmanship.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-007",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Dieter Rams, famous for 'less, but better', designed products for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Tata"
+    },
+    {
+     "id": "b",
+     "text": "Braun"
+    },
+    {
+     "id": "c",
+     "text": "Apple"
+    },
+    {
+     "id": "d",
+     "text": "IKEA"
+    }
+   ],
+   "answer": "b",
+   "explanation": "His ten principles of good design (useful, understandable, honest, long-lasting, minimal…) are still widely taught.",
+   "distractors": {
+    "c": "Apple was influenced by him.",
+    "d": "No.",
+    "a": "No."
+   },
+   "takeaway": "Rams: less, but better.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-008",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Charles and Ray Eames are famous for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Moulded plywood and fibreglass furniture, and films"
+    },
+    {
+     "id": "b",
+     "text": "The Eiffel Tower"
+    },
+    {
+     "id": "c",
+     "text": "The first smartphone"
+    },
+    {
+     "id": "d",
+     "text": "Car design"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The Eames Lounge Chair and plastic shell chairs are design icons, and they also wrote the India Report.",
+   "distractors": {
+    "b": "That's Gustave Eiffel.",
+    "c": "No.",
+    "d": "No."
+   },
+   "takeaway": "Eames = chairs + India Report.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-009",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Paul Rand designed logos for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Nike"
+    },
+    {
+     "id": "b",
+     "text": "Apple"
+    },
+    {
+     "id": "c",
+     "text": "Coca-Cola"
+    },
+    {
+     "id": "d",
+     "text": "IBM and ABC"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Rand championed simple, memorable corporate identities.",
+   "distractors": {
+    "a": "Nike's swoosh was by Carolyn Davidson.",
+    "b": "Rob Janoff designed the Apple logo.",
+    "c": "Written by Frank Mason Robinson."
+   },
+   "takeaway": "Rand = IBM.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-010",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Zaha Hadid was known for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Flowing, futuristic curved architecture"
+    },
+    {
+     "id": "b",
+     "text": "Traditional brick houses"
+    },
+    {
+     "id": "c",
+     "text": "Typeface design"
+    },
+    {
+     "id": "d",
+     "text": "Fashion design"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Hadid was the first woman to win the Pritzker Prize (2004).",
+   "distractors": {
+    "b": "No.",
+    "c": "No.",
+    "d": "Mainly architecture."
+   },
+   "takeaway": "Hadid = fluid architecture.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-011",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Massimo Vignelli is famous for designing…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Paris Metro entrances"
+    },
+    {
+     "id": "b",
+     "text": "The Delhi Metro logo"
+    },
+    {
+     "id": "c",
+     "text": "The 1972 New York subway map"
+    },
+    {
+     "id": "d",
+     "text": "The London Underground map"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Vignelli's diagrammatic map simplified geography into clean lines and angles.",
+   "distractors": {
+    "d": "That was Harry Beck.",
+    "a": "That was Hector Guimard.",
+    "b": "No."
+   },
+   "takeaway": "Vignelli = NYC subway map.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-012",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Harry Beck's 1933 London Underground map was revolutionary because it…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Showed every street"
+    },
+    {
+     "id": "b",
+     "text": "Showed connections as a clear diagram instead of true geography"
+    },
+    {
+     "id": "c",
+     "text": "Used satellite photos"
+    },
+    {
+     "id": "d",
+     "text": "Was in 3D"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Beck used straight lines and even spacing, a model for transit maps worldwide.",
+   "distractors": {
+    "c": "Not available then.",
+    "d": "It's flat.",
+    "a": "It removed streets."
+   },
+   "takeaway": "Diagrams beat geography for transit.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-013",
+   "type": "mcq",
+   "subtopic": "global.products",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The plastic monobloc chair is famous because it…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Is very expensive"
+    },
+    {
+     "id": "b",
+     "text": "Is foldable"
+    },
+    {
+     "id": "c",
+     "text": "Is moulded in one piece, cheap, stackable and used worldwide"
+    },
+    {
+     "id": "d",
+     "text": "Was handmade from teak"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Its one-piece injection moulding makes it one of the most produced chairs in history.",
+   "distractors": {
+    "d": "It's injection-moulded plastic.",
+    "a": "It's very cheap.",
+    "b": "It stacks, not folds."
+   },
+   "takeaway": "One piece, everywhere.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-014",
+   "type": "mcq",
+   "subtopic": "global.products",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The Swiss Army knife is an example of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Single-use design"
+    },
+    {
+     "id": "b",
+     "text": "Purely decorative design"
+    },
+    {
+     "id": "c",
+     "text": "Inflatable design"
+    },
+    {
+     "id": "d",
+     "text": "Multifunctional design packing many tools into one compact object"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Combining functions saves space but must stay safe and usable: a classic trade-off.",
+   "distractors": {
+    "a": "Opposite.",
+    "b": "It's functional.",
+    "c": "No."
+   },
+   "takeaway": "Combine functions carefully.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-015",
+   "type": "mcq",
+   "subtopic": "global.products",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The Anglepoise lamp's key design feature is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Voice control"
+    },
+    {
+     "id": "b",
+     "text": "A fixed arm"
+    },
+    {
+     "id": "c",
+     "text": "A spring-balanced arm that stays where you position it"
+    },
+    {
+     "id": "d",
+     "text": "A solar panel"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Designed in the 1930s by George Carwardine using balanced springs, inspired by the human arm.",
+   "distractors": {
+    "d": "No.",
+    "a": "No.",
+    "b": "It's adjustable."
+   },
+   "takeaway": "Balance lets objects hold position.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-016",
+   "type": "mcq",
+   "subtopic": "global.sustainability",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "The '3 Rs' of sustainability are…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Read, write, revise"
+    },
+    {
+     "id": "b",
+     "text": "Repair, rent, resell only"
+    },
+    {
+     "id": "c",
+     "text": "Run, ride, rest"
+    },
+    {
+     "id": "d",
+     "text": "Reduce, reuse, recycle"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Reduce comes first: the best waste is the waste never created.",
+   "distractors": {
+    "a": "That's studying.",
+    "b": "Those help, but aren't the 3 Rs.",
+    "c": "No."
+   },
+   "takeaway": "Reduce first.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-017",
+   "type": "mcq",
+   "subtopic": "global.sustainability",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A 'circular economy' aims to…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Make products that last one use"
+    },
+    {
+     "id": "b",
+     "text": "Only burn waste for energy"
+    },
+    {
+     "id": "c",
+     "text": "Make everything round"
+    },
+    {
+     "id": "d",
+     "text": "Keep products and materials in use for as long as possible"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Design for durability, repair, reuse and recycling closes the loop instead of 'make-use-throw'.",
+   "distractors": {
+    "a": "That's linear.",
+    "b": "Last resort.",
+    "c": "Not literal."
+   },
+   "takeaway": "Close the loop.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-018",
+   "type": "mcq",
+   "subtopic": "global.sustainability",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "'Life cycle assessment' in design looks at a product's impact…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Only during use"
+    },
+    {
+     "id": "b",
+     "text": "Only at the factory"
+    },
+    {
+     "id": "c",
+     "text": "Only the packaging"
+    },
+    {
+     "id": "d",
+     "text": "From raw materials through manufacture, use and disposal"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Sometimes a 'green' material has a bigger impact overall because of transport or energy in manufacture.",
+   "distractors": {
+    "a": "That misses most impacts.",
+    "b": "Too narrow.",
+    "c": "Too narrow."
+   },
+   "takeaway": "Judge the whole life.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-019",
+   "type": "mcq",
+   "subtopic": "global.sustainability",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Which is the MOST sustainable choice for a reusable shopping bag?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "One you will use hundreds of times, whatever the material"
+    },
+    {
+     "id": "b",
+     "text": "A new cotton bag for every trip"
+    },
+    {
+     "id": "c",
+     "text": "A thin plastic bag used once"
+    },
+    {
+     "id": "d",
+     "text": "The heaviest bag available"
+    }
+   ],
+   "answer": "a",
+   "explanation": "A reusable bag's impact is spread over its uses, so durability and actual reuse matter most.",
+   "distractors": {
+    "b": "That defeats reuse.",
+    "c": "Single-use is worst.",
+    "d": "Weight doesn't equal sustainability."
+   },
+   "takeaway": "Use it many times.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-020",
+   "type": "mcq",
+   "subtopic": "global.inclusive",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which is an example of universal design?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "A separate back entrance only for wheelchair users"
+    },
+    {
+     "id": "b",
+     "text": "A sign in tiny print"
+    },
+    {
+     "id": "c",
+     "text": "A tap that needs strong twisting"
+    },
+    {
+     "id": "d",
+     "text": "A ramp beside steps that everyone can use"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Universal design works for as many people as possible: wheelchairs, prams, luggage, elderly people.",
+   "distractors": {
+    "a": "Separating users isn't universal design.",
+    "b": "Excludes many.",
+    "c": "Excludes weak hands."
+   },
+   "takeaway": "Design for everyone at once.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-021",
+   "type": "mcq",
+   "subtopic": "global.inclusive",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Tactile paving (raised strips and dots) on pavements helps…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Drain rainwater"
+    },
+    {
+     "id": "b",
+     "text": "Decorate the street"
+    },
+    {
+     "id": "c",
+     "text": "Visually impaired people navigate and detect edges"
+    },
+    {
+     "id": "d",
+     "text": "Cars grip the road"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Lines guide direction; dots warn of hazards like platform edges and crossings.",
+   "distractors": {
+    "d": "It's for pedestrians.",
+    "a": "Not the purpose.",
+    "b": "Functional."
+   },
+   "takeaway": "Design for touch, not just sight.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-022",
+   "type": "mcq",
+   "subtopic": "global.inclusive",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "'Situational disability' means…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "A temporary limitation caused by circumstances, like carrying a baby"
+    },
+    {
+     "id": "b",
+     "text": "A permanent disability"
+    },
+    {
+     "id": "c",
+     "text": "A disability caused only by illness"
+    },
+    {
+     "id": "d",
+     "text": "A disability that can't be designed for"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Designing for permanent disabilities often helps people with temporary and situational limits too.",
+   "distractors": {
+    "b": "That's permanent.",
+    "c": "Not the definition.",
+    "d": "It can."
+   },
+   "takeaway": "Everyone is sometimes disabled.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-023",
+   "type": "mcq",
+   "subtopic": "global.tech",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which task is AI generally LEAST able to replace in design?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Generating many quick image variations"
+    },
+    {
+     "id": "b",
+     "text": "Resizing layouts for formats"
+    },
+    {
+     "id": "c",
+     "text": "Suggesting colour palettes"
+    },
+    {
+     "id": "d",
+     "text": "Understanding real users' needs through empathy and judgement"
+    }
+   ],
+   "answer": "d",
+   "explanation": "AI speeds up production, but defining the right problem and taking responsibility for decisions remain human strengths.",
+   "distractors": {
+    "a": "AI is good at this.",
+    "b": "This can be automated.",
+    "c": "AI tools do this."
+   },
+   "takeaway": "AI makes; designers decide.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-024",
+   "type": "mcq",
+   "subtopic": "global.tech",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "3D printing is especially useful to designers for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Printing on paper"
+    },
+    {
+     "id": "b",
+     "text": "Replacing all factories"
+    },
+    {
+     "id": "c",
+     "text": "Colour correction"
+    },
+    {
+     "id": "d",
+     "text": "Quickly making prototypes to test ideas"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Rapid prototyping lets designers test form and fit early and cheaply.",
+   "distractors": {
+    "a": "That's 2D printing.",
+    "b": "Not yet.",
+    "c": "Unrelated."
+   },
+   "takeaway": "Prototype early.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-025",
+   "type": "mcq",
+   "subtopic": "global.tech",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A vector image (like SVG) differs from a raster image (like JPEG) because it…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Cannot be edited"
+    },
+    {
+     "id": "b",
+     "text": "Can be scaled to any size without losing sharpness"
+    },
+    {
+     "id": "c",
+     "text": "Always has more colours"
+    },
+    {
+     "id": "d",
+     "text": "Is a photograph"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Vectors store shapes mathematically; rasters store pixels. Logos are made as vectors.",
+   "distractors": {
+    "c": "Not necessarily.",
+    "d": "Photos are raster.",
+    "a": "Vectors are easy to edit."
+   },
+   "takeaway": "Logos = vectors.",
+   "tags": [],
+   "needsReview": false
+  }
+ ]
+}

@@ -1,0 +1,966 @@
+{
+ "items": [
+  {
+   "id": "mq-gk-001",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "The capital of Karnataka is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mysuru"
+    },
+    {
+     "id": "b",
+     "text": "Hubballi"
+    },
+    {
+     "id": "c",
+     "text": "Mangaluru"
+    },
+    {
+     "id": "d",
+     "text": "Bengaluru"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Bengaluru is also India's major technology hub.",
+   "distractors": {
+    "a": "Mysuru was the princely state's capital.",
+    "b": "No.",
+    "c": "No."
+   },
+   "takeaway": "Know state capitals.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-002",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Which river rises at Talakaveri in Kodagu and flows through Karnataka and Tamil Nadu?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Yamuna"
+    },
+    {
+     "id": "b",
+     "text": "Kaveri"
+    },
+    {
+     "id": "c",
+     "text": "Godavari"
+    },
+    {
+     "id": "d",
+     "text": "Narmada"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The Kaveri rises at Talakaveri in Kodagu and flows to the Bay of Bengal, passing places like Srirangapatna and Shivanasamudra.",
+   "distractors": {
+    "c": "The Godavari flows through Maharashtra, Telangana and Andhra Pradesh.",
+    "d": "Flows westward in central India.",
+    "a": "A North Indian river."
+   },
+   "takeaway": "Kaveri: Kodagu to the Bay of Bengal.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-003",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The Western Ghats are recognised as…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "A UNESCO World Heritage Site and biodiversity hotspot"
+    },
+    {
+     "id": "b",
+     "text": "A desert region"
+    },
+    {
+     "id": "c",
+     "text": "India's highest mountains"
+    },
+    {
+     "id": "d",
+     "text": "A river delta"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The Western Ghats run parallel to India's west coast and are home to many species found nowhere else.",
+   "distractors": {
+    "b": "They're wet forests.",
+    "c": "The Himalayas are higher.",
+    "d": "They're mountains."
+   },
+   "takeaway": "Western Ghats = biodiversity hotspot.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-004",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which is the longest river flowing entirely within India?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kaveri"
+    },
+    {
+     "id": "b",
+     "text": "Ganga"
+    },
+    {
+     "id": "c",
+     "text": "Brahmaputra"
+    },
+    {
+     "id": "d",
+     "text": "Indus"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The Ganga flows about 2,500 km across North India to the Bay of Bengal.",
+   "distractors": {
+    "c": "It starts in Tibet.",
+    "d": "It flows mainly through Pakistan.",
+    "a": "Much shorter."
+   },
+   "takeaway": "Ganga: longest within India.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-005",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Jog Falls, one of India's highest plunge waterfalls, is on which river?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Sharavathi"
+    },
+    {
+     "id": "b",
+     "text": "Kaveri"
+    },
+    {
+     "id": "c",
+     "text": "Tungabhadra"
+    },
+    {
+     "id": "d",
+     "text": "Krishna"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Jog Falls is in Shivamogga district, Karnataka.",
+   "distractors": {
+    "b": "Kaveri has Shivanasamudra Falls.",
+    "c": "No.",
+    "d": "No."
+   },
+   "takeaway": "Jog Falls = Sharavathi.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-006",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The Tropic of Cancer passes through how many Indian states (approximately)?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Two"
+    },
+    {
+     "id": "b",
+     "text": "Fifteen"
+    },
+    {
+     "id": "c",
+     "text": "None"
+    },
+    {
+     "id": "d",
+     "text": "Eight"
+    }
+   ],
+   "answer": "d",
+   "explanation": "It crosses Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+   "distractors": {
+    "a": "Too few.",
+    "b": "Too many.",
+    "c": "It passes through India."
+   },
+   "takeaway": "Tropic of Cancer: 8 states.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-007",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Which gas is the main contributor to human-caused global warming?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Carbon dioxide"
+    },
+    {
+     "id": "b",
+     "text": "Oxygen"
+    },
+    {
+     "id": "c",
+     "text": "Nitrogen"
+    },
+    {
+     "id": "d",
+     "text": "Helium"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Burning fossil fuels releases CO₂, which traps heat in the atmosphere.",
+   "distractors": {
+    "b": "Not a greenhouse gas.",
+    "c": "Not a significant greenhouse gas.",
+    "d": "No."
+   },
+   "takeaway": "CO₂ drives warming.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-008",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Bandipur and Nagarhole in Karnataka are best known as…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Beaches"
+    },
+    {
+     "id": "b",
+     "text": "Dams"
+    },
+    {
+     "id": "c",
+     "text": "Tiger reserves and national parks"
+    },
+    {
+     "id": "d",
+     "text": "Hill stations"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Karnataka has one of the largest tiger populations in India.",
+   "distractors": {
+    "d": "They're forests.",
+    "a": "They're inland forests.",
+    "b": "No."
+   },
+   "takeaway": "Know protected areas near you.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-009",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Rainwater harvesting mainly helps by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Recharging groundwater and storing water for use"
+    },
+    {
+     "id": "b",
+     "text": "Increasing rainfall"
+    },
+    {
+     "id": "c",
+     "text": "Cleaning the air"
+    },
+    {
+     "id": "d",
+     "text": "Making rivers saltier"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Collecting rooftop rain reduces runoff and replenishes aquifers, crucial for cities like Bengaluru.",
+   "distractors": {
+    "b": "It doesn't change rainfall.",
+    "c": "Not its purpose.",
+    "d": "No."
+   },
+   "takeaway": "Catch the rain where it falls.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-010",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Which is a renewable energy source?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Coal"
+    },
+    {
+     "id": "b",
+     "text": "Natural gas"
+    },
+    {
+     "id": "c",
+     "text": "Diesel"
+    },
+    {
+     "id": "d",
+     "text": "Wind"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Renewables like wind, solar and hydro are replenished naturally.",
+   "distractors": {
+    "a": "Fossil fuel.",
+    "b": "Fossil fuel.",
+    "c": "Fossil fuel."
+   },
+   "takeaway": "Renewable = naturally replenished.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-011",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Microplastics are a concern mainly because they…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Dissolve harmlessly"
+    },
+    {
+     "id": "b",
+     "text": "Are only found in factories"
+    },
+    {
+     "id": "c",
+     "text": "Make plastic stronger"
+    },
+    {
+     "id": "d",
+     "text": "Spread through water and soil and enter food chains"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Plastic breaks into tiny particles that are hard to remove and are found even in seafood and salt.",
+   "distractors": {
+    "a": "They persist for a long time.",
+    "b": "They're everywhere.",
+    "c": "Not the concern."
+   },
+   "takeaway": "Plastic doesn't disappear; it shrinks.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-012",
+   "type": "mcq",
+   "subtopic": "gk.books",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "'Malgudi Days' was written by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "R. K. Narayan"
+    },
+    {
+     "id": "b",
+     "text": "Ruskin Bond"
+    },
+    {
+     "id": "c",
+     "text": "Rabindranath Tagore"
+    },
+    {
+     "id": "d",
+     "text": "Premchand"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Narayan's fictional town of Malgudi became famous through the stories and the TV series.",
+   "distractors": {
+    "b": "He wrote 'The Room on the Roof'.",
+    "c": "He wrote 'Gitanjali'.",
+    "d": "He wrote 'Godaan'."
+   },
+   "takeaway": "Malgudi = R. K. Narayan.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-013",
+   "type": "mcq",
+   "subtopic": "gk.books",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Rabindranath Tagore won the Nobel Prize in Literature in 1913 for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Guide"
+    },
+    {
+     "id": "b",
+     "text": "Gitanjali"
+    },
+    {
+     "id": "c",
+     "text": "Malgudi Days"
+    },
+    {
+     "id": "d",
+     "text": "Godaan"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Tagore was the first Asian Nobel laureate; he also wrote India's national anthem.",
+   "distractors": {
+    "c": "R. K. Narayan.",
+    "d": "Premchand.",
+    "a": "R. K. Narayan."
+   },
+   "takeaway": "Tagore: Gitanjali, 1913.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-014",
+   "type": "mcq",
+   "subtopic": "gk.books",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Kuvempu, who wrote the Kannada epic 'Sri Ramayana Darshanam', received…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "An Oscar"
+    },
+    {
+     "id": "b",
+     "text": "The Jnanpith Award"
+    },
+    {
+     "id": "c",
+     "text": "The Booker Prize"
+    },
+    {
+     "id": "d",
+     "text": "The Pulitzer Prize"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Kuvempu was the first Kannada writer to receive the Jnanpith, India's highest literary award; Karnataka's state song was written by him.",
+   "distractors": {
+    "c": "No.",
+    "d": "No.",
+    "a": "No."
+   },
+   "takeaway": "Kuvempu: first Kannada Jnanpith.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-015",
+   "type": "mcq",
+   "subtopic": "gk.books",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Which book by Don Norman is a classic about usability in everyday objects?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Ways of Seeing"
+    },
+    {
+     "id": "b",
+     "text": "The Art of War"
+    },
+    {
+     "id": "c",
+     "text": "The Design of Everyday Things"
+    },
+    {
+     "id": "d",
+     "text": "The Elements of Style"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Norman introduced terms like affordances, signifiers and mapping to a wide audience.",
+   "distractors": {
+    "d": "That's about writing.",
+    "a": "By John Berger, about art.",
+    "b": "By Sun Tzu."
+   },
+   "takeaway": "Read Norman.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-016",
+   "type": "mcq",
+   "subtopic": "gk.business",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Amul, famous for its topical advertising mascot, is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "A software company"
+    },
+    {
+     "id": "b",
+     "text": "A car brand"
+    },
+    {
+     "id": "c",
+     "text": "A government ministry"
+    },
+    {
+     "id": "d",
+     "text": "A dairy cooperative from Gujarat"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Amul's 'utterly butterly' girl ads have commented on current events for decades.",
+   "distractors": {
+    "a": "No.",
+    "b": "No.",
+    "c": "It's a cooperative."
+   },
+   "takeaway": "Consistent mascot, fresh message.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-017",
+   "type": "mcq",
+   "subtopic": "gk.business",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Nandini is the dairy brand of which state's milk federation?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Karnataka"
+    },
+    {
+     "id": "b",
+     "text": "Gujarat"
+    },
+    {
+     "id": "c",
+     "text": "Tamil Nadu"
+    },
+    {
+     "id": "d",
+     "text": "Kerala"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The Karnataka Milk Federation sells under the Nandini brand.",
+   "distractors": {
+    "b": "That's Amul.",
+    "c": "That's Aavin.",
+    "d": "That's Milma."
+   },
+   "takeaway": "Know your state's brands.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-018",
+   "type": "mcq",
+   "subtopic": "gk.business",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Mysore Sandal Soap is made by a company owned by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Government of Karnataka"
+    },
+    {
+     "id": "b",
+     "text": "A foreign company"
+    },
+    {
+     "id": "c",
+     "text": "Tata Group"
+    },
+    {
+     "id": "d",
+     "text": "Amul"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Karnataka Soaps and Detergents Limited makes it using sandalwood oil; the soap has a GI tag.",
+   "distractors": {
+    "b": "No.",
+    "c": "No.",
+    "d": "No."
+   },
+   "takeaway": "Heritage brands are design stories.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-019",
+   "type": "mcq",
+   "subtopic": "gk.it",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Which file format is a vector format suitable for logos?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "JPEG"
+    },
+    {
+     "id": "b",
+     "text": "PNG"
+    },
+    {
+     "id": "c",
+     "text": "GIF"
+    },
+    {
+     "id": "d",
+     "text": "SVG"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Vectors scale without blurring.",
+   "distractors": {
+    "a": "Raster.",
+    "b": "Raster.",
+    "c": "Raster."
+   },
+   "takeaway": "Logos in SVG.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-020",
+   "type": "mcq",
+   "subtopic": "gk.it",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Screen colours are described in RGB, while print colours are described in…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "PDF"
+    },
+    {
+     "id": "b",
+     "text": "DPI"
+    },
+    {
+     "id": "c",
+     "text": "CMYK"
+    },
+    {
+     "id": "d",
+     "text": "HTML"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Converting from RGB to CMYK can dull very bright colours, so check prints.",
+   "distractors": {
+    "d": "That's a web language.",
+    "a": "That's a file format.",
+    "b": "That's resolution."
+   },
+   "takeaway": "Screen RGB, print CMYK.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-021",
+   "type": "mcq",
+   "subtopic": "gk.it",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "DPI in printing stands for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Dots per inch"
+    },
+    {
+     "id": "b",
+     "text": "Data processing index"
+    },
+    {
+     "id": "c",
+     "text": "Digital picture image"
+    },
+    {
+     "id": "d",
+     "text": "Design pixel intensity"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Print usually needs around 300 DPI for sharp images; screens use pixels.",
+   "distractors": {
+    "b": "No.",
+    "c": "No.",
+    "d": "No."
+   },
+   "takeaway": "Print needs ~300 DPI.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-022",
+   "type": "mcq",
+   "subtopic": "gk.it",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A 'UX designer' mainly works on…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Writing laws"
+    },
+    {
+     "id": "b",
+     "text": "How easy and pleasant a product is to use"
+    },
+    {
+     "id": "c",
+     "text": "Only the logo"
+    },
+    {
+     "id": "d",
+     "text": "Building computer hardware"
+    }
+   ],
+   "answer": "b",
+   "explanation": "UX = user experience: research, flows, wireframes and testing with users.",
+   "distractors": {
+    "c": "That's branding.",
+    "d": "Engineering.",
+    "a": "No."
+   },
+   "takeaway": "UX = experience, not just looks.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-023",
+   "type": "mcq",
+   "subtopic": "gk.sports",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The Olympic rings' five colours on a white background were chosen because…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "They're the founder's favourite colours"
+    },
+    {
+     "id": "b",
+     "text": "They represent five sports"
+    },
+    {
+     "id": "c",
+     "text": "At least one appears in every participating country's flag"
+    },
+    {
+     "id": "d",
+     "text": "They are the colours of Greece"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Designed by Pierre de Coubertin, the rings symbolise the world coming together.",
+   "distractors": {
+    "d": "No.",
+    "a": "No.",
+    "b": "They represent the union of continents."
+   },
+   "takeaway": "Symbols can unite.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-024",
+   "type": "mcq",
+   "subtopic": "gk.sports",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Mascots for big sporting events are designed mainly to…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Replace the logo"
+    },
+    {
+     "id": "b",
+     "text": "Score goals"
+    },
+    {
+     "id": "c",
+     "text": "Sell tickets only"
+    },
+    {
+     "id": "d",
+     "text": "Create a friendly, memorable identity, especially for children"
+    }
+   ],
+   "answer": "d",
+   "explanation": "A good mascot reflects the host's culture and works across merchandise, animation and signage.",
+   "distractors": {
+    "a": "They complement it.",
+    "b": "No.",
+    "c": "Broader purpose."
+   },
+   "takeaway": "Mascots carry culture.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-025",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which Indian state is famous for the Ilkal saree and the Badami cave temples?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Maharashtra"
+    },
+    {
+     "id": "b",
+     "text": "Tamil Nadu"
+    },
+    {
+     "id": "c",
+     "text": "Karnataka"
+    },
+    {
+     "id": "d",
+     "text": "Andhra Pradesh"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Both are in North Karnataka (Bagalkot district).",
+   "distractors": {
+    "d": "No.",
+    "a": "No.",
+    "b": "No."
+   },
+   "takeaway": "North Karnataka heritage.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-026",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "'Afforestation' means…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Planting trees in an area that had no forest"
+    },
+    {
+     "id": "b",
+     "text": "Cutting forests"
+    },
+    {
+     "id": "c",
+     "text": "Replanting a cut forest"
+    },
+    {
+     "id": "d",
+     "text": "Burning crop waste"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Afforestation and reforestation both add trees, but on different kinds of land.",
+   "distractors": {
+    "b": "That's deforestation.",
+    "c": "That's reforestation.",
+    "d": "No."
+   },
+   "takeaway": "Afforest = new forest.",
+   "tags": [],
+   "needsReview": false
+  }
+ ]
+}

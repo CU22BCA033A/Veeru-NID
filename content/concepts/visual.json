@@ -1,0 +1,106 @@
+{
+ "cards": [
+  {
+   "id": "cc-visual.mirror",
+   "subtopic": "visual.mirror",
+   "title": "Mirror images",
+   "body": "A mirror placed vertically (to the left or right) swaps left and right but keeps top and bottom the same. A clock at 3:00 looks like 9:00 in a mirror. Method: pick the most distinctive feature (a dot, an arrow) and check which side it ends up on, then check the rest. Mirror images can never be produced by rotating the figure; that's the quickest way to eliminate options."
+  },
+  {
+   "id": "cc-visual.water",
+   "subtopic": "visual.water",
+   "title": "Water images",
+   "body": "A water image is a reflection in a horizontal surface below the object: top and bottom swap, left and right stay. Letters like 'b' become 'p'. Method: imagine folding the paper along the waterline. Common trap: the option that is mirrored left-right instead, or rotated 180° (which swaps both)."
+  },
+  {
+   "id": "cc-visual.paper-fold",
+   "subtopic": "visual.paper-fold",
+   "title": "Paper folding & punching",
+   "body": "Each fold halves the paper; each hole punched through folded layers appears in every layer. To unfold, work backwards from the LAST fold: mirror every hole across that fold line, then across the previous one. One fold doubles the holes, two folds give four times as many. Check the final pattern is symmetric about each fold line."
+  },
+  {
+   "id": "cc-visual.cube-net",
+   "subtopic": "visual.cube-net",
+   "title": "Cube nets",
+   "body": "A cube net is 6 squares that fold into a cube; there are exactly 11 possible nets. Faces that share an edge in the net become adjacent. In a straight row of three squares, the first and third are always opposite. In an L-shape, look for faces separated by exactly one square in a line; those are opposite. Two faces that touch can never be opposite."
+  },
+  {
+   "id": "cc-visual.dice",
+   "subtopic": "visual.dice",
+   "title": "Dice",
+   "body": "On a standard die, opposite faces add up to 7 (1–6, 2–5, 3–4). For non-standard dice, use two or more views: any two numbers seen together on one view are adjacent, so never opposite. If one number appears in two views, the four numbers around it are its neighbours, and the remaining one is opposite."
+  },
+  {
+   "id": "cc-visual.figure-count",
+   "subtopic": "visual.figure-count",
+   "title": "Counting figures",
+   "body": "Count systematically, never by eye. For triangles formed by lines from one corner (a 'fan') cut by parallel lines: triangles = (number of parallel levels) × k(k−1)/2, where k is the number of lines from the corner. For squares in an n×m grid: add (n−k+1)(m−k+1) for every square size k. Label points with letters to avoid double counting."
+  },
+  {
+   "id": "cc-visual.embedded",
+   "subtopic": "visual.embedded",
+   "title": "Hidden (embedded) figures",
+   "body": "The simple figure appears inside the complex one at the same size and orientation unless the question says otherwise. Start with its most unusual feature (a diagonal, an odd angle), find it in the big figure, and then check every remaining line around it. One missing line rules an option out."
+  },
+  {
+   "id": "cc-visual.series",
+   "subtopic": "visual.series",
+   "title": "Non-verbal series",
+   "body": "Break each frame into separate elements (an arrow, dots, a shaded part) and find each element's rule: rotation by a fixed angle, count going up or down, a shape cycling through a sequence, shading moving one step. Apply all the rules once more to the last frame."
+  },
+  {
+   "id": "cc-visual.odd-one",
+   "subtopic": "visual.odd-one",
+   "title": "Odd one out",
+   "body": "Usually most options are the same figure rotated, and one is different: often a mirror image (rotation can't produce it), a missing line, or a different count. Rotate each option mentally until a key feature lines up, then compare."
+  },
+  {
+   "id": "cc-visual.pattern",
+   "subtopic": "visual.pattern",
+   "title": "Pattern & matrix completion",
+   "body": "In a 3×3 matrix, look along rows and down columns separately: one rule often controls each direction (shape by row, count by column), sometimes a third controls shading. Write the rules down before looking at the options."
+  },
+  {
+   "id": "cc-visual.rotation",
+   "subtopic": "visual.rotation",
+   "title": "Rotation",
+   "body": "A 90° clockwise turn moves the top to the right, the right to the bottom. Rotation preserves 'handedness': a rotated figure can never become its mirror image. Track one asymmetric feature (a dot or an arrowhead) to check the direction."
+  },
+  {
+   "id": "cc-visual.ortho",
+   "subtopic": "visual.ortho",
+   "title": "Orthographic views",
+   "body": "Orthographic drawings show an object straight-on from one side: front view (elevation), side view, and top view (plan). Each view shows only two dimensions. For stacked blocks, the front view shows the tallest stack in each column; the top view shows which positions are occupied."
+  },
+  {
+   "id": "cc-visual.venn",
+   "subtopic": "visual.venn",
+   "title": "Venn diagrams",
+   "body": "Overlapping circles show shared members. Read carefully: 'some', 'all' and 'no' decide whether circles overlap, contain one another or stay apart. All doctors are graduates → the doctor circle sits inside the graduate circle. Some artists are teachers → the circles overlap."
+  },
+  {
+   "id": "cc-visual.direction",
+   "subtopic": "visual.direction",
+   "title": "Direction & distance",
+   "body": "Always draw it. Fix North up, East right. 'Turn right' depends on which way the person is facing at that moment. For distance from the start, find total East–West and North–South displacement and use Pythagoras: √(x² + y²). Common triangles: 3-4-5, 6-8-10, 5-12-13."
+  },
+  {
+   "id": "cc-visual.coding",
+   "subtopic": "visual.coding",
+   "title": "Coding–decoding",
+   "body": "Write the alphabet positions (A=1 … Z=26). Compare the word and its code letter by letter: a constant shift, alternating shifts, reversal, or position-based changes. Check your rule on every letter before applying it."
+  },
+  {
+   "id": "cc-visual.arrangement",
+   "subtopic": "visual.arrangement",
+   "title": "Arrangements",
+   "body": "Draw the seats (a line or a circle) and place the most certain clue first. In a circle facing the centre, 'to the left' means clockwise from that person's view. Write every clue as a small diagram and eliminate options as you go."
+  },
+  {
+   "id": "cc-visual.illusion",
+   "subtopic": "visual.illusion",
+   "title": "Optical illusions",
+   "body": "Our brain judges size and length relative to surroundings. Müller-Lyer: fins make equal lines look different. Ebbinghaus: a circle among big circles looks smaller. Ponzo: converging lines make the 'far' object look bigger. Designers correct for these, e.g. making round letters slightly taller than flat ones so they look equal."
+  }
+ ]
+}

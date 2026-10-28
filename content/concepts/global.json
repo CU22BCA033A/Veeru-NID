@@ -1,0 +1,40 @@
+{
+ "cards": [
+  {
+   "id": "cc-global.movements",
+   "subtopic": "global.movements",
+   "title": "Design movements",
+   "body": "Arts and Crafts (late 1800s, William Morris): handcraft over machines. Art Nouveau: flowing natural curves. Bauhaus (Germany, 1919–1933): form follows function, unity of art and industry. Art Deco: geometric glamour. Swiss (International) Style: grids, sans-serif type, clarity. Memphis (1980s, Ettore Sottsass): playful colours and shapes. Minimalism: less, but better."
+  },
+  {
+   "id": "cc-global.designers",
+   "subtopic": "global.designers",
+   "title": "Famous designers",
+   "body": "Dieter Rams (Braun): 'less, but better' and the ten principles of good design. Charles & Ray Eames: plywood and fibreglass chairs, and the India Report. Paul Rand: IBM and ABC logos. Milton Glaser: the 'I ♥ NY' logo. Massimo Vignelli: the New York subway map. Zaha Hadid: flowing architecture. Naoto Fukasawa: products that fit natural behaviour."
+  },
+  {
+   "id": "cc-global.products",
+   "subtopic": "global.products",
+   "title": "Iconic products",
+   "body": "Products studied as design classics include the Eames Lounge Chair, the Braun SK4 radio, the Anglepoise lamp, the Swiss Army knife, the Coca-Cola contour bottle, the original iPod, the monobloc plastic chair (cheap, stackable, everywhere) and the bicycle. Ask what problem each solved and why it lasted."
+  },
+  {
+   "id": "cc-global.sustainability",
+   "subtopic": "global.sustainability",
+   "title": "Sustainability & circular design",
+   "body": "A linear economy goes make → use → throw. A circular economy keeps materials in use: design for durability, repair, reuse, remanufacture and recycling, and use renewable materials. Life-cycle thinking considers raw materials, manufacture, transport, use and end of life. Many traditional Indian practices (repair, reuse, leaf plates) are already circular."
+  },
+  {
+   "id": "cc-global.inclusive",
+   "subtopic": "global.inclusive",
+   "title": "Universal & inclusive design",
+   "body": "Universal design makes things usable by as many people as possible without special adaptation: ramps, lever handles, large text, low-floor buses. Inclusive design also considers age, language, culture and situational limits (carrying shopping, a broken arm). Key principles: equitable use, flexibility, simple and intuitive use, perceptible information, tolerance for error, low effort, and appropriate size and space."
+  },
+  {
+   "id": "cc-global.tech",
+   "subtopic": "global.tech",
+   "title": "AI & emerging tech in design",
+   "body": "AI tools can generate images, text and layouts quickly, which is useful for exploration. But designers still define problems, understand users, judge quality and take responsibility. Other emerging areas: 3D printing (rapid prototyping), AR/VR, smart and connected products, and new bio-based materials. Ethics matters: privacy, bias and energy use."
+  }
+ ]
+}

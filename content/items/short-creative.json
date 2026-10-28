@@ -1,0 +1,5141 @@
+{
+ "items": [
+  {
+   "id": "sh-uses-001",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a clothes-peg for a farmer, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a clothes-peg (its shape, material, size, whether it's hollow, flexible or reflective) and think about a farmer's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Clip seed packets to a fence row as labels\n2. Hold a plastic sheet over a seedling bed\n3. Clip a torch to a shed beam at night\n4. Mark rows planted on the same day\n5. Keep a cattle-feed sack closed\n6. Clip a cloth over a water pot against dust\n7. Hold a tomato vine to its stick\n8. Pin bills and receipts to a wall string",
+   "rubric": {
+    "keywords": [
+     "label",
+     "seed",
+     "sheet",
+     "clip",
+     "hold",
+     "sack",
+     "vine",
+     "mark"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-002",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a steel tumbler for a classroom teacher, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a steel tumbler (its shape, material, size, whether it's hollow, flexible or reflective) and think about a classroom teacher's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Pen and chalk holder\n2. Rhythm instrument for a music game\n3. A measuring cup for a science demo\n4. Paperweight on a windy day\n5. Mould for clay or sand models\n6. A 'question jar' for students' doubts\n7. Ring a spoon on it as a soft bell for attention\n8. Stand for a small plant on the desk",
+   "rubric": {
+    "keywords": [
+     "holder",
+     "music",
+     "measure",
+     "weight",
+     "mould",
+     "jar",
+     "bell",
+     "plant"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-003",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a bicycle wheel for a children's park, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a bicycle wheel (its shape, material, size, whether it's hollow, flexible or reflective) and think about a children's park's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. A spinning bird feeder\n2. A hanging planter frame\n3. A wind-chime ring\n4. A ring-toss target\n5. A sundial face\n6. A rotating chalkboard\n7. A climbing-net anchor\n8. A water-wheel toy in a sand pit",
+   "rubric": {
+    "keywords": [
+     "spin",
+     "feeder",
+     "planter",
+     "chime",
+     "target",
+     "sundial",
+     "board",
+     "water"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-004",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of an old saree for a hospital, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of an old saree (its shape, material, size, whether it's hollow, flexible or reflective) and think about a hospital's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Privacy curtain between beds\n2. Soft sling for an injured arm\n3. Wall hangings that make wards cheerful\n4. Cloth bags for patients' belongings\n5. Shade cloth in the waiting area\n6. Padded cover for metal bed rails\n7. Strips to tie and mark visitor queues\n8. A quilt layered into a blanket",
+   "rubric": {
+    "keywords": [
+     "curtain",
+     "sling",
+     "bag",
+     "shade",
+     "cover",
+     "quilt",
+     "privacy",
+     "decor"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-005",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a plastic bottle for a street vendor, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a plastic bottle (its shape, material, size, whether it's hollow, flexible or reflective) and think about a street vendor's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Drip irrigation for a balcony plant\n2. Coin holder cut in half\n3. A funnel for pouring oil\n4. A float to keep a tarpaulin edge visible\n5. A scoop for grain\n6. A lamp shade with a phone torch\n7. A rain gauge\n8. A sprinkler for cooling the road dust",
+   "rubric": {
+    "keywords": [
+     "funnel",
+     "scoop",
+     "coin",
+     "lamp",
+     "drip",
+     "gauge",
+     "sprinkler",
+     "holder"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-006",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a cardboard box for a hostel student, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a cardboard box (its shape, material, size, whether it's hollow, flexible or reflective) and think about a hostel student's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Under-bed drawer\n2. Laptop stand\n3. Shoe rack with dividers\n4. Noticeboard\n5. Charging-cable organiser\n6. Dirty-laundry hamper\n7. Bedside table\n8. A light box for tracing drawings",
+   "rubric": {
+    "keywords": [
+     "drawer",
+     "stand",
+     "rack",
+     "board",
+     "organiser",
+     "table",
+     "hamper",
+     "storage"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-007",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a coconut shell for a garden, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a coconut shell (its shape, material, size, whether it's hollow, flexible or reflective) and think about a garden's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Planter for succulents\n2. Bird feeder\n3. Bird bath\n4. Scoop for compost\n5. Mould for garden stepping-stones\n6. Hanging lamp shell\n7. Seedling pot that can be buried\n8. Wind chime",
+   "rubric": {
+    "keywords": [
+     "planter",
+     "feeder",
+     "bath",
+     "scoop",
+     "pot",
+     "lamp",
+     "chime",
+     "compost"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-008",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of an old toothbrush for a cycle-repair shop, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of an old toothbrush (its shape, material, size, whether it's hollow, flexible or reflective) and think about a cycle-repair shop's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Cleaning the chain\n2. Scrubbing grease off gears\n3. Applying oil to small parts\n4. Cleaning spoke nipples\n5. Brushing rust off bolts\n6. Cleaning tyre treads\n7. Spreading glue for puncture patches\n8. Dusting small tools",
+   "rubric": {
+    "keywords": [
+     "chain",
+     "clean",
+     "oil",
+     "rust",
+     "gear",
+     "glue",
+     "scrub",
+     "grease"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-009",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a newspaper for a painter, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a newspaper (its shape, material, size, whether it's hollow, flexible or reflective) and think about a painter's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Floor protection while painting\n2. Masking edges\n3. Mixing palette\n4. Wiping brushes\n5. Texture stamping with crumpled paper\n6. Stencils\n7. Wrapping wet brushes\n8. Collage material",
+   "rubric": {
+    "keywords": [
+     "floor",
+     "mask",
+     "palette",
+     "wipe",
+     "texture",
+     "stencil",
+     "wrap",
+     "collage"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-010",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a bucket for a music class, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a bucket (its shape, material, size, whether it's hollow, flexible or reflective) and think about a music class's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Drum\n2. Resonating chamber for a homemade string instrument\n3. Shaker with stones inside\n4. Stand for a speaker\n5. Seat for a tabla player\n6. Echo chamber for vocal exercises\n7. Storage for small instruments\n8. Rhythm-game target",
+   "rubric": {
+    "keywords": [
+     "drum",
+     "shaker",
+     "beat",
+     "rhythm",
+     "seat",
+     "stand",
+     "echo",
+     "sound"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-011",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a rubber band for an office worker, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a rubber band (its shape, material, size, whether it's hollow, flexible or reflective) and think about an office worker's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Cable tie\n2. Grip on a jar lid\n3. Phone-stand helper\n4. Bookmark on a notebook\n5. Bundle pens\n6. Non-slip pad on a glass\n7. Stop a door from closing\n8. Reminder band on the wrist",
+   "rubric": {
+    "keywords": [
+     "cable",
+     "grip",
+     "bookmark",
+     "bundle",
+     "slip",
+     "reminder",
+     "tie",
+     "hold"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-012",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of an egg tray for a home recording studio, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of an egg tray (its shape, material, size, whether it's hollow, flexible or reflective) and think about a home recording studio's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Sound-dampening wall panels\n2. Mic stand cushion\n3. Cable organiser\n4. Desk organiser for small items\n5. Seedling tray for desk plants\n6. Paint palette for artwork\n7. Soft protector for fragile gear\n8. Pin-up board for notes",
+   "rubric": {
+    "keywords": [
+     "sound",
+     "panel",
+     "cushion",
+     "organiser",
+     "palette",
+     "tray",
+     "dampen",
+     "board"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-013",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a PVC pipe for a balcony, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a PVC pipe (its shape, material, size, whether it's hollow, flexible or reflective) and think about a balcony's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Vertical herb garden\n2. Bird feeder tube\n3. Shoe rack\n4. Hanging clothes rail\n5. Drip-irrigation line\n6. Umbrella stand\n7. Wind chime\n8. Cable/hose guide",
+   "rubric": {
+    "keywords": [
+     "garden",
+     "feeder",
+     "rack",
+     "rail",
+     "drip",
+     "stand",
+     "chime",
+     "guide"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-014",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a matchbox for a craft class, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a matchbox (its shape, material, size, whether it's hollow, flexible or reflective) and think about a craft class's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Mini drawer unit\n2. Stamp for printing patterns\n3. Puppet theatre stage\n4. Tiny gift box\n5. Building blocks for a model city\n6. Storage for beads\n7. A pinhole camera body\n8. Frame for miniature art",
+   "rubric": {
+    "keywords": [
+     "drawer",
+     "stamp",
+     "puppet",
+     "gift",
+     "model",
+     "storage",
+     "frame",
+     "box"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-015",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a broken umbrella for a fisherman, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a broken umbrella (its shape, material, size, whether it's hollow, flexible or reflective) and think about a fisherman's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Canopy over a boat seat\n2. Frame for drying fish\n3. Ribs as fishing-line spools\n4. Waterproof cover for nets\n5. Wind shield for a stove\n6. Float marker frame\n7. Spokes as small hooks\n8. Cloth as a carry bag",
+   "rubric": {
+    "keywords": [
+     "canopy",
+     "dry",
+     "cover",
+     "shield",
+     "frame",
+     "hook",
+     "bag",
+     "spool"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-016",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a wooden ice-cream stick for a first-aid kit, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a wooden ice-cream stick (its shape, material, size, whether it's hollow, flexible or reflective) and think about a first-aid kit's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Finger splint\n2. Tongue depressor\n3. Ointment spreader\n4. Labelling medicine bottles\n5. Stirring a sachet into water\n6. Holding a bandage while tying\n7. Marking the date of a wound dressing\n8. Stiffening a sling",
+   "rubric": {
+    "keywords": [
+     "splint",
+     "spread",
+     "label",
+     "stir",
+     "bandage",
+     "support",
+     "mark",
+     "tongue"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-017",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a glass jar for a sweet shop, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a glass jar (its shape, material, size, whether it's hollow, flexible or reflective) and think about a sweet shop's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Display jars for sweets\n2. A tip jar\n3. Lantern with a candle\n4. A sample-tasting container\n5. Storage for spices\n6. A sugar shaker with a punched lid\n7. Money counter for coins\n8. Display for a shop's best seller",
+   "rubric": {
+    "keywords": [
+     "display",
+     "tip",
+     "lantern",
+     "storage",
+     "sample",
+     "shaker",
+     "coins",
+     "jar"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-018",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a jute sack for a sports day, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a jute sack (its shape, material, size, whether it's hollow, flexible or reflective) and think about a sports day's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Sack race\n2. Target for bean-bag toss\n3. Seat mats for spectators\n4. Finish-line banner\n5. Goal net\n6. Equipment carrier\n7. Shade sheet\n8. Tug-of-war marker",
+   "rubric": {
+    "keywords": [
+     "race",
+     "target",
+     "mat",
+     "banner",
+     "goal",
+     "carry",
+     "shade",
+     "marker"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-019",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of an old school bag for a village library, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of an old school bag (its shape, material, size, whether it's hollow, flexible or reflective) and think about a village library's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Mobile book-lending bag\n2. Wall organiser for magazines\n3. Rain cover for books\n4. Donation collection bag\n5. Children's story-time prop bag\n6. Hanging storage for stationery\n7. Cushion stuffed with cloth\n8. Return box",
+   "rubric": {
+    "keywords": [
+     "lending",
+     "organiser",
+     "cover",
+     "donation",
+     "storage",
+     "cushion",
+     "return",
+     "carry"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-020",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a spoon for a tailoring shop, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a spoon (its shape, material, size, whether it's hollow, flexible or reflective) and think about a tailoring shop's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Smoothing seams\n2. Pressing buttons\n3. Measuring small quantities of beads\n4. Turning collar points\n5. Scooping pins\n6. Weight to hold fabric\n7. Tracing curves\n8. Holding a thread spool",
+   "rubric": {
+    "keywords": [
+     "seam",
+     "press",
+     "measure",
+     "scoop",
+     "weight",
+     "trace",
+     "hold",
+     "collar"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-021",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a cloth bag for a hospital bedside, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a cloth bag (its shape, material, size, whether it's hollow, flexible or reflective) and think about a hospital bedside's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Hanging pocket for a patient's phone and specs\n2. Urine-bag cover for dignity\n3. Pillow cover\n4. Medicine organiser with sections\n5. Hot-water-bottle cover\n6. Visitor's lunch carrier\n7. Laundry bag\n8. Cover for an IV pole hook",
+   "rubric": {
+    "keywords": [
+     "pocket",
+     "cover",
+     "organiser",
+     "pillow",
+     "dignity",
+     "laundry",
+     "phone",
+     "medicine"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-022",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a coconut-leaf broom stick for a school, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a coconut-leaf broom stick (its shape, material, size, whether it's hollow, flexible or reflective) and think about a school's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Pointer for the blackboard\n2. Garden plant support\n3. Kite frame\n4. Model-making skewers\n5. Stirring paint\n6. Measuring stick\n7. Letters for a craft project\n8. Fence for a sand-pit model",
+   "rubric": {
+    "keywords": [
+     "pointer",
+     "support",
+     "kite",
+     "model",
+     "stir",
+     "measure",
+     "craft",
+     "fence"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-023",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of an old tyre for a playground, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of an old tyre (its shape, material, size, whether it's hollow, flexible or reflective) and think about a playground's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Swing\n2. Sandpit border\n3. Climbing wall steps\n4. Planter\n5. Seat\n6. Obstacle course rings\n7. Tunnel\n8. Rolling game",
+   "rubric": {
+    "keywords": [
+     "swing",
+     "sandpit",
+     "climb",
+     "planter",
+     "seat",
+     "obstacle",
+     "tunnel",
+     "roll"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-024",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a steel plate for a camping trip, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a steel plate (its shape, material, size, whether it's hollow, flexible or reflective) and think about a camping trip's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. Signal mirror\n2. Frying pan over a fire\n3. Shovel for digging\n4. Fan for the fire\n5. Cutting board\n6. Drum to scare animals\n7. Lid for a pot\n8. Tray to carry food",
+   "rubric": {
+    "keywords": [
+     "mirror",
+     "pan",
+     "dig",
+     "fan",
+     "board",
+     "drum",
+     "lid",
+     "tray"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-uses-025",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 8 uses of a paper cup for a science class, other than its normal use. One idea per line.",
+   "imageIds": [],
+   "explanation": "Strong answers use different properties of a paper cup (its shape, material, size, whether it's hollow, flexible or reflective) and think about a science class's real daily needs. Avoid repeating one idea in different words.",
+   "modelAnswer": "1. String telephone\n2. Seedling pot\n3. Measuring water\n4. Model volcano base\n5. Pinhole viewer\n6. Sound amplifier for a phone\n7. Insulation experiment\n8. Pendulum weight holder",
+   "rubric": {
+    "keywords": [
+     "telephone",
+     "seed",
+     "measure",
+     "volcano",
+     "pinhole",
+     "sound",
+     "insulation",
+     "pendulum"
+    ],
+    "minIdeas": 8
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-relief-001",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A flood-relief camp has hundreds of plastic bottles but little else. Suggest 6 ways they could help people in the camp.",
+   "imageIds": [],
+   "explanation": "Think about the camp's real needs: water, shelter, hygiene, sleeping, cooking, children, finding people. Good answers map a plastic bottle's properties onto those needs.",
+   "modelAnswer": "1. Shelter or shade\n2. Water collection or storage\n3. Sanitation or hygiene\n4. Signals or wayfinding\n5. Comfort for children or elderly\n6. Cooking or food handling",
+   "rubric": {
+    "keywords": [
+     "shelter",
+     "water",
+     "signal",
+     "store",
+     "clean",
+     "children",
+     "cook",
+     "sleep",
+     "light",
+     "sign"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-relief-002",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A flood-relief camp has hundreds of cardboard boxs but little else. Suggest 6 ways they could help people in the camp.",
+   "imageIds": [],
+   "explanation": "Think about the camp's real needs: water, shelter, hygiene, sleeping, cooking, children, finding people. Good answers map a cardboard box's properties onto those needs.",
+   "modelAnswer": "1. Shelter or shade\n2. Water collection or storage\n3. Sanitation or hygiene\n4. Signals or wayfinding\n5. Comfort for children or elderly\n6. Cooking or food handling",
+   "rubric": {
+    "keywords": [
+     "shelter",
+     "water",
+     "signal",
+     "store",
+     "clean",
+     "children",
+     "cook",
+     "sleep",
+     "light",
+     "sign"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-relief-003",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A flood-relief camp has hundreds of bicycle wheels but little else. Suggest 6 ways they could help people in the camp.",
+   "imageIds": [],
+   "explanation": "Think about the camp's real needs: water, shelter, hygiene, sleeping, cooking, children, finding people. Good answers map a bicycle wheel's properties onto those needs.",
+   "modelAnswer": "1. Shelter or shade\n2. Water collection or storage\n3. Sanitation or hygiene\n4. Signals or wayfinding\n5. Comfort for children or elderly\n6. Cooking or food handling",
+   "rubric": {
+    "keywords": [
+     "shelter",
+     "water",
+     "signal",
+     "store",
+     "clean",
+     "children",
+     "cook",
+     "sleep",
+     "light",
+     "sign"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-relief-004",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A flood-relief camp has hundreds of old sarees but little else. Suggest 6 ways they could help people in the camp.",
+   "imageIds": [],
+   "explanation": "Think about the camp's real needs: water, shelter, hygiene, sleeping, cooking, children, finding people. Good answers map an old saree's properties onto those needs.",
+   "modelAnswer": "1. Shelter or shade\n2. Water collection or storage\n3. Sanitation or hygiene\n4. Signals or wayfinding\n5. Comfort for children or elderly\n6. Cooking or food handling",
+   "rubric": {
+    "keywords": [
+     "shelter",
+     "water",
+     "signal",
+     "store",
+     "clean",
+     "children",
+     "cook",
+     "sleep",
+     "light",
+     "sign"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-relief-005",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A flood-relief camp has hundreds of jute sacks but little else. Suggest 6 ways they could help people in the camp.",
+   "imageIds": [],
+   "explanation": "Think about the camp's real needs: water, shelter, hygiene, sleeping, cooking, children, finding people. Good answers map a jute sack's properties onto those needs.",
+   "modelAnswer": "1. Shelter or shade\n2. Water collection or storage\n3. Sanitation or hygiene\n4. Signals or wayfinding\n5. Comfort for children or elderly\n6. Cooking or food handling",
+   "rubric": {
+    "keywords": [
+     "shelter",
+     "water",
+     "signal",
+     "store",
+     "clean",
+     "children",
+     "cook",
+     "sleep",
+     "light",
+     "sign"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-relief-006",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A flood-relief camp has hundreds of coconut shells but little else. Suggest 6 ways they could help people in the camp.",
+   "imageIds": [],
+   "explanation": "Think about the camp's real needs: water, shelter, hygiene, sleeping, cooking, children, finding people. Good answers map a coconut shell's properties onto those needs.",
+   "modelAnswer": "1. Shelter or shade\n2. Water collection or storage\n3. Sanitation or hygiene\n4. Signals or wayfinding\n5. Comfort for children or elderly\n6. Cooking or food handling",
+   "rubric": {
+    "keywords": [
+     "shelter",
+     "water",
+     "signal",
+     "store",
+     "clean",
+     "children",
+     "cook",
+     "sleep",
+     "light",
+     "sign"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-relief-007",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A flood-relief camp has hundreds of buckets but little else. Suggest 6 ways they could help people in the camp.",
+   "imageIds": [],
+   "explanation": "Think about the camp's real needs: water, shelter, hygiene, sleeping, cooking, children, finding people. Good answers map a bucket's properties onto those needs.",
+   "modelAnswer": "1. Shelter or shade\n2. Water collection or storage\n3. Sanitation or hygiene\n4. Signals or wayfinding\n5. Comfort for children or elderly\n6. Cooking or food handling",
+   "rubric": {
+    "keywords": [
+     "shelter",
+     "water",
+     "signal",
+     "store",
+     "clean",
+     "children",
+     "cook",
+     "sleep",
+     "light",
+     "sign"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-relief-008",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A flood-relief camp has hundreds of newspapers but little else. Suggest 6 ways they could help people in the camp.",
+   "imageIds": [],
+   "explanation": "Think about the camp's real needs: water, shelter, hygiene, sleeping, cooking, children, finding people. Good answers map a newspaper's properties onto those needs.",
+   "modelAnswer": "1. Shelter or shade\n2. Water collection or storage\n3. Sanitation or hygiene\n4. Signals or wayfinding\n5. Comfort for children or elderly\n6. Cooking or food handling",
+   "rubric": {
+    "keywords": [
+     "shelter",
+     "water",
+     "signal",
+     "store",
+     "clean",
+     "children",
+     "cook",
+     "sleep",
+     "light",
+     "sign"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-relief-009",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A flood-relief camp has hundreds of steel plates but little else. Suggest 6 ways they could help people in the camp.",
+   "imageIds": [],
+   "explanation": "Think about the camp's real needs: water, shelter, hygiene, sleeping, cooking, children, finding people. Good answers map a steel plate's properties onto those needs.",
+   "modelAnswer": "1. Shelter or shade\n2. Water collection or storage\n3. Sanitation or hygiene\n4. Signals or wayfinding\n5. Comfort for children or elderly\n6. Cooking or food handling",
+   "rubric": {
+    "keywords": [
+     "shelter",
+     "water",
+     "signal",
+     "store",
+     "clean",
+     "children",
+     "cook",
+     "sleep",
+     "light",
+     "sign"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-relief-010",
+   "type": "short",
+   "subtopic": "creative.alt-uses",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A flood-relief camp has hundreds of PVC pipes but little else. Suggest 6 ways they could help people in the camp.",
+   "imageIds": [],
+   "explanation": "Think about the camp's real needs: water, shelter, hygiene, sleeping, cooking, children, finding people. Good answers map a PVC pipe's properties onto those needs.",
+   "modelAnswer": "1. Shelter or shade\n2. Water collection or storage\n3. Sanitation or hygiene\n4. Signals or wayfinding\n5. Comfort for children or elderly\n6. Cooking or food handling",
+   "rubric": {
+    "keywords": [
+     "shelter",
+     "water",
+     "signal",
+     "store",
+     "clean",
+     "children",
+     "cook",
+     "sleep",
+     "light",
+     "sign"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-001",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems an elderly person faces at a bus stop. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from an elderly person's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. High step into the bus\n2. Nowhere to sit while waiting\n3. Can't read small route numbers\n4. Bus leaves before they're seated\n5. No shade or rain cover\n6. Crowd pushing at the door",
+   "rubric": {
+    "keywords": [
+     "nowhere",
+     "while",
+     "waiting",
+     "can't",
+     "small",
+     "route",
+     "numbers",
+     "leaves",
+     "before",
+     "they're",
+     "seated",
+     "shade"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-002",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a wheelchair user faces at a railway station. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a wheelchair user's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Steps to platforms\n2. Gap between train and platform\n3. Ticket counters too high\n4. Toilets not accessible\n5. Crowds block movement\n6. Announcements hard to locate",
+   "rubric": {
+    "keywords": [
+     "steps",
+     "platforms",
+     "between",
+     "train",
+     "platform",
+     "ticket",
+     "counters",
+     "toilets",
+     "accessible",
+     "crowds",
+     "block",
+     "movement"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-003",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a mother with a baby faces at a crowded market. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a mother with a baby's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. No place to feed or change the baby\n2. Pram can't move between stalls\n3. Hands full with baby and bags\n4. Heat and noise upset the baby\n5. No clean water\n6. Fear of losing things in the crowd",
+   "rubric": {
+    "keywords": [
+     "place",
+     "change",
+     "can't",
+     "between",
+     "stalls",
+     "hands",
+     "noise",
+     "upset",
+     "clean",
+     "water",
+     "losing",
+     "things"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-004",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a blind student faces at a school campus. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a blind student's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. No tactile paths\n2. Notice boards are visual only\n3. Obstacles in corridors\n4. Inaccessible textbooks\n5. Hard to find classrooms\n6. Classmates move furniture around",
+   "rubric": {
+    "keywords": [
+     "tactile",
+     "paths",
+     "notice",
+     "boards",
+     "visual",
+     "obstacles",
+     "corridors",
+     "inaccessible",
+     "textbooks",
+     "classrooms",
+     "classmates",
+     "furniture"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-005",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a street vendor faces at the monsoon. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a street vendor's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Goods get wet\n2. Customers stay home\n3. Cart wheels stuck in mud\n4. Electric wires and water risk\n5. No place to store stock\n6. Illness from standing in the rain",
+   "rubric": {
+    "keywords": [
+     "goods",
+     "customers",
+     "wheels",
+     "stuck",
+     "electric",
+     "wires",
+     "water",
+     "place",
+     "store",
+     "stock",
+     "illness",
+     "standing"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-006",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a delivery rider faces at a heatwave. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a delivery rider's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Dehydration\n2. Hot seat and handlebars\n3. No place to rest in shade\n4. Phone overheats\n5. Food packages get warm\n6. Sunburn and fatigue",
+   "rubric": {
+    "keywords": [
+     "dehydration",
+     "handlebars",
+     "place",
+     "shade",
+     "phone",
+     "overheats",
+     "packages",
+     "sunburn",
+     "fatigue"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-007",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a first-time voter faces at a polling booth. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a first-time voter's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Doesn't know where the booth is\n2. Confused by the queue system\n3. Unsure how the machine works\n4. Nervous about making a mistake\n5. Long waiting time\n6. Unclear which ID to bring",
+   "rubric": {
+    "keywords": [
+     "doesn't",
+     "where",
+     "booth",
+     "confused",
+     "queue",
+     "system",
+     "unsure",
+     "machine",
+     "works",
+     "nervous",
+     "about",
+     "making"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-008",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a farmer faces at a weekly market. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a farmer's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Transporting produce\n2. Crushed or spoiled produce\n3. Middlemen take profits\n4. No weighing scale he trusts\n5. No shade for stock\n6. Unsold produce at the end",
+   "rubric": {
+    "keywords": [
+     "transporting",
+     "produce",
+     "crushed",
+     "spoiled",
+     "produce",
+     "middlemen",
+     "profits",
+     "weighing",
+     "scale",
+     "trusts",
+     "shade",
+     "stock"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-009",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a child faces at a hospital waiting room. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a child's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Boredom\n2. Fear of doctors and needles\n3. Uncomfortable adult-size chairs\n4. Can't see over counters\n5. Exposure to infections\n6. Parents too busy to explain",
+   "rubric": {
+    "keywords": [
+     "boredom",
+     "doctors",
+     "needles",
+     "uncomfortable",
+     "adult-size",
+     "chairs",
+     "can't",
+     "counters",
+     "exposure",
+     "infections",
+     "parents",
+     "explain"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-010",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a tourist who doesn't speak Kannada faces at Bengaluru's city buses. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a tourist who doesn't speak Kannada's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Can't read route boards\n2. Doesn't know fares\n3. Doesn't know where to get off\n4. Crowded doors\n5. Confusing bus stands\n6. Fear of being overcharged",
+   "rubric": {
+    "keywords": [
+     "can't",
+     "route",
+     "boards",
+     "doesn't",
+     "fares",
+     "doesn't",
+     "where",
+     "crowded",
+     "doors",
+     "confusing",
+     "stands",
+     "being"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-011",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems an elderly person faces at an ATM. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from an elderly person's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Small screen text\n2. Too many steps\n3. Fear of fraud\n4. Time-out before finishing\n5. Card slot hard to find\n6. Queue behind them causes pressure",
+   "rubric": {
+    "keywords": [
+     "small",
+     "screen",
+     "steps",
+     "fraud",
+     "time-out",
+     "before",
+     "finishing",
+     "queue",
+     "behind",
+     "causes",
+     "pressure"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-012",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a pregnant woman faces at a city bus. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a pregnant woman's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. No reserved seat available\n2. Sudden braking\n3. Crowds pushing\n4. High steps\n5. Heat and poor ventilation\n6. Long standing time",
+   "rubric": {
+    "keywords": [
+     "reserved",
+     "available",
+     "sudden",
+     "braking",
+     "crowds",
+     "pushing",
+     "steps",
+     "ventilation",
+     "standing"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-013",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a construction worker faces at a building site. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a construction worker's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Heavy lifting\n2. Heat exposure\n3. No clean drinking water\n4. Unsafe scaffolding\n5. No toilets\n6. Noise and dust",
+   "rubric": {
+    "keywords": [
+     "heavy",
+     "lifting",
+     "exposure",
+     "clean",
+     "drinking",
+     "water",
+     "unsafe",
+     "scaffolding",
+     "toilets",
+     "noise"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-014",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a student faces at online classes on a phone. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a student's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Small screen\n2. Poor network\n3. Eye strain\n4. Distracting notifications\n5. Can't ask questions easily\n6. Battery runs out",
+   "rubric": {
+    "keywords": [
+     "small",
+     "screen",
+     "network",
+     "strain",
+     "distracting",
+     "notifications",
+     "can't",
+     "questions",
+     "easily",
+     "battery"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-015",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a cook faces at a small hotel kitchen. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a cook's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Heat and smoke\n2. Slippery floors\n3. Cramped space\n4. Heavy vessels\n5. Rushed orders\n6. Burns from steam",
+   "rubric": {
+    "keywords": [
+     "smoke",
+     "slippery",
+     "floors",
+     "cramped",
+     "space",
+     "heavy",
+     "vessels",
+     "rushed",
+     "orders",
+     "burns",
+     "steam"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-016",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a traffic policeman faces at a busy junction. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a traffic policeman's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Pollution\n2. Heat and rain\n3. Standing for hours\n4. No toilet nearby\n5. Noise\n6. Drivers ignore signals",
+   "rubric": {
+    "keywords": [
+     "pollution",
+     "standing",
+     "hours",
+     "toilet",
+     "nearby",
+     "noise",
+     "drivers",
+     "ignore",
+     "signals"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-017",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a left-handed student faces at a classroom. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a left-handed student's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Desks with right-side arm rests\n2. Smudging ink while writing\n3. Scissors designed for right hands\n4. Spiral notebooks hurt the hand\n5. Bumping elbows with neighbours\n6. Computer mouse placement",
+   "rubric": {
+    "keywords": [
+     "desks",
+     "right-side",
+     "rests",
+     "smudging",
+     "while",
+     "writing",
+     "scissors",
+     "designed",
+     "right",
+     "hands",
+     "spiral",
+     "notebooks"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-018",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a person carrying a gas cylinder faces at an apartment with no lift. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a person carrying a gas cylinder's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Heavy weight on stairs\n2. Narrow staircase\n3. Risk of dropping it\n4. Back strain\n5. Nowhere to rest midway\n6. Unsafe for children nearby",
+   "rubric": {
+    "keywords": [
+     "heavy",
+     "weight",
+     "stairs",
+     "narrow",
+     "staircase",
+     "dropping",
+     "strain",
+     "nowhere",
+     "midway",
+     "unsafe",
+     "children",
+     "nearby"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-019",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems an elderly couple faces at a temple festival. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from an elderly couple's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Crowds and pushing\n2. Long queues in the sun\n3. Steep steps\n4. Lost footwear\n5. Losing each other\n6. No seating",
+   "rubric": {
+    "keywords": [
+     "crowds",
+     "pushing",
+     "queues",
+     "steep",
+     "steps",
+     "footwear",
+     "losing",
+     "other",
+     "seating"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-020",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a school bus driver faces at the school gate at 8 am. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a school bus driver's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Parents' vehicles blocking\n2. Children running across\n3. No proper stop\n4. Time pressure\n5. Horn noise\n6. Poor visibility of small children",
+   "rubric": {
+    "keywords": [
+     "parents'",
+     "vehicles",
+     "blocking",
+     "children",
+     "running",
+     "across",
+     "proper",
+     "pressure",
+     "noise",
+     "visibility",
+     "small",
+     "children"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-021",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a girl cycling to school faces at a rural road. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a girl cycling to school's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Potholes\n2. No street lights\n3. Stray dogs\n4. Heavy vehicles\n5. Rain and mud\n6. Heavy school bag on the cycle",
+   "rubric": {
+    "keywords": [
+     "potholes",
+     "street",
+     "lights",
+     "stray",
+     "heavy",
+     "vehicles",
+     "heavy",
+     "school",
+     "cycle"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-022",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a hospital night-shift nurse faces at the ward at night. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a hospital night-shift nurse's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Low light for reading charts\n2. Waking patients when checking\n3. Long walking distances\n4. Fatigue\n5. Alarms from many machines\n6. Nowhere to rest",
+   "rubric": {
+    "keywords": [
+     "light",
+     "reading",
+     "charts",
+     "waking",
+     "patients",
+     "checking",
+     "walking",
+     "distances",
+     "fatigue",
+     "alarms",
+     "machines",
+     "nowhere"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-023",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a person with a broken leg faces at their own home. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a person with a broken leg's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Toilet hard to use\n2. Stairs\n3. Reaching high shelves\n4. Cooking while standing\n5. Carrying things on crutches\n6. Bathing safely",
+   "rubric": {
+    "keywords": [
+     "toilet",
+     "stairs",
+     "reaching",
+     "shelves",
+     "cooking",
+     "while",
+     "standing",
+     "carrying",
+     "things",
+     "crutches",
+     "bathing",
+     "safely"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-024",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems an auto-rickshaw driver faces at a rainy evening. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from an auto-rickshaw driver's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Water entering from the sides\n2. Slippery roads\n3. Passengers bargaining\n4. Poor visibility\n5. Engine stalling in water\n6. Long working hours",
+   "rubric": {
+    "keywords": [
+     "water",
+     "entering",
+     "sides",
+     "slippery",
+     "roads",
+     "passengers",
+     "bargaining",
+     "visibility",
+     "engine",
+     "stalling",
+     "water",
+     "working"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-empathy-025",
+   "type": "short",
+   "subtopic": "creative.empathy",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 problems a small child faces at a public toilet. Be specific.",
+   "imageIds": [],
+   "explanation": "Walk through the experience step by step from a small child's point of view: physical, sensory, information, safety and emotional problems. Specific problems you can picture beat general words like 'difficulty'.",
+   "modelAnswer": "1. Can't reach the basin\n2. Seat too large\n3. Can't lock the door\n4. Floor is wet and slippery\n5. Scary hand dryers\n6. Parent of a different gender can't enter",
+   "rubric": {
+    "keywords": [
+     "can't",
+     "reach",
+     "basin",
+     "large",
+     "can't",
+     "floor",
+     "slippery",
+     "scary",
+     "dryers",
+     "parent",
+     "different",
+     "gender"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-001",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a bus-stop bench that also collects rainwater for plants. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. RainRest\n2. Sit & Sprout\n3. Slogan: 'Wait a while, grow a mile'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-002",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a lunchbox that keeps food warm for 6 hours. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. WarmBite\n2. Dabba Garam\n3. Slogan: 'Home-hot at noon'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-003",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for an app that teaches grandparents to use smartphones. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. TapSeekho\n2. Ajji Online\n3. Slogan: 'Never too late to tap'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-004",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a kit for repairing clothes at home. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. Mend-It Box\n2. Stitch Saathi\n3. Slogan: 'Fix it, don't bin it'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-005",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a biodegradable plate made from areca leaves. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. Leafware\n2. Patte Plates\n3. Slogan: 'Eat. Compost. Repeat.'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-006",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a school bag that spreads weight on both shoulders. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. BackBuddy\n2. Halka Bag\n3. Slogan: 'Carry more, feel less'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-007",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a water filter for villages that needs no electricity. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. PureDrop\n2. Jal Shuddhi\n3. Slogan: 'Clean water, no current needed'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-008",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a festival lamp made from recycled bottles. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. Re-Diya\n2. BottleGlow\n3. Slogan: 'Light that remembers'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-009",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a cycle-sharing service for a college campus. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. PedalPool\n2. CampusCycle\n3. Slogan: 'Ride, park, share'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-010",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a toy made by Channapatna artisans for modern kids. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. Turn & Learn\n2. LacPlay\n3. Slogan: 'Old craft, new play'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-011",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a helmet for delivery riders with a cooling fan. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. CoolRide\n2. BreezeGuard\n3. Slogan: 'Keep your head, keep it cool'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-012",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a reading lamp powered by a hand crank. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. CrankLight\n2. Roshni Ghumao\n3. Slogan: 'Turn it, learn it'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-013",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a millet snack brand for teenagers. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. Milletz\n2. Ragi Rush\n3. Slogan: 'Ancient grain, new game'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-014",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a raincoat for school children that folds into a pouch. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. PocketPour\n2. Rain Mitra\n3. Slogan: 'Rain? Ready.'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-015",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a clinic on a bus that visits villages. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. HealthWheels\n2. Arogya Ratha\n3. Slogan: 'Care that comes to you'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-016",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a weaving cooperative selling online. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. LoomLink\n2. Nool Bazaar\n3. Slogan: 'From our loom to your room'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-017",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a smart medicine box that reminds elderly people. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. DoseDost\n2. Pill Pal\n3. Slogan: 'Never miss a beat'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-018",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a community kitchen for students. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. Thali Together\n2. Common Pot\n3. Slogan: 'Cook once, feed many'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-019",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a bag made from old cement sacks. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. SackChic\n2. Re-Bag\n3. Slogan: 'Strong enough for any second life'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-name-020",
+   "type": "short",
+   "subtopic": "creative.naming",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Suggest 2 names and 1 slogan (max 6 words) for a city clean-up volunteer group. Say in one line why your best name works.",
+   "imageIds": [],
+   "explanation": "Good names are short, easy to say and fit the product's character; local words can add warmth. A slogan states the benefit or feeling in a few words. Saying why shows design thinking.",
+   "modelAnswer": "1. Clean Squad\n2. Namma Swachha\n3. Slogan: 'Our street, our pride'",
+   "rubric": {
+    "keywords": [
+     "name",
+     "slogan",
+     "because",
+     "short",
+     "memorable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 50
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-001",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a boy sharing his umbrella with a stray dog at a bus stop. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. Two strangers, one umbrella: the bus can wait a little longer.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-002",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of an old woman teaching her granddaughter to make rangoli at dawn. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. Every dot she places is a lesson passed on before the sun comes up.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-003",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a delivery rider resting under a tree on a hot afternoon. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. Ten minutes of shade before forty more deliveries in the heat.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-004",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a flooded street where children float paper boats. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. The street drowned, but their boats still found a way.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-005",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a potter's hands shaping a pot on the wheel. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. Mud becomes a pot only when the hands are patient.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-006",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a crowded local train with people helping a man with crutches board. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. In the morning rush, twenty hands made room for one.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-007",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a girl studying under a street light. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. The street light works the night shift for her dreams.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-008",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a farmer looking at a cracked, dry field. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. He waits for the sky while his loan waits for him.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-009",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a family sharing one plate of food during a festival. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. One plate, four hands, endless conversation.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-010",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a cleaner sweeping a market after everyone has left. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. When the noise is gone, someone stays to clean up our day.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-011",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a traffic jam with an ambulance stuck in the middle. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. Somewhere in this crowd, a minute decides a life.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-012",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a lake full of plastic bottles with ducks swimming between them. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. The ducks didn't throw it, but they live in it.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-013",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of children playing cricket in a narrow lane. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. Every window in this lane has seen a six.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-014",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of an empty classroom with one chair left on a desk. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. The bell rang an hour ago; the questions are still in the room.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-015",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of an artisan weaving a sari on a handloom. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. Six yards, three weeks, one weaver's patience.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-016",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a grandfather and grandson flying a kite on a terrace. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. Seventy years apart, holding the same string.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-017",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a mobile phone shop with a long queue of elderly people. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. New phones, old hands, and a lot of patience.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-018",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a vendor covering his fruit cart with plastic sheets in the rain. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. The rain came fast; his hands were faster.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-019",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a doctor reading a child's drawing in a hospital. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. Some prescriptions start with a crayon.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-caption-020",
+   "type": "short",
+   "subtopic": "creative.caption",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Write a caption of no more than 20 words for an illustration of a crowded bus stop with no shelter in the rain. It should add something the picture can't show.",
+   "imageIds": [],
+   "explanation": "A strong caption adds emotion, time, sound or meaning instead of describing what we can already see. Count your words: 20 is the limit.",
+   "modelAnswer": "1. Waiting is easy; waiting in the rain is a design problem.",
+   "rubric": {
+    "keywords": [
+     "feel",
+     "wait",
+     "time",
+     "one",
+     "every",
+     "still",
+     "only",
+     "because"
+    ],
+    "minIdeas": 1,
+    "maxWords": 20
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-001",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if all vehicles in your city were banned on Sundays? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. Streets become play and market spaces\n2. Cycle and walking demand grows\n3. Ambulances need special routes\n4. Shops near homes do better\n5. Air and noise improve\n6. Weekend deliveries move to Saturday",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-002",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if schools started at 10 am instead of 8 am? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. Students sleep more\n2. Traffic peaks change\n3. Parents' work timings clash\n4. Afternoon heat during sports\n5. School buses reschedule\n6. Evening study time shrinks",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-003",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if plastic bags disappeared overnight? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. People carry cloth bags\n2. Shops need new packaging\n3. Wet goods are a problem\n4. Demand for paper and jute rises\n5. Drains clog less\n6. Prices change briefly",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-004",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if everyone had to work from home for a year? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. Homes need work corners\n2. Offices empty\n3. Internet demand rises\n4. Loneliness increases\n5. Less commuting pollution\n6. Local shops benefit",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-005",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if your town had no electricity from 6 pm to 6 am every day? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. Solar lamps become essential\n2. Shops close early\n3. Study habits shift to mornings\n4. Food storage problems\n5. Safety at night concerns\n6. Community gatherings revive",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-006",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if every building had to grow food on its roof? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. New roof structures needed\n2. Water supply for rooftops\n3. Neighbours share produce\n4. Roofs stay cooler\n5. Jobs for urban farmers\n6. Birds and insects return",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-007",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if all signs in your city had to work without any words? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. Pictogram systems needed everywhere\n2. Colour coding matters\n3. Tourists find it easier\n4. Non-readers are included\n5. Shop identity relies on symbols\n6. Designers must test meanings",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-008",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if phones could only be used for one hour a day? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. People talk face to face more\n2. Paper maps return\n3. Payments change\n4. Emergencies need landlines\n5. Reading increases\n6. Businesses rethink apps",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-009",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if it rained every day of the year in your town? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. Roofs and drains redesigned\n2. Umbrella and raincoat industry grows\n3. Outdoor markets get covered\n4. Crops change\n5. Mould problems indoors\n6. Streets need better drainage",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-010",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if every school uniform had to be designed by students? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. More comfort and climate-suitable fabrics\n2. Local identity in designs\n3. Debates about rules\n4. Pride in wearing it\n5. Cost concerns\n6. Design competitions each year",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-011",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if all lifts in your city stopped working for a month? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. Elderly people stuck at home\n2. Deliveries become harder\n3. Stair design matters more\n4. Neighbours help each other\n5. Offices move to lower floors\n6. Fitness improves",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-whatif-012",
+   "type": "short",
+   "subtopic": "creative.what-if",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "What if your school had no walls, only a roof? List 6 consequences, including at least 2 opportunities for designers.",
+   "imageIds": [],
+   "explanation": "Think in layers: immediate effects, effects on different people (children, elderly, workers, businesses), and new needs that create design opportunities.",
+   "modelAnswer": "1. Natural ventilation and light\n2. Noise between classes\n3. Rain and wind problems\n4. Safety concerns\n5. Learning outdoors with nature\n6. Movable partitions needed",
+   "rubric": {
+    "keywords": [
+     "design",
+     "people",
+     "need",
+     "new",
+     "problem",
+     "opportunity",
+     "change",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-001",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"freedom\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Open birdcage\n2. Broken chain turning into birds\n3. Kite string cut\n4. Open window with curtains flying\n5. Footprints leaving a box\n6. Hands releasing a balloon",
+   "rubric": {
+    "keywords": [
+     "birdcage",
+     "broken",
+     "chain",
+     "turning",
+     "birds",
+     "string",
+     "window",
+     "curtains",
+     "flying",
+     "footprints",
+     "leaving",
+     "hands"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-002",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"patience\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Seed under soil with a clock\n2. Snail on a long path\n3. Potter's wheel\n4. Candle melting slowly\n5. Hourglass with a sprout\n6. Fisherman waiting",
+   "rubric": {
+    "keywords": [
+     "under",
+     "clock",
+     "snail",
+     "potter's",
+     "wheel",
+     "candle",
+     "melting",
+     "slowly",
+     "hourglass",
+     "sprout",
+     "fisherman",
+     "waiting"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-003",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"friendship\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Two hands forming a heart\n2. Shared umbrella\n3. Two cups clinking\n4. Tied threads\n5. Two halves of a broken biscuit\n6. Interlinked rings",
+   "rubric": {
+    "keywords": [
+     "hands",
+     "forming",
+     "heart",
+     "shared",
+     "umbrella",
+     "clinking",
+     "threads",
+     "halves",
+     "broken",
+     "biscuit",
+     "interlinked",
+     "rings"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-004",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"pollution\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Fish in a bottle\n2. Lungs made of smoke\n3. Earth wearing a mask\n4. Chimney turning into a cigarette\n5. Tree with plastic leaves\n6. Grey rainbow",
+   "rubric": {
+    "keywords": [
+     "bottle",
+     "lungs",
+     "smoke",
+     "earth",
+     "wearing",
+     "chimney",
+     "turning",
+     "cigarette",
+     "plastic",
+     "leaves",
+     "rainbow"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-005",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"hope\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Sprout from a crack\n2. Candle in the dark\n3. Rainbow after rain\n4. Open door with light\n5. Ladder towards a star\n6. Bird on a broken branch singing",
+   "rubric": {
+    "keywords": [
+     "sprout",
+     "crack",
+     "candle",
+     "rainbow",
+     "after",
+     "light",
+     "ladder",
+     "towards",
+     "broken",
+     "branch",
+     "singing"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-006",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"time\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Melting ice cube\n2. Hourglass\n3. Tree rings\n4. Sun moving across a window\n5. Footprints fading\n6. Candle burning down",
+   "rubric": {
+    "keywords": [
+     "melting",
+     "hourglass",
+     "rings",
+     "moving",
+     "across",
+     "window",
+     "footprints",
+     "fading",
+     "candle",
+     "burning"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-007",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"knowledge\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Book as a lamp\n2. Key in a book\n3. Tree with book leaves\n4. Light bulb in a head\n5. Owl\n6. Open door made of pages",
+   "rubric": {
+    "keywords": [
+     "leaves",
+     "light",
+     "pages"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-008",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"peace\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Hand releasing a dove\n2. Olive branch\n3. Calm lake reflection\n4. Broken sword with a flower\n5. Folded hands\n6. Two flags tied together",
+   "rubric": {
+    "keywords": [
+     "releasing",
+     "olive",
+     "branch",
+     "reflection",
+     "broken",
+     "sword",
+     "flower",
+     "folded",
+     "hands",
+     "flags",
+     "together"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-009",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"growth\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Sprout\n2. Stairs made of books\n3. Rising bar chart as plants\n4. Child's height marks on a wall\n5. Tree rings\n6. Seed to tree sequence",
+   "rubric": {
+    "keywords": [
+     "sprout",
+     "stairs",
+     "books",
+     "rising",
+     "chart",
+     "plants",
+     "child's",
+     "height",
+     "marks",
+     "rings",
+     "sequence"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-010",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"balance\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Weighing scale\n2. Stones stacked\n3. Tightrope walker\n4. Yin-yang\n5. Seesaw\n6. Bird on one leg",
+   "rubric": {
+    "keywords": [
+     "weighing",
+     "scale",
+     "stones",
+     "stacked",
+     "tightrope",
+     "walker",
+     "yin-yang",
+     "seesaw"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-011",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"silence\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Finger on lips\n2. Empty theatre\n3. Snow falling\n4. Unplugged speaker\n5. Closed book\n6. Still water",
+   "rubric": {
+    "keywords": [
+     "finger",
+     "empty",
+     "theatre",
+     "falling",
+     "unplugged",
+     "speaker",
+     "closed",
+     "still",
+     "water"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-012",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"speed\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Motion lines\n2. Cheetah\n3. Blurred wheels\n4. Arrow\n5. Lightning\n6. Wind-swept hair",
+   "rubric": {
+    "keywords": [
+     "motion",
+     "lines",
+     "cheetah",
+     "blurred",
+     "wheels",
+     "arrow",
+     "lightning",
+     "wind-swept"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-013",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"trust\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Handshake\n2. Child holding a parent's finger\n3. Bridge\n4. Open palm\n5. Lock and key together\n6. Safety net",
+   "rubric": {
+    "keywords": [
+     "handshake",
+     "child",
+     "holding",
+     "parent's",
+     "finger",
+     "bridge",
+     "together",
+     "safety"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-014",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"home\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Roof shape over a family\n2. Door with a doormat\n3. Bird's nest\n4. Kettle on a stove\n5. Lit window at night\n6. Rangoli at a doorstep",
+   "rubric": {
+    "keywords": [
+     "shape",
+     "family",
+     "doormat",
+     "bird's",
+     "kettle",
+     "stove",
+     "window",
+     "night",
+     "rangoli",
+     "doorstep"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-015",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"change\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Caterpillar to butterfly\n2. Leaf changing colour\n3. Arrow turning\n4. Moon phases\n5. Ice to water\n6. Seed to tree",
+   "rubric": {
+    "keywords": [
+     "caterpillar",
+     "butterfly",
+     "changing",
+     "colour",
+     "arrow",
+     "turning",
+     "phases",
+     "water"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-016",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"memory\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Photo album\n2. Knotted string\n3. Footprints in sand\n4. Old key\n5. Faded photograph\n6. Fingerprint",
+   "rubric": {
+    "keywords": [
+     "photo",
+     "album",
+     "knotted",
+     "string",
+     "footprints",
+     "faded",
+     "photograph",
+     "fingerprint"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-017",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"care\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Hands around a sapling\n2. Bandage on a heart\n3. Umbrella over someone\n4. Mother bird feeding\n5. Watering can\n6. Blanket",
+   "rubric": {
+    "keywords": [
+     "hands",
+     "around",
+     "sapling",
+     "bandage",
+     "heart",
+     "umbrella",
+     "someone",
+     "mother",
+     "feeding",
+     "watering",
+     "blanket"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-018",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"energy\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Lightning bolt\n2. Battery\n3. Sun rays\n4. Spring\n5. Running feet\n6. Windmill",
+   "rubric": {
+    "keywords": [
+     "lightning",
+     "battery",
+     "spring",
+     "running",
+     "windmill"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-019",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"connection\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Joined puzzle pieces\n2. Bridge\n3. Threads tying hands\n4. Wifi signal between people\n5. Roots joining under ground\n6. Plug and socket",
+   "rubric": {
+    "keywords": [
+     "joined",
+     "puzzle",
+     "pieces",
+     "bridge",
+     "threads",
+     "tying",
+     "hands",
+     "signal",
+     "between",
+     "people",
+     "roots",
+     "joining"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-020",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"courage\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Small bird facing a storm\n2. Lion's heart\n3. Climbing a mountain\n4. Raised fist\n5. Candle against wind\n6. First step on a ladder",
+   "rubric": {
+    "keywords": [
+     "small",
+     "facing",
+     "storm",
+     "lion's",
+     "heart",
+     "climbing",
+     "mountain",
+     "raised",
+     "candle",
+     "against",
+     "first",
+     "ladder"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-021",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"harmony\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Musical notes in a circle\n2. Different leaves on one tree\n3. Many hands in a circle\n4. Instruments together\n5. Rainbow\n6. Rhythmic waves",
+   "rubric": {
+    "keywords": [
+     "musical",
+     "notes",
+     "circle",
+     "different",
+     "leaves",
+     "hands",
+     "circle",
+     "instruments",
+     "together",
+     "rainbow",
+     "rhythmic",
+     "waves"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-022",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"kindness\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Hand offering water\n2. Heart-shaped leaf\n3. Shared umbrella\n4. Feeding a bird\n5. Holding a door\n6. Small gift box",
+   "rubric": {
+    "keywords": [
+     "offering",
+     "water",
+     "heart-shaped",
+     "shared",
+     "umbrella",
+     "feeding",
+     "holding",
+     "small"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-023",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"progress\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Upward arrow\n2. Steps\n3. Road towards a sunrise\n4. Gears turning\n5. Plant growing in stages\n6. Footprints going up",
+   "rubric": {
+    "keywords": [
+     "upward",
+     "arrow",
+     "steps",
+     "towards",
+     "sunrise",
+     "gears",
+     "turning",
+     "plant",
+     "growing",
+     "stages",
+     "footprints",
+     "going"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-024",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"safety\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Helmet\n2. Shield\n3. Umbrella\n4. Lock\n5. Seatbelt\n6. Hands cupping a flame",
+   "rubric": {
+    "keywords": [
+     "helmet",
+     "shield",
+     "umbrella",
+     "seatbelt",
+     "hands",
+     "cupping",
+     "flame"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-symbol-025",
+   "type": "short",
+   "subtopic": "creative.association",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "List 6 different images or symbols that could represent \"celebration\" in a poster. Try to avoid the most obvious one.",
+   "imageIds": [],
+   "explanation": "List objects, actions, places, colours and feelings linked to the word, then combine them into visual metaphors. Fresh ideas come after the first two or three obvious ones.",
+   "modelAnswer": "1. Fireworks\n2. Confetti\n3. Diya\n4. Drums\n5. Raised hands\n6. Kite festival",
+   "rubric": {
+    "keywords": [
+     "fireworks",
+     "confetti",
+     "drums",
+     "raised",
+     "hands",
+     "festival"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-001",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'No plastic bags': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A plastic bag silhouette inside a red circle with a diagonal bar; or a cloth bag with a green tick beside a crossed plastic bag.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-002",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Drinking water': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A tap with a single drop falling into a cup, in a blue square.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-003",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Charging point': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A plug with a lightning bolt, or a phone outline with a bolt inside.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-004",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Quiet zone': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A head in profile with a finger on its lips, or a speaker with a cross over its sound waves.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-005",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Priority seat for elderly': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A seated figure with a walking stick, plus a seat icon.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-006",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Wash your hands': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. Two hands under a tap with three water drops.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-007",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Mind the step': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A walking figure about to step down, with the step edge highlighted in yellow.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-008",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Lost and found': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A question mark inside a bag, or a hand holding a key with a question mark.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-009",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Feed the birds here': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A bird pecking at grains in an open palm.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-010",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Shoes off': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A pair of shoes with an arrow pointing to a rack and a bare footprint.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-011",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Breastfeeding room': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A seated adult figure holding a baby close, inside a door shape.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-012",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Recycle here': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. Three arrows chasing each other in a triangle above a bin.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-013",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Emergency exit': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A running figure moving through an open door, with an arrow.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-014",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'No honking': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. A horn icon inside a red circle with a diagonal bar.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-picto-015",
+   "type": "short",
+   "subtopic": "design.pictograms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Describe in words a pictogram for 'Free Wi-Fi': shapes, symbol, colour and why it would be understood without text. (Max 40 words.)",
+   "imageIds": [],
+   "explanation": "Good pictograms use one simple figure or object, a recognised convention (red circle with bar = not allowed; green = safe/information) and no fine detail.",
+   "modelAnswer": "1. Three curved signal arcs over a dot.",
+   "rubric": {
+    "keywords": [
+     "circle",
+     "colour",
+     "simple",
+     "symbol",
+     "figure",
+     "arrow",
+     "red",
+     "green",
+     "blue"
+    ],
+    "minIdeas": 2,
+    "maxWords": 40
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-001",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "Students queue for 20 minutes at a single water tap in school after lunch. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. Only one tap for many students\n2. Lunch time is short\n3. Spillage makes the floor slippery\n4. No queue system\n5. Older students push in\n6. No shade near the tap",
+   "rubric": {
+    "keywords": [
+     "students",
+     "lunch",
+     "short",
+     "spillage",
+     "makes",
+     "floor",
+     "slippery",
+     "queue",
+     "system",
+     "older",
+     "students",
+     "shade"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-002",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "Vegetable vendors on a footpath force pedestrians to walk on the road. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. No designated vending zone\n2. Pedestrian safety risk\n3. Vendors have nowhere else to go\n4. Traffic slows down\n5. Waste piles up\n6. Elderly and children are at risk",
+   "rubric": {
+    "keywords": [
+     "designated",
+     "vending",
+     "pedestrian",
+     "safety",
+     "vendors",
+     "nowhere",
+     "traffic",
+     "slows",
+     "waste",
+     "piles",
+     "elderly",
+     "children"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-003",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "A hospital's waiting area is always overcrowded and noisy. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. Poor appointment scheduling\n2. Not enough seating\n3. No information display for queue numbers\n4. Relatives accompany each patient\n5. Infection risk\n6. Stress for patients",
+   "rubric": {
+    "keywords": [
+     "appointment",
+     "scheduling",
+     "enough",
+     "seating",
+     "information",
+     "display",
+     "queue",
+     "numbers",
+     "relatives",
+     "accompany",
+     "patient",
+     "infection"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-004",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "People keep missing their stop on a city bus at night. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. No stop announcements\n2. Dark windows; landmarks not visible\n3. Route boards not lit\n4. Crowded bus blocks view\n5. Tired passengers fall asleep\n6. Conductor too busy to tell",
+   "rubric": {
+    "keywords": [
+     "announcements",
+     "windows;",
+     "landmarks",
+     "visible",
+     "route",
+     "boards",
+     "crowded",
+     "blocks",
+     "tired",
+     "passengers",
+     "asleep",
+     "conductor"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-005",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "Children in a village school can't concentrate in the afternoon. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. Heat in classrooms\n2. Hunger after a small lunch\n3. Poor ventilation\n4. Long periods without breaks\n5. Glare from tin roofs\n6. Noise from outside",
+   "rubric": {
+    "keywords": [
+     "classrooms",
+     "hunger",
+     "after",
+     "small",
+     "lunch",
+     "ventilation",
+     "periods",
+     "without",
+     "breaks",
+     "glare",
+     "roofs",
+     "noise"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-006",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "Tourists at a heritage site keep touching and scratching the carvings. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. No barriers or guidance\n2. Curiosity and lack of awareness\n3. Selfies close to carvings\n4. No guards at key spots\n5. Signs only in English\n6. Crowding pushes people close",
+   "rubric": {
+    "keywords": [
+     "barriers",
+     "guidance",
+     "curiosity",
+     "awareness",
+     "selfies",
+     "close",
+     "carvings",
+     "guards",
+     "spots",
+     "signs",
+     "english",
+     "crowding"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-007",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "Elderly residents in an apartment rarely leave home. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. No lift or broken lift\n2. No benches in the compound\n3. Fear of traffic outside\n4. Loneliness\n5. No nearby shops\n6. Poor lighting in corridors",
+   "rubric": {
+    "keywords": [
+     "broken",
+     "benches",
+     "compound",
+     "traffic",
+     "outside",
+     "loneliness",
+     "nearby",
+     "shops",
+     "lighting",
+     "corridors"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-008",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "Food stalls at a festival create piles of plastic waste. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. Single-use plates and cups\n2. Too few bins\n3. No segregation\n4. No deposit system for reusables\n5. Visitors unaware\n6. Vendors find plastic cheaper",
+   "rubric": {
+    "keywords": [
+     "single-use",
+     "plates",
+     "segregation",
+     "deposit",
+     "system",
+     "reusables",
+     "visitors",
+     "unaware",
+     "vendors",
+     "plastic",
+     "cheaper"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-009",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "Patients often take the wrong dose of medicine at home. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. Similar-looking strips\n2. Small print\n3. Complicated timings\n4. No reminder\n5. Doctor's handwriting unclear\n6. Many medicines at once",
+   "rubric": {
+    "keywords": [
+     "similar-looking",
+     "strips",
+     "small",
+     "print",
+     "complicated",
+     "timings",
+     "reminder",
+     "doctor's",
+     "handwriting",
+     "unclear",
+     "medicines"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-010",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "Shoppers at a supermarket leave trolleys all over the car park. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. Trolley bays too far\n2. No incentive to return\n3. Bad weather\n4. Unclear signage\n5. Parking spaces too tight\n6. Shoppers carrying children",
+   "rubric": {
+    "keywords": [
+     "trolley",
+     "incentive",
+     "return",
+     "weather",
+     "unclear",
+     "signage",
+     "parking",
+     "spaces",
+     "tight",
+     "shoppers",
+     "carrying",
+     "children"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-011",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "Students in a hostel keep fighting over the washing area. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. Too few washing points\n2. Everyone washes on Sunday\n3. No drying space\n4. No booking system\n5. Water timings limited\n6. Wet floors",
+   "rubric": {
+    "keywords": [
+     "washing",
+     "points",
+     "everyone",
+     "washes",
+     "sunday",
+     "drying",
+     "space",
+     "booking",
+     "system",
+     "water",
+     "timings",
+     "limited"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-problem-012",
+   "type": "short",
+   "subtopic": "creative.problem-id",
+   "difficulty": 3,
+   "source": "PYQ-style",
+   "stem": "Passengers struggle to board a crowded train with luggage. Identify 6 different problems in this situation (think about every person involved).",
+   "imageIds": [],
+   "explanation": "Look at the situation from each person's point of view and over time. Separate causes from symptoms. The root cause is what a good design would tackle.",
+   "modelAnswer": "1. Narrow doors\n2. High step\n3. Short stop time\n4. Crowd at doors\n5. Heavy bags\n6. No help for elderly",
+   "rubric": {
+    "keywords": [
+     "narrow",
+     "doors",
+     "short",
+     "crowd",
+     "doors",
+     "heavy",
+     "elderly"
+    ],
+    "minIdeas": 6
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-001",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes a steel tumbler well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses a steel tumbler and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-002",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes a cycle well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses a cycle and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-003",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes an auto-rickshaw well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses an auto-rickshaw and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-004",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes a pressure cooker well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses a pressure cooker and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-005",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes a school bench well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses a school bench and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-006",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes a bamboo basket well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses a bamboo basket and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-007",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes a clay water pot (matka) well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses a clay water pot (matka) and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-008",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes a scooter helmet well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses a scooter helmet and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-009",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes a mobile phone charger well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses a mobile phone charger and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-010",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes a ceiling fan well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses a ceiling fan and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-011",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes a steel tiffin box well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses a steel tiffin box and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "sh-writeup-012",
+   "type": "short",
+   "subtopic": "creative.writeup",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "In about 50 words, explain what makes a broom well or badly designed, and suggest one improvement.",
+   "imageIds": [],
+   "explanation": "Strong write-ups name the user and context, give a specific strength and weakness, and end with a concrete improvement, within the word limit.",
+   "modelAnswer": "1. Who uses a broom and where\n2. One strength of its form or material, with a reason\n3. One weakness you have noticed\n4. A specific improvement that fixes that weakness",
+   "rubric": {
+    "keywords": [
+     "user",
+     "material",
+     "shape",
+     "because",
+     "improve",
+     "problem",
+     "easy",
+     "comfort",
+     "durable"
+    ],
+    "minIdeas": 3,
+    "maxWords": 60
+   },
+   "tags": [
+    "creative"
+   ],
+   "needsReview": false
+  }
+ ]
+}

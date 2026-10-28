@@ -1,1 +1,1396 @@
-{ "tips": [] }
+{
+ "tips": [
+  {
+   "id": "tip-001",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Draw from the shoulder",
+   "body": "For long lines and big shapes, move your whole arm, not just your wrist. Lines become smoother and more confident."
+  },
+  {
+   "id": "tip-002",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Light first, dark last",
+   "body": "Start with very light construction lines (HB, light pressure). Darken only the lines you're sure about at the end. Heavy early lines can't be hidden."
+  },
+  {
+   "id": "tip-003",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Horizon before anything",
+   "body": "In any scene, draw the horizon (eye level) first. Every other decision about perspective depends on it."
+  },
+  {
+   "id": "tip-004",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Heads on the horizon",
+   "body": "When the viewer stands on flat ground, standing adults' heads sit on the horizon line, near and far. Just draw distant people smaller."
+  },
+  {
+   "id": "tip-005",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Three tones are enough",
+   "body": "Light, mid and dark. If your drawing has these three clearly separated values, it will look solid, even without detailed shading."
+  },
+  {
+   "id": "tip-006",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Ellipses get rounder away from eye level",
+   "body": "A cup at eye level is a thin ellipse; the same cup far below your eyes is almost a circle. Check every ellipse against the horizon."
+  },
+  {
+   "id": "tip-007",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Measure with your pencil",
+   "body": "Hold your pencil at arm's length, elbow locked, and compare one length to another. Proportion errors disappear."
+  },
+  {
+   "id": "tip-008",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Squint to see values",
+   "body": "Half-close your eyes. Details vanish and the big light and dark shapes appear. Draw those first."
+  },
+  {
+   "id": "tip-009",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Stick → box → body",
+   "body": "Draw people as a stick figure for the gesture, add boxes for chest and hips, then cylinders for limbs. Faces last, if at all."
+  },
+  {
+   "id": "tip-010",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Overlap creates depth",
+   "body": "Something drawn in front of something else instantly reads as closer. Use overlap generously in scenes."
+  },
+  {
+   "id": "tip-011",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Vary your line weight",
+   "body": "Thicker lines for edges in shadow or closer to you; thinner lines for edges in light or far away. One line weight looks flat."
+  },
+  {
+   "id": "tip-012",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Cast shadow anchors objects",
+   "body": "Without a cast shadow, objects float. A small dark shadow where an object touches the ground plants it firmly."
+  },
+  {
+   "id": "tip-013",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Draw the negative space",
+   "body": "If a shape is hard (a chair's legs, a hand), draw the empty spaces between parts instead. The object appears by itself."
+  },
+  {
+   "id": "tip-014",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Hands: mitten first",
+   "body": "Draw the hand as a mitten shape, then split it into fingers. Fingers are three segments that get shorter towards the tip."
+  },
+  {
+   "id": "tip-015",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Texture by mark, not by tone",
+   "body": "Wood = long wavy lines, stone = dots and cracks, fabric = folds, metal = sharp highlights. Choose the mark for the material."
+  },
+  {
+   "id": "tip-016",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Hatch in one direction",
+   "body": "Keep hatching strokes in one direction across a shape, or follow its form. Random scribbles look messy."
+  },
+  {
+   "id": "tip-017",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Exaggerate the pose",
+   "body": "Push a gesture slightly further than it really is. On a small exam sheet, subtle poses don't read."
+  },
+  {
+   "id": "tip-018",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Foreshortened limbs overlap",
+   "body": "An arm pointing at you is a set of overlapping circles and ellipses, not a long tube. Draw what you see, not what you know."
+  },
+  {
+   "id": "tip-019",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Keep a sketchbook in your bag",
+   "body": "Ten minutes at a bus stop or in a queue is ten minutes of observation. The habit matters more than the quality."
+  },
+  {
+   "id": "tip-020",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Use reference lines on the sheet",
+   "body": "Lightly divide your sheet into thirds or frames before drawing. It saves you from cramming the last frame into a corner."
+  },
+  {
+   "id": "tip-021",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Read the whole paper first",
+   "body": "Spend the first 5 minutes reading every question and writing a finishing time next to each. You'll never get stuck spending 40 minutes on one."
+  },
+  {
+   "id": "tip-022",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Underline the deliverables",
+   "body": "Count exactly what's asked: 3 frames, 200 words, 4 symbols. Missing a deliverable loses marks you can't recover."
+  },
+  {
+   "id": "tip-023",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Answer the brief, not your favourite idea",
+   "body": "If the brief says 'for an elderly person', every drawing must show that person's needs. Off-brief beauty scores low."
+  },
+  {
+   "id": "tip-024",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Your second idea is usually better",
+   "body": "Write down 5 ideas in a minute. The first two are what everyone thinks of. Choose from the rest."
+  },
+  {
+   "id": "tip-025",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Make it readable in 10 seconds",
+   "body": "Examiners look at hundreds of sheets. A clear focal point, labels and a short caption help your idea land instantly."
+  },
+  {
+   "id": "tip-026",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Finish, then polish",
+   "body": "Get every question to 'complete and readable' first. Use leftover minutes for shading and details."
+  },
+  {
+   "id": "tip-027",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Labels explain thinking",
+   "body": "Label what's new or clever ('foldable handle doubles as a stand'), not what's obvious ('chair')."
+  },
+  {
+   "id": "tip-028",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Respect word limits",
+   "body": "Count words when you finish. Going far over a 20-word caption shows you didn't follow the brief."
+  },
+  {
+   "id": "tip-029",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Show the user",
+   "body": "When designing a product or space, draw a person using it. It proves the solution works for the right user."
+  },
+  {
+   "id": "tip-030",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Indian context wins",
+   "body": "Steel tumblers, auto-rickshaws, rangoli, local markets: specific Indian details make your work feel observed and real."
+  },
+  {
+   "id": "tip-031",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Don't leave anything blank",
+   "body": "A 3-minute labelled thumbnail earns marks; a blank space earns nothing. Always attempt everything."
+  },
+  {
+   "id": "tip-032",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Use the whole sheet",
+   "body": "Plan your layout so drawings use about two-thirds of the area. Tiny drawings look timid; overcrowded ones look rushed."
+  },
+  {
+   "id": "tip-033",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Big idea, simple execution",
+   "body": "Clever ideas drawn simply beat simple ideas drawn elaborately. Spend thinking time before drawing time."
+  },
+  {
+   "id": "tip-034",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Mistakes are data",
+   "body": "Write one line in your mistake notebook for every error. Before each mock, read the whole notebook. It takes 5 minutes."
+  },
+  {
+   "id": "tip-035",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Practise in exam conditions",
+   "body": "At least once a week: phone away, timer on, real A4 sheets, the exact materials you'll carry on exam day."
+  },
+  {
+   "id": "tip-036",
+   "category": "strategy",
+   "phases": [
+    "P3"
+   ],
+   "title": "Taper, don't cram",
+   "body": "In the last days before the exam, do lighter practice and sleep well. A rested mind draws faster and thinks clearer."
+  },
+  {
+   "id": "tip-037",
+   "category": "strategy",
+   "phases": [
+    "P3"
+   ],
+   "title": "Pack your kit the night before",
+   "body": "Admit card, ID, pencils, eraser, sharpener, scale, colours (if allowed), water. Check the list twice, then sleep."
+  },
+  {
+   "id": "tip-038",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Objective questions: one pass",
+   "body": "If an objective section appears, move fast and mark doubtful ones. Never let one puzzle eat 3 minutes."
+  },
+  {
+   "id": "tip-039",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Guess smart",
+   "body": "When unsure in an objective question, eliminate options you know are wrong first. Your odds improve dramatically."
+  },
+  {
+   "id": "tip-040",
+   "category": "strategy",
+   "phases": [
+    "P4",
+    "P5"
+   ],
+   "title": "Mains is about thinking aloud",
+   "body": "In the studio test and interview, examiners want to see how you think. Explain your choices calmly and simply."
+  },
+  {
+   "id": "tip-041",
+   "category": "time",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "1.8 minutes per mark",
+   "body": "180 minutes ÷ 100 marks ≈ 1.8 minutes per mark, minus reading and checking time. A 20-mark question is worth about 32 minutes."
+  },
+  {
+   "id": "tip-042",
+   "category": "time",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Watch the clock at every finish line",
+   "body": "Look at the clock each time you finish a question. If you're behind, simplify the next answer instead of rushing the last one."
+  },
+  {
+   "id": "tip-043",
+   "category": "time",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "The 20% rule",
+   "body": "If a question runs 20% over its planned time, stop, label it, and move on. Come back only if time remains."
+  },
+  {
+   "id": "tip-044",
+   "category": "time",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Thumbnails save time",
+   "body": "A 1-minute thumbnail of your layout prevents 10 minutes of redrawing later."
+  },
+  {
+   "id": "tip-045",
+   "category": "time",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Short daily practice beats long weekly practice",
+   "body": "Forty-five minutes every day builds more skill than five hours on Sunday. Consistency compounds."
+  },
+  {
+   "id": "tip-046",
+   "category": "time",
+   "phases": [
+    "P4"
+   ],
+   "title": "Board-exam balance",
+   "body": "During board-exam weeks, protect 20 minutes a day for sketching and observation. Your design skill stays warm without hurting your boards."
+  },
+  {
+   "id": "tip-047",
+   "category": "time",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Last 10 minutes are for checking",
+   "body": "Use the last 10 minutes to add missing labels, captions and question numbers on every sheet."
+  },
+  {
+   "id": "tip-048",
+   "category": "time",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Batch your materials",
+   "body": "Keep sharpened pencils, eraser and scale in one pouch. Searching for things wastes minutes and focus."
+  },
+  {
+   "id": "tip-049",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Notice one bad design a day",
+   "body": "On your way to school, find one thing that's annoying to use. Ask: who suffers, why, and what would fix it?"
+  },
+  {
+   "id": "tip-050",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Watch hands",
+   "body": "Watch how people hold things: tools, phones, cups, bags. Hands show you exactly where a design works or fails."
+  },
+  {
+   "id": "tip-051",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Collect details",
+   "body": "Fill a sketchbook page with small details: door handles, signboards, vegetable stalls, footwear. They make memory drawings convincing."
+  },
+  {
+   "id": "tip-052",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Look at light at different hours",
+   "body": "The same street looks different at 8 am, 1 pm and 5 pm. Notice shadow length and direction."
+  },
+  {
+   "id": "tip-053",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Observe queues and crowds",
+   "body": "Where do people bunch up? Where do they wait awkwardly? Crowds reveal bad planning instantly."
+  },
+  {
+   "id": "tip-054",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Watch the elderly and children",
+   "body": "Designs that work for grandparents and small children usually work for everyone. Observe what they struggle with."
+  },
+  {
+   "id": "tip-055",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Read signs critically",
+   "body": "For every sign you see today, ask: could I understand it in 2 seconds without reading? Why or why not?"
+  },
+  {
+   "id": "tip-056",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Study packaging",
+   "body": "Before throwing away a packet, look at how it opens, what it protects and how much waste it creates."
+  },
+  {
+   "id": "tip-057",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Notice colour in markets",
+   "body": "Vendors arrange fruit and flowers in colour groups. Look at which colours they put side by side and why it attracts you."
+  },
+  {
+   "id": "tip-058",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Listen to a place",
+   "body": "Close your eyes for one minute at a busy spot. Sounds tell you about activity, time and mood, useful for audio-visual tasks."
+  },
+  {
+   "id": "tip-059",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Look up",
+   "body": "Most people never look above eye level. Balconies, wires, signboards and trees above you are rich drawing material."
+  },
+  {
+   "id": "tip-060",
+   "category": "observation",
+   "phases": [
+    "P4",
+    "P5"
+   ],
+   "title": "Touch materials",
+   "body": "Feel cane, clay, cloth, metal and wood. Knowing how materials behave helps in the studio sensitivity test."
+  },
+  {
+   "id": "tip-061",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Watch how things are repaired",
+   "body": "Cobblers, cycle mechanics and tailors are brilliant problem-solvers. Their tools and tricks are design lessons."
+  },
+  {
+   "id": "tip-062",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "SCAMPER any object",
+   "body": "Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse. Seven questions, seven new ideas."
+  },
+  {
+   "id": "tip-063",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Ask '5 whys'",
+   "body": "Keep asking why a problem happens until you reach a cause you can design for. Solve the root, not the symptom."
+  },
+  {
+   "id": "tip-064",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Give your user a name",
+   "body": "Instead of 'an elderly person', imagine 'Lakshmi, 72, uses a stick, lives on the 2nd floor'. Specific users give specific ideas."
+  },
+  {
+   "id": "tip-065",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "List properties before uses",
+   "body": "For 'uses of a bottle', first list: hollow, transparent, light, has a cap, rolls, holds water. Each property unlocks new uses."
+  },
+  {
+   "id": "tip-066",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Combine two unrelated things",
+   "body": "Many good ideas are two things put together: a bench + a planter, an umbrella + a light. Try forced combinations."
+  },
+  {
+   "id": "tip-067",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Think of extremes",
+   "body": "What would this look like for a child? For a giant? In zero gravity? Extremes shake you out of the obvious."
+  },
+  {
+   "id": "tip-068",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Steal from nature",
+   "body": "Bamboo's nodes, a leaf's veins, a shell's spiral: nature has solved many design problems. Ask how nature would do it."
+  },
+  {
+   "id": "tip-069",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Mind-map for 2 minutes",
+   "body": "Write the topic in the centre and branch out quickly. The connection between two distant branches is often the idea."
+  },
+  {
+   "id": "tip-070",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Reverse the problem",
+   "body": "Instead of 'how to keep a classroom quiet', ask 'how to make it as noisy as possible', then flip each answer."
+  },
+  {
+   "id": "tip-071",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Visual metaphors",
+   "body": "Show an abstract idea with an object: time as a melting ice cube, unity as tied ropes. Metaphors make posters memorable."
+  },
+  {
+   "id": "tip-072",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Quantity first",
+   "body": "Aim for 10 rough ideas before judging any. Judging early kills good ideas before they grow."
+  },
+  {
+   "id": "tip-073",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Design for the context",
+   "body": "The same product changes in a hospital, a farm and a festival. Always ask: where exactly will this be used?"
+  },
+  {
+   "id": "tip-074",
+   "category": "presentation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Number every sheet",
+   "body": "Write the question number clearly on every sheet. Examiners shouldn't have to guess."
+  },
+  {
+   "id": "tip-075",
+   "category": "presentation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Neat block capitals",
+   "body": "Small, even block capitals with a light guideline look professional and are easy to read."
+  },
+  {
+   "id": "tip-076",
+   "category": "presentation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Leader lines that don't cross",
+   "body": "Draw label lines with a scale if possible, and never let them cross each other."
+  },
+  {
+   "id": "tip-077",
+   "category": "presentation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "One focal point per frame",
+   "body": "In each storyboard frame or poster, decide the ONE thing the eye should see first and make it the biggest or darkest."
+  },
+  {
+   "id": "tip-078",
+   "category": "presentation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Frames with borders",
+   "body": "Draw clean frame borders for storyboards. Consistent frame sizes make a sequence feel organised."
+  },
+  {
+   "id": "tip-079",
+   "category": "presentation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Colour with restraint",
+   "body": "Two or three colours used deliberately look stronger than ten colours used everywhere."
+  },
+  {
+   "id": "tip-080",
+   "category": "presentation",
+   "phases": [
+    "P4",
+    "P5"
+   ],
+   "title": "Photograph your models well",
+   "body": "Plain background, side light from a window, three angles plus one close-up of the cleverest joint."
+  },
+  {
+   "id": "tip-081",
+   "category": "presentation",
+   "phases": [
+    "P4",
+    "P5"
+   ],
+   "title": "One sheet, one story",
+   "body": "When presenting work, use one sheet with big visuals and few words. You are the explanation."
+  },
+  {
+   "id": "tip-082",
+   "category": "wellbeing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Sleep is practice",
+   "body": "Your brain consolidates drawing skill and memory while you sleep. Seven to eight hours is part of the training."
+  },
+  {
+   "id": "tip-083",
+   "category": "wellbeing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "20-20-20 for your eyes",
+   "body": "Every 20 minutes of screen time, look at something 20 feet away for 20 seconds."
+  },
+  {
+   "id": "tip-084",
+   "category": "wellbeing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Stretch your drawing hand",
+   "body": "Open and close your fist ten times and rotate your wrists between long drawing sessions."
+  },
+  {
+   "id": "tip-085",
+   "category": "wellbeing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Tough day? Do the minimum",
+   "body": "On a hard day, switch on tough-day mode and do half. Showing up keeps the habit alive; guilt doesn't help."
+  },
+  {
+   "id": "tip-086",
+   "category": "wellbeing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Drink water, eat on time",
+   "body": "Long drawing sessions drain energy. Keep water nearby and don't skip meals before practice or mocks."
+  },
+  {
+   "id": "tip-087",
+   "category": "wellbeing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Compare with yesterday, not with others",
+   "body": "Look at your Day 1 sheet next to today's. That's the only comparison that matters."
+  },
+  {
+   "id": "tip-088",
+   "category": "wellbeing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Move every hour",
+   "body": "A five-minute walk resets focus. Many designers get ideas while walking."
+  },
+  {
+   "id": "tip-089",
+   "category": "wellbeing",
+   "phases": [
+    "P3"
+   ],
+   "title": "Calm before the exam",
+   "body": "The night before the exam, stop practising by evening. Pack your bag, eat a normal dinner and sleep early."
+  },
+  {
+   "id": "tip-090",
+   "category": "wellbeing",
+   "phases": [
+    "P4"
+   ],
+   "title": "Boards and NID can co-exist",
+   "body": "Short daily design practice is a break from board revision, not a burden. Keep it light and fun this month."
+  },
+  {
+   "id": "tip-091",
+   "category": "wellbeing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Talk to someone",
+   "body": "If you feel stressed for several days, tell GB or a friend. Talking about it shrinks the worry."
+  },
+  {
+   "id": "tip-092",
+   "category": "interview",
+   "phases": [
+    "P4",
+    "P5"
+   ],
+   "title": "Point, example, close",
+   "body": "Answer interview questions in three parts: your main point, one example from your life, and a one-line conclusion."
+  },
+  {
+   "id": "tip-093",
+   "category": "interview",
+   "phases": [
+    "P4",
+    "P5"
+   ],
+   "title": "Know your own work",
+   "body": "Be ready to explain why you made every choice in your portfolio and models. 'It looked nice' isn't enough."
+  },
+  {
+   "id": "tip-094",
+   "category": "interview",
+   "phases": [
+    "P4",
+    "P5"
+   ],
+   "title": "It's okay to pause",
+   "body": "A two-second pause to think sounds more confident than filling silence with 'umm'."
+  },
+  {
+   "id": "tip-095",
+   "category": "interview",
+   "phases": [
+    "P4",
+    "P5"
+   ],
+   "title": "Talk about what you noticed",
+   "body": "Interviewers love genuine observations about everyday life. Bring stories from your town, family and travels."
+  },
+  {
+   "id": "tip-096",
+   "category": "interview",
+   "phases": [
+    "P4",
+    "P5"
+   ],
+   "title": "Know NID",
+   "body": "Founded in 1961 in Ahmedabad, inspired by the India Report (1958) by Charles and Ray Eames. Know why that history matters to you."
+  },
+  {
+   "id": "tip-097",
+   "category": "interview",
+   "phases": [
+    "P4",
+    "P5"
+   ],
+   "title": "Be honest about weaknesses",
+   "body": "Saying 'my perspective drawing was weak, so I practised a page of boxes every day' shows maturity."
+  },
+  {
+   "id": "tip-098",
+   "category": "interview",
+   "phases": [
+    "P5"
+   ],
+   "title": "Explain your model in 60 seconds",
+   "body": "Practise: what the brief asked → what you understood → your idea → why these materials → what you'd improve."
+  },
+  {
+   "id": "tip-099",
+   "category": "interview",
+   "phases": [
+    "P5"
+   ],
+   "title": "Studio test: play with materials first",
+   "body": "Before building, spend a few minutes testing how the material bends, folds and joins. The best ideas come from the material."
+  },
+  {
+   "id": "tip-100",
+   "category": "interview",
+   "phases": [
+    "P5"
+   ],
+   "title": "Make it stand",
+   "body": "In model-making, stability matters. Triangles, folds and wide bases keep structures upright."
+  },
+  {
+   "id": "tip-101",
+   "category": "interview",
+   "phases": [
+    "P5"
+   ],
+   "title": "Craftsmanship shows care",
+   "body": "Clean cuts, hidden glue and straight edges tell examiners you respect your work."
+  },
+  {
+   "id": "tip-102",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Draw boxes daily",
+   "body": "Fill half a page with boxes in two-point perspective every day for a week. Everything else in perspective gets easier."
+  },
+  {
+   "id": "tip-103",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Cylinders and cones everywhere",
+   "body": "Bottles, cups, lamp posts, pots, people's arms: most objects are cylinders and cones. Master these two forms."
+  },
+  {
+   "id": "tip-104",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Draw what you see, not what you know",
+   "body": "You know a plate is round, but from a seat it's an ellipse. Trust your eyes over your knowledge."
+  },
+  {
+   "id": "tip-105",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Crowds in layers",
+   "body": "Draw crowds as three layers: detailed people in front, simpler shapes in the middle, just heads at the back."
+  },
+  {
+   "id": "tip-106",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Use a pencil grid for symbols",
+   "body": "For symbol and logo questions, sketch on a light grid so shapes stay balanced and crisp."
+  },
+  {
+   "id": "tip-107",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Posters: headline, image, details",
+   "body": "Give every poster a clear order: headline first, image second, small details last."
+  },
+  {
+   "id": "tip-108",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Social media series = one system",
+   "body": "In a 3-post series keep layout, colours and fonts the same, and change only the content. That's what makes it a series."
+  },
+  {
+   "id": "tip-109",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Signage needs placement",
+   "body": "Every signage answer should show where the sign goes and at what height. Most students forget this."
+  },
+  {
+   "id": "tip-110",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Storyboards need camera changes",
+   "body": "Mix wide, medium and close-up shots in a storyboard. It feels like a film and holds attention."
+  },
+  {
+   "id": "tip-111",
+   "category": "strategy",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Write like a designer",
+   "body": "In 200-word write-ups, talk about form, material, use, user and feeling, plus one improvement."
+  },
+  {
+   "id": "tip-112",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "3 uses: one property each",
+   "body": "In '3 uses in 3 contexts' questions, give each use a different property of the object so the ideas don't repeat."
+  },
+  {
+   "id": "tip-113",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Symbols: verbs, not nouns",
+   "body": "For symbol creation, think about what an object does (binds, grows, cuts, lifts). Verbs lead to meanings."
+  },
+  {
+   "id": "tip-114",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Prepare a mental library",
+   "body": "Keep a list of 20 Indian scenes you can draw from memory: bus stand, market, temple, classroom, kitchen. Practise each once."
+  },
+  {
+   "id": "tip-115",
+   "category": "time",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Weekly mock review",
+   "body": "After every mock, write three lines: what took too long, what you'd skip, what you'd do first next time."
+  },
+  {
+   "id": "tip-116",
+   "category": "wellbeing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Celebrate small wins",
+   "body": "Finished a hard mock? Logged a 7-day streak? Take a moment to enjoy it before moving on."
+  },
+  {
+   "id": "tip-117",
+   "category": "presentation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Captions add what drawings can't",
+   "body": "Use captions for time, sound, feelings or reasons, the things a still image can't show."
+  },
+  {
+   "id": "tip-118",
+   "category": "drawing",
+   "phases": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "title": "Light source arrow",
+   "body": "Before shading, draw a tiny arrow in the corner showing where the light comes from. Then stay consistent."
+  },
+  {
+   "id": "tip-119",
+   "category": "ideation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Ask 'who else?'",
+   "body": "Every design affects more than one person: the user, the maker, the cleaner, the neighbour. List them all."
+  },
+  {
+   "id": "tip-120",
+   "category": "observation",
+   "phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "title": "Photograph less, sketch more",
+   "body": "A photo records; a sketch makes you understand. When something interests you, draw it for 2 minutes."
+  }
+ ]
+}

@@ -1,0 +1,1225 @@
+{
+ "items": [
+  {
+   "id": "mq-col-001",
+   "type": "mcq",
+   "subtopic": "colour.wheel",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "In the traditional painter's colour wheel, the primary colours are…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Red, green and blue"
+    },
+    {
+     "id": "b",
+     "text": "Cyan, magenta and yellow"
+    },
+    {
+     "id": "c",
+     "text": "Orange, green and violet"
+    },
+    {
+     "id": "d",
+     "text": "Red, yellow and blue"
+    }
+   ],
+   "answer": "d",
+   "explanation": "In the RYB model used by painters, red, yellow and blue can't be mixed from other colours and mix to make the rest.",
+   "distractors": {
+    "a": "That's the RGB system for light and screens.",
+    "b": "Those are printing (CMY) primaries.",
+    "c": "Those are secondary colours."
+   },
+   "takeaway": "Painters: RYB. Screens: RGB. Printers: CMYK.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-002",
+   "type": "mcq",
+   "subtopic": "colour.wheel",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Mixing blue and yellow paint gives…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Brown"
+    },
+    {
+     "id": "b",
+     "text": "Green"
+    },
+    {
+     "id": "c",
+     "text": "Orange"
+    },
+    {
+     "id": "d",
+     "text": "Violet"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Blue + yellow = green, a secondary colour.",
+   "distractors": {
+    "c": "Orange is red + yellow.",
+    "d": "Violet is red + blue.",
+    "a": "Brown needs all three primaries."
+   },
+   "takeaway": "Secondary = two primaries mixed.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-003",
+   "type": "mcq",
+   "subtopic": "colour.wheel",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Red-orange is an example of a…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Neutral colour"
+    },
+    {
+     "id": "b",
+     "text": "Tertiary colour"
+    },
+    {
+     "id": "c",
+     "text": "Primary colour"
+    },
+    {
+     "id": "d",
+     "text": "Secondary colour"
+    }
+   ],
+   "answer": "b",
+   "explanation": "A tertiary colour mixes a primary with a neighbouring secondary: red + orange = red-orange.",
+   "distractors": {
+    "c": "Primaries can't be mixed from others.",
+    "d": "Secondaries are orange, green and violet.",
+    "a": "Neutrals are greys, beiges and browns."
+   },
+   "takeaway": "Tertiary = primary + neighbouring secondary.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-004",
+   "type": "mcq",
+   "subtopic": "colour.wheel",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Screens create colours by mixing light. The primary colours of light are…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Cyan, magenta and yellow"
+    },
+    {
+     "id": "b",
+     "text": "Black and white"
+    },
+    {
+     "id": "c",
+     "text": "Red, green and blue"
+    },
+    {
+     "id": "d",
+     "text": "Red, yellow and blue"
+    }
+   ],
+   "answer": "c",
+   "explanation": "RGB is additive: red + green + blue light at full strength make white.",
+   "distractors": {
+    "d": "That's the painter's model.",
+    "a": "Those are printing inks.",
+    "b": "Not colours of light."
+   },
+   "takeaway": "Light adds up to white.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-005",
+   "type": "mcq",
+   "subtopic": "colour.wheel",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Why do printers use CMYK instead of RGB?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "CMYK is brighter than RGB"
+    },
+    {
+     "id": "b",
+     "text": "RGB inks don't exist in any form"
+    },
+    {
+     "id": "c",
+     "text": "CMYK is cheaper to design with"
+    },
+    {
+     "id": "d",
+     "text": "Inks absorb (subtract) light, so printing mixes subtractively"
+    }
+   ],
+   "answer": "d",
+   "explanation": "On paper, inks absorb light; cyan, magenta and yellow subtract red, green and blue. K (black) gives deep blacks and saves ink. Designs for print should be prepared in CMYK.",
+   "distractors": {
+    "a": "Screens can show brighter colours than ink.",
+    "b": "The reason is how colour mixing works.",
+    "c": "It's about physics, not cost."
+   },
+   "takeaway": "Screen = RGB, print = CMYK.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-006",
+   "type": "mcq",
+   "subtopic": "colour.harmony",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Colours directly opposite each other on the colour wheel are called…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Complementary"
+    },
+    {
+     "id": "b",
+     "text": "Analogous"
+    },
+    {
+     "id": "c",
+     "text": "Monochromatic"
+    },
+    {
+     "id": "d",
+     "text": "Triadic"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Complementary pairs (red–green, blue–orange, yellow–violet) create the strongest hue contrast.",
+   "distractors": {
+    "b": "Analogous colours are neighbours.",
+    "c": "That's one hue in different values.",
+    "d": "Triadic colours are evenly spaced in threes."
+   },
+   "takeaway": "Opposite = complementary.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-007",
+   "type": "mcq",
+   "subtopic": "colour.harmony",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Yellow, yellow-green and green together form which harmony?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Triadic"
+    },
+    {
+     "id": "b",
+     "text": "Split-complementary"
+    },
+    {
+     "id": "c",
+     "text": "Analogous"
+    },
+    {
+     "id": "d",
+     "text": "Complementary"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Neighbouring colours give calm, unified palettes, like a forest or sunset.",
+   "distractors": {
+    "d": "They aren't opposite.",
+    "a": "They aren't evenly spaced.",
+    "b": "That uses a colour plus two near its opposite."
+   },
+   "takeaway": "Neighbours = analogous.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-008",
+   "type": "mcq",
+   "subtopic": "colour.harmony",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Red, yellow and blue used together form which harmony on the RYB wheel?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Analogous"
+    },
+    {
+     "id": "b",
+     "text": "Complementary"
+    },
+    {
+     "id": "c",
+     "text": "Monochromatic"
+    },
+    {
+     "id": "d",
+     "text": "Triadic"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Three colours equally spaced (120° apart) form a triad: vibrant but balanced.",
+   "distractors": {
+    "a": "They're far apart.",
+    "b": "Complementary uses two opposite colours.",
+    "c": "That's a single hue."
+   },
+   "takeaway": "Triangle on the wheel = triadic.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-009",
+   "type": "mcq",
+   "subtopic": "colour.harmony",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Blue with yellow-orange and red-orange is an example of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Split-complementary"
+    },
+    {
+     "id": "b",
+     "text": "Complementary"
+    },
+    {
+     "id": "c",
+     "text": "Analogous"
+    },
+    {
+     "id": "d",
+     "text": "Tetradic"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Split-complementary takes a base colour plus the two colours either side of its complement, giving contrast with less tension.",
+   "distractors": {
+    "b": "Complementary uses orange itself, not its neighbours.",
+    "c": "Blue and the oranges aren't neighbours.",
+    "d": "Tetradic uses four colours."
+   },
+   "takeaway": "Base + neighbours of its opposite.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-010",
+   "type": "mcq",
+   "subtopic": "colour.harmony",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "A poster using only different tints and shades of blue has a…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Triadic scheme"
+    },
+    {
+     "id": "b",
+     "text": "Achromatic scheme"
+    },
+    {
+     "id": "c",
+     "text": "Monochromatic scheme"
+    },
+    {
+     "id": "d",
+     "text": "Complementary scheme"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Monochromatic schemes are elegant and unified; contrast comes from value rather than hue.",
+   "distractors": {
+    "d": "Only one hue is used.",
+    "a": "Only one hue is used.",
+    "b": "Achromatic means no hue at all."
+   },
+   "takeaway": "One hue, many values.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-011",
+   "type": "mcq",
+   "subtopic": "colour.harmony",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Why do sports teams often use complementary colours on jerseys and logos?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "They are cheaper to dye"
+    },
+    {
+     "id": "b",
+     "text": "They feel calm"
+    },
+    {
+     "id": "c",
+     "text": "They are always national colours"
+    },
+    {
+     "id": "d",
+     "text": "Maximum contrast makes them stand out and stay readable"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Opposite colours intensify each other: energetic and highly visible at a distance.",
+   "distractors": {
+    "a": "Cost isn't the reason.",
+    "b": "Complementary pairs feel energetic.",
+    "c": "Not necessarily."
+   },
+   "takeaway": "Opposites = energy and visibility.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-012",
+   "type": "mcq",
+   "subtopic": "colour.value",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Adding white to a colour creates a…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Tint"
+    },
+    {
+     "id": "b",
+     "text": "Shade"
+    },
+    {
+     "id": "c",
+     "text": "Tone"
+    },
+    {
+     "id": "d",
+     "text": "Hue"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Pink is a tint of red; sky blue is a tint of blue.",
+   "distractors": {
+    "b": "A shade adds black.",
+    "c": "A tone adds grey.",
+    "d": "Hue is the colour family."
+   },
+   "takeaway": "Tint = + white.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-013",
+   "type": "mcq",
+   "subtopic": "colour.value",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Adding black to a colour creates a…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Complement"
+    },
+    {
+     "id": "b",
+     "text": "Shade"
+    },
+    {
+     "id": "c",
+     "text": "Tint"
+    },
+    {
+     "id": "d",
+     "text": "Tone"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Maroon is a shade of red; navy is a shade of blue.",
+   "distractors": {
+    "c": "A tint adds white.",
+    "d": "A tone adds grey.",
+    "a": "A complement is the opposite colour."
+   },
+   "takeaway": "Shade = + black.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-014",
+   "type": "mcq",
+   "subtopic": "colour.value",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Adding grey to a colour creates a…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Tone"
+    },
+    {
+     "id": "b",
+     "text": "Tint"
+    },
+    {
+     "id": "c",
+     "text": "Shade"
+    },
+    {
+     "id": "d",
+     "text": "Primary"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Tones are softer, more muted versions: dusty rose, sage green.",
+   "distractors": {
+    "b": "A tint adds white.",
+    "c": "A shade adds black.",
+    "d": "Primaries are pure starting colours."
+   },
+   "takeaway": "Tone = + grey.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-015",
+   "type": "mcq",
+   "subtopic": "colour.value",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A design looks great in colour but unreadable when photocopied in black and white. The problem is most likely…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Too few colours"
+    },
+    {
+     "id": "b",
+     "text": "Wrong typeface"
+    },
+    {
+     "id": "c",
+     "text": "Too much white space"
+    },
+    {
+     "id": "d",
+     "text": "Not enough value contrast between colours"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Colours with similar lightness (like red and green of the same value) turn into the same grey. Check value contrast by viewing in greyscale.",
+   "distractors": {
+    "a": "The number of colours isn't the issue.",
+    "b": "Type alone wouldn't vanish.",
+    "c": "Space helps readability."
+   },
+   "takeaway": "Test designs in greyscale.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-016",
+   "type": "mcq",
+   "subtopic": "colour.temperature",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Which group contains only warm colours?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Red, blue, green"
+    },
+    {
+     "id": "b",
+     "text": "Grey, black, white"
+    },
+    {
+     "id": "c",
+     "text": "Red, orange, yellow"
+    },
+    {
+     "id": "d",
+     "text": "Blue, green, violet"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Warm colours remind us of fire and sun; cool colours remind us of water, sky and plants.",
+   "distractors": {
+    "d": "These are cool colours.",
+    "a": "Mixed temperatures.",
+    "b": "These are neutrals."
+   },
+   "takeaway": "Warm = fire; cool = water.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-017",
+   "type": "mcq",
+   "subtopic": "colour.temperature",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "In landscape paintings, distant mountains are often painted bluish and pale because…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The atmosphere makes far objects look cooler and lighter (atmospheric perspective)"
+    },
+    {
+     "id": "b",
+     "text": "Mountains are blue"
+    },
+    {
+     "id": "c",
+     "text": "Blue paint is cheaper"
+    },
+    {
+     "id": "d",
+     "text": "It's a rule of the RYB wheel"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Air scatters light, so distant objects lose contrast and shift towards blue. Using this creates depth.",
+   "distractors": {
+    "b": "They aren't really blue.",
+    "c": "Not the reason.",
+    "d": "It's about how we see distance."
+   },
+   "takeaway": "Far = paler and cooler.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-018",
+   "type": "mcq",
+   "subtopic": "colour.temperature",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Warm colours in a room tend to make walls feel…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Closer and cosier"
+    },
+    {
+     "id": "b",
+     "text": "Further away"
+    },
+    {
+     "id": "c",
+     "text": "Colder"
+    },
+    {
+     "id": "d",
+     "text": "Invisible"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Warm colours seem to advance and cool colours recede, which interior designers use to change the feel of a space.",
+   "distractors": {
+    "b": "Cool colours do that.",
+    "c": "Warm colours feel warmer.",
+    "d": "No."
+   },
+   "takeaway": "Warm advances; cool recedes.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-019",
+   "type": "mcq",
+   "subtopic": "colour.psychology",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Which colour is most commonly associated with danger and stopping?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Red"
+    },
+    {
+     "id": "b",
+     "text": "Green"
+    },
+    {
+     "id": "c",
+     "text": "Blue"
+    },
+    {
+     "id": "d",
+     "text": "White"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Red is highly visible and linked to urgency, so it's used for stop signs, warnings and emergency buttons.",
+   "distractors": {
+    "b": "Green suggests go and safety.",
+    "c": "Blue suggests calm and information.",
+    "d": "White suggests purity or neutrality."
+   },
+   "takeaway": "Red = alert.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-020",
+   "type": "mcq",
+   "subtopic": "colour.psychology",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Many banks and tech companies use blue in their logos because blue is often associated with…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Danger"
+    },
+    {
+     "id": "b",
+     "text": "Mourning"
+    },
+    {
+     "id": "c",
+     "text": "Trust and reliability"
+    },
+    {
+     "id": "d",
+     "text": "Hunger"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Blue feels calm and dependable in many cultures, useful for brands handling money and data.",
+   "distractors": {
+    "d": "Reds and oranges are linked to appetite.",
+    "a": "Red signals danger.",
+    "b": "Not commonly associated with blue."
+   },
+   "takeaway": "Blue = trust.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-021",
+   "type": "mcq",
+   "subtopic": "colour.psychology",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Why is it risky to show 'correct' and 'wrong' using only green and red?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Red is too bright for screens"
+    },
+    {
+     "id": "b",
+     "text": "They are not standard colours"
+    },
+    {
+     "id": "c",
+     "text": "Many colour-blind people can't easily tell red from green"
+    },
+    {
+     "id": "d",
+     "text": "Green and red clash"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Red–green colour blindness affects roughly 1 in 12 men. Always add a second cue: an icon, a label or a pattern.",
+   "distractors": {
+    "d": "Aesthetics aren't the main issue.",
+    "a": "Not the main issue.",
+    "b": "They are very standard."
+   },
+   "takeaway": "Never use colour alone.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-022",
+   "type": "mcq",
+   "subtopic": "colour.psychology",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "In many Indian traditions, which colour is associated with weddings and auspicious occasions?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Black"
+    },
+    {
+     "id": "b",
+     "text": "White"
+    },
+    {
+     "id": "c",
+     "text": "Grey"
+    },
+    {
+     "id": "d",
+     "text": "Red"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Red (with gold) is traditional for brides in many Indian communities, symbolising prosperity and celebration.",
+   "distractors": {
+    "a": "Black is often avoided at weddings.",
+    "b": "White is associated with mourning in some traditions.",
+    "c": "Not associated."
+   },
+   "takeaway": "Colour meanings depend on culture.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-023",
+   "type": "mcq",
+   "subtopic": "colour.terms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The 'saturation' of a colour describes…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "How light or dark it is"
+    },
+    {
+     "id": "b",
+     "text": "Which colour family it is"
+    },
+    {
+     "id": "c",
+     "text": "How warm it feels"
+    },
+    {
+     "id": "d",
+     "text": "How intense or dull it is"
+    }
+   ],
+   "answer": "d",
+   "explanation": "A fully saturated red is vivid; a desaturated red looks greyish.",
+   "distractors": {
+    "a": "That's value.",
+    "b": "That's hue.",
+    "c": "That's temperature."
+   },
+   "takeaway": "Saturation = intensity.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-024",
+   "type": "mcq",
+   "subtopic": "colour.terms",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "'Hue' refers to…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "How pure a colour is"
+    },
+    {
+     "id": "b",
+     "text": "The type of paint"
+    },
+    {
+     "id": "c",
+     "text": "The basic colour family, like red, blue or green"
+    },
+    {
+     "id": "d",
+     "text": "How bright a colour is"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Hue is what we usually mean by 'colour'. Value and saturation then describe its lightness and intensity.",
+   "distractors": {
+    "d": "That's value.",
+    "a": "That's saturation.",
+    "b": "Not related."
+   },
+   "takeaway": "Hue = which colour.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-025",
+   "type": "mcq",
+   "subtopic": "colour.terms",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Black, white and greys are called…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Achromatic colours"
+    },
+    {
+     "id": "b",
+     "text": "Primary colours"
+    },
+    {
+     "id": "c",
+     "text": "Complementary colours"
+    },
+    {
+     "id": "d",
+     "text": "Analogous colours"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Achromatic means without hue. They're useful as neutral backgrounds and for testing value.",
+   "distractors": {
+    "b": "They aren't primaries.",
+    "c": "They have no hue to be opposite.",
+    "d": "No."
+   },
+   "takeaway": "Achromatic = no hue.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-026",
+   "type": "mcq",
+   "subtopic": "colour.indian",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Indigo, a deep blue natural dye used in Indian textiles for centuries, comes from…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Turmeric root"
+    },
+    {
+     "id": "b",
+     "text": "Plants (the Indigofera plant)"
+    },
+    {
+     "id": "c",
+     "text": "A sea snail"
+    },
+    {
+     "id": "d",
+     "text": "Iron ore"
+    }
+   ],
+   "answer": "b",
+   "explanation": "India was historically famous for indigo; the word itself comes from 'Indicum', meaning 'from India'.",
+   "distractors": {
+    "c": "That's Tyrian purple.",
+    "d": "Not a source of indigo.",
+    "a": "Turmeric gives yellow."
+   },
+   "takeaway": "Indigo: plant-based, India's famous dye.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-027",
+   "type": "mcq",
+   "subtopic": "colour.indian",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which spice has traditionally been used as a natural yellow dye?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Black pepper"
+    },
+    {
+     "id": "b",
+     "text": "Clove"
+    },
+    {
+     "id": "c",
+     "text": "Turmeric"
+    },
+    {
+     "id": "d",
+     "text": "Cardamom"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Turmeric gives a bright but fade-prone yellow, used in rituals, cloth and food colouring.",
+   "distractors": {
+    "d": "Not a dye.",
+    "a": "Not a dye.",
+    "b": "Not a common dye."
+   },
+   "takeaway": "Turmeric = traditional yellow.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-028",
+   "type": "mcq",
+   "subtopic": "colour.indian",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "During Holi, colours were traditionally made from…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Coloured glass"
+    },
+    {
+     "id": "b",
+     "text": "Flowers and plants like palash (flame of the forest) and turmeric"
+    },
+    {
+     "id": "c",
+     "text": "Synthetic chemicals only"
+    },
+    {
+     "id": "d",
+     "text": "Coal dust"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Natural colours from flowers, leaves and spices are gentler on skin; many people are returning to them.",
+   "distractors": {
+    "c": "These are modern and can be harmful.",
+    "d": "No.",
+    "a": "No."
+   },
+   "takeaway": "Natural colours are a design opportunity.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-029",
+   "type": "mcq",
+   "subtopic": "colour.brand",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Many food brands use red and yellow in their logos because these colours are thought to…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Grab attention and suggest energy and appetite"
+    },
+    {
+     "id": "b",
+     "text": "Calm customers down"
+    },
+    {
+     "id": "c",
+     "text": "Signal luxury"
+    },
+    {
+     "id": "d",
+     "text": "Indicate health"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Warm, high-energy colours are highly visible and linked to quick, cheerful experiences.",
+   "distractors": {
+    "b": "Blues and greens are calmer.",
+    "c": "Black and gold are more typical for luxury.",
+    "d": "Green is more associated with health."
+   },
+   "takeaway": "Warm colours shout.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-030",
+   "type": "mcq",
+   "subtopic": "colour.brand",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A brand palette usually includes…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "As many colours as possible"
+    },
+    {
+     "id": "b",
+     "text": "Only black"
+    },
+    {
+     "id": "c",
+     "text": "Different random colours each year"
+    },
+    {
+     "id": "d",
+     "text": "One or two primary colours, a few accents and neutrals"
+    }
+   ],
+   "answer": "d",
+   "explanation": "A limited, consistent palette makes a brand instantly recognisable across products and media.",
+   "distractors": {
+    "a": "Too many colours weaken recognition.",
+    "b": "Some brands do, but it's not usual.",
+    "c": "Consistency builds recognition."
+   },
+   "takeaway": "Consistency = recognition.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-031",
+   "type": "mcq",
+   "subtopic": "colour.harmony",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which pair has the MOST hue contrast?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Green and blue-green"
+    },
+    {
+     "id": "b",
+     "text": "Blue and orange"
+    },
+    {
+     "id": "c",
+     "text": "Blue and violet"
+    },
+    {
+     "id": "d",
+     "text": "Yellow and yellow-orange"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Blue and orange are complementary, the strongest hue contrast possible.",
+   "distractors": {
+    "c": "Neighbours on the wheel.",
+    "d": "Neighbours.",
+    "a": "Neighbours."
+   },
+   "takeaway": "Most contrast = opposite.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-032",
+   "type": "mcq",
+   "subtopic": "colour.psychology",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A hospital wants its children's ward to feel calm and safe. Which palette is most suitable?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Soft blues and greens with warm accents"
+    },
+    {
+     "id": "b",
+     "text": "Pure black and red"
+    },
+    {
+     "id": "c",
+     "text": "Neon colours everywhere"
+    },
+    {
+     "id": "d",
+     "text": "Only grey"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Soft cool tones calm, while small warm accents keep spaces friendly. Context and users decide colour.",
+   "distractors": {
+    "b": "Too harsh and alarming.",
+    "c": "Overstimulating.",
+    "d": "Feels cold and institutional."
+   },
+   "takeaway": "Colour sets mood: choose for the user.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-col-033",
+   "type": "mcq",
+   "subtopic": "colour.value",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "In a pencil drawing, colour is replaced by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Line thickness only"
+    },
+    {
+     "id": "b",
+     "text": "Nothing"
+    },
+    {
+     "id": "c",
+     "text": "Value (light and dark)"
+    },
+    {
+     "id": "d",
+     "text": "Texture only"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Every colour has a value. Translating colours into the right lightness is the key to strong monochrome drawings.",
+   "distractors": {
+    "d": "Texture helps but value carries form.",
+    "a": "Line helps but value carries form.",
+    "b": "Value still describes light and form."
+   },
+   "takeaway": "Think in values.",
+   "tags": [],
+   "needsReview": false
+  }
+ ]
+}

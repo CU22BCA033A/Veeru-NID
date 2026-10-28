@@ -1,0 +1,94 @@
+{
+ "cards": [
+  {
+   "id": "cc-studio.storyboard",
+   "subtopic": "studio.storyboard",
+   "title": "Storyboards",
+   "body": "Plan the beats first (one line per frame). Vary shots: wide (where), medium (what), close-up (feeling). Keep characters consistent with one identifying feature. Show action with posture, motion lines and arrows. Captions add time, sound or thought. One clear moment per frame."
+  },
+  {
+   "id": "cc-studio.memory",
+   "subtopic": "studio.memory",
+   "title": "Memory drawing",
+   "body": "Start with the perspective framework (horizon and vanishing point), then the big shapes, then people doing different actions, then 5–6 specific details that make the place believable. Practise by observing a place for one minute and drawing it later."
+  },
+  {
+   "id": "cc-studio.observation",
+   "subtopic": "studio.observation",
+   "title": "Observation drawing",
+   "body": "Look more than you draw. Measure proportions with your pencil, squint to see light and dark masses, and draw the negative spaces. Use at least three tones and one light direction. Draw what you see, not what you know."
+  },
+  {
+   "id": "cc-studio.context",
+   "subtopic": "studio.context",
+   "title": "Objects in context",
+   "body": "Show the object being used by the right person in the right place. Add 2–3 context details that make the setting obvious (a hospital bed, a market stall). Context proves the idea works and adds story."
+  },
+  {
+   "id": "cc-studio.redesign",
+   "subtopic": "studio.redesign",
+   "title": "Product redesign",
+   "body": "Show the problem with the current product, the redesigned product from at least two views, and the user using it. Change what matters for that user, and label the key features. Keep it buildable."
+  },
+  {
+   "id": "cc-studio.problem-solution",
+   "subtopic": "studio.problem-solution",
+   "title": "Problem → solution",
+   "body": "Draw the problem clearly first. List related problems to show deeper thinking. Choose the most important one, find its root cause, and show a simple, clear solution in use with labels."
+  },
+  {
+   "id": "cc-studio.poster",
+   "subtopic": "studio.poster",
+   "title": "Posters & social media",
+   "body": "One message, one strong image, a clear hierarchy (headline → image → details), and a call to action. For a series, keep layout, colours and type consistent and vary the content. Use visual metaphor to make it memorable."
+  },
+  {
+   "id": "cc-studio.signage",
+   "subtopic": "studio.signage",
+   "title": "Signage design",
+   "body": "A clear pictogram, high contrast, minimal bilingual text, the right shape and colour convention, and placement at the decision point at eye level. Always sketch where the sign goes."
+  },
+  {
+   "id": "cc-studio.symbol",
+   "subtopic": "studio.symbol",
+   "title": "Symbol creation",
+   "body": "Think about what each object does, then merge two forms so they read as one symbol with a single meaning. Keep it bold, simple and black and white. Test at small size. Write the meaning in one line."
+  },
+  {
+   "id": "cc-studio.pattern",
+   "subtopic": "studio.pattern",
+   "title": "Pattern & motif",
+   "body": "Simplify a source in stages: realistic → simplified → geometric. Repeat the motif using a grid: border, half-drop, mirror or rotation. Rhythm comes from regular spacing and alternation of direction or colour."
+  },
+  {
+   "id": "cc-studio.composition",
+   "subtopic": "studio.composition",
+   "title": "Composition exercises",
+   "body": "Calm compositions use horizontals, symmetry and space; energetic ones use diagonals, crowding and tension. Choose one dominant element, use the frame's edges deliberately, and balance positive and negative space."
+  },
+  {
+   "id": "cc-studio.emotion",
+   "subtopic": "studio.emotion",
+   "title": "Emotion & expression",
+   "body": "Emotion lives in posture: the spine's curve, shoulder height, head angle and hand position. Exaggerate slightly. Use setting, weather and other people to strengthen the feeling."
+  },
+  {
+   "id": "cc-studio.perspective-scene",
+   "subtopic": "studio.perspective-scene",
+   "title": "Perspective scenes",
+   "body": "Horizon first, then vanishing points, then big boxes for buildings and furniture, then people sized correctly (heads on the horizon for standing people on flat ground), then detail where the eye should go."
+  },
+  {
+   "id": "cc-studio.uses",
+   "subtopic": "studio.uses",
+   "title": "3 uses in 3 contexts",
+   "body": "Divide the sheet into three equal panels. Give each use a different property of the object. Make each context unmistakable with a couple of details and show a person using the object. Label each idea in a few words."
+  },
+  {
+   "id": "cc-studio.indian",
+   "subtopic": "studio.indian",
+   "title": "Indian-context illustration",
+   "body": "Specific Indian details make illustrations believable: steel vessels, banana leaves, rangoli, auto-rickshaws, temple steps, vegetable carts, school uniforms. Observe and collect them in your sketchbook."
+  }
+ ]
+}

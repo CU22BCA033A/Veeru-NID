@@ -1,0 +1,40 @@
+{
+ "cards": [
+  {
+   "id": "cc-drawing.perspective",
+   "subtopic": "drawing.perspective",
+   "title": "Perspective (1, 2 and 3-point)",
+   "body": "The horizon line is always at the viewer's eye level. One-point: you face a flat side; depth lines meet at one vanishing point (roads, corridors). Two-point: you face a corner; two vanishing points sit on the horizon, verticals stay vertical. Three-point: looking up or down; verticals also converge. Things get smaller and closer together with distance."
+  },
+  {
+   "id": "cc-drawing.foreshortening",
+   "subtopic": "drawing.foreshortening",
+   "title": "Foreshortening",
+   "body": "When an object points towards or away from you, its length looks compressed and the near end looks bigger. An arm pointing at you becomes overlapping circles, not a long tube. Use overlap, size change and stronger detail on the near end. Measure what you see, not what you know the length to be."
+  },
+  {
+   "id": "cc-drawing.light-shade",
+   "subtopic": "drawing.light-shade",
+   "title": "Light & shade",
+   "body": "Highlight: the brightest spot, facing the light. Form shadow: the darker side of the object, turned away from the light. Cast shadow: the shadow the object throws onto other surfaces, falling away from the light. Reflected light: a faint glow on the shadow side. Low light → long shadows; overhead light → short shadows. Keep one light direction throughout."
+  },
+  {
+   "id": "cc-drawing.figure",
+   "subtopic": "drawing.figure",
+   "title": "Human figure proportion",
+   "body": "An adult is about 7–8 heads tall. Hips are at about half the height; elbows at the waist; fingertips at mid-thigh; knees about a quarter of the way up from the feet. Shoulders are about 2–3 head-widths wide. Children have larger heads in proportion (about 4–6 heads tall). Start with the line of action, then a stick figure, then simple volumes."
+  },
+  {
+   "id": "cc-drawing.texture",
+   "subtopic": "drawing.texture",
+   "title": "Texture rendering",
+   "body": "Texture is shown by the kind of marks you make. Wood: long wavy lines and knots. Stone: dots, speckles and cracks. Metal: sharp contrast and crisp highlights. Glass: reflections and see-through edges. Fabric: soft folds radiating from points of tension. Cane and jute: weave patterns. Match the mark to the material, and keep texture lighter in the light."
+  },
+  {
+   "id": "cc-drawing.line",
+   "subtopic": "drawing.line",
+   "title": "Line quality",
+   "body": "Confident lines are drawn in one stroke from the shoulder, not scratched. Vary weight: thicker for near edges, shadow sides and overlaps; thinner for far edges and light sides. Contour lines describe form; construction lines stay light. Clean line quality makes even simple drawings look professional."
+  }
+ ]
+}

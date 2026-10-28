@@ -20,6 +20,14 @@
   --warn-soft: #fbefd9;
   --bad: #b3261e;
   --bad-soft: #f9e3e1;
+  /* data viz: validated categorical slots 1–2 + blue sequential ramp */
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --seq-1: #cde2fb;
+  --seq-2: #86b6ef;
+  --seq-3: #3987e5;
+  --seq-4: #1c5cab;
+  --grid: #e9e6de;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,6 +48,13 @@
     --warn-soft: #3a2c15;
     --bad: #f08a83;
     --bad-soft: #3d1f1d;
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --seq-1: #1d2a3a;
+    --seq-2: #184f95;
+    --seq-3: #2a78d6;
+    --seq-4: #6da7ec;
+    --grid: #2e2c28;
   }
 }
 

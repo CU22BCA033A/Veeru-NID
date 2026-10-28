@@ -1,0 +1,52 @@
+{
+ "cards": [
+  {
+   "id": "cc-colour.wheel",
+   "subtopic": "colour.wheel",
+   "title": "The colour wheel",
+   "body": "In the traditional painter's (RYB) wheel the primaries are red, yellow and blue; mixing two gives a secondary (orange, green, violet); mixing a primary with a neighbouring secondary gives a tertiary (e.g. red-orange). Screens use RGB light (red, green, blue), where mixing adds light; printers use CMYK inks, where mixing subtracts light."
+  },
+  {
+   "id": "cc-colour.harmony",
+   "subtopic": "colour.harmony",
+   "title": "Colour harmonies",
+   "body": "Complementary: opposite on the wheel (red–green, blue–orange): maximum contrast. Analogous: neighbours (yellow, yellow-orange, orange): calm and unified. Triadic: three evenly spaced (red, yellow, blue): lively yet balanced. Split-complementary: a colour plus the two beside its complement: contrast with less tension. Monochromatic: one hue in different values."
+  },
+  {
+   "id": "cc-colour.value",
+   "subtopic": "colour.value",
+   "title": "Tints, shades & tones",
+   "body": "Value is lightness or darkness. A tint is a colour plus white (lighter), a shade is a colour plus black (darker), and a tone is a colour plus grey (softer). Strong value contrast makes things readable even in black and white: test a design by squinting or photographing it in greyscale."
+  },
+  {
+   "id": "cc-colour.temperature",
+   "subtopic": "colour.temperature",
+   "title": "Warm & cool colours",
+   "body": "Warm colours (red, orange, yellow) feel energetic and seem to come forward; cool colours (blue, green, violet) feel calm and seem to recede. Landscapes use this: distant hills look bluer and paler (atmospheric perspective). Temperature is relative: a green can look warm next to blue."
+  },
+  {
+   "id": "cc-colour.psychology",
+   "subtopic": "colour.psychology",
+   "title": "Colour psychology",
+   "body": "Colours carry associations, but they depend on culture and context. Red: energy, danger, love; in India also marriage and auspiciousness. White: purity, but mourning in some Indian traditions. Blue: trust, calm. Green: nature, health, go. Yellow: cheer, caution. Use colour to support the message, and never rely on colour alone (colour-blind users)."
+  },
+  {
+   "id": "cc-colour.terms",
+   "subtopic": "colour.terms",
+   "title": "Colour terminology",
+   "body": "Hue: the colour family (red, blue). Saturation (chroma): how intense or dull it is. Value: how light or dark. Primary, secondary and tertiary describe mixing. Achromatic means without hue (black, white, greys). Neutral colours (beiges, greys) support stronger accents."
+  },
+  {
+   "id": "cc-colour.indian",
+   "subtopic": "colour.indian",
+   "title": "Colour in Indian culture & craft",
+   "body": "Colour is deeply symbolic in India: saffron for sacrifice and spirituality, red and gold for weddings, turmeric yellow for auspicious beginnings, green for harvest and life. Crafts rely on natural dyes: indigo blue, madder red, turmeric and pomegranate yellows in Kalamkari and block prints. Festivals like Holi celebrate colour itself."
+  },
+  {
+   "id": "cc-colour.brand",
+   "subtopic": "colour.brand",
+   "title": "Colour in branding",
+   "body": "Brands use colour for instant recognition and emotion: red for energy and appetite (food chains), blue for trust (banks, tech), green for nature and health. Consistency matters more than any single colour. A brand palette usually has one or two main colours, accents, and neutrals."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "cards": [
+  {
+   "id": "cc-creative.alt-uses",
+   "subtopic": "creative.alt-uses",
+   "title": "Alternative uses",
+   "body": "List the object's properties first (shape, material, hollow, flexible, transparent, weight). Each property suggests different uses. Change the user (child, farmer, doctor) and the place (kitchen, farm, hospital) to unlock more. Aim for quantity first, then pick the most original and practical ideas."
+  },
+  {
+   "id": "cc-creative.what-if",
+   "subtopic": "creative.what-if",
+   "title": "What-if scenarios",
+   "body": "For 'what if…' questions, think in layers: immediate effects, effects on different people, effects on daily routines, and new opportunities. Example: what if all roads became one-way? Traffic, buses, deliveries, emergency vehicles, shops, walking routes. Show both problems and positive possibilities."
+  },
+  {
+   "id": "cc-creative.problem-id",
+   "subtopic": "creative.problem-id",
+   "title": "Problem identification",
+   "body": "Walk through the situation in time order and from each person's point of view. Look for safety, comfort, time, cost, dignity and access problems. Use '5 whys' to find root causes. Specific problems you can actually see score better than generic ones."
+  },
+  {
+   "id": "cc-creative.empathy",
+   "subtopic": "creative.empathy",
+   "title": "User empathy",
+   "body": "Imagine a specific person: age, abilities, routine, worries. Walk through their day step by step and note every difficulty: physical (reach, strength), sensory (seeing, hearing), cognitive (understanding), emotional (fear, embarrassment) and social. Empathy produces specific, believable design ideas."
+  },
+  {
+   "id": "cc-creative.association",
+   "subtopic": "creative.association",
+   "title": "Word-to-visual association",
+   "body": "To turn a word into an image: list objects, actions, colours, places and feelings connected to it. Combine two of them into a visual metaphor (time = melting candle, growth = seedling from a book). Avoid the most obvious first symbol; push for a fresher one."
+  },
+  {
+   "id": "cc-creative.naming",
+   "subtopic": "creative.naming",
+   "title": "Naming & slogans",
+   "body": "A good name is short, easy to say, memorable and fits the product's character. Techniques: combine words, use a metaphor, borrow from local language, or use alliteration. A slogan states the benefit or feeling in a few words. Test it by saying it aloud."
+  },
+  {
+   "id": "cc-creative.caption",
+   "subtopic": "creative.caption",
+   "title": "Writing captions",
+   "body": "A caption adds what the image can't show: time, sound, thought, consequence, or why it matters. Be specific and active. Respect word limits strictly. Read it aloud: if it repeats the image, rewrite it."
+  },
+  {
+   "id": "cc-creative.writeup",
+   "subtopic": "creative.writeup",
+   "title": "Design write-ups",
+   "body": "Structure a short write-up as: what it is and who it's for → why you chose it → what works (form, material, use, feeling) → what doesn't → one improvement. Use specific details from your own experience. Keep to the word limit."
+  }
+ ]
+}

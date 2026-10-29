@@ -8,7 +8,7 @@ const styles: Record<Variant, string> = {
   ghost: "text-ink-2 hover:bg-surface-2",
 };
 const base =
-  "inline-flex min-h-11 items-center justify-center gap-2 rounded-xl px-4 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50";
+  "inline-flex min-h-11 touch-manipulation select-none items-center justify-center gap-2 rounded-xl px-4 text-sm font-medium transition active:scale-[0.97] disabled:cursor-not-allowed disabled:opacity-50 disabled:active:scale-100";
 
 export function Button({
   variant = "primary",

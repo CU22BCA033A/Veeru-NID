@@ -1,11 +1,12 @@
 "use client";
 import { useRef, useState, useTransition } from "react";
-import { Camera, Check, Search, Trash2, Upload } from "lucide-react";
+import { AlertTriangle, Camera, Check, Save, Search, Trash2, Upload } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { LICENSE_NOT_RECORDED } from "@/lib/content/image-license";
 import { compressImage, extFor } from "@/lib/image/compress";
 import { supabaseBrowser } from "@/lib/supabase/client";
-import { markImageReady, removeImage } from "./actions";
+import { markImageReady, removeImage, saveImageDetails } from "./actions";
 
 export interface ImageRow {
   id: string;
@@ -76,10 +77,17 @@ export function ImageCard({ img, mentorName }: { img: ImageRow; mentorName: stri
             <Search className="size-4" aria-hidden /> Find a free photo: “{searchTerm}”
           </a>
         )}
+        {preview && license === LICENSE_NOT_RECORDED && (
+          <p className="flex items-start gap-2 rounded-lg bg-warn-soft p-2 text-xs text-warn">
+            <AlertTriangle className="mt-0.5 size-3.5 shrink-0" aria-hidden />
+            Recovered upload: its licence wasn't saved. Pick the licence, add the source link, then tap Save details.
+          </p>
+        )}
         <div className="grid grid-cols-2 gap-2">
           <label className="text-xs text-ink-2">
             Licence
             <select value={license} onChange={(e) => setLicense(e.target.value)} className="mt-1 block min-h-10 w-full rounded-lg border border-line bg-surface px-2 text-sm">
+              {license === LICENSE_NOT_RECORDED && <option value={LICENSE_NOT_RECORDED} disabled>Pick the licence…</option>}
               {LICENSES.map((l) => <option key={l}>{l}</option>)}
             </select>
           </label>
@@ -99,6 +107,18 @@ export function ImageCard({ img, mentorName }: { img: ImageRow; mentorName: stri
           <Button onClick={() => fileRef.current?.click()} disabled={pending} className="flex-1">
             <Upload className="size-4" aria-hidden /> {preview ? "Replace" : "Upload"}
           </Button>
+          {preview && (
+            <Button
+              variant="secondary"
+              disabled={pending}
+              onClick={() => start(async () => {
+                const r = await saveImageDetails({ id: img.id, license, author, sourceUrl: source });
+                setStatus(r.error ? `Not saved: ${r.error}` : "Details saved ✓");
+              })}
+            >
+              <Save className="size-4" aria-hidden /> Save details
+            </Button>
+          )}
           {preview && (
             <Button variant="ghost" aria-label="Remove photo" disabled={pending} onClick={() => start(async () => { await removeImage(img.id); setPreview(null); setStatus("Removed."); })}>
               <Trash2 className="size-4" aria-hidden />

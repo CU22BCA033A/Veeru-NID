@@ -1,16 +1,20 @@
 import { expect, test } from "@playwright/test";
-import { MENTOR, STUDENT, login } from "./helpers";
+import { MENTOR, STUDENT, admin, login } from "./helpers";
 import { sheetPhoto } from "./fixtures";
 
 test("mentor uploads a question photo", async ({ page, browser }) => {
   test.setTimeout(90_000);
   const photo = await sheetPhoto(browser);
+  // Regression: a slot whose row isn't in the database yet (content not synced) must still save.
+  await admin().from("images").delete().eq("id", "img-light-ball-left");
   await login(page, MENTOR);
   await page.goto("/admin/images");
   await page.waitForLoadState("networkidle"); // let the cards become interactive first
   const card = page.locator("article").filter({ has: page.locator("code", { hasText: /^img-light-ball-left$/ }) });
   await card.locator('input[type="file"]').setInputFiles(photo);
   await expect(card.getByText(/Uploaded ✓/)).toBeVisible({ timeout: 30_000 });
+  const { data: row } = await admin().from("images").select("status,path").eq("id", "img-light-ball-left").single();
+  expect(row?.status).toBe("ready");
   await page.reload();
   await expect(page.getByText(/1 of 104 photos uploaded/)).toBeVisible();
 });

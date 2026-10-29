@@ -80,6 +80,11 @@
 }
 
 html { -webkit-text-size-adjust: 100%; }
+/* Taps register immediately on phones (no double-tap-zoom wait); our own :active styles give feedback. */
+a, button, [role="button"], [role="radio"], [role="checkbox"], label, select, summary, input[type="submit"] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
 body {
   background: var(--paper);
   color: var(--ink);

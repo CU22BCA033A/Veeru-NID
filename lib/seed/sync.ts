@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { itemContentHash } from "@/lib/content/hash";
+import { LICENSE_NOT_RECORDED } from "@/lib/content/image-license";
 import { loadAuthoredItems, loadImageManifest, SUBTOPICS } from "@/lib/content/load";
 import type { ItemInput } from "@/lib/content/schemas";
 import { buildGeneratedPool } from "@/lib/generators";
@@ -21,6 +22,12 @@ function contentVersion(items: ItemInput[], extra: ExtraContent): string {
     .update(JSON.stringify([GENERATOR_VERSION, loadImageManifest(), items, extra]))
     .digest("hex")
     .slice(0, 16);
+}
+
+let memoVersion: string | null = null;
+/** Version of the content bundled in this deploy; compared with settings.content_version. */
+export function currentContentVersion(): string {
+  return (memoVersion ??= contentVersion(loadAuthoredItems(), loadExtraContent()));
 }
 
 async function upsertBatched(db: SupabaseClient, table: string, rows: Record<string, unknown>[], onConflict?: string) {
@@ -85,6 +92,8 @@ export async function syncContent(db: SupabaseClient, opts: { force?: boolean } 
     await db.from("images").update({ description: m.description, shot_notes: m.shotNotes, aspect: m.aspect }).eq("id", m.id);
   }
 
+  await relinkUploadedPhotos(db, manifest.map((m) => m.id));
+
   // Keep the mentor's decisions: retired questions stay retired, verified facts stay verified.
   const { data: notLive } = await db.from("items").select("id,status").neq("status", "live").neq("source", "Generated");
   const flagged = items.filter((i) => i.needsReview).map((i) => i.id);
@@ -119,4 +128,34 @@ export async function syncContent(db: SupabaseClient, opts: { force?: boolean } 
       conceptCards: extra.conceptCards.length, tips: extra.tips.length, studioTasks: extra.studioTasks.length, mocks: extra.mocks.length,
     },
   };
+}
+
+/**
+ * Photos whose file reached storage but whose row was never marked ready (e.g. uploaded before
+ * content was synced) are linked to the newest matching file. Older unreferenced copies are removed.
+ */
+export async function relinkUploadedPhotos(db: SupabaseClient, ids: string[]): Promise<{ relinked: number; removed: number }> {
+  const { data: files, error } = await db.storage.from("content-images").list("", { limit: 1000, sortBy: { column: "created_at", order: "desc" } });
+  if (error || !files) return { relinked: 0, removed: 0 };
+  const { data: rows } = await db.from("images").select("id,status,path");
+  const byId = new Map((rows ?? []).map((r) => [r.id as string, r as { id: string; status: string; path: string | null }]));
+  // Files are named "<image id>-<timestamp>.webp"; ids are [a-z0-9-] only.
+  const fileId = (name: string) => ids.find((id) => name.startsWith(`${id}-`) && /^\d+\.(webp|jpg)$/.test(name.slice(id.length + 1)));
+  let relinked = 0;
+  for (const f of files) {
+    const id = fileId(f.name);
+    const row = id ? byId.get(id) : undefined;
+    if (!row || row.status === "ready") continue;
+    const { error: e } = await db.from("images").update({ path: f.name, status: "ready", license: LICENSE_NOT_RECORDED }).eq("id", row.id);
+    if (!e) {
+      row.status = "ready";
+      row.path = f.name;
+      relinked++;
+    }
+  }
+  const used = new Set([...byId.values()].map((r) => r.path).filter(Boolean));
+  const hourAgo = Date.now() - 3600_000; // never touch a file that may be mid-upload
+  const stale = files.filter((f) => fileId(f.name) && !used.has(f.name) && new Date(f.created_at ?? 0).getTime() < hourAgo).map((f) => f.name);
+  if (stale.length) await db.storage.from("content-images").remove(stale);
+  return { relinked, removed: stale.length };
 }

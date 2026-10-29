@@ -1,7 +1,7 @@
 "use client";
 import { useCallback, useEffect, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
-import { Camera, CheckCircle2, Clock, Trash2 } from "lucide-react";
+import { Camera, CheckCircle2, Clock, Pause, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardLabel } from "@/components/ui/card";
@@ -13,6 +13,7 @@ import type { Mock } from "@/lib/content/schemas";
 import type { ClientItem } from "@/lib/items/types";
 import { supabaseBrowser } from "@/lib/supabase/client";
 import { saveMockProgress, submitMock } from "@/app/(student)/mocks/actions";
+import { PauseOverlay } from "@/components/runner/pause-overlay";
 
 type Question = Mock["questions"][number];
 const hms = (s: number) => {
@@ -28,7 +29,7 @@ export function MockRunner(props: {
   mode: "screen" | "paper";
   questions: Question[];
   objectiveItems: ClientItem[];
-  initial: { uploads: Record<string, string[]>; objective: Record<string, string | string[] | null>; timeSplit: Record<string, number>; thumbs: Record<string, string> };
+  initial: { uploads: Record<string, string[]>; objective: Record<string, string | string[] | null>; timeSplit: Record<string, number>; thumbs: Record<string, string>; pausedMs: number };
 }) {
   const router = useRouter();
   const [current, setCurrent] = useState<number>(props.questions[0]!.no);
@@ -43,8 +44,12 @@ export function MockRunner(props: {
   const [error, setError] = useState<string | null>(null);
   const [pending, start] = useTransition();
   const lastTick = useRef(Date.now());
+  const pausedAtRef = useRef<number | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
-  const endsAt = new Date(props.startedAt).getTime() + props.durationMin * 60_000;
+  const [pausedMs, setPausedMs] = useState(props.initial.pausedMs);
+  const [pausedAt, setPausedAt] = useState<number | null>(null);
+  // Paused time (saved + the current pause) pushes the end time back.
+  const endsAt = new Date(props.startedAt).getTime() + props.durationMin * 60_000 + pausedMs + (pausedAt ? now - pausedAt : 0);
   const left = Math.round((endsAt - now) / 1000);
 
   // Tick: clock + time spent on the open question.
@@ -54,14 +59,14 @@ export function MockRunner(props: {
       const dt = (n - lastTick.current) / 1000;
       lastTick.current = n;
       setNow(n);
-      if (!marking && dt < 10) setTimeSplit((ts) => ({ ...ts, [current]: (ts[current] ?? 0) + dt }));
+      if (!marking && !pausedAtRef.current && dt < 10) setTimeSplit((ts) => ({ ...ts, [current]: (ts[current] ?? 0) + dt }));
     }, 1000);
     return () => clearInterval(t);
   }, [current, marking]);
 
   const persist = useCallback(
-    (u = uploads, o = objective, ts = timeSplit) => saveMockProgress({ attemptId: props.attemptId, uploads: u, objective: o, timeSplit: ts }),
-    [uploads, objective, timeSplit, props.attemptId],
+    (u = uploads, o = objective, ts = timeSplit, pm = pausedMs) => saveMockProgress({ attemptId: props.attemptId, uploads: u, objective: o, timeSplit: ts, pausedMs: Math.round(pm) }),
+    [uploads, objective, timeSplit, pausedMs, props.attemptId],
   );
   // Autosave every 30s.
   useEffect(() => {
@@ -86,6 +91,34 @@ export function MockRunner(props: {
     setThumbs((t) => ({ ...t, [path]: URL.createObjectURL(blob) }));
     await persist(next);
   };
+
+  const pause = () => {
+    const t = Date.now();
+    pausedAtRef.current = t;
+    setPausedAt(t);
+    void persist();
+  };
+  const resume = () => {
+    if (!pausedAt) return;
+    const total = pausedMs + (Date.now() - pausedAt);
+    pausedAtRef.current = null;
+    lastTick.current = Date.now();
+    setPausedAt(null);
+    setPausedMs(total);
+    void persist(uploads, objective, timeSplit, total);
+  };
+
+  if (pausedAt) {
+    return (
+      <PauseOverlay
+        onResume={resume}
+        onExit={() => void persist(uploads, objective, timeSplit, pausedMs + (Date.now() - pausedAt))}
+        exitHref="/mocks"
+        exitLabel="Save & leave (the clock stays stopped)"
+        note={props.mode === "screen" ? `Time left when you resume: ${hms(left)}. In the real exam there is no pause, so keep breaks short.` : "Paper mode: pause stops the per-question timing."}
+      />
+    );
+  }
 
   if (cropping) return <CropEditor file={cropping} onCancel={() => setCropping(null)} onDone={addSheet} />;
 
@@ -133,7 +166,12 @@ export function MockRunner(props: {
             <Clock className="size-5" aria-hidden />
             {props.mode === "screen" ? (left >= 0 ? hms(left) : `+${hms(left)}`) : "Paper mode"}
           </span>
-          <Button variant="secondary" className="min-h-10" onClick={() => { void persist(); setMarking(true); }}>Finish</Button>
+          <span className="flex gap-2">
+            <Button variant="ghost" className="min-h-10 border border-line px-3" onClick={pause} aria-label="Pause mock">
+              <Pause className="size-4" aria-hidden /> Pause
+            </Button>
+            <Button variant="secondary" className="min-h-10" onClick={() => { void persist(); setMarking(true); }}>Finish</Button>
+          </span>
         </div>
         <nav aria-label="Questions" className="mt-3 flex gap-1.5 overflow-x-auto">
           {props.questions.map((x) => {

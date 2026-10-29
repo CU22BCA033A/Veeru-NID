@@ -12,6 +12,8 @@ export interface MockAnswers {
   mentorMarks?: Record<string, number>;
   mentorComments?: Record<string, string>;
   objectiveMarks?: number;
+  /** Total time the student paused the on-screen timer; added to the end time. */
+  pausedMs?: number;
 }
 
 export interface MockRow {

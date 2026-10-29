@@ -12,7 +12,7 @@ export default async function globalSetup() {
   const check = (label: string, r: { error: { message: string } | null }) => {
     if (r.error) throw new Error(`${label}: ${r.error.message}`);
   };
-  check("mock attempts", await db.from("mock_attempts").delete().eq("mock_id", "mock-mini-02"));
+  check("mock attempts", await db.from("mock_attempts").delete().in("mock_id", ["mock-mini-02", "mock-mini-03"]));
   check("PYQ items", await db.from("items").delete().eq("source", "PYQ").ilike("stem", "%secondary colour on the RYB wheel%"));
   check("test photos", await db.from("images").update({ path: null, license: null, author: null, source_url: null, status: "needed" }).eq("status", "ready"));
 }

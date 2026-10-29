@@ -31,7 +31,7 @@ export default async function MockAttemptPage({ params }: { params: Promise<{ ai
         mode={att.mode as "screen" | "paper"}
         questions={mock.questions}
         objectiveItems={objectiveItems}
-        initial={{ uploads: answers.uploads ?? {}, objective: answers.objective ?? {}, timeSplit: (att.time_split ?? {}) as Record<string, number>, thumbs }}
+        initial={{ uploads: answers.uploads ?? {}, objective: answers.objective ?? {}, timeSplit: (att.time_split ?? {}) as Record<string, number>, thumbs, pausedMs: answers.pausedMs ?? 0 }}
       />
     </div>
   );

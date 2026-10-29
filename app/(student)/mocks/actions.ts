@@ -43,6 +43,7 @@ const progressSchema = z.object({
   timeSplit: z.record(z.string(), z.number().min(0).max(4 * 3600)),
   uploads: z.record(z.string(), z.array(z.string().max(200)).max(10)),
   objective: z.record(z.string(), z.union([z.string().max(10), z.array(z.string().max(10)), z.null()])),
+  pausedMs: z.number().int().min(0).max(24 * 3600_000).optional(),
 });
 
 export async function saveMockProgress(raw: unknown): Promise<{ ok: boolean }> {
@@ -54,7 +55,10 @@ export async function saveMockProgress(raw: unknown): Promise<{ ok: boolean }> {
   if (!att || att.submitted_at) return { ok: false };
   const paths = Object.values(p.data.uploads).flat();
   if (!paths.every((x) => x.startsWith(`${viewer.id}/mock-${p.data.attemptId}/`))) return { ok: false };
-  const answers = { ...(att.answers as MockAnswers), uploads: p.data.uploads, objective: p.data.objective };
+  const prev = att.answers as MockAnswers;
+  // Paused time only grows, so a stale autosave can't give back minutes.
+  const pausedMs = Math.max(prev.pausedMs ?? 0, p.data.pausedMs ?? 0);
+  const answers = { ...prev, uploads: p.data.uploads, objective: p.data.objective, pausedMs };
   await db.from("mock_attempts").update({ answers, time_split: p.data.timeSplit }).eq("id", p.data.attemptId);
   return { ok: true };
 }

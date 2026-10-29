@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
-import { ChevronLeft, ChevronRight, Grid3x3, Clock, WifiOff } from "lucide-react";
+import { ChevronLeft, ChevronRight, Grid3x3, Clock, Pause, WifiOff } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ProgressBar } from "@/components/ui/progress-bar";
@@ -10,6 +10,7 @@ import { SourceBadge } from "@/components/item/source-badge";
 import { cn } from "@/lib/cn";
 import type { AttemptInput, ClientItem } from "@/lib/items/types";
 import { draft, queueSubmission } from "@/lib/offline/queue";
+import { PauseOverlay } from "./pause-overlay";
 
 export interface RunnerSubmit {
   key: string;
@@ -54,12 +55,17 @@ export function Runner({
   const [pending, start] = useTransition();
   const shownAt = useRef(Date.now());
   const startedAt = useRef(Date.now());
+  const [paused, setPaused] = useState(false);
+  const pausedAt = useRef(0);
+  const pausedTotal = useRef(0);
 
   useEffect(() => {
     const saved = draft.load<{ entries: Record<string, Entry>; index: number }>(storageKey, { entries: {}, index: 0 });
     setEntries(saved.entries);
     setIndex(Math.min(saved.index, items.length - 1));
-    const t = setInterval(() => setElapsed(Date.now() - startedAt.current), 1000);
+    const t = setInterval(() => {
+      if (!pausedAt.current) setElapsed(Date.now() - startedAt.current - pausedTotal.current);
+    }, 1000);
     return () => clearInterval(t);
   }, [storageKey, items.length]);
 
@@ -84,6 +90,35 @@ export function Runner({
     setShowNav(false);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  /** Stop the clock: bank the time spent on this question, then hide it. */
+  const pause = () => {
+    if (pausedAt.current) return;
+    pausedAt.current = Date.now();
+    const spent = pausedAt.current - shownAt.current;
+    setEntries((prev) => {
+      const e = prev[item.id] ?? { answer: null, confidence: null, timeMs: 0 };
+      const updated = { ...prev, [item.id]: { ...e, timeMs: e.timeMs + spent } };
+      draft.save(storageKey, { entries: updated, index });
+      return updated;
+    });
+    setPaused(true);
+  };
+  const resume = () => {
+    if (!pausedAt.current) return;
+    pausedTotal.current += Date.now() - pausedAt.current;
+    pausedAt.current = 0;
+    shownAt.current = Date.now();
+    setPaused(false);
+  };
+  // Leaving the app (call, notification, lock screen) pauses automatically.
+  const pauseRef = useRef(pause);
+  pauseRef.current = pause;
+  useEffect(() => {
+    const onHide = () => { if (document.visibilityState === "hidden") pauseRef.current(); };
+    document.addEventListener("visibilitychange", onHide);
+    return () => document.removeEventListener("visibilitychange", onHide);
+  }, []);
 
   const update = (patch: Partial<Entry>) =>
     setEntries((prev) => {
@@ -130,12 +165,17 @@ export function Runner({
   const last = index === items.length - 1;
   const canSubmit = answeredCount >= Math.min(minAnswered, items.length);
 
+  if (paused) return <PauseOverlay onResume={resume} exitHref="/" note={`${answeredCount} of ${items.length} answered · ${fmt(elapsed)} so far. Leaving keeps your answers; you'll continue from this question.`} />;
+
   return (
     <div className="pb-28">
       <div className="sticky top-0 z-10 -mx-4 mb-5 border-b border-line bg-paper/95 px-4 pb-3 pt-3 backdrop-blur md:top-[57px]">
         <div className="flex items-center justify-between gap-3 text-sm">
           <span className="font-medium">{title}</span>
           <span className="flex items-center gap-3 text-ink-2">
+            <button type="button" onClick={pause} disabled={pending} className="flex min-h-9 items-center gap-1 rounded-lg border border-line px-2 text-xs font-medium text-ink active:bg-surface-2" aria-label="Pause test">
+              <Pause className="size-3.5" aria-hidden /> Pause
+            </button>
             <span className="flex items-center gap-1 tabular-nums" aria-label="Time elapsed">
               <Clock className="size-4" aria-hidden /> {fmt(elapsed)}
             </span>

@@ -14,7 +14,7 @@ export function Button({
   variant = "primary",
   className,
   ...props
-}: React.ButtonHTMLAttributes<HTMLButtonElement> & { variant?: Variant }) {
+}: React.ComponentProps<"button"> & { variant?: Variant }) {
   return <button className={cn(base, styles[variant], className)} {...props} />;
 }
 

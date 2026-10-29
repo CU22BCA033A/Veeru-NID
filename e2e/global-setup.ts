@@ -14,5 +14,5 @@ export default async function globalSetup() {
   };
   check("mock attempts", await db.from("mock_attempts").delete().eq("mock_id", "mock-mini-02"));
   check("PYQ items", await db.from("items").delete().eq("source", "PYQ").ilike("stem", "%secondary colour on the RYB wheel%"));
-  check("test photo", await db.from("images").update({ path: null, license: null, author: null, source_url: null, status: "needed" }).eq("id", "img-light-ball-left"));
+  check("test photos", await db.from("images").update({ path: null, license: null, author: null, source_url: null, status: "needed" }).eq("status", "ready"));
 }

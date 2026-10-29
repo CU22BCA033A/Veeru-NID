@@ -75,6 +75,8 @@ Every push to `main` on GitHub redeploys automatically. If an update adds new da
 
 ### Good to know
 
+- **Speed: keep Vercel next to the database.** `vercel.json` runs the app in Dublin (`dub1`), next to a Supabase project in **eu-west-1 (Ireland)**. If your Supabase project is in another region, change `regions` to the closest Vercel region (Mumbai: `bom1`, Singapore: `sin1`, Frankfurt: `fra1`, US East: `iad1`). Every page makes several database calls, so a mismatch makes taps feel slow.
+
 - The Supabase free tier **pauses a project after 7 days of no use**. Daily practice keeps it awake. If it pauses, click **Restore** in Supabase.
 - AI feedback is **off** (`AI_PROVIDER=none`), so nothing costs money. Studio work is scored by Veeru's self-assessment plus GB's review.
 - Optional free AI sheet critique: get a free key from Google AI Studio and add `AI_PROVIDER=gemini` and `AI_API_KEY=<key>` in Vercel's environment variables, then redeploy. `AI_DAILY_CALL_CAP` (default 20) limits calls per day. Free tiers may use uploads for training; sheets contain no personal data, but it's your choice.

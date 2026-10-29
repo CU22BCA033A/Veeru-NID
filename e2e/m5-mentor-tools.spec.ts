@@ -7,6 +7,7 @@ test("mentor uploads a question photo", async ({ page, browser }) => {
   const photo = await sheetPhoto(browser);
   await login(page, MENTOR);
   await page.goto("/admin/images");
+  await page.waitForLoadState("networkidle"); // let the cards become interactive first
   const card = page.locator("article").filter({ has: page.locator("code", { hasText: /^img-light-ball-left$/ }) });
   await card.locator('input[type="file"]').setInputFiles(photo);
   await expect(card.getByText(/Uploaded ✓/)).toBeVisible({ timeout: 30_000 });

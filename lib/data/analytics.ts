@@ -38,6 +38,7 @@ export async function loadAnalytics(db: SupabaseClient, userId: string, settings
   const today = istDateString(new Date());
   const todayNo = dayNumberFor(today, settings.phases.startDate);
   const since30 = addDays(today, -29);
+  const readinessP = computeReadiness(db, userId); // independent: start it alongside the rest
   const [plans, attempts, ratings, subs, sketches, mocks, reflections, hw] = await Promise.all([
     fetchAll<{ day_no: number; status: string; date: string }>(() => db.from("daily_plans").select("day_no,status,date").eq("user_id", userId).order("day_no")),
     fetchAll<{ correct: boolean; time_ms: number | null; created_at: string; context: string; items: { category_id: string } | null }>(
@@ -119,7 +120,7 @@ export async function loadAnalytics(db: SupabaseClient, userId: string, settings
   });
 
   const readinessSeries = mocks.filter((m) => m.readiness !== null).map((m) => ({ label: fmt.format(new Date(`${istDay(m.submitted_at as string)}T00:00:00Z`)), readiness: Number(m.readiness) }));
-  const readiness = await computeReadiness(db, userId);
+  const readiness = await readinessP;
   const streak = currentStreak(completed, todayNo, freeDays);
   const itemsSolved = attempts.length;
 

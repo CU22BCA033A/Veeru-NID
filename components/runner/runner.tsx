@@ -115,8 +115,7 @@ export function Runner({
           return;
         }
         draft.clear(storageKey);
-        router.push(doneHref);
-        router.refresh();
+        router.push(doneHref); // dynamic pages are fetched fresh; a refresh here can cancel the push
       } catch {
         queueSubmission(storageKey, payload);
         setMessage("You're offline. Your answers are saved on this phone and will be submitted automatically when you're back online.");

@@ -10,7 +10,7 @@ test("student completes a studio task with photo upload and self-assessment", as
   const photo = await sheetPhoto(browser);
   await login(page, STUDENT);
   await page.goto("/studio?cat=Symbol");
-  await page.getByRole("link", { name: /Symbol for/ }).first().click();
+  await page.getByRole("link", { name: /Symbol for/ }).first().click({ position: { x: 24, y: 24 } }); // its centre can sit under the bottom tab bar
   await expect(page.getByText("The brief", { exact: true })).toBeVisible();
   await page.getByRole("button", { name: /Start 15-minute timer/ }).click();
   await expect(page.getByText("Time left")).toBeVisible();
@@ -38,7 +38,7 @@ test("mentor reviews the sheet and the student sees GB's score", async ({ page, 
   test.setTimeout(90_000);
   await login(page, MENTOR);
   await page.goto("/admin/review");
-  await page.getByRole("link", { name: /Symbol for/ }).first().click();
+  await page.getByRole("link", { name: /Symbol for/ }).first().click({ position: { x: 24, y: 24 } }); // its centre can sit under the bottom tab bar
   for (const legend of ["Idea & originality", "Understanding of the brief", "Communication clarity", "Drawing skill", "Composition & use of space"]) {
     await page.getByRole("group", { name: new RegExp(legend) }).getByRole("button", { name: "6", exact: true }).click();
   }
@@ -51,7 +51,7 @@ test("mentor reviews the sheet and the student sees GB's score", async ({ page, 
   const s = await ctx.newPage();
   await login(s, STUDENT);
   await s.goto("/studio/portfolio");
-  await s.getByRole("link", { name: /Symbol for/ }).first().click();
+  await s.getByRole("link", { name: /Symbol for/ }).first().click({ position: { x: 24, y: 24 } }); // its centre can sit under the bottom tab bar
   await expect(s.getByText("GB says")).toBeVisible();
   await expect(s.getByText(/Calibration: you rated yourself/)).toBeVisible();
   await ctx.close();

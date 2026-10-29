@@ -1,6 +1,7 @@
 "use client";
-import Link from "next/link";
+import Link, { useLinkStatus } from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import {
   BookOpen, ClipboardCheck, House, Image as ImageIcon, LayoutDashboard, Library, LineChart, Menu, PenTool, Settings, type LucideIcon,
 } from "lucide-react";
@@ -20,13 +21,23 @@ export interface NavItem {
   badge?: number;
 }
 
+/** Thin animated bar while this link's page is loading, so a tap never looks ignored. */
+function PendingBar() {
+  const { pending } = useLinkStatus();
+  return pending ? <span aria-hidden className="absolute inset-x-3 top-0 h-0.5 animate-pulse rounded-full bg-accent" /> : null;
+}
+
 /** Bottom tab bar on phones, slim top bar on wider screens. */
 export function Nav({ items, brand }: { items: NavItem[]; brand: string }) {
   const path = usePathname();
-  const isActive = (item: NavItem) =>
+  // Highlight the tapped tab immediately, before the server has answered.
+  const [tapped, setTapped] = useState<string | null>(null);
+  useEffect(() => setTapped(null), [path]);
+  const matches = (item: NavItem) =>
     item.href === "/" || item.href === "/admin"
       ? path === item.href || (item.match ?? []).some((m) => path.startsWith(m))
       : path.startsWith(item.href) || (item.match ?? []).some((m) => path.startsWith(m));
+  const isActive = (item: NavItem) => (tapped ? tapped === item.href : matches(item));
   return (
     <>
       <header className="sticky top-0 z-20 hidden border-b border-line bg-paper/90 backdrop-blur md:block print:hidden">
@@ -42,12 +53,14 @@ export function Nav({ items, brand }: { items: NavItem[]; brand: string }) {
                 <Link
                   key={item.href}
                   href={item.href}
-                  aria-current={active ? "page" : undefined}
-                  className={cn("flex items-center gap-2 rounded-lg px-3 py-2 text-sm", active ? "bg-accent-soft font-semibold text-accent" : "text-ink-2 hover:bg-surface-2")}
+                  aria-current={matches(item) ? "page" : undefined}
+                  onClick={() => setTapped(item.href)}
+                  className={cn("relative flex touch-manipulation select-none items-center gap-2 rounded-lg px-3 py-2 text-sm transition-colors", active ? "bg-accent-soft font-semibold text-accent" : "text-ink-2 hover:bg-surface-2")}
                 >
                   <Icon className="size-4" aria-hidden />
                   {item.label}
                   {item.badge ? <span className="rounded-full bg-accent px-1.5 text-xs text-accent-ink">{item.badge}</span> : null}
+                  <PendingBar />
                 </Link>
               );
             })}
@@ -63,12 +76,14 @@ export function Nav({ items, brand }: { items: NavItem[]; brand: string }) {
               <li key={item.href} className="flex-1">
                 <Link
                   href={item.href}
-                  aria-current={active ? "page" : undefined}
-                  className={cn("relative flex min-h-14 flex-col items-center justify-center gap-0.5 text-[11px]", active ? "font-semibold text-accent" : "text-ink-3")}
+                  aria-current={matches(item) ? "page" : undefined}
+                  onClick={() => setTapped(item.href)}
+                  className={cn("relative flex min-h-14 touch-manipulation select-none flex-col items-center justify-center gap-0.5 text-[11px] transition-colors active:bg-surface-2", active ? "font-semibold text-accent" : "text-ink-3")}
                 >
                   <Icon className="size-5" aria-hidden strokeWidth={active ? 2.4 : 1.8} />
                   {item.label}
                   {item.badge ? <span className="absolute right-[22%] top-1.5 min-w-4 rounded-full bg-accent px-1 text-center text-[10px] leading-4 text-accent-ink">{item.badge}</span> : null}
+                  <PendingBar />
                 </Link>
               </li>
             );

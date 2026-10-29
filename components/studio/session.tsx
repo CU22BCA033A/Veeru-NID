@@ -111,8 +111,7 @@ export function StudioSession({ task, viewerId, planId, ctx }: { task: StudioTas
         });
         if (!res.ok) throw new Error(res.error);
         draft.clear(key);
-        router.push(`/studio/submission/${id}`);
-        router.refresh();
+        router.push(`/studio/submission/${id}`); // a refresh here can cancel the push
       } catch (e) {
         setError(`Upload failed: ${e instanceof Error ? e.message : String(e)}. Check your connection and try again; your photos are still here.`);
       }

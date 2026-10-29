@@ -12,23 +12,24 @@ import { supabaseServer } from "@/lib/supabase/server";
 import { CopySummary } from "./copy-summary";
 
 export default async function MentorHome() {
-  const viewer = await requireViewer("mentor");
-  const student = await studentProfile();
+  const [viewer, student, settings, db] = await Promise.all([requireViewer("mentor"), studentProfile(), loadSettings(), supabaseServer()]);
   if (!student) {
     return <PageHeader title="No student account yet" kicker="Mentor">Create it from the setup page.</PageHeader>;
   }
-  const db = await supabaseServer();
-  const settings = await loadSettings();
-  const a = await loadAnalytics(db, student.id, settings);
-  const alerts = alertsFor(a);
-  const summary = await dailySummary(db, student.id, student.displayName, a, alerts);
-  const phase = phaseForDay(a.todayNo, settings.phases);
-  const [{ count: toReview }, { data: mocks }, { count: reports }, { count: needsReview }] = await Promise.all([
+  // Counts don't depend on the analytics, so fetch them at the same time.
+  const countsP = Promise.all([
     db.from("studio_submissions").select("*", { count: "exact", head: true }).is("reviewed_at", null).neq("context", "mock"),
     db.from("mock_attempts").select("answers").not("submitted_at", "is", null),
     db.from("item_reports").select("*", { count: "exact", head: true }).eq("status", "open"),
     db.from("items").select("*", { count: "exact", head: true }).eq("needs_review", true).eq("status", "live"),
   ]);
+  const a = await loadAnalytics(db, student.id, settings);
+  const alerts = alertsFor(a);
+  const [summary, [{ count: toReview }, { data: mocks }, { count: reports }, { count: needsReview }]] = await Promise.all([
+    dailySummary(db, student.id, student.displayName, a, alerts),
+    countsP,
+  ]);
+  const phase = phaseForDay(a.todayNo, settings.phases);
   const mocksToMark = (mocks ?? []).filter((m) => !Object.keys(((m.answers as { mentorMarks?: object }).mentorMarks) ?? {}).length).length;
 
   return (

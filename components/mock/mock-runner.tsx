@@ -116,7 +116,7 @@ export function MockRunner(props: {
         <Button className="w-full" disabled={!ready || pending} onClick={() => start(async () => {
           const r = await submitMock({ attemptId: props.attemptId, uploads, objective, timeSplit, selfMarks });
           if (!r.ok) setError(r.error ?? "Couldn't submit");
-          else { router.push(`/mocks/attempt/${props.attemptId}/result`); router.refresh(); }
+          else router.push(`/mocks/attempt/${props.attemptId}/result`);
         })}>
           {pending ? "Submitting…" : "Submit mock"}
         </Button>

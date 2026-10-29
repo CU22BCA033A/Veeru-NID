@@ -73,6 +73,11 @@ export default async function MockResult({ params }: { params: Promise<{ aid: st
                 <span className="ml-auto tabular-nums text-sm">{mark === null ? <span className="text-ink-3">Waiting for GB · /{q.marks}</span> : `${mark}/${q.marks}`}</span>
               </div>
               <p className="mt-2 text-sm text-ink-2">{q.prompt}</p>
+              {q.parts.length > 0 && (
+                <ol className="mt-1 space-y-1 text-sm text-ink-2">
+                  {q.parts.map((p) => <li key={p.label}>({p.label}) {p.prompt} <span className="tabular-nums text-ink-3">[{p.marks}]</span></li>)}
+                </ol>
+              )}
               {(answers.uploads?.[q.no] ?? []).length > 0 && (
                 <div className="mt-3 flex gap-2 overflow-x-auto">
                   {(answers.uploads![q.no] ?? []).map((p) => urls.get(p) && (

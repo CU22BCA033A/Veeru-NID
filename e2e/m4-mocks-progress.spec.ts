@@ -38,7 +38,10 @@ test("mentor marks the mock", async ({ page }) => {
   await login(page, MENTOR);
   await page.goto("/admin/mocks");
   await page.getByRole("link", { name: /Mini mock 2/ }).click();
-  await page.getByRole("spinbutton").first().fill("12");
+  // The full question (including its parts) sits next to the sheets being marked.
+  await expect(page.getByText("Sketch at least 8 items needed, arranged neatly and labelled.")).toBeVisible();
+  await expect(page.getByRole("img", { name: "Question 1, sheet 1" })).toBeVisible();
+  await page.getByLabel("Marks for question 1").fill("12");
   await page.getByRole("button", { name: "Save marks" }).click();
   await expect(page.getByText("Saved ✓")).toBeVisible();
 });

@@ -924,6 +924,968 @@
    "takeaway": "Logos = vectors.",
    "tags": [],
    "needsReview": false
+  },
+  {
+   "id": "mq-glb-026",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "The Bauhaus was a famous design school founded in…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Japan"
+    },
+    {
+     "id": "b",
+     "text": "India"
+    },
+    {
+     "id": "c",
+     "text": "Germany"
+    },
+    {
+     "id": "d",
+     "text": "Italy"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The Bauhaus (1919, Weimar, Germany) joined art, craft and industry, and shaped modern design teaching.",
+   "distractors": {
+    "d": "Italy had Futurism and later Memphis.",
+    "a": "Not Japan.",
+    "b": "NID was founded in India in 1961."
+   },
+   "takeaway": "Bauhaus = Germany, 1919.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-027",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which phrase is most linked to modernist design?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Decoration first"
+    },
+    {
+     "id": "b",
+     "text": "Art for art's sake"
+    },
+    {
+     "id": "c",
+     "text": "Form follows function"
+    },
+    {
+     "id": "d",
+     "text": "More is more"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The phrase, credited to architect Louis Sullivan, says an object's shape should come from its purpose.",
+   "distractors": {
+    "d": "That's closer to Postmodern attitudes.",
+    "a": "Modernism rejected heavy decoration.",
+    "b": "That's a 19th-century art idea."
+   },
+   "takeaway": "Purpose shapes form.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-028",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Art Nouveau design is best recognised by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Strict grids and primary colours"
+    },
+    {
+     "id": "b",
+     "text": "Bold geometric zigzags"
+    },
+    {
+     "id": "c",
+     "text": "Raw concrete blocks"
+    },
+    {
+     "id": "d",
+     "text": "Flowing, plant-like curves and natural forms"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Art Nouveau (around 1890–1910) used whiplash curves, flowers and vines in posters, metalwork and buildings.",
+   "distractors": {
+    "a": "That's De Stijl.",
+    "b": "That's more Art Deco.",
+    "c": "That's Brutalism."
+   },
+   "takeaway": "Art Nouveau = curves and plants.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-029",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Art Deco, popular in the 1920s–30s, often used…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hand-drawn wobbly lines"
+    },
+    {
+     "id": "b",
+     "text": "Only recycled materials"
+    },
+    {
+     "id": "c",
+     "text": "Plant-like curves only"
+    },
+    {
+     "id": "d",
+     "text": "Bold geometric shapes, symmetry and luxurious materials"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Art Deco shows in buildings, posters and jewellery. Mumbai has one of the world's largest groups of Art Deco buildings.",
+   "distractors": {
+    "a": "Deco is crisp and geometric.",
+    "b": "Deco loved chrome, glass and lacquer.",
+    "c": "That's Art Nouveau."
+   },
+   "takeaway": "Deco = geometry and glamour.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-030",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "De Stijl artworks like those of Piet Mondrian are made of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Black grid lines with blocks of red, yellow, blue and white"
+    },
+    {
+     "id": "b",
+     "text": "Swirling organic forms"
+    },
+    {
+     "id": "c",
+     "text": "Photographic collage"
+    },
+    {
+     "id": "d",
+     "text": "Graffiti lettering"
+    }
+   ],
+   "answer": "a",
+   "explanation": "De Stijl (Netherlands, 1917) reduced art to straight lines and primary colours.",
+   "distractors": {
+    "b": "That's closer to Art Nouveau.",
+    "c": "That's Dada or Pop.",
+    "d": "That's street art."
+   },
+   "takeaway": "Mondrian = grid + primaries.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-031",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Pop Art, with artists like Andy Warhol, took its images from…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Religious manuscripts"
+    },
+    {
+     "id": "b",
+     "text": "Advertising, comics and everyday products"
+    },
+    {
+     "id": "c",
+     "text": "Ancient temples"
+    },
+    {
+     "id": "d",
+     "text": "Only nature"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Pop Art (1950s–60s) turned soup cans and comic strips into art.",
+   "distractors": {
+    "c": "Pop looked at mass culture.",
+    "d": "It used consumer images.",
+    "a": "Not its focus."
+   },
+   "takeaway": "Pop = everyday mass culture.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-032",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Dieter Rams is famous for his 'ten principles of good design', which include…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Good design must be expensive"
+    },
+    {
+     "id": "b",
+     "text": "Good design should be hard to understand"
+    },
+    {
+     "id": "c",
+     "text": "Good design is as little design as possible"
+    },
+    {
+     "id": "d",
+     "text": "Good design is as decorative as possible"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Rams, who designed for Braun, argued for useful, honest, long-lasting products with minimal fuss.",
+   "distractors": {
+    "d": "Rams favoured restraint.",
+    "a": "Not one of his principles.",
+    "b": "He said it should be understandable."
+   },
+   "takeaway": "Less, but better.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-033",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Charles and Ray Eames are best known for designing…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Moulded plywood and plastic chairs"
+    },
+    {
+     "id": "b",
+     "text": "Cars"
+    },
+    {
+     "id": "c",
+     "text": "Typefaces"
+    },
+    {
+     "id": "d",
+     "text": "Skyscrapers"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The Eames couple experimented with moulded plywood and fibreglass to make comfortable, mass-produced chairs. They also wrote 'The India Report' (1958) that led to NID.",
+   "distractors": {
+    "b": "Not their main work.",
+    "c": "They were furniture and film designers.",
+    "d": "Not their field."
+   },
+   "takeaway": "Eames: chairs and the India Report.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-034",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Why is 'The India Report' (1958) important for NID?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "It recommended setting up a design institute in India, which led to NID"
+    },
+    {
+     "id": "b",
+     "text": "It was NID's first exam paper"
+    },
+    {
+     "id": "c",
+     "text": "It banned foreign designs"
+    },
+    {
+     "id": "d",
+     "text": "It designed the Indian flag"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Charles and Ray Eames toured India and recommended a design training institute rooted in Indian values; NID opened in Ahmedabad in 1961.",
+   "distractors": {
+    "b": "It was a policy report.",
+    "c": "Nothing of the sort.",
+    "d": "The flag predates it."
+   },
+   "takeaway": "Eames' report → NID.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-035",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Le Corbusier designed which planned Indian city?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Chandigarh"
+    },
+    {
+     "id": "b",
+     "text": "Jaipur"
+    },
+    {
+     "id": "c",
+     "text": "Ahmedabad"
+    },
+    {
+     "id": "d",
+     "text": "New Delhi"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Le Corbusier led the 1950s plan of Chandigarh, including the Capitol Complex.",
+   "distractors": {
+    "b": "Jaipur was planned in the 1700s.",
+    "c": "He designed buildings there, but not the city plan.",
+    "d": "That was Lutyens and Baker."
+   },
+   "takeaway": "Chandigarh = Le Corbusier.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-036",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which architect designed the IIM Ahmedabad campus?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Zaha Hadid"
+    },
+    {
+     "id": "b",
+     "text": "Louis Kahn"
+    },
+    {
+     "id": "c",
+     "text": "Le Corbusier"
+    },
+    {
+     "id": "d",
+     "text": "Frank Lloyd Wright"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Louis Kahn's brick campus with large geometric openings is a landmark of modern architecture in India; B.V. Doshi worked with him.",
+   "distractors": {
+    "c": "He designed other Ahmedabad buildings.",
+    "d": "He didn't work in India.",
+    "a": "Not IIM-A."
+   },
+   "takeaway": "IIM-A = Louis Kahn.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-037",
+   "type": "mcq",
+   "subtopic": "global.products",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "The original Rubik's Cube came from which country?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hungary"
+    },
+    {
+     "id": "b",
+     "text": "Japan"
+    },
+    {
+     "id": "c",
+     "text": "USA"
+    },
+    {
+     "id": "d",
+     "text": "Germany"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Ernő Rubik, a Hungarian architecture professor, invented it in 1974.",
+   "distractors": {
+    "b": "Japan made it popular, but it was invented elsewhere.",
+    "c": "Not the origin.",
+    "d": "Not the origin."
+   },
+   "takeaway": "Rubik's Cube = Hungary.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-038",
+   "type": "mcq",
+   "subtopic": "global.products",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "What design idea made the Swiss Army knife famous?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Many tools folded into one compact object"
+    },
+    {
+     "id": "b",
+     "text": "It is very heavy for strength"
+    },
+    {
+     "id": "c",
+     "text": "It can only cut"
+    },
+    {
+     "id": "d",
+     "text": "It was made from plastic"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Multi-functionality in a small form is its defining feature.",
+   "distractors": {
+    "b": "It's designed to be pocket-sized.",
+    "c": "It has many functions.",
+    "d": "It's steel-bladed."
+   },
+   "takeaway": "Many functions, one object.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-039",
+   "type": "mcq",
+   "subtopic": "global.products",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Why is the paper clip often called a near-perfect design?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "It is hand-carved"
+    },
+    {
+     "id": "b",
+     "text": "It is cheap, simple, uses one material and does its job well"
+    },
+    {
+     "id": "c",
+     "text": "It has many moving parts"
+    },
+    {
+     "id": "d",
+     "text": "It needs electricity"
+    }
+   ],
+   "answer": "b",
+   "explanation": "A single bent wire, cheap to make and easy to use: simplicity at its best.",
+   "distractors": {
+    "c": "It has none.",
+    "d": "It doesn't.",
+    "a": "It's mass-produced from wire."
+   },
+   "takeaway": "Simple can be perfect.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-040",
+   "type": "mcq",
+   "subtopic": "global.products",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Which product change best shows 'design for the user's context'?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Making a tool shinier"
+    },
+    {
+     "id": "b",
+     "text": "Using a more expensive material"
+    },
+    {
+     "id": "c",
+     "text": "Adding a bigger logo"
+    },
+    {
+     "id": "d",
+     "text": "Adding a hook-hang hole to a tool so it can be stored on a wall"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Good design anticipates where and how the product lives, including storage.",
+   "distractors": {
+    "a": "Looks, not context.",
+    "b": "Not about use.",
+    "c": "That's branding."
+   },
+   "takeaway": "Design for where it lives.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-041",
+   "type": "mcq",
+   "subtopic": "global.sustainability",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "The '3 Rs' of sustainable living are…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Repair, rebuild, resell"
+    },
+    {
+     "id": "b",
+     "text": "Return, refill, reject"
+    },
+    {
+     "id": "c",
+     "text": "Reduce, reuse, recycle"
+    },
+    {
+     "id": "d",
+     "text": "Read, write, repeat"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Reduce first (use less), then reuse, then recycle what's left.",
+   "distractors": {
+    "d": "Not sustainability.",
+    "a": "Good ideas, but not the classic 3 Rs.",
+    "b": "Not the classic set."
+   },
+   "takeaway": "Reduce comes first.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-042",
+   "type": "mcq",
+   "subtopic": "global.sustainability",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "'Cradle to cradle' design means…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Designing only baby products"
+    },
+    {
+     "id": "b",
+     "text": "Products that last forever"
+    },
+    {
+     "id": "c",
+     "text": "Throwing items in a landfill"
+    },
+    {
+     "id": "d",
+     "text": "Designing products so their materials can be fully reused at the end of life"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Instead of ending in a landfill (cradle to grave), materials loop back as new products.",
+   "distractors": {
+    "a": "It's a metaphor for life cycles.",
+    "b": "They still end, but their materials return.",
+    "c": "That's cradle to grave."
+   },
+   "takeaway": "Waste = new material.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-043",
+   "type": "mcq",
+   "subtopic": "global.sustainability",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which packaging choice is generally most sustainable for dry snacks sold locally?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Multi-layer plastic film"
+    },
+    {
+     "id": "b",
+     "text": "Single-use foam boxes"
+    },
+    {
+     "id": "c",
+     "text": "Thick plastic with metal foil"
+    },
+    {
+     "id": "d",
+     "text": "Reusable or compostable packaging like paper or leaf-based containers"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Single, natural or reusable materials are easier to compost or recycle.",
+   "distractors": {
+    "a": "Hard to recycle.",
+    "b": "Polluting and bulky.",
+    "c": "Mixed materials are hard to separate."
+   },
+   "takeaway": "Simple materials, easy end-of-life.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-044",
+   "type": "mcq",
+   "subtopic": "global.sustainability",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A designer creates phone chargers that work across all brands. The main sustainability benefit is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Phones become faster"
+    },
+    {
+     "id": "b",
+     "text": "Chargers become prettier"
+    },
+    {
+     "id": "c",
+     "text": "Brands sell more chargers"
+    },
+    {
+     "id": "d",
+     "text": "Less electronic waste because people reuse chargers"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Common standards cut duplicate products and e-waste.",
+   "distractors": {
+    "a": "Not related.",
+    "b": "Not the main benefit.",
+    "c": "The opposite."
+   },
+   "takeaway": "Standards reduce waste.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-045",
+   "type": "mcq",
+   "subtopic": "global.inclusive",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Universal design means designing…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Only for young people"
+    },
+    {
+     "id": "b",
+     "text": "So that as many people as possible can use it, including people with disabilities"
+    },
+    {
+     "id": "c",
+     "text": "Only for experts"
+    },
+    {
+     "id": "d",
+     "text": "One product for every country's flag"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Ramps, lever handles and large, clear signs help everyone, not only people with disabilities.",
+   "distractors": {
+    "c": "The opposite.",
+    "d": "Not related.",
+    "a": "Universal covers all ages."
+   },
+   "takeaway": "Design for everyone.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-046",
+   "type": "mcq",
+   "subtopic": "global.inclusive",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Why are lever door handles better than round knobs for universal design?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "They can be opened with an elbow, a closed fist or weak grip"
+    },
+    {
+     "id": "b",
+     "text": "They look more modern"
+    },
+    {
+     "id": "c",
+     "text": "They are cheaper"
+    },
+    {
+     "id": "d",
+     "text": "They lock automatically"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Lever handles need no twisting grip, helping older people, children and anyone carrying things.",
+   "distractors": {
+    "b": "Function, not style.",
+    "c": "Not the reason.",
+    "d": "Not related."
+   },
+   "takeaway": "No grip needed = more users.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-047",
+   "type": "mcq",
+   "subtopic": "global.inclusive",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Tactile paving (raised bumps on footpaths) mainly helps…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Decorate the street"
+    },
+    {
+     "id": "b",
+     "text": "People with visual impairments find their way and sense hazards"
+    },
+    {
+     "id": "c",
+     "text": "Cars grip the road"
+    },
+    {
+     "id": "d",
+     "text": "Rain drain faster"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Feet and canes can feel the patterns that mark crossings and platform edges.",
+   "distractors": {
+    "c": "It's for pedestrians.",
+    "d": "Not its purpose.",
+    "a": "It's functional."
+   },
+   "takeaway": "Feel the way.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-048",
+   "type": "mcq",
+   "subtopic": "global.inclusive",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The 'curb-cut effect' describes…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Footpaths getting narrower"
+    },
+    {
+     "id": "b",
+     "text": "Costs always going up"
+    },
+    {
+     "id": "c",
+     "text": "Designs that exclude people"
+    },
+    {
+     "id": "d",
+     "text": "Features designed for one group (like wheelchair users) end up helping many others"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Kerb ramps help people with prams, suitcases, bicycles and delivery trolleys as well.",
+   "distractors": {
+    "a": "Not related.",
+    "b": "It's about broad benefits.",
+    "c": "The opposite."
+   },
+   "takeaway": "Design for one, help many.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-049",
+   "type": "mcq",
+   "subtopic": "global.tech",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "In app design, 'UX' stands for…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "User extension"
+    },
+    {
+     "id": "b",
+     "text": "Unique expression"
+    },
+    {
+     "id": "c",
+     "text": "User experience"
+    },
+    {
+     "id": "d",
+     "text": "Universal exchange"
+    }
+   ],
+   "answer": "c",
+   "explanation": "UX is how it feels to use a product: is it easy, useful and pleasant?",
+   "distractors": {
+    "d": "Not the term.",
+    "a": "Not the term.",
+    "b": "Not the term."
+   },
+   "takeaway": "UX = how using it feels.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-050",
+   "type": "mcq",
+   "subtopic": "global.tech",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "What is a wireframe in digital design?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The phone's metal frame"
+    },
+    {
+     "id": "b",
+     "text": "A type of font"
+    },
+    {
+     "id": "c",
+     "text": "A simple layout sketch of a screen showing structure, not final visuals"
+    },
+    {
+     "id": "d",
+     "text": "The final coloured screen"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Wireframes help plan where content and buttons go before styling.",
+   "distractors": {
+    "d": "That's a mockup or visual design.",
+    "a": "Not in this sense.",
+    "b": "Not related."
+   },
+   "takeaway": "Structure first, style later.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-glb-051",
+   "type": "mcq",
+   "subtopic": "global.tech",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "3D printing builds objects by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Folding paper"
+    },
+    {
+     "id": "b",
+     "text": "Adding material layer by layer"
+    },
+    {
+     "id": "c",
+     "text": "Carving from a solid block"
+    },
+    {
+     "id": "d",
+     "text": "Pouring into a mould only"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Additive manufacturing lets designers make prototypes quickly and cheaply.",
+   "distractors": {
+    "c": "That's subtractive, like CNC milling.",
+    "d": "That's casting.",
+    "a": "Not 3D printing."
+   },
+   "takeaway": "3D printing is additive.",
+   "tags": [],
+   "needsReview": false
   }
  ]
 }

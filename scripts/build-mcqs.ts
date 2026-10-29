@@ -3,15 +3,16 @@ import { writeFileSync } from "node:fs";
 import { colour, drawing } from "./mcq/colour-drawing";
 import { design } from "./mcq/design";
 import { gk, global, indian } from "./mcq/indian-global-gk";
+import { colourExtra, drawingExtra, gkExtra, globalExtra } from "./mcq/extra";
 import { toItem, type Q } from "./mcq/lib";
 
 const sets: [string, string, Q[]][] = [
   ["design", "mq-des", design],
-  ["colour", "mq-col", colour],
-  ["drawing", "mq-drw", drawing],
+  ["colour", "mq-col", [...colour, ...colourExtra]],
+  ["drawing", "mq-drw", [...drawing, ...drawingExtra]],
   ["indian", "mq-ind", indian],
-  ["global", "mq-glb", global],
-  ["gk", "mq-gk", gk],
+  ["global", "mq-glb", [...global, ...globalExtra]],
+  ["gk", "mq-gk", [...gk, ...gkExtra]],
 ];
 let total = 0;
 for (const [name, prefix, list] of sets) {

@@ -961,6 +961,968 @@
    "takeaway": "Afforest = new forest.",
    "tags": [],
    "needsReview": false
+  },
+  {
+   "id": "mq-gk-027",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Which Indian state has the longest coastline?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kerala"
+    },
+    {
+     "id": "b",
+     "text": "Goa"
+    },
+    {
+     "id": "c",
+     "text": "West Bengal"
+    },
+    {
+     "id": "d",
+     "text": "Gujarat"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Gujarat has India's longest mainland coastline, about 1,600 km.",
+   "distractors": {
+    "a": "Kerala's coast is shorter.",
+    "b": "Goa is small.",
+    "c": "Its coast is short."
+   },
+   "takeaway": "Longest coast = Gujarat.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-028",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The Thar Desert lies mainly in which state?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Madhya Pradesh"
+    },
+    {
+     "id": "b",
+     "text": "Punjab"
+    },
+    {
+     "id": "c",
+     "text": "Uttar Pradesh"
+    },
+    {
+     "id": "d",
+     "text": "Rajasthan"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The Thar (Great Indian Desert) covers much of western Rajasthan.",
+   "distractors": {
+    "a": "Not desert country.",
+    "b": "Only a small edge.",
+    "c": "Not desert."
+   },
+   "takeaway": "Thar = Rajasthan.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-029",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which line of latitude passes through the middle of India?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Equator"
+    },
+    {
+     "id": "b",
+     "text": "Tropic of Capricorn"
+    },
+    {
+     "id": "c",
+     "text": "Arctic Circle"
+    },
+    {
+     "id": "d",
+     "text": "Tropic of Cancer"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The Tropic of Cancer (about 23.5° N) crosses eight states, including Gujarat and West Bengal.",
+   "distractors": {
+    "a": "The Equator passes south of India.",
+    "b": "That's in the southern hemisphere.",
+    "c": "Far north."
+   },
+   "takeaway": "Tropic of Cancer cuts India.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-030",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which is the highest mountain peak located in India?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kangchenjunga"
+    },
+    {
+     "id": "b",
+     "text": "Mount Everest"
+    },
+    {
+     "id": "c",
+     "text": "Nanda Devi"
+    },
+    {
+     "id": "d",
+     "text": "K2"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Kangchenjunga (8,586 m) on the Sikkim–Nepal border is the highest peak in India.",
+   "distractors": {
+    "b": "Everest is in Nepal and China.",
+    "c": "High, but lower than Kangchenjunga.",
+    "d": "K2 is in a region administered by Pakistan and China."
+   },
+   "takeaway": "Kangchenjunga, Sikkim.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-031",
+   "type": "mcq",
+   "subtopic": "gk.geography",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Which plateau covers most of peninsular (southern) India?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Chota Nagpur Plateau"
+    },
+    {
+     "id": "b",
+     "text": "Malwa Plateau"
+    },
+    {
+     "id": "c",
+     "text": "Tibetan Plateau"
+    },
+    {
+     "id": "d",
+     "text": "Deccan Plateau"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The Deccan Plateau lies between the Western and Eastern Ghats.",
+   "distractors": {
+    "a": "That's in the east.",
+    "b": "That's in central India.",
+    "c": "Outside India."
+   },
+   "takeaway": "South India = Deccan.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-032",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Which gas do plants take in from the air during photosynthesis?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Carbon dioxide"
+    },
+    {
+     "id": "b",
+     "text": "Oxygen"
+    },
+    {
+     "id": "c",
+     "text": "Nitrogen"
+    },
+    {
+     "id": "d",
+     "text": "Helium"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Plants use carbon dioxide, water and sunlight to make food and release oxygen.",
+   "distractors": {
+    "b": "Plants release oxygen.",
+    "c": "Not used directly from air by most plants.",
+    "d": "Not used."
+   },
+   "takeaway": "Plants take CO₂, give O₂.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-033",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The main cause of the greenhouse effect getting stronger is…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Burning fossil fuels, which adds carbon dioxide to the air"
+    },
+    {
+     "id": "b",
+     "text": "Planting more trees"
+    },
+    {
+     "id": "c",
+     "text": "The Moon's gravity"
+    },
+    {
+     "id": "d",
+     "text": "Earthquakes"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Coal, oil and gas release CO₂ that traps heat in the atmosphere.",
+   "distractors": {
+    "b": "Trees absorb CO₂.",
+    "c": "Not related.",
+    "d": "Not related."
+   },
+   "takeaway": "Fossil fuels heat the planet.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-034",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Project Tiger, India's tiger conservation programme, began in…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "1947"
+    },
+    {
+     "id": "b",
+     "text": "1991"
+    },
+    {
+     "id": "c",
+     "text": "2010"
+    },
+    {
+     "id": "d",
+     "text": "1973"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Launched in 1973, it created tiger reserves across India.",
+   "distractors": {
+    "a": "Too early.",
+    "b": "Too late.",
+    "c": "Far too late."
+   },
+   "takeaway": "Project Tiger: 1973.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-035",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which national park in Assam is famous for the one-horned rhinoceros?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kaziranga"
+    },
+    {
+     "id": "b",
+     "text": "Gir"
+    },
+    {
+     "id": "c",
+     "text": "Jim Corbett"
+    },
+    {
+     "id": "d",
+     "text": "Sundarbans"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Kaziranga holds the largest population of the greater one-horned rhinoceros.",
+   "distractors": {
+    "b": "Gir is home to Asiatic lions.",
+    "c": "Known for tigers.",
+    "d": "Known for tigers in mangroves."
+   },
+   "takeaway": "Rhinos = Kaziranga.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-036",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The only natural home of the Asiatic lion is in…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Sundarbans, West Bengal"
+    },
+    {
+     "id": "b",
+     "text": "Kaziranga, Assam"
+    },
+    {
+     "id": "c",
+     "text": "Ranthambore, Rajasthan"
+    },
+    {
+     "id": "d",
+     "text": "Gir forest, Gujarat"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Gir National Park and the surrounding region in Gujarat are the last wild home of Asiatic lions.",
+   "distractors": {
+    "a": "Tigers live there.",
+    "b": "Rhinos live there.",
+    "c": "A tiger reserve."
+   },
+   "takeaway": "Asiatic lions = Gir.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-037",
+   "type": "mcq",
+   "subtopic": "gk.environment",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "The Chipko movement of the 1970s was about…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Villagers hugging trees to stop them being cut"
+    },
+    {
+     "id": "b",
+     "text": "Building dams"
+    },
+    {
+     "id": "c",
+     "text": "Cleaning rivers"
+    },
+    {
+     "id": "d",
+     "text": "Saving tigers"
+    }
+   ],
+   "answer": "a",
+   "explanation": "In the Garhwal Himalaya, villagers (many of them women) protected forests by embracing trees.",
+   "distractors": {
+    "b": "It opposed forest felling.",
+    "c": "Not its focus.",
+    "d": "It was about trees and forests."
+   },
+   "takeaway": "Chipko = hug the trees.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-038",
+   "type": "mcq",
+   "subtopic": "gk.sports",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "How many players does a football (soccer) team have on the field?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "15"
+    },
+    {
+     "id": "b",
+     "text": "11"
+    },
+    {
+     "id": "c",
+     "text": "9"
+    },
+    {
+     "id": "d",
+     "text": "7"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Each side fields 11 players, including the goalkeeper.",
+   "distractors": {
+    "c": "That's a baseball team.",
+    "d": "That's kabaddi or hockey sevens.",
+    "a": "That's rugby union."
+   },
+   "takeaway": "Football = 11.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-039",
+   "type": "mcq",
+   "subtopic": "gk.sports",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Kabaddi teams have how many players on court?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "7"
+    },
+    {
+     "id": "b",
+     "text": "11"
+    },
+    {
+     "id": "c",
+     "text": "5"
+    },
+    {
+     "id": "d",
+     "text": "6"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Each kabaddi side has seven players on court.",
+   "distractors": {
+    "b": "That's football or cricket.",
+    "c": "That's basketball.",
+    "d": "That's volleyball."
+   },
+   "takeaway": "Kabaddi = 7.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-040",
+   "type": "mcq",
+   "subtopic": "gk.sports",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The Olympic rings are five interlocking rings. What do they represent?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Five host cities"
+    },
+    {
+     "id": "b",
+     "text": "Five founding countries"
+    },
+    {
+     "id": "c",
+     "text": "The union of the inhabited continents"
+    },
+    {
+     "id": "d",
+     "text": "Five sports"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Designed by Pierre de Coubertin, the rings show the continents joined by sport; the colours with white include every flag's colours at the time.",
+   "distractors": {
+    "d": "There are many more sports.",
+    "a": "Not the meaning.",
+    "b": "Not the meaning."
+   },
+   "takeaway": "Rings = continents united.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-041",
+   "type": "mcq",
+   "subtopic": "gk.sports",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "The Dronacharya Award in India is given to…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Best young athletes"
+    },
+    {
+     "id": "b",
+     "text": "Film directors"
+    },
+    {
+     "id": "c",
+     "text": "Teachers of art"
+    },
+    {
+     "id": "d",
+     "text": "Outstanding sports coaches"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Named after the teacher from the Mahabharata, it honours coaches.",
+   "distractors": {
+    "a": "That's the Arjuna-type honour for players.",
+    "b": "Not a sports award.",
+    "c": "It's for sport coaching."
+   },
+   "takeaway": "Dronacharya = coaches.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-042",
+   "type": "mcq",
+   "subtopic": "gk.books",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Who wrote the Indian national anthem 'Jana Gana Mana'?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Muhammad Iqbal"
+    },
+    {
+     "id": "b",
+     "text": "Rabindranath Tagore"
+    },
+    {
+     "id": "c",
+     "text": "Bankim Chandra Chatterjee"
+    },
+    {
+     "id": "d",
+     "text": "Sarojini Naidu"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Tagore wrote it in Bengali; it was adopted as the national anthem in 1950.",
+   "distractors": {
+    "c": "He wrote 'Vande Mataram'.",
+    "d": "A poet, but not the anthem.",
+    "a": "He wrote 'Saare Jahan Se Achha'."
+   },
+   "takeaway": "Anthem = Tagore.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-043",
+   "type": "mcq",
+   "subtopic": "gk.books",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "'Wings of Fire' is the autobiography of…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mahatma Gandhi"
+    },
+    {
+     "id": "b",
+     "text": "Jawaharlal Nehru"
+    },
+    {
+     "id": "c",
+     "text": "Kalpana Chawla"
+    },
+    {
+     "id": "d",
+     "text": "Dr A.P.J. Abdul Kalam"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Kalam's book tells his journey from Rameswaram to India's missile programme.",
+   "distractors": {
+    "a": "His was 'The Story of My Experiments with Truth'.",
+    "b": "He wrote 'The Discovery of India'.",
+    "c": "Not her book."
+   },
+   "takeaway": "Wings of Fire = Kalam.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-044",
+   "type": "mcq",
+   "subtopic": "gk.books",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "'The Discovery of India' was written by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Jawaharlal Nehru"
+    },
+    {
+     "id": "b",
+     "text": "B.R. Ambedkar"
+    },
+    {
+     "id": "c",
+     "text": "R.K. Narayan"
+    },
+    {
+     "id": "d",
+     "text": "Vikram Seth"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Nehru wrote it while in prison at Ahmednagar Fort (1942–46).",
+   "distractors": {
+    "b": "He wrote 'Annihilation of Caste'.",
+    "c": "He wrote 'Malgudi Days'.",
+    "d": "He wrote 'A Suitable Boy'."
+   },
+   "takeaway": "Discovery of India = Nehru.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-045",
+   "type": "mcq",
+   "subtopic": "gk.books",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Swami and his friends live in the fictional town of Malgudi, created by…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Premchand"
+    },
+    {
+     "id": "b",
+     "text": "Salman Rushdie"
+    },
+    {
+     "id": "c",
+     "text": "R.K. Narayan"
+    },
+    {
+     "id": "d",
+     "text": "Ruskin Bond"
+    }
+   ],
+   "answer": "c",
+   "explanation": "R.K. Narayan's Malgudi stories were made into a TV series in the 1980s.",
+   "distractors": {
+    "d": "His stories are set in the hills.",
+    "a": "He wrote in Hindi and Urdu about village life.",
+    "b": "Not Malgudi."
+   },
+   "takeaway": "Malgudi = R.K. Narayan.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-046",
+   "type": "mcq",
+   "subtopic": "gk.business",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "What does 'GST' stand for in India?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Government Sales Tax"
+    },
+    {
+     "id": "b",
+     "text": "General Service Toll"
+    },
+    {
+     "id": "c",
+     "text": "Gross State Tax"
+    },
+    {
+     "id": "d",
+     "text": "Goods and Services Tax"
+    }
+   ],
+   "answer": "d",
+   "explanation": "GST, introduced in 2017, replaced many separate indirect taxes.",
+   "distractors": {
+    "a": "Not the term.",
+    "b": "Not the term.",
+    "c": "Not the term."
+   },
+   "takeaway": "GST = Goods and Services Tax.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-047",
+   "type": "mcq",
+   "subtopic": "gk.business",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Amul, the dairy brand, began as a cooperative in which state?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Karnataka"
+    },
+    {
+     "id": "b",
+     "text": "Gujarat"
+    },
+    {
+     "id": "c",
+     "text": "Punjab"
+    },
+    {
+     "id": "d",
+     "text": "Maharashtra"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Amul started in Anand, Gujarat; Verghese Kurien led the 'White Revolution'.",
+   "distractors": {
+    "c": "Not Amul's origin.",
+    "d": "Not Amul's origin.",
+    "a": "Karnataka's cooperative brand is Nandini."
+   },
+   "takeaway": "Amul = Anand, Gujarat.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-048",
+   "type": "mcq",
+   "subtopic": "gk.business",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "A startup is said to be a 'unicorn' when it…",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Has one product only"
+    },
+    {
+     "id": "b",
+     "text": "Is owned by one person"
+    },
+    {
+     "id": "c",
+     "text": "Makes toys"
+    },
+    {
+     "id": "d",
+     "text": "Is valued at over one billion US dollars"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The term marks rare, highly valued private startups.",
+   "distractors": {
+    "a": "Not the meaning.",
+    "b": "Not the meaning.",
+    "c": "Not related."
+   },
+   "takeaway": "Unicorn = $1 billion+.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-049",
+   "type": "mcq",
+   "subtopic": "gk.it",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "What does 'URL' stand for?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "User Registration List"
+    },
+    {
+     "id": "b",
+     "text": "Unified Routing Language"
+    },
+    {
+     "id": "c",
+     "text": "Uniform Resource Locator"
+    },
+    {
+     "id": "d",
+     "text": "Universal Radio Link"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A URL is the address of a page or file on the web.",
+   "distractors": {
+    "d": "Not the term.",
+    "a": "Not the term.",
+    "b": "Not the term."
+   },
+   "takeaway": "URL = web address.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-050",
+   "type": "mcq",
+   "subtopic": "gk.it",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Which file format keeps sharp edges at any size because it stores shapes, not pixels?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "JPG"
+    },
+    {
+     "id": "b",
+     "text": "PNG"
+    },
+    {
+     "id": "c",
+     "text": "GIF"
+    },
+    {
+     "id": "d",
+     "text": "SVG (vector)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Vector formats store paths and shapes, so logos stay crisp at any size.",
+   "distractors": {
+    "a": "JPG is pixel-based and blurs when enlarged.",
+    "b": "PNG is pixel-based too.",
+    "c": "GIF is pixel-based."
+   },
+   "takeaway": "Logos as vectors.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-051",
+   "type": "mcq",
+   "subtopic": "gk.it",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "What does 'pixel' mean?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "A type of printer"
+    },
+    {
+     "id": "b",
+     "text": "A unit of storage"
+    },
+    {
+     "id": "c",
+     "text": "A camera lens"
+    },
+    {
+     "id": "d",
+     "text": "The smallest dot of colour on a digital screen or image"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Digital images are grids of pixels; more pixels mean more detail.",
+   "distractors": {
+    "a": "Not the term.",
+    "b": "That's a byte.",
+    "c": "Not related."
+   },
+   "takeaway": "Pixels make digital images.",
+   "tags": [],
+   "needsReview": false
+  },
+  {
+   "id": "mq-gk-052",
+   "type": "mcq",
+   "subtopic": "gk.it",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "Why do designers export web images in formats like WebP?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Smaller files that load faster at similar quality"
+    },
+    {
+     "id": "b",
+     "text": "They print better"
+    },
+    {
+     "id": "c",
+     "text": "They can be edited as vectors"
+    },
+    {
+     "id": "d",
+     "text": "They are required by law"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Smaller images make pages load quickly on mobile data.",
+   "distractors": {
+    "b": "Print uses other formats.",
+    "c": "WebP is raster.",
+    "d": "Not a legal rule."
+   },
+   "takeaway": "Small files load fast.",
+   "tags": [],
+   "needsReview": false
   }
  ]
 }

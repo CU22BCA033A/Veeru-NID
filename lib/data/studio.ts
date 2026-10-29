@@ -35,7 +35,7 @@ export async function maybeCritique(db: SupabaseClient, submissionId: string): P
     if (!r.critique) return;
     const time = (sub.self_scores as Scores | null)?.time;
     const aiScores = { ...r.critique.scores, time };
-    const final = finalPercent({ self: sub.self_scores as Scores, ai: aiScores, mentor: sub.mentor_scores as Scores | null });
+    const final = finalPercent({ ai: aiScores, mentor: sub.mentor_scores as Scores | null });
     await admin.from("studio_submissions").update({ ai_scores: { ...aiScores, critique: r.critique }, ai_provider: `${r.provider}:${r.model}`, final_score: final }).eq("id", submissionId);
   } catch (e) {
     console.error("AI critique failed", e);

@@ -18,7 +18,7 @@ export default async function ReviewQueue({ searchParams }: { searchParams: Prom
   return (
     <div>
       <PageHeader title="Review queue" kicker={show === "all" ? "All submissions" : `${rows.length} waiting`}>
-        Score Veeru&apos;s sheets on the same rubric he used. Your score overrides his self-score and the AI.
+        Score Veeru&apos;s sheets on the rubric. Your marks are his score (they override the optional AI estimate).
         <Link href={show === "all" ? "/admin/review" : "/admin/review?show=all"} className="ml-2 text-accent underline">{show === "all" ? "Only unreviewed" : "Show all"}</Link>
         <Link href="/admin/mocks" className="ml-3 text-accent underline">Mock papers</Link>
         <Link href="/admin/interview" className="ml-3 text-accent underline">Interview recordings</Link>
@@ -36,7 +36,7 @@ export default async function ReviewQueue({ searchParams }: { searchParams: Prom
                 <p className="text-xs text-ink-3">{fmt.format(new Date(r.created_at))} · {r.image_paths.length} page{r.image_paths.length > 1 ? "s" : ""}</p>
                 <div className="flex gap-1">
                   <Badge>{r.studio_tasks?.category ?? r.context}</Badge>
-                  {r.reviewed_at ? <Badge tone="good">Reviewed · {r.final_score}%</Badge> : <Badge tone="warn">Self {r.final_score ?? "–"}%</Badge>}
+                  {r.reviewed_at ? <Badge tone="good">Reviewed · {r.final_score}%</Badge> : <Badge tone="warn">Needs your marks</Badge>}
                 </div>
               </div>
             </Link>

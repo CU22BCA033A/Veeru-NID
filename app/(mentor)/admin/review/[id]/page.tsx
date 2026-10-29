@@ -42,7 +42,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ id: str
           )}
           <Card>
             <CardLabel className="mb-2">Scores so far</CardLabel>
-            <ScoreTable self={s.self_scores as Scores} ai={s.ai_scores as Scores | null} mentor={s.mentor_scores as Scores | null} />
+            <ScoreTable ai={s.ai_scores as Scores | null} mentor={s.mentor_scores as Scores | null} />
           </Card>
           <Card>
             <CardLabel className="mb-3">Your review</CardLabel>

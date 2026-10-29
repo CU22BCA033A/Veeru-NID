@@ -64,8 +64,8 @@ export async function saveMockProgress(raw: unknown): Promise<{ ok: boolean }> {
 }
 
 export async function submitMock(raw: unknown): Promise<{ ok: boolean; error?: string }> {
-  const parsed = progressSchema.extend({ selfMarks: z.record(z.string(), z.number().min(0).max(100)) }).safeParse(raw);
-  if (!parsed.success) return { ok: false, error: "Some marks are missing." };
+  const parsed = progressSchema.safeParse(raw);
+  if (!parsed.success) return { ok: false, error: "Couldn't read your answers. Try again." };
   const d = parsed.data;
   const viewer = await requireViewer("student");
   const db = await supabaseServer();
@@ -89,9 +89,6 @@ export async function submitMock(raw: unknown): Promise<{ ok: boolean; error?: s
     );
     answers.objectiveMarks = Math.round((res.filter((r) => r.correct).length / answers.objectiveItemIds.length) * obj.marks * 10) / 10;
   }
-  const selfMarks: Record<string, number> = {};
-  for (const q of mock.questions.filter((x) => x.kind === "drawing")) selfMarks[q.no] = Math.min(q.marks, d.selfMarks[q.no] ?? 0);
-  answers.selfMarks = selfMarks;
   const score = mockScore(mock, answers);
 
   // Each drawing answer also goes to GB's review queue.
@@ -99,7 +96,7 @@ export async function submitMock(raw: unknown): Promise<{ ok: boolean; error?: s
     .filter((q) => q.kind === "drawing" && (answers.uploads?.[q.no] ?? []).length)
     .map((q) => ({
       user_id: viewer.id, mock_attempt_id: d.attemptId, question_no: q.no, context: "mock", image_paths: answers.uploads![q.no]!,
-      time_limit_s: q.suggestedMinutes * 60, time_used_s: Math.round(d.timeSplit[q.no] ?? 0), final_score: Math.round((selfMarks[q.no]! / q.marks) * 100),
+      time_limit_s: q.suggestedMinutes * 60, time_used_s: Math.round(d.timeSplit[q.no] ?? 0), final_score: null, // set when GB marks it
     }));
   if (subs.length) await db.from("studio_submissions").insert(subs);
 

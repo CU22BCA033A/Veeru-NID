@@ -18,6 +18,8 @@ export interface RecordOptions {
   dayNo: number;
   today: string; // YYYY-MM-DD (IST)
   makeHomework: boolean;
+  /** Retakes of questions already seen shouldn't move skill ratings. Default true. */
+  updateRatings?: boolean;
 }
 
 /** Grade, store attempts, update skill ratings, and (for tests/drills) create homework + SRS cards. */
@@ -44,7 +46,7 @@ export async function recordAttempts(db: SupabaseClient, attempts: AttemptInput[
   }
 
   // Skill ratings per subtopic.
-  const answered = graded.filter((g) => g.answered);
+  const answered = opts.updateRatings === false ? [] : graded.filter((g) => g.answered);
   const subs = [...new Set(answered.map((g) => g.item.subtopic_id))];
   if (subs.length) {
     const { data: current } = await db.from("skill_ratings").select("subtopic_id,rating,attempts").eq("user_id", opts.userId).in("subtopic_id", subs);

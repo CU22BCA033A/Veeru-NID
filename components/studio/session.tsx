@@ -8,7 +8,6 @@ import { Card, CardLabel } from "@/components/ui/card";
 import { cn } from "@/lib/cn";
 import { extFor } from "@/lib/image/compress";
 import { draft } from "@/lib/offline/queue";
-import { RUBRIC, type CriterionId } from "@/lib/studio/rubric";
 import { supabaseBrowser } from "@/lib/supabase/client";
 import { createSubmission } from "@/app/(student)/studio/actions";
 import { CropEditor } from "./crop-editor";
@@ -54,7 +53,6 @@ export function StudioSession({ task, viewerId, planId, ctx }: { task: StudioTas
   const [alert, setAlert] = useState<string | null>(null);
   const [pages, setPages] = useState<Blob[]>([]);
   const [cropping, setCropping] = useState<File | null>(null);
-  const [scores, setScores] = useState<Partial<Record<CriterionId, number>>>({});
   const [ticks, setTicks] = useState<Record<string, boolean>>({});
   const [error, setError] = useState<string | null>(null);
   const [pending, start] = useTransition();
@@ -107,7 +105,7 @@ export function StudioSession({ task, viewerId, planId, ctx }: { task: StudioTas
           paths.push(path);
         }
         const res = await createSubmission({
-          id, taskId: task.id, planId, ctx, imagePaths: paths, timeLimitS: limit, timeUsedS: elapsed, hintsUsed: s.hintsShown, selfScores: scores, checklist: ticks,
+          id, taskId: task.id, planId, ctx, imagePaths: paths, timeLimitS: limit, timeUsedS: elapsed, hintsUsed: s.hintsShown, checklist: ticks,
         });
         if (!res.ok) throw new Error(res.error);
         draft.clear(key);
@@ -215,48 +213,22 @@ export function StudioSession({ task, viewerId, planId, ctx }: { task: StudioTas
         </Card>
         <p className="text-center text-sm text-ink-3">Time used: {mmss(elapsed)} of {task.minutes}:00</p>
         <Button className="w-full" disabled={!pages.length} onClick={() => save({ ...s, phase: "assess" })}>
-          Rate yourself <ArrowRight className="size-4" aria-hidden />
+          Check &amp; submit <ArrowRight className="size-4" aria-hidden />
         </Button>
       </div>
     );
   }
 
-  // assess
-  const criteria = RUBRIC.filter((c) => c.id !== "time");
-  const done = criteria.every((c) => typeof scores[c.id] === "number");
+  // assess: a last look at the sheet before GB marks it (no self-marking)
   return (
     <div className="space-y-5">
       <Card>
-        <CardLabel>Rate your own work first</CardLabel>
-        <p className="mt-1 text-sm text-ink-2">Be an honest examiner. Your self-score is compared with GB&apos;s score to train your eye.</p>
-        <div className="mt-4 space-y-5">
-          {criteria.map((c) => (
-            <fieldset key={c.id}>
-              <legend className="flex w-full justify-between text-sm font-medium">
-                <span>{c.label}</span>
-                <span className="tabular-nums text-ink-2">{scores[c.id] ?? "–"}/{c.max}</span>
-              </legend>
-              <p className="text-xs text-ink-3">{c.help}</p>
-              <div className="mt-2 flex flex-wrap gap-1.5">
-                {Array.from({ length: c.max + 1 }, (_, v) => (
-                  <button
-                    key={v}
-                    type="button"
-                    aria-pressed={scores[c.id] === v}
-                    onClick={() => setScores((x) => ({ ...x, [c.id]: v }))}
-                    className={cn("size-9 rounded-lg border text-sm tabular-nums", scores[c.id] === v ? "border-accent bg-accent text-accent-ink" : "border-line bg-surface")}
-                  >
-                    {v}
-                  </button>
-                ))}
-              </div>
-            </fieldset>
-          ))}
-        </div>
+        <CardLabel>Before you submit</CardLabel>
+        <p className="mt-1 text-sm text-ink-2">GB marks your sheet out of 60 and writes feedback; the time score comes from your timer. Use the checklist to spot anything you missed.</p>
       </Card>
       {task.checklist.length > 0 && (
         <Card>
-          <CardLabel>Examiner checklist</CardLabel>
+          <CardLabel>Examiner checklist (for you; not marks)</CardLabel>
           <ul className="mt-2">
             {task.checklist.map((c) => (
               <li key={c}>
@@ -270,7 +242,7 @@ export function StudioSession({ task, viewerId, planId, ctx }: { task: StudioTas
         </Card>
       )}
       {error && <p role="alert" className="rounded-xl bg-bad-soft p-3 text-sm text-bad">{error}</p>}
-      <Button className="w-full" disabled={!done || pending} onClick={submit}>
+      <Button className="w-full" disabled={pending} onClick={submit}>
         {pending ? "Uploading…" : "Submit for feedback"}
       </Button>
       <button type="button" className="w-full text-center text-sm text-ink-3 underline" onClick={() => save({ ...s, phase: "upload" })}>

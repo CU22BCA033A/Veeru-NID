@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { ButtonLink } from "@/components/ui/button";
 import { ProgressBar } from "@/components/ui/progress-bar";
 import { Countdown } from "@/components/home/countdown";
+import { ContinueTests } from "@/components/home/continue-tests";
 import { DayStepper } from "@/components/home/day-stepper";
 import { StepRing } from "@/components/home/step-ring";
 import { ToughDayToggle } from "@/components/home/tough-day";
@@ -26,12 +27,13 @@ export default async function HomePage() {
   const milestone = nextMilestone(examFacts.milestones, now);
   const prelims = examFacts.milestones.find((m) => m.id === "prelims");
 
-  const [{ data: completedRows }, { data: profile }, { data: tip }, { data: sketches }, catchUp] = await Promise.all([
+  const [{ data: completedRows }, { data: profile }, { data: tip }, { data: sketches }, catchUp, { data: openMock }] = await Promise.all([
     db.from("daily_plans").select("day_no").eq("user_id", viewer.id).eq("status", "completed"),
     db.from("profiles").select("why_nid").eq("id", viewer.id).single(),
     plan?.tip_id ? db.from("tips").select("title,body,category").eq("id", plan.tip_id).maybeSingle() : Promise.resolve({ data: null }),
     db.from("sketch_logs").select("date").eq("user_id", viewer.id).order("date", { ascending: false }).limit(120),
     catchUpDays(db, viewer.id, todayNo),
+    db.from("mock_attempts").select("id,mocks(title)").eq("user_id", viewer.id).is("submitted_at", null).order("started_at", { ascending: false }).limit(1).maybeSingle(),
   ]);
   const completed = new Set((completedRows ?? []).map((p) => p.day_no as number));
   const freeDays = new Set(phases.phases.flatMap((p) => [...(p.restDays ?? []), ...(p.id === "EXAM" ? [p.fromDay] : [])]));
@@ -103,6 +105,14 @@ export default async function HomePage() {
           </div>
         </Card>
       )}
+
+      <ContinueTests
+        tests={plan ? [
+          { key: `warmup:${plan.id}`, label: "Morning warm-up", href: `/day/${n}/warmup`, total: plan.warmup_item_ids.length },
+          { key: `daily:${plan.id}`, label: `Day ${n} test`, href: `/day/${n}/test/questions`, total: plan.item_ids.length },
+        ] : []}
+        openMock={openMock ? { label: (openMock.mocks as unknown as { title: string } | null)?.title ?? "Mock", href: `/mocks/attempt/${openMock.id}` } : null}
+      />
 
       {plan && progress && (kind === "study" || kind === "mock") && (
         <Card className="overflow-hidden p-0">

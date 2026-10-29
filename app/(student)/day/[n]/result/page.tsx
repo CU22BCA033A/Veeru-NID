@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
-import { ArrowRight, Clock, Target, TrendingDown, TrendingUp } from "lucide-react";
+import { ArrowRight, Clock, RotateCcw, Target, TrendingDown, TrendingUp } from "lucide-react";
 import { Card, CardLabel } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
 import { ButtonLink } from "@/components/ui/button";
@@ -8,6 +8,7 @@ import { MarkSeen } from "@/components/home/mark-seen";
 import { openDay } from "@/lib/data/day-guard";
 import { resultRows } from "@/lib/data/results";
 import { labels } from "@/lib/data/items";
+import { retakeHref } from "@/lib/retake";
 
 export default async function ResultPage({ params }: { params: Promise<{ n: string }> }) {
   const { n } = await params;
@@ -101,6 +102,10 @@ export default async function ResultPage({ params }: { params: Promise<{ n: stri
           <ArrowRight className="size-4" aria-hidden />
         </ButtonLink>
       )}
+
+      <ButtonLink href={retakeHref(rows.map((r) => r.item.id), `Day ${plan.day_no} test`, `/day/${plan.day_no}/result`)} variant="secondary" className="w-full">
+        <RotateCcw className="size-4" aria-hidden /> Retake this test (practice)
+      </ButtonLink>
 
       <section className="space-y-3">
         <h2 className="font-serif text-2xl">Every question, explained</h2>

@@ -1,10 +1,11 @@
-import { notFound, redirect } from "next/navigation";
-import { Monitor, Printer } from "lucide-react";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { Monitor, Printer, RotateCcw } from "lucide-react";
 import { Card, CardLabel } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
 import { Button, ButtonLink } from "@/components/ui/button";
 import { requireViewer } from "@/lib/auth";
-import { getMock } from "@/lib/data/mocks";
+import { getMock, mockScore, type MockAnswers } from "@/lib/data/mocks";
 import { supabaseServer } from "@/lib/supabase/server";
 import { startMock } from "../actions";
 
@@ -14,8 +15,10 @@ export default async function MockOverview({ params }: { params: Promise<{ id: s
   const db = await supabaseServer();
   const mock = await getMock(db, id);
   if (!mock) notFound();
-  const { data: att } = await db.from("mock_attempts").select("id,submitted_at").eq("user_id", viewer.id).eq("mock_id", id).order("started_at", { ascending: false }).limit(1).maybeSingle();
-  if (att?.submitted_at) redirect(`/mocks/attempt/${att.id}/result`);
+  const { data: attempts } = await db.from("mock_attempts").select("id,submitted_at,answers").eq("user_id", viewer.id).eq("mock_id", id).order("started_at", { ascending: false });
+  const open = (attempts ?? []).find((a) => !a.submitted_at);
+  const done = (attempts ?? []).filter((a) => a.submitted_at);
+  const fmt = new Intl.DateTimeFormat("en-IN", { day: "numeric", month: "short", timeZone: "Asia/Kolkata" });
   return (
     <div className="space-y-5">
       <PageHeader title={mock.title} kicker={`${mock.duration_min} minutes · ${mock.total_marks} marks`} back={{ href: "/mocks", label: "Mocks" }} />
@@ -29,10 +32,29 @@ export default async function MockOverview({ params }: { params: Promise<{ id: s
         </ul>
         <p className="mt-3 text-sm text-ink-2">Questions: {mock.questions.map((q) => `Q${q.no} ${q.title} (${q.marks})`).join(" · ")}</p>
       </Card>
-      {att ? (
-        <ButtonLink href={`/mocks/attempt/${att.id}`} className="w-full">Continue your attempt</ButtonLink>
+      {done.length > 0 && (
+        <Card>
+          <CardLabel>Your attempts</CardLabel>
+          <ul className="mt-2 divide-y divide-line">
+            {done.map((a, i) => {
+              const sc = mockScore(mock, (a.answers ?? {}) as MockAnswers);
+              return (
+                <li key={a.id}>
+                  <Link href={`/mocks/attempt/${a.id}/result`} className="flex min-h-11 items-center justify-between py-2 text-sm">
+                    <span>Attempt {done.length - i} · {fmt.format(new Date(a.submitted_at as string))}</span>
+                    <span className="tabular-nums text-ink-2">{sc.total}/{sc.reviewed ? mock.total_marks : `${sc.markedMax} marked`} ›</span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </Card>
+      )}
+      {open ? (
+        <ButtonLink href={`/mocks/attempt/${open.id}`} className="w-full">Continue your attempt</ButtonLink>
       ) : (
         <div className="grid gap-3 sm:grid-cols-2">
+          {done.length > 0 && <p className="flex items-center gap-2 text-sm font-medium sm:col-span-2"><RotateCcw className="size-4" aria-hidden />Retake this mock: a new attempt with a fresh timer</p>}
           <form action={startMock.bind(null, id, "screen")}>
             <Button type="submit" className="w-full"><Monitor className="size-4" aria-hidden />Start with on-screen timer</Button>
           </form>

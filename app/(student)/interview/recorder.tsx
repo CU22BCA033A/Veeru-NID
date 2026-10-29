@@ -10,19 +10,11 @@ import { saveInterviewAnswer } from "./actions";
 
 type SR = { start: () => void; stop: () => void; continuous: boolean; interimResults: boolean; lang: string; onresult: ((e: { resultIndex: number; results: ArrayLike<{ 0: { transcript: string }; isFinal: boolean }> }) => void) | null; onend: (() => void) | null };
 
-const RATINGS = [
-  { id: "clarity", label: "Clear main point" },
-  { id: "structure", label: "Structure (point → example → close)" },
-  { id: "example", label: "Specific example" },
-  { id: "confidence", label: "Calm & confident" },
-];
-
 export function Recorder({ question, viewerId }: { question: string; viewerId: string }) {
   const [state, setState] = useState<"idle" | "recording" | "review">("idle");
   const [seconds, setSeconds] = useState(0);
   const [blob, setBlob] = useState<Blob | null>(null);
   const [transcript, setTranscript] = useState("");
-  const [rating, setRating] = useState<Record<string, number>>({});
   const [notes, setNotes] = useState("");
   const [msg, setMsg] = useState<string | null>(null);
   const [pending, start] = useTransition();
@@ -134,18 +126,9 @@ export function Recorder({ question, viewerId }: { question: string; viewerId: s
 
       {state === "review" && (
         <Card>
-          <CardLabel>Rate yourself</CardLabel>
-          <div className="mt-2 space-y-3">
-            {RATINGS.map((r) => (
-              <fieldset key={r.id}>
-                <legend className="text-sm">{r.label}</legend>
-                <div className="mt-1 flex gap-1.5">
-                  {[1, 2, 3, 4, 5].map((v) => (
-                    <button key={v} type="button" aria-pressed={rating[r.id] === v} onClick={() => setRating((x) => ({ ...x, [r.id]: v }))} className={cn("size-10 rounded-lg border text-sm", rating[r.id] === v ? "border-accent bg-accent text-accent-ink" : "border-line bg-surface")}>{v}</button>
-                  ))}
-                </div>
-              </fieldset>
-            ))}
+          <CardLabel>Save for GB</CardLabel>
+          <p className="mt-1 text-sm text-ink-2">GB listens to your recording and gives feedback. You don&apos;t mark yourself.</p>
+          <div className="mt-3 space-y-3">
             <label className="block text-sm">Note to self<textarea value={notes} onChange={(e) => setNotes(e.target.value)} rows={2} className="mt-1 block w-full rounded-xl border border-line bg-surface p-2" /></label>
           </div>
           <Button className="mt-4 w-full" disabled={pending || !blob} onClick={() => start(async () => {
@@ -155,9 +138,9 @@ export function Recorder({ question, viewerId }: { question: string; viewerId: s
               const { error } = await supabaseBrowser().storage.from("sheets").upload(path, blob, { contentType: blob.type || "audio/webm" });
               if (error) { setMsg(error.message); return; }
             }
-            const r = await saveInterviewAnswer({ question, audioPath: path, transcript, durationS: seconds, selfRating: rating, notes });
+            const r = await saveInterviewAnswer({ question, audioPath: path, transcript, durationS: seconds, selfRating: {}, notes });
             if (!r.ok) setMsg(r.error ?? "Couldn't save");
-            else { setMsg("Saved ✓ GB can listen and comment."); setState("idle"); setBlob(null); setRating({}); setNotes(""); }
+            else { setMsg("Saved ✓ GB can listen and comment."); setState("idle"); setBlob(null); setNotes(""); }
           })}>{pending ? "Saving…" : "Save this answer"}</Button>
           {msg && <p role="status" className="mt-2 text-sm text-good">{msg}</p>}
         </Card>

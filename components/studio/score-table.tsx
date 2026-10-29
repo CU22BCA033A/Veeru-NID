@@ -1,9 +1,8 @@
 import { RUBRIC, percent, type Scores } from "@/lib/studio/rubric";
 
 /** Side-by-side rubric: self vs AI vs mentor. */
-export function ScoreTable({ self, ai, mentor }: { self: Scores | null; ai: Scores | null; mentor: Scores | null }) {
+export function ScoreTable({ ai, mentor }: { ai: Scores | null; mentor: Scores | null }) {
   const cols = [
-    { key: "You", s: self },
     ...(ai ? [{ key: "AI", s: ai }] : []),
     ...(mentor ? [{ key: "GB", s: mentor }] : []),
   ];

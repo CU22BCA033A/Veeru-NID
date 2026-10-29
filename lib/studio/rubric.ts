@@ -43,13 +43,7 @@ export function percent(scores: Scores | null | undefined): number | null {
   return max ? Math.round((got / max) * 100) : null;
 }
 
-/** Mentor score wins, then AI, then self. */
-export function finalPercent(s: { self?: Scores | null; ai?: Scores | null; mentor?: Scores | null }): number | null {
-  return percent(s.mentor) ?? percent(s.ai) ?? percent(s.self);
-}
-
-/** Self-assessment calibration: positive = over-rated yourself. */
-export function calibrationGap(self: Scores | null | undefined, reference: Scores | null | undefined): number | null {
-  const a = percent(self), b = percent(reference);
-  return a === null || b === null ? null : a - b;
+/** Mentor score wins, then AI. Students never mark their own work, so there is no self score. */
+export function finalPercent(s: { ai?: Scores | null; mentor?: Scores | null }): number | null {
+  return percent(s.mentor) ?? percent(s.ai);
 }

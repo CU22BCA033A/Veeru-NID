@@ -13,6 +13,12 @@ export default async function globalSetup() {
     if (r.error) throw new Error(`${label}: ${r.error.message}`);
   };
   check("mock attempts", await db.from("mock_attempts").delete().in("mock_id", ["mock-mini-02", "mock-mini-03"]));
-  check("PYQ items", await db.from("items").delete().eq("source", "PYQ").ilike("stem", "%secondary colour on the RYB wheel%"));
+  // The test PYQ may have been served since (e.g. picked for a mock), so clear its references first.
+  const { data: pyq } = await db.from("items").select("id").eq("source", "PYQ").ilike("stem", "%secondary colour on the RYB wheel%");
+  const pyqIds = (pyq ?? []).map((r) => r.id as string);
+  if (pyqIds.length) {
+    for (const t of ["served_items", "attempts", "homework", "srs_cards", "item_reports"]) check(`PYQ refs in ${t}`, await db.from(t).delete().in("item_id", pyqIds));
+    check("PYQ items", await db.from("items").delete().in("id", pyqIds));
+  }
   check("test photos", await db.from("images").update({ path: null, license: null, author: null, source_url: null, status: "needed" }).eq("status", "ready"));
 }

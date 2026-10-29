@@ -7,7 +7,7 @@ import { refreshDay } from "@/lib/data/day";
 import { getPlanById } from "@/lib/data/plan";
 import { maybeCritique } from "@/lib/data/studio";
 import { istDateString } from "@/lib/plan/calendar";
-import { finalPercent, scoresSchema, timeScore } from "@/lib/studio/rubric";
+import { timeScore } from "@/lib/studio/rubric";
 import { supabaseServer } from "@/lib/supabase/server";
 
 const submissionSchema = z.object({
@@ -19,7 +19,6 @@ const submissionSchema = z.object({
   timeLimitS: z.number().int().min(0).max(4 * 3600),
   timeUsedS: z.number().int().min(0).max(12 * 3600),
   hintsUsed: z.number().int().min(0).max(20),
-  selfScores: scoresSchema,
   checklist: z.record(z.string(), z.boolean()),
 });
 
@@ -30,11 +29,12 @@ export async function createSubmission(raw: unknown): Promise<{ ok: boolean; id?
   const viewer = await requireViewer("student");
   if (!d.imagePaths.every((p) => p.startsWith(`${viewer.id}/${d.id}/`))) return { ok: false, error: "Invalid upload path." };
   const db = await supabaseServer();
-  const self = { ...d.selfScores, time: timeScore(d.timeUsedS, d.timeLimitS) };
+  // Only the automatic time score; the student doesn't mark their own work.
+  const self = { time: timeScore(d.timeUsedS, d.timeLimitS) };
   const { error } = await db.from("studio_submissions").insert({
     id: d.id, user_id: viewer.id, task_id: d.taskId, plan_id: d.planId, context: d.ctx, image_paths: d.imagePaths,
     time_limit_s: d.timeLimitS, time_used_s: d.timeUsedS, hints_used: d.hintsUsed, self_scores: self, checklist: d.checklist,
-    final_score: finalPercent({ self }),
+    final_score: null, // set when GB (or the optional AI) scores it
   });
   if (error && !error.message.includes("duplicate")) return { ok: false, error: error.message };
   if (d.planId) {

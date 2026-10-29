@@ -40,7 +40,6 @@ export function MockRunner(props: {
   const [now, setNow] = useState(Date.now());
   const [cropping, setCropping] = useState<File | null>(null);
   const [marking, setMarking] = useState(false);
-  const [selfMarks, setSelfMarks] = useState<Record<string, number>>({});
   const [error, setError] = useState<string | null>(null);
   const [pending, start] = useTransition();
   const lastTick = useRef(Date.now());
@@ -124,30 +123,38 @@ export function MockRunner(props: {
 
   if (marking) {
     const drawing = props.questions.filter((x) => x.kind === "drawing");
-    const ready = drawing.every((x) => typeof selfMarks[x.no] === "number");
+    const missing = drawing.filter((x) => !(uploads[x.no] ?? []).length);
+    const objectiveAnswered = props.objectiveItems.filter((i) => objective[i.id] !== undefined && objective[i.id] !== null).length;
     return (
       <div className="space-y-5">
         <Card>
-          <CardLabel>Mark your own paper</CardLabel>
-          <p className="mt-1 text-sm text-ink-2">Be a strict examiner. GB will review and his marks replace yours. Objective answers are marked automatically.</p>
+          <CardLabel>Ready to submit?</CardLabel>
+          <p className="mt-1 text-sm text-ink-2">Objective questions are marked automatically. GB marks your drawing answers; you&apos;ll see his marks and comments on the result page.</p>
         </Card>
-        {drawing.map((x) => (
-          <Card key={x.no}>
-            <div className="flex items-baseline justify-between">
-              <p className="font-medium">Q{x.no} · {x.title}</p>
-              <span className="tabular-nums text-sm text-ink-2">{selfMarks[x.no] ?? "–"}/{x.marks}</span>
-            </div>
-            <p className="text-xs text-ink-3">{(uploads[x.no] ?? []).length} sheet(s) · {Math.round((timeSplit[x.no] ?? 0) / 60)} of {x.suggestedMinutes} suggested min</p>
-            <input
-              type="range" min={0} max={x.marks} step={0.5} value={selfMarks[x.no] ?? 0}
-              onChange={(e) => setSelfMarks((m) => ({ ...m, [x.no]: Number(e.target.value) }))}
-              aria-label={`Marks for question ${x.no}`} className="mt-3 w-full accent-[var(--accent)]"
-            />
+        {drawing.map((x) => {
+          const n = (uploads[x.no] ?? []).length;
+          return (
+            <Card key={x.no} className="flex items-center justify-between gap-3">
+              <div>
+                <p className="font-medium">Q{x.no} · {x.title}</p>
+                <p className="text-xs text-ink-3">{Math.round((timeSplit[x.no] ?? 0) / 60)} of {x.suggestedMinutes} suggested min · {x.marks} marks</p>
+              </div>
+              <Badge tone={n ? "good" : "warn"}>{n ? `${n} sheet${n > 1 ? "s" : ""}` : "No sheet yet"}</Badge>
+            </Card>
+          );
+        })}
+        {props.objectiveItems.length > 0 && (
+          <Card className="flex items-center justify-between">
+            <p className="font-medium">Objective questions</p>
+            <Badge tone={objectiveAnswered === props.objectiveItems.length ? "good" : "warn"}>{objectiveAnswered}/{props.objectiveItems.length} answered</Badge>
           </Card>
-        ))}
+        )}
+        {missing.length > 0 && (
+          <p className="rounded-xl bg-warn-soft p-3 text-sm text-warn">No photo for {missing.map((x) => `Q${x.no}`).join(", ")}. Go back and add your sheets, or GB will have nothing to mark there.</p>
+        )}
         {error && <p role="alert" className="text-sm text-bad">{error}</p>}
-        <Button className="w-full" disabled={!ready || pending} onClick={() => start(async () => {
-          const r = await submitMock({ attemptId: props.attemptId, uploads, objective, timeSplit, selfMarks });
+        <Button className="w-full" disabled={pending} onClick={() => start(async () => {
+          const r = await submitMock({ attemptId: props.attemptId, uploads, objective, timeSplit, pausedMs: Math.round(pausedMs) });
           if (!r.ok) setError(r.error ?? "Couldn't submit");
           else router.push(`/mocks/attempt/${props.attemptId}/result`);
         })}>

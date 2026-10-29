@@ -33,10 +33,29 @@ test("warm-up → test → results → homework → reflection", async ({ page }
   await page.getByText("Part A · Questions").click();
   await page.waitForURL("**/test/questions");
   await page.screenshot({ path: "test-results/question.png", fullPage: true });
+  // Answer two, leave, and the Today page offers to continue from question 3.
+  for (let i = 0; i < 2; i++) {
+    await page.locator('[role="radio"]:not([disabled]), [role="checkbox"]:not([disabled])').locator("visible=true").first().click();
+    await page.getByRole("button", { name: /^Next/ }).click();
+  }
+  await page.goto("/");
+  const resume = page.getByRole("link", { name: /Continue: Day 3 test/ });
+  await expect(resume).toContainText("2 of");
+  await expect(resume).toContainText("question 3");
+  await resume.click();
+  await page.waitForURL("**/test/questions");
   await answerAll(page, /Submit & see results/);
   await page.waitForURL("**/day/3/result", { timeout: 60_000 });
   await expect(page.getByText("Every question, explained")).toBeVisible();
   await page.screenshot({ path: "test-results/result.png", fullPage: true });
+
+  // Retake: same questions as practice, with its own results page.
+  await page.getByRole("link", { name: /Retake this test/ }).click();
+  await page.waitForURL("**/retake?**");
+  await answerAll(page, /Finish retake/);
+  await page.waitForURL("**/retake/done**", { timeout: 60_000 });
+  await expect(page.getByRole("heading", { name: /Retake: \d+\/\d+/ })).toBeVisible();
+  await page.goto("/day/3/result");
 
   const hw = page.getByRole("link", { name: /homework items ready/ });
   if (await hw.isVisible()) {

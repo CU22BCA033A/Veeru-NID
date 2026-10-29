@@ -7,7 +7,7 @@ import { ScoreTable } from "@/components/studio/score-table";
 import { requireViewer } from "@/lib/auth";
 import type { Critique } from "@/lib/ai/critique";
 import { signedSheetUrls } from "@/lib/data/sheets";
-import { calibrationGap, type Scores } from "@/lib/studio/rubric";
+import type { Scores } from "@/lib/studio/rubric";
 import { supabaseServer } from "@/lib/supabase/server";
 
 export default async function SubmissionPage({ params }: { params: Promise<{ id: string }> }) {
@@ -20,8 +20,6 @@ export default async function SubmissionPage({ params }: { params: Promise<{ id:
   const urls = await signedSheetUrls(db, s.image_paths as string[]);
   const ai = s.ai_scores as (Scores & { critique?: Critique }) | null;
   const mentor = s.mentor_scores as Scores | null;
-  const self = s.self_scores as Scores | null;
-  const gap = calibrationGap(self, mentor ?? ai);
   const checklist = (s.checklist ?? {}) as Record<string, boolean>;
   return (
     <div className="space-y-5">
@@ -31,7 +29,7 @@ export default async function SubmissionPage({ params }: { params: Promise<{ id:
         <div>
           <CardLabel>Score</CardLabel>
           <p className="font-serif text-5xl tabular-nums">{s.final_score ?? "–"}<span className="text-xl text-ink-3">%</span></p>
-          <p className="text-xs text-ink-2">{mentor ? "GB's score" : ai ? "AI estimate" : "Your self-score (GB will review)"}</p>
+          <p className="text-xs text-ink-2">{mentor ? "GB's score" : ai ? "AI estimate (GB's marks will replace it)" : "Waiting for GB's marks"}</p>
         </div>
         <div className="text-right text-sm text-ink-2">
           <p className="flex items-center justify-end gap-1"><Clock className="size-4" aria-hidden />{Math.round((s.time_used_s ?? 0) / 60)} / {Math.round((s.time_limit_s ?? 0) / 60)} min</p>
@@ -77,19 +75,12 @@ export default async function SubmissionPage({ params }: { params: Promise<{ id:
 
       <Card>
         <CardLabel className="mb-2">Rubric</CardLabel>
-        <ScoreTable self={self} ai={ai} mentor={mentor} />
-        {gap !== null && (
-          <p className="mt-3 text-sm text-ink-2">
-            Calibration: you rated yourself {Math.abs(gap)} points {gap > 0 ? "higher" : gap < 0 ? "lower" : "exactly the same"}
-            {gap !== 0 ? ` than ${mentor ? "GB" : "the AI"}` : ""}. {Math.abs(gap) <= 8 ? "Good eye." : gap > 0 ? "Be a stricter examiner of your own work." : "You're better than you think."}
-          </p>
-        )}
-        {!mentor && !ai && <p className="mt-3 text-sm text-ink-3">Waiting for GB&apos;s review.</p>}
+        {mentor || ai ? <ScoreTable ai={ai} mentor={mentor} /> : <p className="text-sm text-ink-3">Waiting for GB&apos;s review. His marks for each criterion will appear here.</p>}
       </Card>
 
       {task && (task.examiner_checklist as string[]).length > 0 && (
         <Card>
-          <CardLabel>Examiner checklist</CardLabel>
+          <CardLabel>Your checklist before submitting</CardLabel>
           <ul className="mt-2 space-y-2 text-sm">
             {(task.examiner_checklist as string[]).map((c) => (
               <li key={c} className="flex items-start gap-2">

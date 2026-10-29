@@ -41,7 +41,7 @@ export default async function MarkMock({ params }: { params: Promise<{ aid: stri
         </div>
         <Card className="h-fit lg:sticky lg:top-20">
           <CardLabel className="mb-3">Your marks</CardLabel>
-          <MarkForm attemptId={aid} questions={drawing.map((q) => ({ no: q.no, title: q.title, marks: q.marks }))} initialMarks={answers.mentorMarks ?? {}} initialComments={answers.mentorComments ?? {}} selfMarks={answers.selfMarks ?? {}} />
+          <MarkForm attemptId={aid} questions={drawing.map((q) => ({ no: q.no, title: q.title, marks: q.marks }))} initialMarks={answers.mentorMarks ?? {}} initialComments={answers.mentorComments ?? {}} />
         </Card>
       </div>
     </div>

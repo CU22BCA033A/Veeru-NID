@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
-import { Gauge, MessageSquareQuote } from "lucide-react";
+import { Gauge, MessageSquareQuote, RotateCcw } from "lucide-react";
+import { ButtonLink } from "@/components/ui/button";
 import { Card, CardLabel } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
 import { Badge } from "@/components/ui/badge";
@@ -29,8 +30,8 @@ export default async function MockResult({ params }: { params: Promise<{ aid: st
       <div className="grid gap-4 sm:grid-cols-2">
         <Card>
           <CardLabel>Score</CardLabel>
-          <p className="font-serif text-5xl tabular-nums">{score.total}<span className="text-xl text-ink-3">/{mock.total_marks}</span></p>
-          <p className="text-xs text-ink-2">{score.reviewed ? "Reviewed by GB" : "Self-marked; GB's marks will replace these"}</p>
+          <p className="font-serif text-5xl tabular-nums">{score.total}<span className="text-xl text-ink-3">/{score.reviewed ? mock.total_marks : score.markedMax}</span></p>
+          <p className="text-xs text-ink-2">{score.reviewed ? "Marked by GB" : `Marked so far: ${score.markedMax} of ${mock.total_marks} marks. Drawing questions are waiting for GB.`}</p>
         </Card>
         <Card>
           <CardLabel className="flex items-center gap-1"><Gauge className="size-3.5" aria-hidden />Readiness</CardLabel>
@@ -69,7 +70,7 @@ export default async function MockResult({ params }: { params: Promise<{ aid: st
               <div className="flex flex-wrap items-center gap-2">
                 <Badge tone="accent">Q{q.no}</Badge>
                 <span className="font-medium">{q.title}</span>
-                <span className="ml-auto tabular-nums text-sm">{mark ?? "–"}/{q.marks}</span>
+                <span className="ml-auto tabular-nums text-sm">{mark === null ? <span className="text-ink-3">Waiting for GB · /{q.marks}</span> : `${mark}/${q.marks}`}</span>
               </div>
               <p className="mt-2 text-sm text-ink-2">{q.prompt}</p>
               {(answers.uploads?.[q.no] ?? []).length > 0 && (
@@ -88,6 +89,11 @@ export default async function MockResult({ params }: { params: Promise<{ aid: st
           );
         })}
       </section>
+      {viewer.role === "student" && (
+        <ButtonLink href={`/mocks/${mock.id}`} variant="secondary" className="w-full">
+          <RotateCcw className="size-4" aria-hidden /> Retake this mock
+        </ButtonLink>
+      )}
     </div>
   );
 }

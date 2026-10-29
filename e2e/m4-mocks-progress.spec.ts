@@ -18,9 +18,17 @@ test("student takes a mini mock and gets analysis", async ({ page, browser }) =>
   await expect(page.getByRole("img", { name: "Q1 sheet 1" })).toBeVisible({ timeout: 20_000 });
   await page.screenshot({ path: "test-results/mock.png", fullPage: true });
   await page.getByRole("button", { name: "Finish" }).click();
-  for (const n of [1, 2, 3]) await page.getByLabel(`Marks for question ${n}`).fill("10");
+  // No self-marking: just a check of what's uploaded, then submit.
+  await expect(page.getByText("Ready to submit?")).toBeVisible();
+  await expect(page.getByLabel(/Marks for question/)).toHaveCount(0);
   await page.getByRole("button", { name: "Submit mock" }).click();
   await page.waitForURL("**/result", { timeout: 30_000 });
+  await expect(page.getByText(/Drawing questions are waiting for GB/)).toBeVisible();
+  // Retake: the mock page lists the attempt and offers a fresh one.
+  await page.getByRole("link", { name: /Retake this mock/ }).click();
+  await expect(page.getByText("Your attempts")).toBeVisible();
+  await expect(page.getByRole("button", { name: /Start with on-screen timer/ })).toBeVisible();
+  await page.goBack();
   await expect(page.getByText("Paper analysis")).toBeVisible();
   await expect(page.getByText("Ideal approach:").first()).toBeVisible();
   await page.screenshot({ path: "test-results/mock-result.png", fullPage: true });

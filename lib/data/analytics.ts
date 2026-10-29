@@ -98,7 +98,7 @@ export async function loadAnalytics(db: SupabaseClient, userId: string, settings
   }
   const categoryRadar = [...byCat.entries()].filter(([, v]) => v.n >= 3).map(([c, v]) => ({ category: CAT_NAME.get(c) ?? c, accuracy: Math.round((v.c / v.n) * 100), n: v.n }));
 
-  const scored = subs.map((s) => (s.mentor_scores ?? s.ai_scores ?? s.self_scores) as Scores | null).filter(Boolean) as Scores[];
+  const scored = subs.map((s) => (s.mentor_scores ?? s.ai_scores) as Scores | null).filter(Boolean) as Scores[];
   const avgOf = (list: Scores[], id: (typeof RUBRIC)[number]["id"], max: number) => {
     const vals = list.map((s) => s[id]).filter((v): v is number => typeof v === "number");
     return vals.length ? Math.round((vals.reduce((a, b) => a + b, 0) / vals.length / max) * 100) : null;

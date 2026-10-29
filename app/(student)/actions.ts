@@ -12,7 +12,7 @@ import { supabaseServer } from "@/lib/supabase/server";
 const answerSchema = z.union([z.string().max(5000), z.array(z.string().max(10)).max(10), z.null()]);
 const runSchema = z.object({
   key: z.string().max(200),
-  context: z.enum(["warmup", "daily", "homework", "drill"]),
+  context: z.enum(["warmup", "daily", "homework", "drill", "review"]),
   planId: z.string().uuid().nullable(),
   attempts: z
     .array(z.object({ itemId: z.string().max(80), answer: answerSchema, confidence: z.enum(["sure", "guess"]).nullable(), timeMs: z.number().int().min(0), clientId: z.string().max(300) }))
@@ -32,9 +32,12 @@ export async function submitRun(raw: unknown): Promise<{ ok: boolean; error?: st
   const plan = p.planId ? await getPlanById(db, p.planId) : null;
   if (p.planId && (!plan || plan.user_id !== viewer.id)) return { ok: false, error: "Plan not found." };
 
+  // "review" = a retake of questions already answered: practice only, no homework or rating change.
+  const retake = p.context === "review";
   const results = await recordAttempts(db, p.attempts, {
-    userId: viewer.id, planId: p.context === "homework" ? null : p.planId, context: p.context, dayNo: plan?.day_no ?? todayNo, today,
+    userId: viewer.id, planId: p.context === "homework" || retake ? null : p.planId, context: p.context, dayNo: plan?.day_no ?? todayNo, today,
     makeHomework: p.context === "daily" || p.context === "drill",
+    updateRatings: !retake,
   });
 
   if (p.context === "homework" && p.homeworkIds?.length) {
@@ -45,7 +48,7 @@ export async function submitRun(raw: unknown): Promise<{ ok: boolean; error?: st
     }
     await db.from("homework").update({ status: "done", done_at: new Date().toISOString() }).in("id", (hw ?? []).map((h) => h.id as string));
   }
-  if (plan) await refreshDay(db, plan, settings);
+  if (plan && !retake) await refreshDay(db, plan, settings);
   // Refresh today's plan too (homework may close it).
   const { data: todayPlan } = await db.from("daily_plans").select("id").eq("user_id", viewer.id).eq("day_no", todayNo).maybeSingle();
   if (todayPlan && todayPlan.id !== plan?.id) {

@@ -20,13 +20,14 @@ test("student completes a studio task with photo upload and self-assessment", as
   await page.screenshot({ path: "test-results/crop.png", fullPage: true });
   await page.getByRole("button", { name: /Straighten & add page/ }).click();
   await expect(page.getByRole("img", { name: "Page 1" })).toBeVisible({ timeout: 20_000 });
-  await page.getByRole("button", { name: /Rate yourself/ }).click();
-  for (const legend of ["Idea & originality", "Understanding of the brief", "Communication clarity", "Drawing skill", "Composition & use of space", "Labels, captions, word limits"]) {
-    await page.getByRole("group", { name: new RegExp(legend) }).getByRole("button", { name: "4", exact: true }).click();
-  }
+  await page.getByRole("button", { name: /Check & submit/ }).click();
+  // No self-marking: the student only sees the checklist, never a score picker.
+  await expect(page.getByText("Before you submit")).toBeVisible();
+  await expect(page.getByRole("group", { name: /Idea & originality/ })).toHaveCount(0);
   await page.getByRole("button", { name: "Submit for feedback" }).click();
   await page.waitForURL("**/studio/submission/**", { timeout: 30_000 });
-  await expect(page.getByText("Waiting for GB's review.")).toBeVisible();
+  await expect(page.getByText(/Waiting for GB's review/)).toBeVisible();
+  await expect(page.getByText("Waiting for GB's marks")).toBeVisible();
   await expect(page.getByRole("img", { name: "Sheet 1" })).toBeVisible();
   await page.screenshot({ path: "test-results/submission.png", fullPage: true });
 
@@ -54,7 +55,7 @@ test("mentor reviews the sheet and the student sees GB's score", async ({ page, 
   await s.waitForLoadState("networkidle");
   await s.getByRole("link", { name: /Symbol for/ }).first().click({ position: { x: 24, y: 24 } }); // its centre can sit under the bottom tab bar
   await expect(s.getByText("GB says")).toBeVisible();
-  await expect(s.getByText(/Calibration: you rated yourself/)).toBeVisible();
+  await expect(s.getByText("GB's score")).toBeVisible();
   await ctx.close();
 });
 

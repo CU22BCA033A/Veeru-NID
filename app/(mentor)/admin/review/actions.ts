@@ -15,7 +15,7 @@ export async function saveReview(input: { id: string; scores: Scores; comment: s
   if (!sub) return { error: "Not found" };
   // Time management stays objective (from the timer) unless the mentor sets it.
   const mentor = { ...scores, time: scores.time ?? (sub.self_scores as Scores | null)?.time };
-  const final = finalPercent({ self: sub.self_scores as Scores, ai: sub.ai_scores as Scores, mentor });
+  const final = finalPercent({ ai: sub.ai_scores as Scores, mentor });
   const { error } = await db.from("studio_submissions").update({ mentor_scores: mentor, mentor_comment: comment || null, final_score: final, reviewed_at: new Date().toISOString() }).eq("id", id);
   if (error) return { error: error.message };
   revalidatePath("/admin/review");

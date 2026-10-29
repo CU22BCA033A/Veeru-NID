@@ -14,7 +14,7 @@ import { PauseOverlay } from "./pause-overlay";
 
 export interface RunnerSubmit {
   key: string;
-  context: "warmup" | "daily" | "homework" | "drill";
+  context: "warmup" | "daily" | "homework" | "drill" | "review";
   planId: string | null;
   attempts: AttemptInput[];
   /** homework ids being completed, parallel to attempts when context = homework */

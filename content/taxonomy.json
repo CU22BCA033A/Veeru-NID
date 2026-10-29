@@ -71,7 +71,8 @@
         { "id": "indian.painting", "name": "Folk & tribal painting" },
         { "id": "indian.architecture", "name": "Architecture & monuments" },
         { "id": "indian.design-history", "name": "Indian design & NID history" },
-        { "id": "indian.products", "name": "Indian product icons" }
+        { "id": "indian.products", "name": "Indian product icons" },
+        { "id": "indian.music", "name": "Music & instruments" }
       ]
     },
     {

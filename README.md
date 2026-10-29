@@ -14,12 +14,12 @@ There are two roles, `student` (Veeru) and `mentor` (GB). Running it costs **₹
 | **Daily test**: 40 questions (12–15 during board exams), never repeated across 100 days, tuned to ~72% success, weakest topics first | **Review**: score studio sheets on the 60-mark rubric; Veeru sees "GB says" |
 | **Homework**: every mistake comes back with its concept card plus two new variants; spaced reviews after 1/3/7/16 days | **Mocks**: mark uploaded mock answers |
 | **Studio**: 417 timed drawing briefs, phone-camera upload with corner crop, self-scoring, portfolio wall | **Content**: browse/edit/retire questions, handle reports, import real PYQs |
-| **Mocks**: 19 full and mini papers, on-screen timer or printable, per-question analysis | **Images**: upload the 59 photos that unlock photo questions (see `IMAGES_NEEDED.md`) |
-| **Learn**: 91 concept cards, 12 exam-strategy guides, 120 tips, search | **Settings**: phases, exam dates, logins, "Sync content now" |
+| **Mocks**: 19 full and mini papers, on-screen timer or printable, per-question analysis | **Images**: upload the 104 photos that unlock photo questions (see `IMAGES_NEEDED.md`) |
+| **Learn**: 92 concept cards, 12 exam-strategy guides, 120 tips, search | **Settings**: phases, exam dates, logins, "Sync content now" |
 | **Progress**: accuracy, speed, category radar, rubric trend, readiness, 100-day calendar | |
 | **Interview practice** (Mains), journal, mistake notebook, exam-day checklist | |
 
-About 5,900 questions: ~5,400 auto-generated visual puzzles (mirror, water images, paper folding, cubes, dice, counting, series, embedded figures, views…) plus ~580 hand-written MCQs and creative prompts. Works offline once a page has been opened, and installs to the home screen.
+About 5,900 questions: ~5,400 auto-generated visual puzzles (mirror, water images, paper folding, cubes, dice, counting, series, embedded figures, views…) plus ~620 hand-written MCQs and creative prompts. Works offline once a page has been opened, and installs to the home screen.
 
 ---
 
@@ -65,7 +65,7 @@ Open the link in Chrome on his phone, sign in, then tap **⋮ → Add to Home sc
 
 ### Step 5 (optional, any time): add the photos
 
-59 questions use real photos (light and shade, textures, materials, street scenes…). They stay hidden until a photo exists. GB opens **Images** in the mentor menu, where each card says exactly what to shoot, and uploads from the phone camera. The full list is also in [`IMAGES_NEEDED.md`](IMAGES_NEEDED.md). Open-licence photos (Wikimedia, Unsplash, Pexels) are fine too; pick the licence and paste the source link.
+About 120 questions use real photos: light and shade, textures, materials, street scenes, and "name what you see" pictures of instruments, monuments, paintings, textiles and famous chairs. They stay hidden until a photo exists. GB opens **Images** in the mentor menu, where each card says exactly what to shoot, and uploads from the phone camera. The full list is also in [`IMAGES_NEEDED.md`](IMAGES_NEEDED.md). Open-licence photos (Wikimedia, Unsplash, Pexels) are fine too; pick the licence and paste the source link.
 
 ### Updating later
 

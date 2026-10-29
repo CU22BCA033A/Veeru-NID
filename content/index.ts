@@ -8,6 +8,7 @@ import items_mcq_global from "./items/mcq-global.json";
 import items_mcq_indian from "./items/mcq-indian.json";
 import items_photo_crafts from "./items/photo-crafts.json";
 import items_photo_design_signage from "./items/photo-design-signage.json";
+import items_photo_identify from "./items/photo-identify.json";
 import items_photo_light_perspective from "./items/photo-light-perspective.json";
 import items_photo_materials_objects from "./items/photo-materials-objects.json";
 import items_short_creative from "./items/short-creative.json";
@@ -26,7 +27,7 @@ import concepts_mains from "./concepts/mains.json";
 import concepts_studio from "./concepts/studio.json";
 import concepts_visual from "./concepts/visual.json";
 
-export const itemsFiles: unknown[] = [items_mcq_colour, items_mcq_design, items_mcq_drawing, items_mcq_gk, items_mcq_global, items_mcq_indian, items_photo_crafts, items_photo_design_signage, items_photo_light_perspective, items_photo_materials_objects, items_short_creative];
+export const itemsFiles: unknown[] = [items_mcq_colour, items_mcq_design, items_mcq_drawing, items_mcq_gk, items_mcq_global, items_mcq_indian, items_photo_crafts, items_photo_design_signage, items_photo_identify, items_photo_light_perspective, items_photo_materials_objects, items_short_creative];
 export const studioFiles: unknown[] = [studio_creative, studio_mains, studio_studio];
 export const mocksFiles: unknown[] = [mocks_mocks];
 export const conceptsFiles: unknown[] = [concepts_colour, concepts_creative, concepts_design, concepts_drawing, concepts_gk, concepts_global, concepts_indian, concepts_mains, concepts_studio, concepts_visual];

@@ -1,0 +1,1894 @@
+{
+ "items": [
+  {
+   "id": "ph-id-001",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-sitar"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Sarod"
+    },
+    {
+     "id": "b",
+     "text": "Tanpura"
+    },
+    {
+     "id": "c",
+     "text": "Sitar"
+    },
+    {
+     "id": "d",
+     "text": "Veena"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The sitar is a plucked Hindustani instrument with movable curved frets, a gourd resonator and extra 'sympathetic' strings that ring along. Pandit Ravi Shankar made it famous worldwide.",
+   "distractors": {
+    "d": "The Saraswati veena has a second gourd near the top and a broader body.",
+    "a": "The sarod has no frets and a smooth metal fingerboard.",
+    "b": "The tanpura has no frets; it only plays a drone."
+   },
+   "takeaway": "Frets + gourd + long neck = sitar.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-002",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-veena"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Tanpura"
+    },
+    {
+     "id": "b",
+     "text": "Santoor"
+    },
+    {
+     "id": "c",
+     "text": "Saraswati veena"
+    },
+    {
+     "id": "d",
+     "text": "Sitar"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The Saraswati veena is the main plucked instrument of Carnatic (South Indian) music. Look for the second resonator gourd near the scroll-shaped top.",
+   "distractors": {
+    "d": "The sitar has one main gourd and curved movable frets.",
+    "a": "The tanpura has no frets.",
+    "b": "The santoor is a flat box struck with mallets."
+   },
+   "takeaway": "Two resonators, Carnatic = veena.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-003",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-sarod"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Sarangi"
+    },
+    {
+     "id": "b",
+     "text": "Ektara"
+    },
+    {
+     "id": "c",
+     "text": "Sarod"
+    },
+    {
+     "id": "d",
+     "text": "Sitar"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The sarod is fretless: the player slides along a polished metal fingerboard. Its body is covered with goat skin. Ustad Amjad Ali Khan is a famous sarod player.",
+   "distractors": {
+    "d": "The sitar has frets and a much longer neck.",
+    "a": "The sarangi is bowed and has a boxy shape.",
+    "b": "The ektara has just one string on a bamboo frame."
+   },
+   "takeaway": "No frets + metal fingerboard = sarod.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-004",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-santoor"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Jal tarang"
+    },
+    {
+     "id": "b",
+     "text": "Sarangi"
+    },
+    {
+     "id": "c",
+     "text": "Santoor"
+    },
+    {
+     "id": "d",
+     "text": "Harmonium"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The santoor is a hammered string instrument from Kashmir, struck with light walnut-wood mallets. Pandit Shivkumar Sharma brought it into classical music.",
+   "distractors": {
+    "d": "The harmonium has a keyboard and bellows.",
+    "a": "The jal tarang is a set of bowls with water.",
+    "b": "The sarangi is bowed, not struck."
+   },
+   "takeaway": "Trapezium box + mallets = santoor.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-005",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Name this pair of drums.",
+   "imageIds": [
+    "img-instr-tabla"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Nagara"
+    },
+    {
+     "id": "b",
+     "text": "Tabla"
+    },
+    {
+     "id": "c",
+     "text": "Mridangam"
+    },
+    {
+     "id": "d",
+     "text": "Dholak"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The tabla is a pair: the smaller wooden 'dayan' for the right hand and the larger 'bayan' for the left. The black spot (syahi) gives its ringing tone. Ustad Zakir Hussain was a world-famous tabla player.",
+   "distractors": {
+    "c": "The mridangam is one long drum with two heads.",
+    "d": "The dholak is a single barrel drum played on both sides.",
+    "a": "Nagaras are large kettle drums played with sticks."
+   },
+   "takeaway": "Two separate drums, black spots = tabla.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-006",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Name this drum.",
+   "imageIds": [
+    "img-instr-mridangam"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Tabla"
+    },
+    {
+     "id": "b",
+     "text": "Damaru"
+    },
+    {
+     "id": "c",
+     "text": "Djembe"
+    },
+    {
+     "id": "d",
+     "text": "Mridangam"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The mridangam is the main percussion instrument of Carnatic music, played on both ends with the hands. Its North Indian cousin is the pakhawaj.",
+   "distractors": {
+    "a": "Tabla is a pair of separate drums.",
+    "b": "The damaru is a small hourglass-shaped drum.",
+    "c": "The djembe is a goblet-shaped African drum."
+   },
+   "takeaway": "Carnatic barrel drum = mridangam.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-007",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This clay pot is played as an instrument in Carnatic concerts. What is it called?",
+   "imageIds": [
+    "img-instr-ghatam"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kanjira"
+    },
+    {
+     "id": "b",
+     "text": "Tabla"
+    },
+    {
+     "id": "c",
+     "text": "Matka drum"
+    },
+    {
+     "id": "d",
+     "text": "Ghatam"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The ghatam is a specially fired clay pot played with fingers, palms and wrists. Pressing its mouth against the stomach changes the tone.",
+   "distractors": {
+    "a": "The kanjira is a small frame drum.",
+    "b": "The tabla has skin heads.",
+    "c": "Not the name of this classical instrument."
+   },
+   "takeaway": "Clay pot drum = ghatam.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-008",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-shehnai"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Pungi"
+    },
+    {
+     "id": "b",
+     "text": "Bagpipe"
+    },
+    {
+     "id": "c",
+     "text": "Shehnai"
+    },
+    {
+     "id": "d",
+     "text": "Bansuri"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The shehnai is a double-reed wind instrument heard at weddings and temples. Ustad Bismillah Khan made it a classical concert instrument and received the Bharat Ratna.",
+   "distractors": {
+    "d": "The bansuri is a bamboo flute with no bell or reed.",
+    "a": "The pungi has a gourd and two pipes.",
+    "b": "Bagpipes have a bag and several pipes."
+   },
+   "takeaway": "Weddings + reed + bell = shehnai.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-009",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "This long wind instrument is played in South Indian temples and weddings. What is it?",
+   "imageIds": [
+    "img-instr-nadaswaram"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Clarinet"
+    },
+    {
+     "id": "b",
+     "text": "Nadaswaram"
+    },
+    {
+     "id": "c",
+     "text": "Shehnai"
+    },
+    {
+     "id": "d",
+     "text": "Bansuri"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The nadaswaram is one of the loudest non-brass acoustic instruments, usually played with the thavil drum at South Indian temples and weddings.",
+   "distractors": {
+    "c": "The shehnai is the shorter North Indian cousin.",
+    "d": "A bansuri is a flute, with no reed or bell.",
+    "a": "The clarinet is a Western single-reed instrument with metal keys."
+   },
+   "takeaway": "South's long temple pipe = nadaswaram.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-010",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-bansuri"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Recorder"
+    },
+    {
+     "id": "b",
+     "text": "Algoza"
+    },
+    {
+     "id": "c",
+     "text": "Bansuri"
+    },
+    {
+     "id": "d",
+     "text": "Shehnai"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The bansuri is a side-blown bamboo flute linked with Lord Krishna. Pandit Hariprasad Chaurasia is its best-known master.",
+   "distractors": {
+    "d": "The shehnai has a reed and a flared bell.",
+    "a": "A recorder is blown from the end, not the side.",
+    "b": "Algoza is a pair of flutes played together."
+   },
+   "takeaway": "Bamboo, side-blown = bansuri.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-011",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-sarangi"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Violin"
+    },
+    {
+     "id": "b",
+     "text": "Sitar"
+    },
+    {
+     "id": "c",
+     "text": "Sarangi"
+    },
+    {
+     "id": "d",
+     "text": "Sarod"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The sarangi is a bowed instrument carved from a single block of wood. It is said to copy the human voice closely, so it often accompanies singers.",
+   "distractors": {
+    "d": "The sarod is plucked, not bowed.",
+    "a": "The violin has a curved body and a long fingerboard.",
+    "b": "The sitar is plucked and has a long neck."
+   },
+   "takeaway": "Bowed + boxy + skin = sarangi.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-012",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-ektara"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Sarangi"
+    },
+    {
+     "id": "b",
+     "text": "Santoor"
+    },
+    {
+     "id": "c",
+     "text": "Ektara"
+    },
+    {
+     "id": "d",
+     "text": "Tanpura"
+    }
+   ],
+   "answer": "c",
+   "explanation": "'Ek tara' means 'one string'. It is played by Baul singers of Bengal and many folk musicians.",
+   "distractors": {
+    "d": "The tanpura has four or more strings.",
+    "a": "The sarangi is bowed and has many strings.",
+    "b": "The santoor has many strings and is struck."
+   },
+   "takeaway": "Ek = one string.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-013",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This instrument plays only a continuous background drone, not a melody. What is it?",
+   "imageIds": [
+    "img-instr-tanpura"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Veena"
+    },
+    {
+     "id": "b",
+     "text": "Sarod"
+    },
+    {
+     "id": "c",
+     "text": "Tanpura"
+    },
+    {
+     "id": "d",
+     "text": "Sitar"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The tanpura's strings are plucked one after another to give a steady drone that singers and players tune to.",
+   "distractors": {
+    "d": "The sitar plays melodies and has frets.",
+    "a": "The veena plays melodies and has frets.",
+    "b": "The sarod plays melodies."
+   },
+   "takeaway": "Drone instrument = tanpura.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-014",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-harmonium"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Piano"
+    },
+    {
+     "id": "b",
+     "text": "Accordion"
+    },
+    {
+     "id": "c",
+     "text": "Harmonium"
+    },
+    {
+     "id": "d",
+     "text": "Santoor"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The hand-pumped harmonium came to India from Europe in the 1800s and became central to bhajans, qawwali and film music.",
+   "distractors": {
+    "d": "The santoor has strings and mallets.",
+    "a": "A piano is far bigger and uses hammers on strings.",
+    "b": "The accordion is strapped on and squeezed with both arms."
+   },
+   "takeaway": "Keys + hand bellows = harmonium.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-015",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-jaltarang"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Santoor"
+    },
+    {
+     "id": "b",
+     "text": "Xylophone"
+    },
+    {
+     "id": "c",
+     "text": "Jal tarang"
+    },
+    {
+     "id": "d",
+     "text": "Ghatam"
+    }
+   ],
+   "answer": "c",
+   "explanation": "'Jal tarang' means 'waves in water'. The amount of water in each bowl sets its pitch.",
+   "distractors": {
+    "d": "The ghatam is a single clay pot.",
+    "a": "The santoor has strings.",
+    "b": "A xylophone uses wooden bars."
+   },
+   "takeaway": "Water in bowls = jal tarang.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-016",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-pungi"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Bagpipe"
+    },
+    {
+     "id": "b",
+     "text": "Bansuri"
+    },
+    {
+     "id": "c",
+     "text": "Pungi (been)"
+    },
+    {
+     "id": "d",
+     "text": "Shehnai"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The pungi is a folk wind instrument known from snake charmers. One pipe plays the drone, the other the tune.",
+   "distractors": {
+    "d": "The shehnai is a single pipe with a bell.",
+    "a": "Bagpipes have a bag, not a gourd.",
+    "b": "The bansuri is a plain bamboo flute."
+   },
+   "takeaway": "Gourd + two pipes = pungi.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-017",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This long wooden wind instrument comes from which country?",
+   "imageIds": [
+    "img-instr-didgeridoo"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Brazil"
+    },
+    {
+     "id": "b",
+     "text": "Japan"
+    },
+    {
+     "id": "c",
+     "text": "Kenya"
+    },
+    {
+     "id": "d",
+     "text": "Australia"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The didgeridoo was developed by Aboriginal peoples of northern Australia. Players use circular breathing to keep a continuous drone.",
+   "distractors": {
+    "a": "Not its origin.",
+    "b": "Japan's bamboo flute is the shakuhachi.",
+    "c": "Not its origin."
+   },
+   "takeaway": "Didgeridoo = Australia.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-018",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Name this musical instrument.",
+   "imageIds": [
+    "img-instr-bagpipes"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Pungi"
+    },
+    {
+     "id": "b",
+     "text": "Trumpet"
+    },
+    {
+     "id": "c",
+     "text": "Bagpipes"
+    },
+    {
+     "id": "d",
+     "text": "Accordion"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Bagpipes are strongly linked with Scotland. The player fills the bag with air and squeezes it to feed the pipes. Indian army bands play them too.",
+   "distractors": {
+    "d": "The accordion has keys and pleated bellows.",
+    "a": "The pungi has a gourd, not a bag.",
+    "b": "The trumpet is a brass instrument with valves."
+   },
+   "takeaway": "Bag + pipes = bagpipes.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-019",
+   "type": "mcq",
+   "subtopic": "indian.music",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This goblet-shaped hand drum comes from which region?",
+   "imageIds": [
+    "img-instr-djembe"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Northern Europe"
+    },
+    {
+     "id": "b",
+     "text": "East Asia"
+    },
+    {
+     "id": "c",
+     "text": "West Africa"
+    },
+    {
+     "id": "d",
+     "text": "South America"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The djembe comes from West Africa (the old Mali Empire region). It is played with bare hands.",
+   "distractors": {
+    "d": "Not its origin.",
+    "a": "Not its origin.",
+    "b": "Not its origin."
+   },
+   "takeaway": "Djembe = West Africa.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-020",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "This carved stone wheel belongs to which temple?",
+   "imageIds": [
+    "img-mon-konark-wheel"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Vittala Temple, Hampi"
+    },
+    {
+     "id": "b",
+     "text": "Meenakshi Temple, Madurai"
+    },
+    {
+     "id": "c",
+     "text": "Kandariya Mahadeva, Khajuraho"
+    },
+    {
+     "id": "d",
+     "text": "Sun Temple, Konark"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The 13th-century Konark Sun Temple in Odisha is built as a giant chariot of the Sun god with 24 carved wheels pulled by stone horses. The wheel appears on the ₹10 note (2018 series).",
+   "distractors": {
+    "a": "Hampi has a stone chariot, but this wheel is from Odisha.",
+    "b": "Known for colourful gopurams.",
+    "c": "Known for its tall spires and sculpture."
+   },
+   "takeaway": "Konark = chariot with 24 wheels.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-021",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "Where is this famous stone chariot?",
+   "imageIds": [
+    "img-mon-hampi-chariot"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Belur, Karnataka"
+    },
+    {
+     "id": "b",
+     "text": "Hampi, Karnataka"
+    },
+    {
+     "id": "c",
+     "text": "Konark, Odisha"
+    },
+    {
+     "id": "d",
+     "text": "Mahabalipuram, Tamil Nadu"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The stone chariot is a shrine to Garuda in the Vittala temple complex of Hampi, the capital of the Vijayanagara empire. It appears on the ₹50 note (2018 series).",
+   "distractors": {
+    "c": "Konark is itself shaped like a chariot, but this standalone shrine is in Hampi.",
+    "d": "Known for its rathas carved from single rocks.",
+    "a": "Known for Hoysala temple carving."
+   },
+   "takeaway": "Stone chariot = Hampi.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-022",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This richly carved stepwell is…",
+   "imageIds": [
+    "img-mon-rani-ki-vav"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hawa Mahal, Jaipur"
+    },
+    {
+     "id": "b",
+     "text": "Gol Gumbaz, Vijayapura"
+    },
+    {
+     "id": "c",
+     "text": "Rani ki Vav, Patan"
+    },
+    {
+     "id": "d",
+     "text": "Chand Baori, Abhaneri"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Rani ki Vav in Patan, Gujarat, is a UNESCO World Heritage Site with hundreds of carved sculptures. It appears on the ₹100 note (2018 series).",
+   "distractors": {
+    "d": "A stepwell too, famous for its zigzag steps.",
+    "a": "A palace screen wall, not a well.",
+    "b": "A domed tomb."
+   },
+   "takeaway": "Carved stepwell = Rani ki Vav.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-023",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This dome-shaped monument with carved gateways is the…",
+   "imageIds": [
+    "img-mon-sanchi"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Lotus Temple, Delhi"
+    },
+    {
+     "id": "b",
+     "text": "Charminar, Hyderabad"
+    },
+    {
+     "id": "c",
+     "text": "Great Stupa, Sanchi"
+    },
+    {
+     "id": "d",
+     "text": "Gol Gumbaz, Vijayapura"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The Great Stupa at Sanchi (Madhya Pradesh) was begun by Emperor Ashoka in the 3rd century BCE. Its four toranas are carved with Buddhist stories.",
+   "distractors": {
+    "d": "A tomb with a huge dome, no toranas.",
+    "a": "A modern building shaped like a lotus.",
+    "b": "A square monument with four minarets."
+   },
+   "takeaway": "Stupa + toranas = Sanchi.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-024",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This huge domed tomb, famous for its whispering gallery, is…",
+   "imageIds": [
+    "img-mon-gol-gumbaz"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Bibi Ka Maqbara, Aurangabad"
+    },
+    {
+     "id": "b",
+     "text": "Gol Gumbaz, Vijayapura"
+    },
+    {
+     "id": "c",
+     "text": "Taj Mahal, Agra"
+    },
+    {
+     "id": "d",
+     "text": "Humayun's Tomb, Delhi"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Gol Gumbaz in Vijayapura (Bijapur), Karnataka, is the tomb of Mohammed Adil Shah. A whisper under its dome can be heard across the gallery.",
+   "distractors": {
+    "c": "White marble with four separate minarets.",
+    "d": "Red sandstone on a raised platform in a garden.",
+    "a": "Looks like a smaller Taj Mahal."
+   },
+   "takeaway": "Whispering gallery = Gol Gumbaz.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-025",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "This lotus-shaped building is in which city?",
+   "imageIds": [
+    "img-mon-lotus-temple"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "New Delhi"
+    },
+    {
+     "id": "b",
+     "text": "Mumbai"
+    },
+    {
+     "id": "c",
+     "text": "Chennai"
+    },
+    {
+     "id": "d",
+     "text": "Kolkata"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The Lotus Temple is a Bahá'í House of Worship in Delhi, designed by architect Fariborz Sahba and opened in 1986. It is open to people of all faiths.",
+   "distractors": {
+    "b": "Not here.",
+    "c": "Not here.",
+    "d": "Not here."
+   },
+   "takeaway": "Lotus Temple = Delhi.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-026",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "This pink building with many small windows is…",
+   "imageIds": [
+    "img-mon-hawa-mahal"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mysore Palace, Mysuru"
+    },
+    {
+     "id": "b",
+     "text": "Umaid Bhawan, Jodhpur"
+    },
+    {
+     "id": "c",
+     "text": "City Palace, Udaipur"
+    },
+    {
+     "id": "d",
+     "text": "Hawa Mahal, Jaipur"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The Hawa Mahal ('Palace of Winds', 1799) let royal women watch street life unseen. Its jharokhas (small windows) also let breezes cool the building.",
+   "distractors": {
+    "a": "A large palace with domes.",
+    "b": "A domed palace of golden-yellow sandstone.",
+    "c": "A white palace by a lake."
+   },
+   "takeaway": "Pink windows wall = Hawa Mahal.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-027",
+   "type": "mcq",
+   "subtopic": "indian.architecture",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "This monument with four minarets is in which city?",
+   "imageIds": [
+    "img-mon-charminar"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Lucknow"
+    },
+    {
+     "id": "b",
+     "text": "Agra"
+    },
+    {
+     "id": "c",
+     "text": "Bijapur"
+    },
+    {
+     "id": "d",
+     "text": "Hyderabad"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The Charminar ('four minarets') was built in 1591 by Muhammad Quli Qutb Shah and is the symbol of Hyderabad.",
+   "distractors": {
+    "a": "Lucknow has the Bara Imambara and Rumi Darwaza.",
+    "b": "Agra has the Taj Mahal.",
+    "c": "Bijapur has the Gol Gumbaz."
+   },
+   "takeaway": "Charminar = Hyderabad.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-028",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This cloth painting with fine lines and decorative borders is…",
+   "imageIds": [
+    "img-paint-pattachitra"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gond"
+    },
+    {
+     "id": "b",
+     "text": "Kalighat"
+    },
+    {
+     "id": "c",
+     "text": "Pattachitra"
+    },
+    {
+     "id": "d",
+     "text": "Warli"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Pattachitra ('cloth picture') from Odisha is painted on treated cloth with natural colours, often showing Jagannath and stories from the epics.",
+   "distractors": {
+    "d": "Warli uses simple white stick figures.",
+    "a": "Gond fills shapes with dots and lines.",
+    "b": "Kalighat uses quick bold brush strokes on paper."
+   },
+   "takeaway": "Odisha cloth painting = Pattachitra.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-029",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This painting fills animals and trees with dots and lines. Which art form is it?",
+   "imageIds": [
+    "img-paint-gond"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Tanjore"
+    },
+    {
+     "id": "b",
+     "text": "Gond"
+    },
+    {
+     "id": "c",
+     "text": "Madhubani"
+    },
+    {
+     "id": "d",
+     "text": "Pichwai"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Gond art comes from the Gond community of Madhya Pradesh. Artist Jangarh Singh Shyam brought it to national attention.",
+   "distractors": {
+    "c": "Madhubani fills space with double outlines and motifs, mainly from Bihar.",
+    "d": "Pichwai shows Shrinathji on cloth.",
+    "a": "Tanjore uses gold foil and raised gesso."
+   },
+   "takeaway": "Pattern-filled animals = Gond.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-030",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "This painting style with bold, quick brush strokes developed near a temple in Kolkata. It is…",
+   "imageIds": [
+    "img-paint-kalighat"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Pattachitra"
+    },
+    {
+     "id": "b",
+     "text": "Phad"
+    },
+    {
+     "id": "c",
+     "text": "Warli"
+    },
+    {
+     "id": "d",
+     "text": "Kalighat painting"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Kalighat paintings were made in the 1800s near the Kalighat Kali temple, quickly painted with watercolours for visitors, and often commented on society.",
+   "distractors": {
+    "a": "Pattachitra is finely detailed.",
+    "b": "Phad is a long scroll from Rajasthan.",
+    "c": "Warli is white on mud background."
+   },
+   "takeaway": "Bold strokes, Kolkata = Kalighat.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-031",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This painting with gold foil and raised decoration is from which style?",
+   "imageIds": [
+    "img-paint-tanjore"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mysore painting"
+    },
+    {
+     "id": "b",
+     "text": "Madhubani"
+    },
+    {
+     "id": "c",
+     "text": "Kalamkari"
+    },
+    {
+     "id": "d",
+     "text": "Tanjore (Thanjavur)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Tanjore paintings from Tamil Nadu use gold foil and gesso (chalk paste) relief, with deities as the main subject.",
+   "distractors": {
+    "a": "Related, but it uses thin gold work and less relief.",
+    "b": "No gold foil; from Bihar.",
+    "c": "Pen-drawn and dyed fabric."
+   },
+   "takeaway": "Gold foil + relief = Tanjore.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-032",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "These large cloth paintings of Shrinathji hang behind the deity in Nathdwara. They are called…",
+   "imageIds": [
+    "img-paint-pichwai"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kalamkari"
+    },
+    {
+     "id": "b",
+     "text": "Pichwai"
+    },
+    {
+     "id": "c",
+     "text": "Phad"
+    },
+    {
+     "id": "d",
+     "text": "Pattachitra"
+    }
+   ],
+   "answer": "b",
+   "explanation": "'Pichwai' means 'at the back'. These hangings from Nathdwara, Rajasthan, change with seasons and festivals.",
+   "distractors": {
+    "c": "Phad is a scroll about folk heroes like Pabuji.",
+    "d": "Pattachitra is from Odisha.",
+    "a": "Kalamkari is from Andhra Pradesh."
+   },
+   "takeaway": "Behind Shrinathji = Pichwai.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-033",
+   "type": "mcq",
+   "subtopic": "indian.painting",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "This long painted scroll, unrolled while singers tell the story of a folk hero, is…",
+   "imageIds": [
+    "img-paint-phad"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kalighat"
+    },
+    {
+     "id": "b",
+     "text": "Gond"
+    },
+    {
+     "id": "c",
+     "text": "Phad"
+    },
+    {
+     "id": "d",
+     "text": "Pichwai"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Phad paintings from Bhilwara, Rajasthan, are performed at night by bhopa singers. They often tell the story of Pabuji or Devnarayan.",
+   "distractors": {
+    "d": "Pichwai is a temple hanging of Shrinathji.",
+    "a": "Kalighat is on paper and from Bengal.",
+    "b": "Gond is a Madhya Pradesh tribal art."
+   },
+   "takeaway": "Rajasthan story scroll = Phad.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-034",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 1,
+   "source": "Practice",
+   "stem": "This fabric's pattern of tiny dots is made by tying the cloth before dyeing. What is it called?",
+   "imageIds": [
+    "img-tex-bandhani"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Phulkari"
+    },
+    {
+     "id": "b",
+     "text": "Chikankari"
+    },
+    {
+     "id": "c",
+     "text": "Bandhani"
+    },
+    {
+     "id": "d",
+     "text": "Ajrakh"
+    }
+   ],
+   "answer": "c",
+   "explanation": "In Bandhani (from 'bandh', to tie) small points of cloth are tied tightly with thread so dye can't reach them. It is a craft of Gujarat and Rajasthan.",
+   "distractors": {
+    "d": "Ajrakh is block-printed.",
+    "a": "Phulkari is embroidery.",
+    "b": "Chikankari is white embroidery."
+   },
+   "takeaway": "Tiny tied dots = Bandhani.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-035",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "This silk with blurred-edge geometric patterns is woven using double ikat. It is…",
+   "imageIds": [
+    "img-tex-patola"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Patola"
+    },
+    {
+     "id": "b",
+     "text": "Kanjeevaram"
+    },
+    {
+     "id": "c",
+     "text": "Bandhani"
+    },
+    {
+     "id": "d",
+     "text": "Ilkal"
+    }
+   ],
+   "answer": "a",
+   "explanation": "In Patola from Patan, Gujarat, both warp and weft threads are tie-dyed before weaving (double ikat), so the pattern is the same on both sides.",
+   "distractors": {
+    "b": "Kanjeevaram uses a heavy zari border, not ikat.",
+    "c": "Bandhani is tie-dyed after weaving.",
+    "d": "Ilkal is known for its pallu and border."
+   },
+   "takeaway": "Double ikat, Patan = Patola.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-036",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This bright 'flower work' embroidery comes from which state?",
+   "imageIds": [
+    "img-tex-phulkari"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Uttar Pradesh"
+    },
+    {
+     "id": "b",
+     "text": "Karnataka"
+    },
+    {
+     "id": "c",
+     "text": "West Bengal"
+    },
+    {
+     "id": "d",
+     "text": "Punjab"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Phulkari ('flower work') is darned on the back of the cloth with floss silk in bright colours.",
+   "distractors": {
+    "a": "UP's Lucknow is known for Chikankari.",
+    "b": "Karnataka's embroidery is Kasuti.",
+    "c": "Bengal's embroidery is Kantha."
+   },
+   "takeaway": "Phulkari = Punjab.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-037",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This delicate white embroidery is a craft of which city?",
+   "imageIds": [
+    "img-tex-chikankari"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Jaipur"
+    },
+    {
+     "id": "b",
+     "text": "Kanchipuram"
+    },
+    {
+     "id": "c",
+     "text": "Bhuj"
+    },
+    {
+     "id": "d",
+     "text": "Lucknow"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Chikankari is traditionally white-on-white embroidery from Lucknow, using many stitch types such as shadow work.",
+   "distractors": {
+    "a": "Jaipur is known for block prints and blue pottery.",
+    "b": "Known for silk sarees.",
+    "c": "Known for Ajrakh and mirror work."
+   },
+   "takeaway": "Chikankari = Lucknow.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-038",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "This block-printed cloth in indigo and red, from Kutch, is…",
+   "imageIds": [
+    "img-tex-ajrakh"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Bagru"
+    },
+    {
+     "id": "b",
+     "text": "Kalamkari"
+    },
+    {
+     "id": "c",
+     "text": "Bandhani"
+    },
+    {
+     "id": "d",
+     "text": "Ajrakh"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Ajrakh is printed with carved wooden blocks using resist and natural dyes (indigo, madder) through many washing stages. It is made in Kutch and Sindh.",
+   "distractors": {
+    "a": "Bagru is a Rajasthan block print with earthy colours on lighter grounds.",
+    "b": "Kalamkari is pen-drawn and from Andhra Pradesh.",
+    "c": "Bandhani is tie-dyed dots."
+   },
+   "takeaway": "Indigo + red geometry = Ajrakh.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-039",
+   "type": "mcq",
+   "subtopic": "indian.textiles",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This heavy silk saree with a contrasting gold border is named after a town in which state?",
+   "imageIds": [
+    "img-tex-kanjeevaram"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Uttar Pradesh"
+    },
+    {
+     "id": "b",
+     "text": "Gujarat"
+    },
+    {
+     "id": "c",
+     "text": "Assam"
+    },
+    {
+     "id": "d",
+     "text": "Tamil Nadu"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Kanjeevaram sarees come from Kanchipuram, Tamil Nadu. The body and border are often woven separately and joined.",
+   "distractors": {
+    "a": "UP's Varanasi makes Banarasi silk.",
+    "b": "Gujarat's silk is Patola.",
+    "c": "Assam makes muga and eri silk."
+   },
+   "takeaway": "Kanchipuram = Kanjeevaram silk.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-040",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This tubular steel chair from the Bauhaus was designed by…",
+   "imageIds": [
+    "img-icon-wassily"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gerrit Rietveld"
+    },
+    {
+     "id": "b",
+     "text": "Marcel Breuer"
+    },
+    {
+     "id": "c",
+     "text": "Charles and Ray Eames"
+    },
+    {
+     "id": "d",
+     "text": "Philippe Starck"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Marcel Breuer designed the Wassily chair (1925) at the Bauhaus, reportedly inspired by bicycle handlebars. It showed how industrial steel tube could make light furniture.",
+   "distractors": {
+    "c": "They worked with moulded plywood and plastic.",
+    "d": "A much later French designer.",
+    "a": "He designed the Red and Blue chair."
+   },
+   "takeaway": "Bent steel tube = Breuer.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-041",
+   "type": "mcq",
+   "subtopic": "global.movements",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This chair is a famous example of which design movement?",
+   "imageIds": [
+    "img-icon-red-blue"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Art Nouveau"
+    },
+    {
+     "id": "b",
+     "text": "Memphis"
+    },
+    {
+     "id": "c",
+     "text": "Arts and Crafts"
+    },
+    {
+     "id": "d",
+     "text": "De Stijl"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Gerrit Rietveld's Red and Blue chair (around 1918–23) uses primary colours and straight elements, like a Mondrian painting turned into 3D.",
+   "distractors": {
+    "a": "Art Nouveau uses flowing curves.",
+    "b": "Memphis is 1980s and playful, not a strict grid.",
+    "c": "Arts and Crafts favoured handmade natural wood."
+   },
+   "takeaway": "Primary colours + straight lines = De Stijl.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-042",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "Who designed this famous lemon squeezer for Alessi?",
+   "imageIds": [
+    "img-icon-juicy-salif"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Verner Panton"
+    },
+    {
+     "id": "b",
+     "text": "Philippe Starck"
+    },
+    {
+     "id": "c",
+     "text": "Dieter Rams"
+    },
+    {
+     "id": "d",
+     "text": "Marcel Breuer"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Philippe Starck's Juicy Salif (1990) is often discussed as an object people buy for its sculpture-like form more than its function, which makes it a classic debate on form vs function.",
+   "distractors": {
+    "c": "Rams designed simple Braun products.",
+    "d": "Breuer designed tubular steel furniture.",
+    "a": "Panton designed plastic furniture."
+   },
+   "takeaway": "Juicy Salif = Starck; form vs function.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-043",
+   "type": "mcq",
+   "subtopic": "global.products",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "What made this chair a design breakthrough?",
+   "imageIds": [
+    "img-icon-panton"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It has adjustable height"
+    },
+    {
+     "id": "b",
+     "text": "It is a single piece of moulded plastic, cantilevered with no back legs"
+    },
+    {
+     "id": "c",
+     "text": "It folds flat into a box"
+    },
+    {
+     "id": "d",
+     "text": "It is hand-carved from one tree"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Verner Panton's chair (designed 1960, produced from 1967) was one of the first chairs moulded from a single piece of plastic.",
+   "distractors": {
+    "c": "It doesn't fold.",
+    "d": "It's moulded plastic.",
+    "a": "It has no mechanism."
+   },
+   "takeaway": "One-piece plastic = Panton.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-044",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 3,
+   "source": "Practice",
+   "stem": "This chair with an X-shaped steel frame was designed by…",
+   "imageIds": [
+    "img-icon-barcelona"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Le Corbusier"
+    },
+    {
+     "id": "b",
+     "text": "Charles Eames"
+    },
+    {
+     "id": "c",
+     "text": "Dieter Rams"
+    },
+    {
+     "id": "d",
+     "text": "Ludwig Mies van der Rohe"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Mies van der Rohe (with Lilly Reich) designed it for the 1929 Barcelona International Exhibition. Mies also said 'Less is more'.",
+   "distractors": {
+    "a": "He designed other steel-tube chairs, but not this.",
+    "b": "Eames worked mainly with plywood and plastic.",
+    "c": "Rams designed electronics and shelving."
+   },
+   "takeaway": "X-frame chair = Mies; 'Less is more'.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  },
+  {
+   "id": "ph-id-045",
+   "type": "mcq",
+   "subtopic": "global.designers",
+   "difficulty": 2,
+   "source": "Practice",
+   "stem": "This lounge chair and footstool of moulded plywood and leather were designed by…",
+   "imageIds": [
+    "img-icon-eames-lounge"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gerrit Rietveld"
+    },
+    {
+     "id": "b",
+     "text": "Charles and Ray Eames"
+    },
+    {
+     "id": "c",
+     "text": "Marcel Breuer"
+    },
+    {
+     "id": "d",
+     "text": "Philippe Starck"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The Eames Lounge Chair (1956) shows their mastery of moulded plywood. The Eameses also wrote the India Report that led to NID.",
+   "distractors": {
+    "c": "Known for steel-tube chairs.",
+    "d": "Known for the Juicy Salif.",
+    "a": "Known for the Red and Blue chair."
+   },
+   "takeaway": "Plywood lounge chair = Eames.",
+   "tags": [
+    "photo",
+    "identify"
+   ],
+   "needsReview": false
+  }
+ ]
+}

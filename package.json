@@ -23,6 +23,7 @@
     "content:mocks": "tsx scripts/build-mocks.ts",
     "content:tips": "tsx scripts/build-tips.ts",
     "content:concepts": "tsx scripts/build-concepts.ts",
+    "content:identify": "tsx scripts/build-photo-identify.ts",
     "content:mcqs": "tsx scripts/build-mcqs.ts",
     "content:shorts": "tsx scripts/build-shorts.ts"
   },

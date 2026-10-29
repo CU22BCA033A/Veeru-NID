@@ -11,7 +11,7 @@ test("mentor uploads a question photo", async ({ page, browser }) => {
   await card.locator('input[type="file"]').setInputFiles(photo);
   await expect(card.getByText(/Uploaded ✓/)).toBeVisible({ timeout: 30_000 });
   await page.reload();
-  await expect(page.getByText(/1 of 59 photos uploaded/)).toBeVisible();
+  await expect(page.getByText(/1 of 104 photos uploaded/)).toBeVisible();
 });
 
 test("mentor imports a PYQ and rejects a duplicate", async ({ page }) => {

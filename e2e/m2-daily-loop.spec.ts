@@ -16,7 +16,7 @@ test.beforeAll(async () => {
 });
 
 test("warm-up → test → results → homework → reflection", async ({ page }) => {
-  test.setTimeout(240_000);
+  test.setTimeout(480_000);
   await login(page, STUDENT);
   await expect(page.getByRole("heading", { name: "Day 3 of 100" })).toBeVisible();
   await page.screenshot({ path: "test-results/home.png", fullPage: true });

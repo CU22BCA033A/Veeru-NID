@@ -31,12 +31,12 @@ export async function setToday(n: number) {
 
 /** Answer every question in a Runner (first option / a typed list), then submit. */
 export async function answerAll(page: Page, submitName: RegExp) {
-  for (let i = 0; i < 80; i++) {
+  for (let i = 0; i < 120; i++) {
     const textarea = page.locator("textarea");
     if (await textarea.isVisible()) {
       await textarea.fill("1. a shelf for books\n2. a stand for plants\n3. a drying rack\n4. a step stool\n5. a display table\n6. a barrier");
     } else {
-      await page.locator('[role="radio"], [role="checkbox"]').first().click();
+      await page.locator('[role="radio"]:not([disabled]), [role="checkbox"]:not([disabled])').locator("visible=true").first().click();
     }
     const submit = page.getByRole("button", { name: submitName });
     if (await submit.isVisible()) {

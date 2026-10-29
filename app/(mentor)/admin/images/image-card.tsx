@@ -1,6 +1,6 @@
 "use client";
 import { useRef, useState, useTransition } from "react";
-import { Camera, Check, Trash2, Upload } from "lucide-react";
+import { Camera, Check, Search, Trash2, Upload } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { compressImage, extFor } from "@/lib/image/compress";
@@ -29,6 +29,9 @@ export function ImageCard({ img, mentorName }: { img: ImageRow; mentorName: stri
   const [author, setAuthor] = useState(img.author ?? mentorName);
   const [source, setSource] = useState(img.sourceUrl ?? "");
   const [status, setStatus] = useState<string | null>(null);
+  // openSource reads like "Wikimedia Commons — search 'sitar instrument'".
+  const searchTerm = img.openSource?.match(/search '([^']+)'/)?.[1] ?? null;
+  const searchUrl = searchTerm ? `https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=${encodeURIComponent(searchTerm)}` : null;
   const [preview, setPreview] = useState<string | null>(img.url);
   const [pending, start] = useTransition();
 
@@ -67,7 +70,12 @@ export function ImageCard({ img, mentorName }: { img: ImageRow; mentorName: stri
         </div>
         <p className="text-sm font-medium">{img.description}</p>
         <p className="text-xs leading-relaxed text-ink-2">{img.shotNotes}</p>
-        <p className="text-xs text-ink-3">Aspect {img.aspect} · used by {img.usedBy} question{img.usedBy === 1 ? "" : "s"}{img.openSource ? ` · or: ${img.openSource}` : ""}</p>
+        <p className="text-xs text-ink-3">Aspect {img.aspect} · used by {img.usedBy} question{img.usedBy === 1 ? "" : "s"}</p>
+        {searchUrl && (
+          <a href={searchUrl} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-line px-3 text-sm text-accent underline-offset-2 hover:underline">
+            <Search className="size-4" aria-hidden /> Find a free photo: “{searchTerm}”
+          </a>
+        )}
         <div className="grid grid-cols-2 gap-2">
           <label className="text-xs text-ink-2">
             Licence

@@ -2,8 +2,18 @@
  * Supabase env vars. Accepts both the classic names (ANON / SERVICE_ROLE) and the newer
  * names the Vercel ↔ Supabase integration may set (PUBLISHABLE / SECRET).
  */
+/**
+ * The dashboard shows several URLs. People often paste the Data API one
+ * (https://<ref>.supabase.co/rest/v1/), which breaks auth. Reduce any of them to the project root.
+ */
+export function normaliseSupabaseUrl(raw: string | undefined): string | undefined {
+  const v = raw?.trim().replace(/^["']|["']$/g, "");
+  if (!v) return undefined;
+  return v.replace(/\/+$/, "").replace(/\/(rest|auth|storage|realtime)\/v1$/i, "").replace(/\/+$/, "");
+}
+
 export function supabaseUrl(): string | undefined {
-  return process.env.NEXT_PUBLIC_SUPABASE_URL;
+  return normaliseSupabaseUrl(process.env.NEXT_PUBLIC_SUPABASE_URL);
 }
 
 export function supabaseAnonKey(): string | undefined {

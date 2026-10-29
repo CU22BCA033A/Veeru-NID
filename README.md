@@ -33,7 +33,7 @@ You need free accounts on **GitHub** (you have one), **[Supabase](https://supaba
 2. Open **SQL Editor → New query**.
 3. Open [`supabase/setup.sql`](supabase/setup.sql) in this repo and click **Raw**. Select all, copy, and paste it into the editor. Press **Run**. You should see *"Success. No rows returned"*.
 4. Go to **Project Settings → API Keys** (on some dashboards: **Project Settings → API**) and keep the tab open. You need three values:
-   - **Project URL**, for example `https://abcdxyz.supabase.co`. It's under Project Settings → Data API, or shown on the project home page.
+   - **Project URL**: just `https://<project-id>.supabase.co`, nothing after `.co`. It's on the project home page (**Connect** button) and at the top of Project Settings → Data API. If you paste the longer Data API address ending in `/rest/v1/`, the app trims it automatically.
    - **anon / public** key (or the new **publishable** key, `sb_publishable_…`)
    - **service_role** key (or the new **secret** key, `sb_secret_…`). ⚠️ Keep this one private.
 

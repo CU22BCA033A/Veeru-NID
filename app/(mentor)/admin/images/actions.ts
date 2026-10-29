@@ -5,17 +5,32 @@ import { requireViewer } from "@/lib/auth";
 import { loadImageManifest } from "@/lib/content/load";
 import { supabaseServer } from "@/lib/supabase/server";
 
+/** Accept what people paste: missing "https://", stray spaces, long encoded Wikimedia links. */
+const sourceUrl = z
+  .string()
+  .trim()
+  .transform((v) => (v && !/^https?:\/\//i.test(v) ? `https://${v}` : v))
+  .pipe(z.string().url("The source link doesn't look like a web address. Copy it from the browser's address bar.").max(2000, "The source link is too long.").or(z.literal("")));
+
 const schema = z.object({
   id: z.string().regex(/^img-[a-z0-9-]+$/),
   path: z.string().regex(/^img-[a-z0-9-]+-\d+\.(webp|jpg)$/),
-  license: z.string().trim().min(2).max(80),
-  author: z.string().trim().max(120),
-  sourceUrl: z.string().trim().url().max(500).or(z.literal("")),
+  license: z.string().trim().min(2, "Choose a licence.").max(80),
+  author: z.string().trim().max(300, "Author / credit is too long (300 characters max)."),
+  sourceUrl,
 });
+
+/** Validation problems come back as a message on the card instead of crashing the request. */
+function parse<T extends z.ZodTypeAny>(s: T, input: unknown): { data: z.infer<T>; error?: undefined } | { data?: undefined; error: string } {
+  const r = s.safeParse(input);
+  return r.success ? { data: r.data } : { error: r.error.issues.map((i) => i.message).join(" ") };
+}
 
 export async function markImageReady(input: z.infer<typeof schema>): Promise<{ error?: string }> {
   await requireViewer("mentor");
-  const d = schema.parse(input);
+  const p = parse(schema, input);
+  if (p.error !== undefined) return { error: p.error };
+  const d = { ...p.data, sourceUrl: p.data.license === "Own photo" ? "" : p.data.sourceUrl };
   if (d.license !== "Own photo" && !d.sourceUrl) return { error: "Open-licence photos need the source link." };
   const spec = loadImageManifest().find((m) => m.id === d.id);
   if (!spec) return { error: "Unknown photo slot." };
@@ -42,7 +57,9 @@ const detailsSchema = schema.omit({ path: true });
 /** Change the licence / credit of an uploaded photo without re-uploading it. */
 export async function saveImageDetails(input: z.infer<typeof detailsSchema>): Promise<{ error?: string }> {
   await requireViewer("mentor");
-  const d = detailsSchema.parse(input);
+  const p = parse(detailsSchema, input);
+  if (p.error !== undefined) return { error: p.error };
+  const d = p.data;
   if (d.license !== "Own photo" && !d.sourceUrl) return { error: "Open-licence photos need the source link." };
   const db = await supabaseServer();
   const { data: saved, error } = await db

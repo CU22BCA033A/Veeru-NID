@@ -24,11 +24,18 @@ export interface ImageRow {
 
 const LICENSES = ["Own photo", "CC0", "Public domain", "CC BY 4.0", "CC BY-SA 4.0", "CC BY 3.0", "CC BY-SA 3.0", "Unsplash License", "Pexels License", "Pixabay License"];
 
+/** Production hides server error details; say something useful instead. */
+function friendly(e: unknown): string {
+  const m = e instanceof Error ? e.message : String(e);
+  return /Server Components render|digest/i.test(m) ? "the server couldn't save it. Check your connection and try again." : m;
+}
+
 export function ImageCard({ img, mentorName }: { img: ImageRow; mentorName: string }) {
   const fileRef = useRef<HTMLInputElement>(null);
   const [license, setLicense] = useState(img.license ?? "Own photo");
   const [author, setAuthor] = useState(img.author ?? mentorName);
-  const [source, setSource] = useState(img.sourceUrl ?? "");
+  // Older databases stored the search hint here; only a real web address counts as a source.
+  const [source, setSource] = useState(/^https?:\/\//i.test(img.sourceUrl ?? "") ? img.sourceUrl! : "");
   const [status, setStatus] = useState<string | null>(null);
   // openSource reads like "Wikimedia Commons — search 'sitar instrument'".
   const searchTerm = img.openSource?.match(/search '([^']+)'/)?.[1] ?? null;
@@ -38,6 +45,10 @@ export function ImageCard({ img, mentorName }: { img: ImageRow; mentorName: stri
 
   const upload = (file: File) =>
     start(async () => {
+      if (license !== "Own photo" && !source.trim()) {
+        setStatus("Paste the photo's source link first (the Wikimedia page address), then upload.");
+        return;
+      }
       try {
         setStatus("Compressing…");
         const blob = await compressImage(file);
@@ -45,12 +56,12 @@ export function ImageCard({ img, mentorName }: { img: ImageRow; mentorName: stri
         setStatus(`Uploading ${Math.round(blob.size / 1024)} KB…`);
         const { error } = await supabaseBrowser().storage.from("content-images").upload(path, blob, { contentType: blob.type, upsert: true });
         if (error) throw error;
-        const res = await markImageReady({ id: img.id, path, license, author, sourceUrl: source });
+        const res = await markImageReady({ id: img.id, path, license, author, sourceUrl: license === "Own photo" ? "" : source });
         if (res.error) throw new Error(res.error);
         setPreview(URL.createObjectURL(blob));
         setStatus("Uploaded ✓ Questions using it are now live.");
       } catch (e) {
-        setStatus(`Failed: ${e instanceof Error ? e.message : String(e)}`);
+        setStatus(`Failed: ${friendly(e)}`);
       }
     });
 
@@ -112,7 +123,7 @@ export function ImageCard({ img, mentorName }: { img: ImageRow; mentorName: stri
               variant="secondary"
               disabled={pending}
               onClick={() => start(async () => {
-                const r = await saveImageDetails({ id: img.id, license, author, sourceUrl: source });
+                const r = await saveImageDetails({ id: img.id, license, author, sourceUrl: license === "Own photo" ? "" : source });
                 setStatus(r.error ? `Not saved: ${r.error}` : "Details saved ✓");
               })}
             >

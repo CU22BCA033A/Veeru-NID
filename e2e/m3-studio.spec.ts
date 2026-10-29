@@ -51,6 +51,7 @@ test("mentor reviews the sheet and the student sees GB's score", async ({ page, 
   const s = await ctx.newPage();
   await login(s, STUDENT);
   await s.goto("/studio/portfolio");
+  await s.waitForLoadState("networkidle");
   await s.getByRole("link", { name: /Symbol for/ }).first().click({ position: { x: 24, y: 24 } }); // its centre can sit under the bottom tab bar
   await expect(s.getByText("GB says")).toBeVisible();
   await expect(s.getByText(/Calibration: you rated yourself/)).toBeVisible();

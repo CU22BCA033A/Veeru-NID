@@ -12,6 +12,34 @@ import { getPlanById } from "@/lib/data/plan";
 import { dayNumberFor, istDateString } from "@/lib/plan/calendar";
 import { supabaseServer } from "@/lib/supabase/server";
 
+/**
+ * Fresh questions for an objective section, like the exam's mix: about a third visual reasoning
+ * (puzzles), up to a fifth picture questions (only photos already uploaded), the rest spread over
+ * design, colour, drawing, crafts, global design and GK. Picked questions count as seen.
+ */
+async function pickObjectiveItems(db: Awaited<ReturnType<typeof supabaseServer>>, userId: string, count: number): Promise<string[]> {
+  const [served, ready, cands] = await Promise.all([
+    fetchAll<{ item_id: string }>(() => db.from("served_items").select("item_id").eq("user_id", userId).order("item_id")),
+    fetchAll<{ id: string }>(() => db.from("images").select("id").eq("status", "ready").order("id")),
+    fetchAll<{ id: string; category_id: string; image_ids: string[] }>(() => db.from("items").select("id,category_id,image_ids").eq("status", "live").neq("type", "short").order("id")),
+  ]);
+  const seen = new Set(served.map((s) => s.item_id));
+  const photos = new Set(ready.map((r) => r.id));
+  const fresh = cands.filter((c) => !seen.has(c.id) && c.image_ids.every((i) => photos.has(i))).sort(() => Math.random() - 0.5);
+  const pick: string[] = [];
+  const take = (list: typeof fresh, n: number) => { for (const c of list) { if (n <= 0 || pick.length >= count) break; if (!pick.includes(c.id)) { pick.push(c.id); n--; } } };
+  take(fresh.filter((c) => c.image_ids.length), Math.round(count * 0.2));
+  take(fresh.filter((c) => c.category_id === "visual" && !c.image_ids.length), Math.round(count * 0.35));
+  // The rest: round-robin over the other categories so no area dominates.
+  const byCat = new Map<string, string[]>();
+  for (const c of fresh) if (!pick.includes(c.id) && c.category_id !== "visual") byCat.set(c.category_id, [...(byCat.get(c.category_id) ?? []), c.id]);
+  while (pick.length < count && [...byCat.values()].some((l) => l.length)) for (const l of byCat.values()) if (l.length && pick.length < count) pick.push(l.shift()!);
+  take(fresh, count - pick.length); // top up from anything left
+  const order = pick.sort(() => Math.random() - 0.5);
+  if (order.length) await db.from("served_items").upsert(order.map((id) => ({ user_id: userId, item_id: id, context: "mock" })), { onConflict: "user_id,item_id", ignoreDuplicates: true });
+  return order;
+}
+
 export async function startMock(mockId: string, mode: "screen" | "paper") {
   const viewer = await requireViewer("student");
   const db = await supabaseServer();
@@ -21,18 +49,8 @@ export async function startMock(mockId: string, mode: "screen" | "paper") {
   if (open) redirect(`/mocks/attempt/${open.id}`);
 
   const answers: MockAnswers = { uploads: {} };
-  if (mock.questions.some((q) => q.kind === "objective")) {
-    const served = new Set((await fetchAll<{ item_id: string }>(() => db.from("served_items").select("item_id").eq("user_id", viewer.id).order("item_id"))).map((s) => s.item_id));
-    const { data: cands } = await db.from("items").select("id,category_id,image_ids,type").eq("status", "live").neq("type", "short").limit(3000);
-    const fresh = (cands ?? []).filter((c) => !served.has(c.id as string) && !(c.image_ids as string[]).length);
-    // a spread across categories
-    const byCat = new Map<string, string[]>();
-    for (const c of fresh.sort(() => Math.random() - 0.5)) byCat.set(c.category_id as string, [...(byCat.get(c.category_id as string) ?? []), c.id as string]);
-    const pick: string[] = [];
-    while (pick.length < 30 && [...byCat.values()].some((l) => l.length)) for (const l of byCat.values()) if (l.length && pick.length < 30) pick.push(l.shift()!);
-    answers.objectiveItemIds = pick;
-    await db.from("served_items").upsert(pick.map((id) => ({ user_id: viewer.id, item_id: id, context: "mock" })), { onConflict: "user_id,item_id", ignoreDuplicates: true });
-  }
+  const objective = mock.questions.find((q) => q.kind === "objective");
+  if (objective) answers.objectiveItemIds = await pickObjectiveItems(db, viewer.id, objective.count ?? 30);
   const { data, error } = await db.from("mock_attempts").insert({ user_id: viewer.id, mock_id: mock.id, mode, answers }).select("id").single();
   if (error) throw new Error(error.message);
   redirect(`/mocks/attempt/${data.id}`);

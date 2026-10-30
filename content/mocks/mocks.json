@@ -2525,6 +2525,162 @@
      "idealApproach": "Plan the series as hook → why it matters → what to do. Keep one layout, palette and type style across all three so they read as a set. Use one strong visual metaphor per post and borrow facts from the paragraph. The final post's call to action should be specific and doable."
     }
    ]
+  },
+  {
+   "id": "mock-aptitude-01",
+   "title": "Aptitude mock 1 · 50 MCQs",
+   "format": "aptitude",
+   "durationMin": 60,
+   "totalMarks": 100,
+   "questions": [
+    {
+     "no": 1,
+     "title": "Aptitude & objective",
+     "kind": "objective",
+     "marks": 100,
+     "suggestedMinutes": 60,
+     "itemIds": [],
+     "parts": [],
+     "count": 50,
+     "prompt": "50 objective questions, 2 marks each: visual and analytical reasoning, picture questions (name the instrument, craft, monument, material…), design principles, colour, drawing knowledge, Indian and global design, and general awareness. Mixed paper: every area of the objective section."
+    }
+   ],
+   "analysis": [
+    {
+     "no": 1,
+     "idealApproach": "Do one quick pass at about a minute a question, answering everything you're sure of. Mark doubtful ones and come back. For picture questions, look for the material, shape and use before reading the options. For mirror and water images, check one corner detail rather than the whole figure. Never leave a question blank if there's no negative marking; rule out two options and choose."
+    }
+   ]
+  },
+  {
+   "id": "mock-aptitude-02",
+   "title": "Aptitude mock 2 · 50 MCQs",
+   "format": "aptitude",
+   "durationMin": 60,
+   "totalMarks": 100,
+   "questions": [
+    {
+     "no": 1,
+     "title": "Aptitude & objective",
+     "kind": "objective",
+     "marks": 100,
+     "suggestedMinutes": 60,
+     "itemIds": [],
+     "parts": [],
+     "count": 50,
+     "prompt": "50 objective questions, 2 marks each: visual and analytical reasoning, picture questions (name the instrument, craft, monument, material…), design principles, colour, drawing knowledge, Indian and global design, and general awareness. Mixed paper with extra visual reasoning: mirror and water images, folding, cubes, counting."
+    }
+   ],
+   "analysis": [
+    {
+     "no": 1,
+     "idealApproach": "Do one quick pass at about a minute a question, answering everything you're sure of. Mark doubtful ones and come back. For picture questions, look for the material, shape and use before reading the options. For mirror and water images, check one corner detail rather than the whole figure. Never leave a question blank if there's no negative marking; rule out two options and choose."
+    }
+   ]
+  },
+  {
+   "id": "mock-aptitude-03",
+   "title": "Aptitude mock 3 · 50 MCQs",
+   "format": "aptitude",
+   "durationMin": 60,
+   "totalMarks": 100,
+   "questions": [
+    {
+     "no": 1,
+     "title": "Aptitude & objective",
+     "kind": "objective",
+     "marks": 100,
+     "suggestedMinutes": 60,
+     "itemIds": [],
+     "parts": [],
+     "count": 50,
+     "prompt": "50 objective questions, 2 marks each: visual and analytical reasoning, picture questions (name the instrument, craft, monument, material…), design principles, colour, drawing knowledge, Indian and global design, and general awareness. Mixed paper: design awareness, colour and picture questions get extra weight in the review."
+    }
+   ],
+   "analysis": [
+    {
+     "no": 1,
+     "idealApproach": "Do one quick pass at about a minute a question, answering everything you're sure of. Mark doubtful ones and come back. For picture questions, look for the material, shape and use before reading the options. For mirror and water images, check one corner detail rather than the whole figure. Never leave a question blank if there's no negative marking; rule out two options and choose."
+    }
+   ]
+  },
+  {
+   "id": "mock-aptitude-04",
+   "title": "Aptitude mock 4 · 50 MCQs",
+   "format": "aptitude",
+   "durationMin": 60,
+   "totalMarks": 100,
+   "questions": [
+    {
+     "no": 1,
+     "title": "Aptitude & objective",
+     "kind": "objective",
+     "marks": 100,
+     "suggestedMinutes": 60,
+     "itemIds": [],
+     "parts": [],
+     "count": 50,
+     "prompt": "50 objective questions, 2 marks each: visual and analytical reasoning, picture questions (name the instrument, craft, monument, material…), design principles, colour, drawing knowledge, Indian and global design, and general awareness. Mixed paper at exam speed: aim for 1 minute a question."
+    }
+   ],
+   "analysis": [
+    {
+     "no": 1,
+     "idealApproach": "Do one quick pass at about a minute a question, answering everything you're sure of. Mark doubtful ones and come back. For picture questions, look for the material, shape and use before reading the options. For mirror and water images, check one corner detail rather than the whole figure. Never leave a question blank if there's no negative marking; rule out two options and choose."
+    }
+   ]
+  },
+  {
+   "id": "mock-aptitude-05",
+   "title": "Aptitude mock 5 · 50 MCQs",
+   "format": "aptitude",
+   "durationMin": 60,
+   "totalMarks": 100,
+   "questions": [
+    {
+     "no": 1,
+     "title": "Aptitude & objective",
+     "kind": "objective",
+     "marks": 100,
+     "suggestedMinutes": 60,
+     "itemIds": [],
+     "parts": [],
+     "count": 50,
+     "prompt": "50 objective questions, 2 marks each: visual and analytical reasoning, picture questions (name the instrument, craft, monument, material…), design principles, colour, drawing knowledge, Indian and global design, and general awareness. Mixed paper: treat it as a full objective section on exam day."
+    }
+   ],
+   "analysis": [
+    {
+     "no": 1,
+     "idealApproach": "Do one quick pass at about a minute a question, answering everything you're sure of. Mark doubtful ones and come back. For picture questions, look for the material, shape and use before reading the options. For mirror and water images, check one corner detail rather than the whole figure. Never leave a question blank if there's no negative marking; rule out two options and choose."
+    }
+   ]
+  },
+  {
+   "id": "mock-aptitude-06",
+   "title": "Aptitude mock 6 · 50 MCQs",
+   "format": "aptitude",
+   "durationMin": 60,
+   "totalMarks": 100,
+   "questions": [
+    {
+     "no": 1,
+     "title": "Aptitude & objective",
+     "kind": "objective",
+     "marks": 100,
+     "suggestedMinutes": 60,
+     "itemIds": [],
+     "parts": [],
+     "count": 50,
+     "prompt": "50 objective questions, 2 marks each: visual and analytical reasoning, picture questions (name the instrument, craft, monument, material…), design principles, colour, drawing knowledge, Indian and global design, and general awareness. Final objective rehearsal before the exam."
+    }
+   ],
+   "analysis": [
+    {
+     "no": 1,
+     "idealApproach": "Do one quick pass at about a minute a question, answering everything you're sure of. Mark doubtful ones and come back. For picture questions, look for the material, shape and use before reading the options. For mirror and water images, check one corner detail rather than the whole figure. Never leave a question blank if there's no negative marking; rule out two options and choose."
+    }
+   ]
   }
  ]
 }

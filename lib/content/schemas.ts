@@ -111,7 +111,7 @@ const mockPartSchema = z.object({ label: z.string(), prompt: z.string().min(5), 
 export const mockSchema = z.object({
   id: z.string().regex(/^mock-[a-z0-9-]+$/),
   title: z.string(),
-  format: z.enum(["2026", "mixed", "mini"]),
+  format: z.enum(["2026", "mixed", "mini", "aptitude"]),
   durationMin: z.number().int().positive(),
   totalMarks: z.number().int().positive(),
   questions: z.array(
@@ -124,6 +124,8 @@ export const mockSchema = z.object({
       parts: z.array(mockPartSchema).default([]),
       kind: z.enum(["drawing", "objective"]).default("drawing"),
       itemIds: z.array(z.string()).default([]),
+      /** Objective sections: how many questions to draw from the bank. */
+      count: z.number().int().min(5).max(80).optional(),
     }),
   ).min(1),
   analysis: z.array(z.object({ no: z.number().int(), idealApproach: z.string().min(20) })),

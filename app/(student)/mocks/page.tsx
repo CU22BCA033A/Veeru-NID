@@ -5,7 +5,7 @@ import { PageHeader } from "@/components/ui/page-header";
 import { requireViewer } from "@/lib/auth";
 import { supabaseServer } from "@/lib/supabase/server";
 
-const FORMAT: Record<string, string> = { "2026": "2026 pattern", mixed: "Objective + drawing", mini: "Mini (90 min)" };
+const FORMAT: Record<string, string> = { "2026": "2026 pattern", mixed: "Objective + drawing", mini: "Mini (90 min)", aptitude: "Aptitude & objective (MCQ, auto-marked)" };
 
 export default async function MocksPage() {
   const viewer = await requireViewer("student");
@@ -15,11 +15,11 @@ export default async function MocksPage() {
     db.from("mock_attempts").select("id,mock_id,submitted_at,est_score").eq("user_id", viewer.id),
   ]);
   const byMock = new Map((attempts ?? []).map((a) => [a.mock_id as string, a]));
-  const groups = ["mini", "2026", "mixed"];
+  const groups = ["mini", "aptitude", "2026", "mixed"];
   return (
     <div className="space-y-6">
       <PageHeader title="Mock exams" kicker="Real exam format" back={{ href: "/more", label: "More" }}>
-        3 hours, 6 questions, 100 marks, like the 2026 Prelims. Do them on screen with the timer, or print the paper and work on real sheets.
+        Drawing mocks follow the 2026 Prelims (3 hours, 100 marks): do them on screen with the timer, or print the paper and work on real sheets. Aptitude mocks are 50 timed MCQs with picture questions, marked instantly.
       </PageHeader>
       {groups.map((g) => (
         <section key={g}>

@@ -19,7 +19,7 @@ export default async function MentorHome() {
   // Counts don't depend on the analytics, so fetch them at the same time.
   const countsP = Promise.all([
     db.from("studio_submissions").select("*", { count: "exact", head: true }).is("reviewed_at", null).neq("context", "mock"),
-    db.from("mock_attempts").select("answers").not("submitted_at", "is", null),
+    db.from("mock_attempts").select("answers,mocks(format)").not("submitted_at", "is", null),
     db.from("item_reports").select("*", { count: "exact", head: true }).eq("status", "open"),
     db.from("items").select("*", { count: "exact", head: true }).eq("needs_review", true).eq("status", "live"),
   ]);
@@ -30,7 +30,7 @@ export default async function MentorHome() {
     countsP,
   ]);
   const phase = phaseForDay(a.todayNo, settings.phases);
-  const mocksToMark = (mocks ?? []).filter((m) => !Object.keys(((m.answers as { mentorMarks?: object }).mentorMarks) ?? {}).length).length;
+  const mocksToMark = (mocks ?? []).filter((m) => (m.mocks as unknown as { format: string } | null)?.format !== "aptitude" && !Object.keys(((m.answers as { mentorMarks?: object }).mentorMarks) ?? {}).length).length;
 
   return (
     <div className="space-y-5">

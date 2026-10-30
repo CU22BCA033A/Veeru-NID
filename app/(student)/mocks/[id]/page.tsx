@@ -19,17 +19,26 @@ export default async function MockOverview({ params }: { params: Promise<{ id: s
   const open = (attempts ?? []).find((a) => !a.submitted_at);
   const done = (attempts ?? []).filter((a) => a.submitted_at);
   const fmt = new Intl.DateTimeFormat("en-IN", { day: "numeric", month: "short", timeZone: "Asia/Kolkata" });
+  const objectiveOnly = mock.questions.every((q) => q.kind === "objective");
   return (
     <div className="space-y-5">
       <PageHeader title={mock.title} kicker={`${mock.duration_min} minutes · ${mock.total_marks} marks`} back={{ href: "/mocks", label: "Mocks" }} />
       <Card>
         <CardLabel>Before you start</CardLabel>
-        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-relaxed">
-          <li>Keep A4 sheets, pencils (HB, 2B, 4B), eraser, sharpener, scale and colours ready.</li>
-          <li>Read the WHOLE paper first (5 minutes) and write a finishing time next to each question.</li>
-          <li>Don&apos;t look at explanations or hints until you submit.</li>
-          <li>Photograph your sheets for each question as you go, or all together at the end.</li>
-        </ul>
+        {objectiveOnly ? (
+          <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-relaxed">
+            <li>{mock.questions[0]!.count ?? 30} questions, about a minute each. Find a quiet spot and keep rough paper for folding and counting questions.</li>
+            <li>Answer the ones you&apos;re sure of first; come back to the doubtful ones.</li>
+            <li>Marked automatically the moment you submit, with explanations for every question.</li>
+          </ul>
+        ) : (
+          <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-relaxed">
+            <li>Keep A4 sheets, pencils (HB, 2B, 4B), eraser, sharpener, scale and colours ready.</li>
+            <li>Read the WHOLE paper first (5 minutes) and write a finishing time next to each question.</li>
+            <li>Don&apos;t look at explanations or hints until you submit.</li>
+            <li>Photograph your sheets for each question as you go, or all together at the end.</li>
+          </ul>
+        )}
         <p className="mt-3 text-sm text-ink-2">Questions: {mock.questions.map((q) => `Q${q.no} ${q.title} (${q.marks})`).join(" · ")}</p>
       </Card>
       {done.length > 0 && (
@@ -58,12 +67,14 @@ export default async function MockOverview({ params }: { params: Promise<{ id: s
           <form action={startMock.bind(null, id, "screen")}>
             <Button type="submit" className="w-full"><Monitor className="size-4" aria-hidden />Start with on-screen timer</Button>
           </form>
-          <form action={startMock.bind(null, id, "paper")}>
+{!objectiveOnly && (
+                    <form action={startMock.bind(null, id, "paper")}>
             <Button type="submit" variant="secondary" className="w-full"><Printer className="size-4" aria-hidden />I&apos;ll do it on printed paper</Button>
           </form>
+          )}
         </div>
       )}
-      <ButtonLink href={`/mocks/${id}/print`} variant="ghost" className="w-full">Open the printable paper</ButtonLink>
+      {!objectiveOnly && <ButtonLink href={`/mocks/${id}/print`} variant="ghost" className="w-full">Open the printable paper</ButtonLink>}
     </div>
   );
 }

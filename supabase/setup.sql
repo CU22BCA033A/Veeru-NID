@@ -408,3 +408,9 @@ alter table public.settings add column if not exists content_synced_at timestamp
 alter table public.daily_plans add column if not exists mock_id text references public.mocks (id);
 alter table public.interview_answers add column if not exists self_rating jsonb;
 alter table public.interview_answers add column if not exists duration_s int;
+
+-- ── 20261030000001_aptitude_mocks.sql ──
+
+-- Aptitude & objective mocks: MCQ-only papers, marked automatically.
+alter table public.mocks drop constraint if exists mocks_format_check;
+alter table public.mocks add constraint mocks_format_check check (format in ('2026', 'mixed', 'mini', 'aptitude'));

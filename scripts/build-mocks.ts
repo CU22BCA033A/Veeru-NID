@@ -189,5 +189,34 @@ miniMakers.forEach((makers, i) => {
 });
 
 mkdirSync("content/mocks", { recursive: true });
+// Aptitude & objective mocks: MCQ-only papers (visual reasoning, picture questions, design, colour,
+// drawing knowledge, crafts, global design, GK). Marked automatically; questions are drawn fresh each attempt.
+const aptitudeFocus = [
+  "Mixed paper: every area of the objective section.",
+  "Mixed paper with extra visual reasoning: mirror and water images, folding, cubes, counting.",
+  "Mixed paper: design awareness, colour and picture questions get extra weight in the review.",
+  "Mixed paper at exam speed: aim for 1 minute a question.",
+  "Mixed paper: treat it as a full objective section on exam day.",
+  "Final objective rehearsal before the exam.",
+];
+aptitudeFocus.forEach((focus, i) => {
+  mocks.push({
+    id: `mock-aptitude-${String(i + 1).padStart(2, "0")}`,
+    title: `Aptitude mock ${i + 1} · 50 MCQs`,
+    format: "aptitude",
+    durationMin: 60,
+    totalMarks: 100,
+    questions: [
+      {
+        no: 1, title: "Aptitude & objective", kind: "objective", marks: 100, suggestedMinutes: 60, itemIds: [], parts: [], count: 50,
+        prompt: `50 objective questions, 2 marks each: visual and analytical reasoning, picture questions (name the instrument, craft, monument, material…), design principles, colour, drawing knowledge, Indian and global design, and general awareness. ${focus}`,
+      },
+    ],
+    analysis: [
+      { no: 1, idealApproach: "Do one quick pass at about a minute a question, answering everything you're sure of. Mark doubtful ones and come back. For picture questions, look for the material, shape and use before reading the options. For mirror and water images, check one corner detail rather than the whole figure. Never leave a question blank if there's no negative marking; rule out two options and choose." },
+    ],
+  });
+});
+
 writeFileSync("content/mocks/mocks.json", JSON.stringify({ mocks }, null, 1) + "\n");
-console.log(`✓ ${mocks.length} mocks (${mocks.filter((m) => m.format === "2026").length} full, ${mocks.filter((m) => m.format === "mixed").length} mixed, ${mocks.filter((m) => m.format === "mini").length} mini)`);
+console.log(`✓ ${mocks.length} mocks (${["2026", "mixed", "mini", "aptitude"].map((f) => `${mocks.filter((m) => m.format === f).length} ${f}`).join(", ")})`);

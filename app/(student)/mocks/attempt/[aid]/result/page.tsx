@@ -31,7 +31,7 @@ export default async function MockResult({ params }: { params: Promise<{ aid: st
         <Card>
           <CardLabel>Score</CardLabel>
           <p className="font-serif text-5xl tabular-nums">{score.total}<span className="text-xl text-ink-3">/{score.reviewed ? mock.total_marks : score.markedMax}</span></p>
-          <p className="text-xs text-ink-2">{score.reviewed ? "Marked by GB" : `Marked so far: ${score.markedMax} of ${mock.total_marks} marks. Drawing questions are waiting for GB.`}</p>
+          <p className="text-xs text-ink-2">{score.reviewed ? (mock.questions.some((q) => q.kind === "drawing") ? "Marked by GB" : "Marked automatically") : `Marked so far: ${score.markedMax} of ${mock.total_marks} marks. Drawing questions are waiting for GB.`}</p>
         </Card>
         <Card>
           <CardLabel className="flex items-center gap-1"><Gauge className="size-3.5" aria-hidden />Readiness</CardLabel>

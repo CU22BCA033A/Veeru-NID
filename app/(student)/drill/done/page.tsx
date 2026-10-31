@@ -1,7 +1,7 @@
 import { RotateCcw } from "lucide-react";
 import { PageHeader } from "@/components/ui/page-header";
 import { ButtonLink } from "@/components/ui/button";
-import { ResultItem } from "@/components/item/result-item";
+import { ResultsList } from "@/components/item/results-list";
 import { requireViewer } from "@/lib/auth";
 import { resultRows } from "@/lib/data/results";
 import { retakeHref } from "@/lib/retake";
@@ -18,7 +18,7 @@ export default async function DrillDone() {
   return (
     <div className="space-y-4">
       <PageHeader title={`Drill: ${right}/${rows.length}`} back={{ href: "/learn", label: "Learn" }}>Mistakes went into homework and your notebook.</PageHeader>
-      {rows.map((r) => <ResultItem key={r.attemptId} r={r} />)}
+      <ResultsList rows={rows} />
       {rows.length > 0 && (
         <ButtonLink href={retakeHref(rows.map((r) => r.item.id), "Drill", "/learn")} variant="secondary" className="w-full">
           <RotateCcw className="size-4" aria-hidden /> Retake this drill

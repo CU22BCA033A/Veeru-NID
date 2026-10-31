@@ -22,6 +22,7 @@ describe("100-day simulation", () => {
 
   it("never repeats an item outside of labelled review, and meets daily minimums", () => {
     const served = new Set<string>();
+    const servedDay = new Map<string, number>();
     const ratings = new Map<string, Rating>();
     const usedStudio = new Set<string>();
     const usedTips = new Set<string>();
@@ -31,11 +32,15 @@ describe("100-day simulation", () => {
       const kind = dayKind(day, defaultPhases);
       if (kind === "exam" || kind === "rest") continue;
       const phase = phaseForDay(day, defaultPhases)!;
-      const plan = buildDay({ dayNo: day, phase, pool, served, ratings, studioPool: studio, usedStudio, tips, usedTips, seed: day * 7919, mockDay: kind === "mock" });
-      const ids = [...plan.warmup, ...plan.quick, ...plan.short];
+      const reviewable = new Set([...servedDay].filter(([, d]) => day - d >= 14).map(([id]) => id));
+      const plan = buildDay({ dayNo: day, phase, pool, served, ratings, studioPool: studio, usedStudio, tips, usedTips, seed: day * 7919, mockDay: kind === "mock", reviewable, totalDays: defaultPhases.totalDays });
+      const review = new Set(plan.review);
+      for (const id of review) expect(reviewable.has(id), `day ${day} reviewed ${id} too soon`).toBe(true);
+      const ids = [...plan.warmup, ...plan.quick, ...plan.short].filter((id) => !review.has(id));
       for (const id of ids) {
         expect(served.has(id), `day ${day} repeated ${id}`).toBe(false);
         served.add(id);
+        servedDay.set(id, day);
       }
       plan.studioTest.forEach((t) => { expect(usedStudio.has(t)).toBe(false); usedStudio.add(t); });
       if (plan.dailyTask) usedStudio.add(plan.dailyTask);
@@ -54,7 +59,7 @@ describe("100-day simulation", () => {
       }
     }
     expect(shortfalls, "days below the minimum item count").toEqual([]);
-  });
+  }, 30_000); // 100 simulated days
 });
 
 describe("studio coverage", () => {

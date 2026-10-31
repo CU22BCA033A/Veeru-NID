@@ -8,6 +8,8 @@ import { requireViewer } from "@/lib/auth";
 import { loadSettings } from "@/lib/config/settings";
 import { getMock, mockScore, type MockAnswers } from "@/lib/data/mocks";
 import { signedSheetUrls } from "@/lib/data/sheets";
+import { resultRows } from "@/lib/data/results";
+import { ResultsList } from "@/components/item/results-list";
 import { supabaseServer } from "@/lib/supabase/server";
 
 export default async function MockResult({ params }: { params: Promise<{ aid: string }> }) {
@@ -23,6 +25,11 @@ export default async function MockResult({ params }: { params: Promise<{ aid: st
   const split = (att.time_split ?? {}) as Record<string, number>;
   const { phases } = await loadSettings();
   const urls = await signedSheetUrls(db, Object.values(answers.uploads ?? {}).flat());
+  // Objective section: every question with Veeru's answer, the correct one and why (mistakes first).
+  const { data: objAttempts } = answers.objectiveItemIds?.length
+    ? await db.from("attempts").select("id,item_id,answer,correct,score,confidence,time_ms,note,created_at").like("client_id", `mock:${aid}:%`)
+    : { data: [] };
+  const objRows = objAttempts?.length ? await resultRows(db, objAttempts as never, answers.objectiveItemIds ?? []) : [];
   const maxMin = Math.max(...mock.questions.map((q) => Math.max(q.suggestedMinutes, (split[q.no] ?? 0) / 60)), 1);
   return (
     <div className="space-y-5">
@@ -94,6 +101,12 @@ export default async function MockResult({ params }: { params: Promise<{ aid: st
           );
         })}
       </section>
+      {objRows.length > 0 && (
+        <section className="space-y-3">
+          <h2 className="font-serif text-2xl">Objective questions: answers explained</h2>
+          <ResultsList rows={objRows} />
+        </section>
+      )}
       {viewer.role === "student" && (
         <ButtonLink href={`/mocks/${mock.id}`} variant="secondary" className="w-full">
           <RotateCcw className="size-4" aria-hidden /> Retake this mock

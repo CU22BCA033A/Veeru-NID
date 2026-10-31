@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { ArrowRight, Flame, Pencil, Sparkles, CalendarClock } from "lucide-react";
+import { ArrowRight, Flame, Pencil, Sparkles, CalendarClock, CheckCircle2, ClipboardList, History } from "lucide-react";
 import { Card, CardLabel } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ButtonLink } from "@/components/ui/button";
 import { ProgressBar } from "@/components/ui/progress-bar";
 import { Countdown } from "@/components/home/countdown";
 import { ContinueTests } from "@/components/home/continue-tests";
+import { ExtraTestButton } from "@/components/home/extra-test";
 import { DayStepper } from "@/components/home/day-stepper";
 import { StepRing } from "@/components/home/step-ring";
 import { ToughDayToggle } from "@/components/home/tough-day";
@@ -62,6 +63,15 @@ export default async function HomePage() {
   const nextStep = DAY_STEPS.find((s) => s.id === next);
   const doneCount = DAY_STEPS.filter((s) => steps[s.id]).length;
 
+  const dayDate = (ymd: string) => new Intl.DateTimeFormat("en-IN", { weekday: "short", day: "numeric", month: "short", timeZone: "Asia/Kolkata" }).format(new Date(`${ymd}T12:00:00+05:30`));
+  const testDone = Boolean(steps.test);
+  // The daily test is questions, then drawing tasks; the questions alone already count as "taken".
+  const questionsDone = (progress?.testItemsDone ?? 0) > 0;
+  const drawingLeft = plan && !plan.mock_id ? plan.studio_task_ids.filter((t) => !(progress?.studioDone ?? []).includes(t)).length : 0;
+  const testHref = hrefs.test;
+  // Only the test needs to be done to count as "taken" for a missed day.
+  const missed = catchUp.filter((c) => !c.steps?.test);
+
   const headline =
     kind === "before-start" ? `Day 1 starts in ${1 - n} day${1 - n === 1 ? "" : "s"}`
     : kind === "after-plan" ? "Mains sprint"
@@ -84,6 +94,66 @@ export default async function HomePage() {
           </p>
         )}
       </header>
+
+      {/* Today's test: always the first thing on the page. */}
+      {plan && testHref && (kind === "study" || kind === "mock") && (
+        <Card className={testDone || questionsDone ? "border-good" : "border-2 border-accent"}>
+          <CardLabel className="flex items-center gap-1.5"><ClipboardList className="size-3.5" aria-hidden />Today&apos;s test</CardLabel>
+          <p className="font-serif text-2xl leading-tight">Day {n} · {dayDate(plan.date)}</p>
+          {testDone || questionsDone ? (
+            <>
+              <p className="mt-1 flex items-center gap-1.5 text-sm text-good">
+                <CheckCircle2 className="size-4" aria-hidden />
+                {testDone ? "Done. Well played!" : `Questions done ✓ · ${drawingLeft} drawing task${drawingLeft === 1 ? "" : "s"} left`}
+              </p>
+              <div className="mt-3 space-y-2">
+                {!testDone && drawingLeft > 0 && (
+                  <ButtonLink href={`/day/${n}/test`} className="w-full justify-between">
+                    <span>Continue: drawing tasks</span>
+                    <ArrowRight className="size-5" aria-hidden />
+                  </ButtonLink>
+                )}
+                <ButtonLink href={plan.mock_id ? `/mocks/${plan.mock_id}` : `/day/${n}/result`} variant="secondary" className="w-full">See results and mistakes</ButtonLink>
+                <ExtraTestButton />
+              </div>
+            </>
+          ) : (
+            <>
+              <p className="mt-1 text-sm text-ink-2">{plan.mock_id ? "Today's test is a full mock in the real exam format." : `${plan.item_ids.length} questions from every category, plus drawing tasks.`}</p>
+              <ButtonLink href={testHref} className="mt-3 w-full justify-between">
+                <span>{plan.mock_id ? "Open today's mock" : "Start today's test"}</span>
+                <ArrowRight className="size-5" aria-hidden />
+              </ButtonLink>
+            </>
+          )}
+        </Card>
+      )}
+
+      {kind === "before-start" && (
+        <Card className="border-2 border-accent">
+          <CardLabel className="flex items-center gap-1.5"><ClipboardList className="size-3.5" aria-hidden />Daily tests</CardLabel>
+          <p className="font-serif text-2xl leading-tight">Day 1 starts {dayDate(phases.startDate)}</p>
+          <p className="mt-1 text-sm text-ink-2">Your first daily test unlocks then. Want to practise now?</p>
+          <div className="mt-3"><ExtraTestButton label="Take a practice test now" question="Start a 30-question practice test with questions from every category?" /></div>
+        </Card>
+      )}
+
+      {missed.length > 0 && (
+        <Card className="border-2 border-warn">
+          <CardLabel className="flex items-center gap-1.5 text-warn"><History className="size-3.5" aria-hidden />Missed test{missed.length > 1 ? "s" : ""}</CardLabel>
+          <p className="mt-1 text-sm text-ink-2">No stress: take it today, after (or before) today&apos;s test.</p>
+          <ul className="mt-3 space-y-2">
+            {missed.map((c) => (
+              <li key={c.id}>
+                <ButtonLink href={c.mock_id ? `/mocks/${c.mock_id}` : `/day/${c.day_no}/test`} variant="secondary" className="w-full justify-between">
+                  <span>Day {c.day_no} test · {dayDate(c.date)}</span>
+                  <span className="flex items-center gap-1 text-accent">Take it now <ArrowRight className="size-4" aria-hidden /></span>
+                </ButtonLink>
+              </li>
+            ))}
+          </ul>
+        </Card>
+      )}
 
       {kind === "exam" && (
         <Card className="border-accent bg-accent-soft">
@@ -153,12 +223,12 @@ export default async function HomePage() {
         </Card>
       )}
 
-      {catchUp.length > 0 && (
+      {catchUp.some((c) => c.steps?.test) && (
         <Card className="border-warn">
           <CardLabel>Catch-up</CardLabel>
-          <p className="mt-1 text-sm text-ink-2">These days aren&apos;t finished yet. No stress: pick them up when you can.</p>
+          <p className="mt-1 text-sm text-ink-2">Tests done, a few steps left (homework, studio task or reflection). Pick them up when you can.</p>
           <ul className="mt-2 flex flex-wrap gap-2">
-            {catchUp.map((c) => (
+            {catchUp.filter((c) => c.steps?.test).map((c) => (
               <li key={c.id}>
                 <ButtonLink href={`/day/${c.day_no}/test`} variant="secondary" className="min-h-10">
                   Day {c.day_no}

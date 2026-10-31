@@ -1,11 +1,12 @@
 "use server";
 import { revalidatePath } from "next/cache";
+import { redirect } from "next/navigation";
 import { z } from "zod";
 import { requireViewer } from "@/lib/auth";
 import { loadSettings } from "@/lib/config/settings";
 import { recordAttempts, updateSrs } from "@/lib/data/attempts";
 import { refreshDay } from "@/lib/data/day";
-import { getPlanById } from "@/lib/data/plan";
+import { buildExtraTest, getPlanById } from "@/lib/data/plan";
 import { dayNumberFor, istDateString } from "@/lib/plan/calendar";
 import { supabaseServer } from "@/lib/supabase/server";
 
@@ -110,14 +111,6 @@ export async function saveMistakeNote(attemptId: string, note: string) {
 }
 
 /** Short answers: the student checks their answer against the model answer. */
-export async function selfMarkShort(attemptId: string, covered: "all" | "some" | "none") {
-  const viewer = await requireViewer("student");
-  const db = await supabaseServer();
-  const score = covered === "all" ? 1 : covered === "some" ? 0.6 : 0.2;
-  await db.from("attempts").update({ score, correct: score >= 0.6 }).eq("id", z.string().uuid().parse(attemptId)).eq("user_id", viewer.id);
-  revalidatePath("/", "layout");
-}
-
 export async function skipHomework(reason: string) {
   const viewer = await requireViewer("student");
   const db = await supabaseServer();
@@ -137,4 +130,14 @@ export async function markResultSeen(planId: string) {
   await db.from("daily_plans").update({ steps: { ...plan.steps, result: new Date().toISOString() } }).eq("id", plan.id);
   const fresh = await getPlanById(db, plan.id);
   if (fresh) await refreshDay(db, fresh, await loadSettings());
+}
+
+/** Start an extra 30-question mixed test (a second test today, or practice before Day 1). */
+export async function startExtraTest() {
+  const viewer = await requireViewer("student");
+  const db = await supabaseServer();
+  const { ids, review } = await buildExtraTest(db, viewer.id, await loadSettings(), 30);
+  if (!ids.length) redirect("/?extra=empty");
+  const q = new URLSearchParams({ run: String(Date.now()), ids: ids.join(","), review: review.join(",") });
+  redirect(`/practice?${q.toString()}`);
 }

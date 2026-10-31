@@ -9,6 +9,8 @@ export interface PoolItem {
   category: string;
   difficulty: number;
   generator: string | null;
+  /** "PYQ" for real previous-year questions imported by the mentor. */
+  source?: string;
 }
 
 export interface StudioPoolTask {
@@ -35,12 +37,18 @@ export interface BuildInput {
   usedTips: Set<string>;
   seed: number;
   mockDay?: boolean;
+  /** Items seen long enough ago to come back as labelled review when a category runs dry. */
+  reviewable?: Set<string>;
+  /** Length of the plan, for pacing new questions so no category runs out early. */
+  totalDays?: number;
 }
 
 export interface BuiltPlan {
   warmup: string[];
   quick: string[];
   short: string[];
+  /** Quick items that are repeats, shown with a "Review" label. */
+  review: string[];
   studioTest: string[];
   dailyTask: string | null;
   tipId: string | null;
@@ -52,6 +60,48 @@ const CATEGORY_WEIGHTS: Record<string, number> = {
 };
 
 export const WARMUP_SIZE = 5;
+
+/** Mirror and water images are the most common puzzle type; keep them to a few a day. */
+const REFLECTION = new Set(["mirror-image", "water-image"]);
+const MAX_REFLECTION_PER_TEST = 2;
+/** No single puzzle type or subtopic should fill a category's share. */
+const MAX_PER_KIND = 2;
+/** Real previous-year questions (when imported) go in first, a few a day. */
+const PYQ_PER_DAY = 3;
+
+/** What makes two questions "the same kind": the puzzle generator, else the subtopic. */
+export const kindOf = (i: PoolItem) => i.generator ?? i.subtopic;
+
+/**
+ * Take up to n items rotating across kinds (one of each kind per round, in random kind order),
+ * at most maxPerKind of any kind and at most `reflectionLeft.n` mirror/water images overall.
+ */
+export function takeVaried(
+  list: PoolItem[], n: number, rng: Rng, take: (l: PoolItem[], n: number) => PoolItem[],
+  opts: { maxPerKind: number; reflectionLeft: { n: number }; used?: Map<string, number> },
+): PoolItem[] {
+  const groups = new Map<string, PoolItem[]>();
+  for (const i of list) groups.set(kindOf(i), [...(groups.get(kindOf(i)) ?? []), i]);
+  // Shared across calls when given, so a kind's cap holds for the whole test.
+  const used = opts.used ?? new Map<string, number>();
+  const out: PoolItem[] = [];
+  let progressed = true;
+  while (out.length < n && progressed) {
+    progressed = false;
+    for (const [kind, items] of rng.shuffle([...groups.entries()])) {
+      if (out.length >= n) break;
+      if ((used.get(kind) ?? 0) >= opts.maxPerKind) continue;
+      if (REFLECTION.has(kind) && opts.reflectionLeft.n <= 0) continue;
+      const got = take(items, 1);
+      if (!got.length) continue;
+      out.push(...got);
+      used.set(kind, (used.get(kind) ?? 0) + 1);
+      if (REFLECTION.has(kind)) opts.reflectionLeft.n--;
+      progressed = true;
+    }
+  }
+  return out;
+}
 
 /** The 3 weakest subtopics with enough evidence (≥3 attempts). */
 export function weakestSubtopics(ratings: Map<string, Rating>, n = 3): string[] {
@@ -88,28 +138,56 @@ export function buildDay(input: BuildInput): BuiltPlan {
   const ranked = (list: PoolItem[]) =>
     list.map((i) => ({ i, s: score(i, input.ratings, rng) })).sort((a, b) => b.s - a.s).map((x) => x.i);
 
-  // Warm-up: quick generated visual puzzles.
-  const warmup = take(ranked(available.filter((i) => i.generator && i.category === "visual")), input.mockDay ? WARMUP_SIZE : WARMUP_SIZE);
+  // Warm-up: five different kinds of visual puzzle, at most one mirror/water image.
+  const warmup = takeVaried(ranked(available.filter((i) => i.generator && i.category === "visual")), WARMUP_SIZE, rng, take, { maxPerKind: 1, reflectionLeft: { n: 1 } });
+  const reflectionLeft = { n: MAX_REFLECTION_PER_TEST };
+  const kindCount = new Map<string, number>();
 
   const { quick: nQuick, short: nShort, studio: nStudio } = input.mockDay ? { quick: 0, short: 0, studio: 0 } : input.phase.mix;
 
-  // Quick section: weak subtopics first, then weighted category quotas.
+  // Quick section: real previous-year questions first, weak subtopics next, then every category
+  // gets its share, rotating across topics and puzzle types inside each category.
   const quickPool = available.filter((i) => i.type !== "short");
   const quick: PoolItem[] = [];
+  if (nQuick) quick.push(...take(rng.shuffle(quickPool.filter((i) => i.source === "PYQ")), Math.min(PYQ_PER_DAY, nQuick)));
   for (const weak of weakestSubtopics(input.ratings)) {
-    quick.push(...take(ranked(quickPool.filter((i) => i.subtopic === weak)), Math.min(2, nQuick - quick.length)));
+    const weakItems = ranked(quickPool.filter((i) => i.subtopic === weak && !(REFLECTION.has(kindOf(i)) && reflectionLeft.n <= 0)));
+    const got = take(weakItems, Math.min(2, nQuick - quick.length));
+    reflectionLeft.n -= got.filter((i) => REFLECTION.has(kindOf(i))).length;
+    for (const i of got) kindCount.set(kindOf(i), (kindCount.get(kindOf(i)) ?? 0) + 1);
+    quick.push(...got);
   }
   const byCat = new Map<string, PoolItem[]>();
   for (const item of ranked(quickPool)) byCat.set(item.category, [...(byCat.get(item.category) ?? []), item]);
-  const cats = [...byCat.keys()];
-  const weightSum = cats.reduce((s, c) => s + (CATEGORY_WEIGHTS[c] ?? 0.03), 0);
   const remaining = nQuick - quick.length;
-  for (const c of cats) {
-    const quota = Math.round((remaining * (CATEGORY_WEIGHTS[c] ?? 0.03)) / weightSum);
-    quick.push(...take(byCat.get(c)!, Math.min(quota, nQuick - quick.length)));
+  // Pace new questions over the remaining days; when a category's new ones are rationed or used
+  // up, bring back ones seen 2+ weeks ago as labelled review, so every category appears every day.
+  const daysLeft = Math.max(1, (input.totalDays ?? 100) - input.dayNo + 1);
+  const reviewByCat = new Map<string, PoolItem[]>();
+  for (const item of rng.shuffle(input.pool.filter((i) => i.type !== "short" && input.reviewable?.has(i.id)))) {
+    reviewByCat.set(item.category, [...(reviewByCat.get(item.category) ?? []), item]);
   }
-  // Top up from whatever is left (any category) if quotas fell short.
-  if (quick.length < nQuick) quick.push(...take(ranked(quickPool), nQuick - quick.length));
+  const allCats = [...new Set([...byCat.keys(), ...reviewByCat.keys()])];
+  const review: PoolItem[] = [];
+  const weightSumAll = allCats.reduce((s, c) => s + (CATEGORY_WEIGHTS[c] ?? 0.03), 0);
+  for (const c of allCats) {
+    // Every category appears every day (at least one question).
+    const quota = Math.min(Math.max(1, Math.round((remaining * (CATEGORY_WEIGHTS[c] ?? 0.03)) / weightSumAll)), nQuick - quick.length);
+    if (quota <= 0) break;
+    const fresh = byCat.get(c) ?? [];
+    const paced = Math.max(1, Math.ceil((fresh.length / daysLeft) * 1.5));
+    const got = takeVaried(fresh, Math.min(quota, paced), rng, take, { maxPerKind: MAX_PER_KIND, reflectionLeft, used: kindCount });
+    if (got.length < quota) {
+      const again = takeVaried(reviewByCat.get(c) ?? [], quota - got.length, rng, take, { maxPerKind: MAX_PER_KIND, reflectionLeft, used: kindCount });
+      review.push(...again);
+      got.push(...again);
+    }
+    if (got.length < quota) got.push(...takeVaried(fresh, quota - got.length, rng, take, { maxPerKind: MAX_PER_KIND + 1, reflectionLeft, used: kindCount }));
+    quick.push(...got);
+  }
+  // Top up if quotas fell short: still varied, then anything left.
+  if (quick.length < nQuick) quick.push(...takeVaried(ranked(quickPool), nQuick - quick.length, rng, take, { maxPerKind: MAX_PER_KIND + 1, reflectionLeft, used: kindCount }));
+  if (quick.length < nQuick) quick.push(...take(ranked(quickPool.filter((i) => !REFLECTION.has(kindOf(i)))), nQuick - quick.length));
 
   const shortPool = ranked(available.filter((i) => i.type === "short"));
   // Spread short answers across subtopics.
@@ -141,7 +219,7 @@ export function buildDay(input: BuildInput): BuiltPlan {
   // still reaches its minimum.
   if (!input.mockDay) {
     const deficit = input.phase.minItems - (quick.length + short.length + studioTest.length);
-    if (deficit > 0) quick.push(...take(ranked(quickPool), deficit));
+    if (deficit > 0) quick.push(...takeVaried(ranked(quickPool), deficit, rng, take, { maxPerKind: MAX_PER_KIND + 1, reflectionLeft, used: kindCount }));
   }
 
   const tipCands = input.tips.filter((t) => !input.usedTips.has(t.id));
@@ -151,6 +229,7 @@ export function buildDay(input: BuildInput): BuiltPlan {
     warmup: warmup.map((i) => i.id),
     quick: interleaveByCategory(rng.shuffle(quick)).map((i) => i.id),
     short: short.map((i) => i.id),
+    review: review.map((i) => i.id),
     studioTest,
     dailyTask,
     tipId: tip?.id ?? null,

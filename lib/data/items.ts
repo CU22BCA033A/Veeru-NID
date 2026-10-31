@@ -75,6 +75,7 @@ export async function toClientItems(db: SupabaseClient, items: FullItem[], revie
     options: i.options,
     category: i.category_id,
     categoryName: l.category.get(i.category_id) ?? i.category_id,
+    subtopic: i.subtopic_id,
     subtopicName: l.subtopic.get(i.subtopic_id) ?? i.subtopic_id,
     source: i.source,
     difficulty: i.difficulty,

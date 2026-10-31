@@ -8,6 +8,7 @@ export interface ClientItem {
   options: { id: string; text?: string; svg?: string }[] | null;
   category: string;
   categoryName: string;
+  subtopic: string;
   subtopicName: string;
   source: string;
   difficulty: number;

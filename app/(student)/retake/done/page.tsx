@@ -1,7 +1,7 @@
 import { RotateCcw } from "lucide-react";
 import { PageHeader } from "@/components/ui/page-header";
 import { ButtonLink } from "@/components/ui/button";
-import { ResultItem } from "@/components/item/result-item";
+import { ResultsList } from "@/components/item/results-list";
 import { requireViewer } from "@/lib/auth";
 import { resultRows } from "@/lib/data/results";
 import { retakeHref, safeBack } from "@/lib/retake";
@@ -29,7 +29,7 @@ export default async function RetakeDone({ searchParams }: { searchParams: Promi
       <PageHeader title={`Retake: ${right}/${rows.length}`} kicker={(label ?? "Test").slice(0, 60)} back={{ href: backHref, label: "Back" }}>
         Practice round: compare with your first try. Questions you still get wrong are worth a look in the notebook.
       </PageHeader>
-      {rows.map((r) => <ResultItem key={r.attemptId} r={r} />)}
+      <ResultsList rows={rows} />
       {again.length > 0 && (
         <ButtonLink href={retakeHref(again, label ?? "Test", backHref)} variant="secondary" className="w-full">
           <RotateCcw className="size-4" aria-hidden /> Retake again

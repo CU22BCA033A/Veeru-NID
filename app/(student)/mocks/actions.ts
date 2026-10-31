@@ -21,19 +21,34 @@ async function pickObjectiveItems(db: Awaited<ReturnType<typeof supabaseServer>>
   const [served, ready, cands] = await Promise.all([
     fetchAll<{ item_id: string }>(() => db.from("served_items").select("item_id").eq("user_id", userId).order("item_id")),
     fetchAll<{ id: string }>(() => db.from("images").select("id").eq("status", "ready").order("id")),
-    fetchAll<{ id: string; category_id: string; image_ids: string[] }>(() => db.from("items").select("id,category_id,image_ids").eq("status", "live").neq("type", "short").order("id")),
+    fetchAll<{ id: string; category_id: string; image_ids: string[]; generator: string | null; subtopic_id: string }>(() => db.from("items").select("id,category_id,image_ids,generator,subtopic_id").eq("status", "live").neq("type", "short").order("id")),
   ]);
   const seen = new Set(served.map((s) => s.item_id));
   const photos = new Set(ready.map((r) => r.id));
   const fresh = cands.filter((c) => !seen.has(c.id) && c.image_ids.every((i) => photos.has(i))).sort(() => Math.random() - 0.5);
   const pick: string[] = [];
-  const take = (list: typeof fresh, n: number) => { for (const c of list) { if (n <= 0 || pick.length >= count) break; if (!pick.includes(c.id)) { pick.push(c.id); n--; } } };
+  // Variety: at most 3 of any puzzle type/subtopic, and at most 2 mirror/water images in a paper.
+  const kind = (c: (typeof fresh)[number]) => c.generator ?? c.subtopic_id;
+  const used = new Map<string, number>();
+  const allowed = (c: (typeof fresh)[number]) => {
+    const k = kind(c), n = used.get(k) ?? 0;
+    if (n >= 3) return false;
+    if ((k === "mirror-image" || k === "water-image") && (used.get("mirror-image") ?? 0) + (used.get("water-image") ?? 0) >= 2) return false;
+    return true;
+  };
+  const add = (c: (typeof fresh)[number]) => { pick.push(c.id); used.set(kind(c), (used.get(kind(c)) ?? 0) + 1); };
+  const take = (list: typeof fresh, n: number) => { for (const c of list) { if (n <= 0 || pick.length >= count) break; if (!pick.includes(c.id) && allowed(c)) { add(c); n--; } } };
   take(fresh.filter((c) => c.image_ids.length), Math.round(count * 0.2));
   take(fresh.filter((c) => c.category_id === "visual" && !c.image_ids.length), Math.round(count * 0.35));
   // The rest: round-robin over the other categories so no area dominates.
-  const byCat = new Map<string, string[]>();
-  for (const c of fresh) if (!pick.includes(c.id) && c.category_id !== "visual") byCat.set(c.category_id, [...(byCat.get(c.category_id) ?? []), c.id]);
-  while (pick.length < count && [...byCat.values()].some((l) => l.length)) for (const l of byCat.values()) if (l.length && pick.length < count) pick.push(l.shift()!);
+  const byCat = new Map<string, typeof fresh>();
+  for (const c of fresh) if (!pick.includes(c.id) && c.category_id !== "visual") byCat.set(c.category_id, [...(byCat.get(c.category_id) ?? []), c]);
+  while (pick.length < count && [...byCat.values()].some((l) => l.length)) {
+    for (const l of byCat.values()) {
+      while (l.length && !allowed(l[0]!)) l.shift();
+      if (l.length && pick.length < count) add(l.shift()!);
+    }
+  }
   take(fresh, count - pick.length); // top up from anything left
   const order = pick.sort(() => Math.random() - 0.5);
   if (order.length) await db.from("served_items").upsert(order.map((id) => ({ user_id: userId, item_id: id, context: "mock" })), { onConflict: "user_id,item_id", ignoreDuplicates: true });

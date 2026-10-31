@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { PlayCircle } from "lucide-react";
 import { draft } from "@/lib/offline/queue";
+import { lastPractice } from "./extra-test";
 
 export interface ResumableTest {
   /** Runner storage key, e.g. `daily:<planId>` */
@@ -22,7 +23,8 @@ export function ContinueTests({ tests, openMock }: { tests: ResumableTest[]; ope
   const [found, setFound] = useState<Found[]>([]);
   useEffect(() => {
     const list: Found[] = [];
-    for (const t of tests) {
+    const extra = lastPractice();
+    for (const t of [...tests, ...(extra ? [{ key: extra.key, label: "Extra test", href: extra.href, total: extra.total }] : [])]) {
       const d = draft.load<{ entries?: Record<string, { answer: unknown }>; index?: number } | null>(t.key, null);
       if (!d?.entries) continue;
       const answered = Object.values(d.entries).filter((e) => e.answer !== null && e.answer !== undefined && e.answer !== "" && !(Array.isArray(e.answer) && !e.answer.length)).length;

@@ -3,7 +3,7 @@ import { ArrowRight, Clock, RotateCcw, Target, TrendingDown, TrendingUp } from "
 import { Card, CardLabel } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
 import { ButtonLink } from "@/components/ui/button";
-import { ResultItem } from "@/components/item/result-item";
+import { ResultsList } from "@/components/item/results-list";
 import { MarkSeen } from "@/components/home/mark-seen";
 import { openDay } from "@/lib/data/day-guard";
 import { resultRows } from "@/lib/data/results";
@@ -107,10 +107,7 @@ export default async function ResultPage({ params }: { params: Promise<{ n: stri
         <RotateCcw className="size-4" aria-hidden /> Retake this test (practice)
       </ButtonLink>
 
-      <section className="space-y-3">
-        <h2 className="font-serif text-2xl">Every question, explained</h2>
-        {rows.map((r) => <ResultItem key={r.attemptId} r={r} />)}
-      </section>
+      <ResultsList rows={rows} />
     </div>
   );
 }

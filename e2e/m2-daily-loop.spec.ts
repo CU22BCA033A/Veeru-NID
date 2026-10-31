@@ -19,6 +19,10 @@ test("warm-up → test → results → homework → reflection", async ({ page }
   test.setTimeout(480_000);
   await login(page, STUDENT);
   await expect(page.getByRole("heading", { name: "Day 3 of 100" })).toBeVisible();
+  // Today's test is the first thing on the page, with its date; yesterday's test carries over.
+  await expect(page.getByText("Today's test").first()).toBeVisible();
+  await expect(page.getByRole("link", { name: /Start today's test/ })).toBeVisible();
+  await expect(page.getByRole("link", { name: /Day 2 test · .* Take it now/ })).toBeVisible();
   await page.screenshot({ path: "test-results/home.png", fullPage: true });
 
   await page.getByRole("link", { name: /Start: Morning warm-up/ }).click();
@@ -46,7 +50,8 @@ test("warm-up → test → results → homework → reflection", async ({ page }
   await page.waitForURL("**/test/questions");
   await answerAll(page, /Submit & see results/);
   await page.waitForURL("**/day/3/result", { timeout: 60_000 });
-  await expect(page.getByText("Every question, explained")).toBeVisible();
+  await expect(page.getByRole("heading", { name: /Your mistakes|Got right/ }).first()).toBeVisible();
+  await expect(page.getByText("Correct answer:").first()).toBeVisible();
   await page.screenshot({ path: "test-results/result.png", fullPage: true });
 
   // Retake: same questions as practice, with its own results page.
@@ -76,4 +81,14 @@ test("warm-up → test → results → homework → reflection", async ({ page }
   await page.goto("/");
   await expect(page.getByRole("img", { name: /of 6 steps done/ })).toBeVisible();
   await page.screenshot({ path: "test-results/home-after.png", fullPage: true });
+
+  // Second test of the day: asks first, then a mixed extra test with mistakes-first results.
+  await page.getByRole("button", { name: /Take another test today/ }).click();
+  await expect(page.getByText(/Start an extra 30-question mixed test now/)).toBeVisible();
+  await page.getByRole("button", { name: "Yes, start it" }).click();
+  await page.waitForURL("**/practice?**", { timeout: 60_000 });
+  await answerAll(page, /Submit & see results/);
+  await page.waitForURL("**/practice/done**", { timeout: 60_000 });
+  await expect(page.getByRole("heading", { name: /Extra test: \d+\/\d+/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /Your mistakes|Got right/ }).first()).toBeVisible();
 });

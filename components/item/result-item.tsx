@@ -1,13 +1,14 @@
 "use client";
 import { useState, useTransition } from "react";
-import { Flag, Lightbulb, NotebookPen } from "lucide-react";
+import Link from "next/link";
+import { BookOpen, CheckCircle2, Flag, Lightbulb, NotebookPen, XCircle } from "lucide-react";
 import { ItemView } from "./item-view";
 import { SourceBadge } from "./source-badge";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/cn";
 import type { ClientItem } from "@/lib/items/types";
-import { reportItem, saveMistakeNote, selfMarkShort } from "@/app/(student)/actions";
+import { reportItem, saveMistakeNote } from "@/app/(student)/actions";
 
 export interface ResultData {
   attemptId: string;
@@ -26,13 +27,19 @@ export interface ResultData {
   index: number;
 }
 
-export function ResultItem({ r }: { r: ResultData }) {
+/** "B. Orange" for an option id; picture-only options are named by their letter. */
+function optionLabel(item: ClientItem, id: string): string {
+  const o = item.options?.find((x) => x.id === id);
+  return o?.text ? `${id.toUpperCase()}. ${o.text}` : `Option ${id.toUpperCase()}`;
+}
+
+/** A question in the results. Mistakes open by default and spell out the right answer and why. */
+export function ResultItem({ r, open = false }: { r: ResultData; open?: boolean }) {
   const [note, setNote] = useState(r.note ?? "");
   const [saved, setSaved] = useState(false);
   const [reporting, setReporting] = useState(false);
   const [reportText, setReportText] = useState("");
   const [reported, setReported] = useState(false);
-  const [marked, setMarked] = useState<string | null>(null);
   const [, start] = useTransition();
   const chosen = Array.isArray(r.answer) ? r.answer : r.answer ? [r.answer] : [];
   const correct = Array.isArray(r.correctAnswer) ? r.correctAnswer : r.correctAnswer ? [r.correctAnswer] : [];
@@ -40,7 +47,7 @@ export function ResultItem({ r }: { r: ResultData }) {
   const status = r.item.type === "short" ? (r.score >= 0.6 ? "good" : "warn") : r.correct ? "good" : "bad";
 
   return (
-    <details className="group rounded-2xl border border-line bg-surface">
+    <details open={open} className={cn("group rounded-2xl border bg-surface", !r.correct && r.item.type !== "short" ? "border-bad/40" : "border-line")}>
       <summary className="flex cursor-pointer list-none items-center gap-3 p-4">
         <span
           className={cn(
@@ -75,39 +82,44 @@ export function ResultItem({ r }: { r: ResultData }) {
                 <p className="mt-1 whitespace-pre-wrap text-sm">{r.modelAnswer}</p>
               </div>
             )}
-            <div>
-              <p className="text-sm text-ink-2">Auto-score {Math.round(r.score * 100)}%. Compare honestly with the strong answer: how much did you cover?</p>
-              <div className="mt-2 flex flex-wrap gap-2">
-                {(["all", "some", "none"] as const).map((c) => (
-                  <Button
-                    key={c}
-                    variant={marked === c ? "primary" : "secondary"}
-                    className="min-h-10"
-                    onClick={() => start(async () => { await selfMarkShort(r.attemptId, c); setMarked(c); })}
-                  >
-                    {c === "all" ? "Covered most of it" : c === "some" ? "Some of it" : "Missed it"}
-                  </Button>
-                ))}
-              </div>
-            </div>
+            <p className="text-sm text-ink-2">Auto-score {Math.round(r.score * 100)}%, from the ideas your answer covered. Compare it with the strong answer and note what you missed.</p>
           </>
         ) : (
-          <ItemView item={r.item} value={r.answer} disabled mark={{ correct, chosen }} />
+          <>
+            <ItemView item={r.item} value={r.answer} disabled mark={{ correct, chosen }} />
+            <div className="space-y-1.5 rounded-xl bg-surface-2 p-3 text-sm">
+              <p className={cn("flex items-start gap-1.5", r.correct ? "text-good" : "text-bad")}>
+                {r.correct ? <CheckCircle2 className="mt-0.5 size-4 shrink-0" aria-hidden /> : <XCircle className="mt-0.5 size-4 shrink-0" aria-hidden />}
+                <span><span className="font-medium">Your answer:</span> {chosen.length ? chosen.map((c) => optionLabel(r.item, c)).join(", ") : "Not answered"}</span>
+              </p>
+              {!r.correct && (
+                <p className="flex items-start gap-1.5 text-good">
+                  <CheckCircle2 className="mt-0.5 size-4 shrink-0" aria-hidden />
+                  <span><span className="font-medium">Correct answer:</span> {correct.map((c) => optionLabel(r.item, c)).join(", ")}</span>
+                </p>
+              )}
+            </div>
+          </>
         )}
 
-        <div className="rounded-xl border-l-4 border-accent bg-accent-soft/50 p-3">
-          <p className="text-sm leading-relaxed">{r.explanation}</p>
+        <div className="space-y-2 rounded-xl border-l-4 border-accent bg-accent-soft/50 p-3 text-sm leading-relaxed">
+          <p><span className="font-semibold">Why: </span>{r.explanation}</p>
           {wrongPicks.map((w) =>
             r.distractors?.[w] ? (
-              <p key={w} className="mt-2 text-sm leading-relaxed text-ink-2">
-                <span className="font-medium uppercase">Why not {w}?</span> {r.distractors[w]}
+              <p key={w} className="text-ink-2">
+                <span className="font-semibold text-ink">Why {optionLabel(r.item, w).split(".")[0]} is wrong: </span>{r.distractors[w]}
               </p>
             ) : null,
           )}
           {r.takeaway && (
-            <p className="mt-2 flex items-start gap-1.5 text-sm font-medium">
-              <Lightbulb className="mt-0.5 size-4 shrink-0 text-accent" aria-hidden /> {r.takeaway}
+            <p className="flex items-start gap-1.5 font-medium">
+              <Lightbulb className="mt-0.5 size-4 shrink-0 text-accent" aria-hidden /> Remember: {r.takeaway}
             </p>
+          )}
+          {!r.correct && (
+            <Link href={`/learn/${r.item.subtopic}`} className="inline-flex min-h-10 items-center gap-1.5 font-medium text-accent underline-offset-2 hover:underline">
+              <BookOpen className="size-4" aria-hidden /> Learn this topic: {r.item.subtopicName} →
+            </Link>
           )}
         </div>
 

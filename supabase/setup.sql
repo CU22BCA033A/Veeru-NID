@@ -414,3 +414,9 @@ alter table public.interview_answers add column if not exists duration_s int;
 -- Aptitude & objective mocks: MCQ-only papers, marked automatically.
 alter table public.mocks drop constraint if exists mocks_format_check;
 alter table public.mocks add constraint mocks_format_check check (format in ('2026', 'mixed', 'mini', 'aptitude'));
+
+-- ── 20261031000001_review_items.sql ──
+
+-- Daily tests can bring back questions seen 2+ weeks ago (labelled "Review") so every category
+-- appears every day once its new questions run low.
+alter table public.daily_plans add column if not exists review_item_ids text[] not null default '{}';

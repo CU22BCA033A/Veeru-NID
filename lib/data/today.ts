@@ -22,6 +22,8 @@ export async function todayContext(db: SupabaseClient, userId: string): Promise<
   let plan: PlanRow | null = null;
   let progress: DayProgress | null = null;
   if (todayNo >= 1 && todayNo <= settings.phases.totalDays) {
+    // A day he never opened still gets its test, so it shows up as "missed" and can be taken today.
+    if (todayNo > 1 && ["study", "mock"].includes(dayKind(todayNo - 1, settings.phases))) await ensurePlan(db, userId, todayNo - 1, settings);
     plan = await ensurePlan(db, userId, todayNo, settings);
     if (plan) progress = await refreshDay(db, plan, settings);
   }
@@ -32,11 +34,11 @@ export async function todayContext(db: SupabaseClient, userId: string): Promise<
 export async function catchUpDays(db: SupabaseClient, userId: string, todayNo: number) {
   const { data } = await db
     .from("daily_plans")
-    .select("id,day_no,status,steps")
+    .select("id,day_no,date,status,steps,mock_id")
     .eq("user_id", userId)
     .lt("day_no", todayNo)
     .neq("status", "completed")
     .order("day_no", { ascending: false })
     .limit(5);
-  return (data ?? []) as { id: string; day_no: number; status: string; steps: Record<string, string> }[];
+  return (data ?? []) as { id: string; day_no: number; date: string; status: string; steps: Record<string, string>; mock_id: string | null }[];
 }

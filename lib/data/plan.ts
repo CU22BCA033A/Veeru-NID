@@ -2,7 +2,7 @@ import "server-only";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import type { AppSettings } from "@/lib/config/settings";
 import { buildDay, type PoolItem, type Rating } from "@/lib/plan/builder";
-import { addDays, dateForDay, dayKind, istDateString, phaseForDay } from "@/lib/plan/calendar";
+import { addDays, dateForDay, dayKind, dayNumberFor, istDateString, phaseForDay } from "@/lib/plan/calendar";
 import type { StepState } from "@/lib/plan/steps";
 import { fetchAll } from "./fetch";
 
@@ -14,6 +14,8 @@ export interface PlanRow {
   phase: string;
   warmup_item_ids: string[];
   item_ids: string[];
+  /** Repeats inside item_ids, shown labelled "Review". */
+  review_item_ids: string[];
   studio_task_ids: string[];
   daily_task_id: string | null;
   tip_id: string | null;
@@ -24,7 +26,7 @@ export interface PlanRow {
   completed_at: string | null;
 }
 
-const PLAN_COLS = "id,user_id,day_no,date,phase,warmup_item_ids,item_ids,studio_task_ids,daily_task_id,tip_id,mock_id,steps,status,tough_day,completed_at";
+const PLAN_COLS = "id,user_id,day_no,date,phase,warmup_item_ids,item_ids,review_item_ids,studio_task_ids,daily_task_id,tip_id,mock_id,steps,status,tough_day,completed_at";
 
 export async function getPlan(db: SupabaseClient, userId: string, dayNo: number): Promise<PlanRow | null> {
   const { data, error } = await db.from("daily_plans").select(PLAN_COLS).eq("user_id", userId).eq("day_no", dayNo).maybeSingle();
@@ -60,17 +62,17 @@ export async function ensurePlan(db: SupabaseClient, userId: string, dayNo: numb
   const kind = dayKind(dayNo, phases);
   const date = dateForDay(dayNo, phases.startDate);
 
-  let built = { warmup: [] as string[], quick: [] as string[], short: [] as string[], studioTest: [] as string[], dailyTask: null as string | null, tipId: null as string | null };
+  let built = { warmup: [] as string[], quick: [] as string[], short: [] as string[], review: [] as string[], studioTest: [] as string[], dailyTask: null as string | null, tipId: null as string | null };
   let mockId: string | null = null;
 
   if (kind === "study" || kind === "mock") {
     const today = istDateString(new Date());
     const [items, readyImages, served, ratingsRows, studio, plans, tips, mocks, mockAttempts] = await Promise.all([
-      fetchAll<{ id: string; type: PoolItem["type"]; subtopic_id: string; category_id: string; difficulty: number; generator: string | null; image_ids: string[]; valid_until: string | null }>(
-        () => db.from("items").select("id,type,subtopic_id,category_id,difficulty,generator,image_ids,valid_until").eq("status", "live").order("id"),
+      fetchAll<{ id: string; type: PoolItem["type"]; subtopic_id: string; category_id: string; difficulty: number; generator: string | null; image_ids: string[]; valid_until: string | null; source: string }>(
+        () => db.from("items").select("id,type,subtopic_id,category_id,difficulty,generator,image_ids,valid_until,source").eq("status", "live").order("id"),
       ),
       fetchAll<{ id: string }>(() => db.from("images").select("id").eq("status", "ready").order("id")),
-      fetchAll<{ item_id: string }>(() => db.from("served_items").select("item_id").eq("user_id", userId).order("item_id")),
+      fetchAll<{ item_id: string; first_served_at: string }>(() => db.from("served_items").select("item_id,first_served_at").eq("user_id", userId).order("item_id")),
       fetchAll<{ subtopic_id: string; rating: number; attempts: number }>(() => db.from("skill_ratings").select("subtopic_id,rating,attempts").eq("user_id", userId).order("subtopic_id")),
       fetchAll<{ id: string; kind: "test" | "daily" | "mains"; phases: string[]; category: string }>(() => db.from("studio_tasks").select("id,kind,phases,category").eq("status", "live").order("id")),
       fetchAll<{ studio_task_ids: string[]; daily_task_id: string | null; tip_id: string | null; mock_id: string | null }>(
@@ -83,7 +85,7 @@ export async function ensurePlan(db: SupabaseClient, userId: string, dayNo: numb
     const ready = new Set(readyImages.map((r) => r.id));
     const pool: PoolItem[] = items
       .filter((i) => i.image_ids.every((img) => ready.has(img)) && (!i.valid_until || i.valid_until >= today))
-      .map((i) => ({ id: i.id, type: i.type, subtopic: i.subtopic_id, category: i.category_id, difficulty: i.difficulty, generator: i.generator }));
+      .map((i) => ({ id: i.id, type: i.type, subtopic: i.subtopic_id, category: i.category_id, difficulty: i.difficulty, generator: i.generator, source: i.source }));
     const ratings = new Map<string, Rating>(ratingsRows.map((r) => [r.subtopic_id, { rating: Number(r.rating), attempts: r.attempts }]));
     const usedStudio = new Set(plans.flatMap((p) => [...p.studio_task_ids, ...(p.daily_task_id ? [p.daily_task_id] : [])]));
     const usedTips = new Set(plans.map((p) => p.tip_id).filter(Boolean) as string[]);
@@ -94,14 +96,16 @@ export async function ensurePlan(db: SupabaseClient, userId: string, dayNo: numb
       mockId = mocks.find((m) => m.format === wanted && !usedMocks.has(m.id))?.id ?? mocks.find((m) => !usedMocks.has(m.id))?.id ?? null;
     }
     built = buildDay({
-      dayNo, phase, pool, served: new Set(served.map((s) => s.item_id)), ratings,
+      dayNo, phase, pool, served: new Set(served.map((s) => s.item_id)), ratings, totalDays: phases.totalDays,
+      // seen at least two weeks ago → may come back as labelled review
+      reviewable: new Set(served.filter((s) => Date.now() - new Date(s.first_served_at).getTime() >= 14 * 86_400_000).map((s) => s.item_id)),
       studioPool: studio, usedStudio, tips, usedTips, seed: dayNo * 7919 + userId.charCodeAt(0), mockDay: kind === "mock" && Boolean(mockId),
     });
   }
 
   const row = {
     user_id: userId, day_no: dayNo, date, phase: phase.id,
-    warmup_item_ids: built.warmup, item_ids: weave(built.quick, built.short), studio_task_ids: built.studioTest,
+    warmup_item_ids: built.warmup, item_ids: weave(built.quick, built.short), review_item_ids: built.review, studio_task_ids: built.studioTest,
     daily_task_id: built.dailyTask, tip_id: built.tipId, mock_id: mockId,
   };
   const { error } = await db.from("daily_plans").insert(row);
@@ -136,3 +140,37 @@ export async function markStep(db: SupabaseClient, plan: PlanRow, step: keyof St
 }
 
 export { addDays };
+
+/**
+ * An extra mixed test outside the day plan (a second test today, or practice before Day 1).
+ * Same mixing rules as the daily test: every category, varied puzzle types, few mirror images.
+ */
+export async function buildExtraTest(db: SupabaseClient, userId: string, settings: AppSettings, count = 30): Promise<{ ids: string[]; review: string[] }> {
+  const { phases } = settings;
+  const today = istDateString(new Date());
+  const dayNo = Math.max(1, Math.min(phases.totalDays, dayNumberFor(today, phases.startDate)));
+  const basePhase = phaseForDay(dayNo, phases) ?? phases.phases[0]!;
+  const [items, readyImages, served, ratingsRows] = await Promise.all([
+    fetchAll<{ id: string; type: PoolItem["type"]; subtopic_id: string; category_id: string; difficulty: number; generator: string | null; image_ids: string[]; valid_until: string | null; source: string }>(
+      () => db.from("items").select("id,type,subtopic_id,category_id,difficulty,generator,image_ids,valid_until,source").eq("status", "live").neq("type", "short").order("id"),
+    ),
+    fetchAll<{ id: string }>(() => db.from("images").select("id").eq("status", "ready").order("id")),
+    fetchAll<{ item_id: string; first_served_at: string }>(() => db.from("served_items").select("item_id,first_served_at").eq("user_id", userId).order("item_id")),
+    fetchAll<{ subtopic_id: string; rating: number; attempts: number }>(() => db.from("skill_ratings").select("subtopic_id,rating,attempts").eq("user_id", userId).order("subtopic_id")),
+  ]);
+  const ready = new Set(readyImages.map((r) => r.id));
+  const pool: PoolItem[] = items
+    .filter((i) => i.image_ids.every((img) => ready.has(img)) && (!i.valid_until || i.valid_until >= today))
+    .map((i) => ({ id: i.id, type: i.type, subtopic: i.subtopic_id, category: i.category_id, difficulty: i.difficulty, generator: i.generator, source: i.source }));
+  const built = buildDay({
+    dayNo, phase: { ...basePhase, mix: { quick: count, short: 0, studio: 0 }, minItems: count }, pool,
+    served: new Set(served.map((s) => s.item_id)),
+    ratings: new Map<string, Rating>(ratingsRows.map((r) => [r.subtopic_id, { rating: Number(r.rating), attempts: r.attempts }])),
+    studioPool: [], usedStudio: new Set(), tips: [], usedTips: new Set(), seed: Date.now() % 1_000_000, totalDays: phases.totalDays,
+    reviewable: new Set(served.filter((s) => Date.now() - new Date(s.first_served_at).getTime() >= 14 * 86_400_000).map((s) => s.item_id)),
+  });
+  const review = new Set(built.review);
+  const fresh = built.quick.filter((id) => !review.has(id));
+  if (fresh.length) await db.from("served_items").upsert(fresh.map((id) => ({ user_id: userId, item_id: id, context: "extra" })), { onConflict: "user_id,item_id", ignoreDuplicates: true });
+  return { ids: built.quick, review: built.review };
+}

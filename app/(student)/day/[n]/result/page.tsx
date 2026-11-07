@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
-import { ArrowRight, Clock, RotateCcw, Target, TrendingDown, TrendingUp } from "lucide-react";
+import { ArrowRight, Clock, PenTool, RotateCcw, Target, TrendingDown, TrendingUp } from "lucide-react";
 import { Card, CardLabel } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
 import { ButtonLink } from "@/components/ui/button";
@@ -21,6 +21,10 @@ export default async function ResultPage({ params }: { params: Promise<{ n: stri
     .order("created_at");
   if (!attempts?.length) redirect(`/day/${plan.day_no}/test`);
   const rows = await resultRows(db, attempts as never, plan.item_ids);
+  const { data: drawn } = plan.studio_task_ids.length
+    ? await db.from("studio_submissions").select("task_id").eq("plan_id", plan.id).eq("context", "test")
+    : { data: [] };
+  const drawingDone = plan.studio_task_ids.filter((t) => (drawn ?? []).some((d) => d.task_id === t)).length;
   const l = await labels(db);
 
   const answered = rows.filter((r) => r.answer !== null && r.answer !== "" && !(Array.isArray(r.answer) && !r.answer.length));
@@ -106,6 +110,16 @@ export default async function ResultPage({ params }: { params: Promise<{ n: stri
       <ButtonLink href={retakeHref(rows.map((r) => r.item.id), `Day ${plan.day_no} test`, `/day/${plan.day_no}/result`)} variant="secondary" className="w-full">
         <RotateCcw className="size-4" aria-hidden /> Retake this test (practice)
       </ButtonLink>
+
+      {plan.studio_task_ids.length > 0 && (
+        <ButtonLink href="/studio/results" variant="secondary" className="w-full justify-between">
+          <span className="flex items-center gap-2">
+            <PenTool className="size-4" aria-hidden />
+            Drawing tasks: {drawingDone} of {plan.studio_task_ids.length} done · results kept separately
+          </span>
+          <ArrowRight className="size-4" aria-hidden />
+        </ButtonLink>
+      )}
 
       <ResultsList rows={rows} />
     </div>

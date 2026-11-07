@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Flame, Pencil, Sparkles, CalendarClock, CheckCircle2, ClipboardList, History } from "lucide-react";
+import { ArrowRight, Flame, Pencil, Sparkles, CalendarClock, CheckCircle2, ClipboardList, History, PenTool } from "lucide-react";
 import { Card, CardLabel } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ButtonLink } from "@/components/ui/button";
@@ -12,6 +12,7 @@ import { StepRing } from "@/components/home/step-ring";
 import { ToughDayToggle } from "@/components/home/tough-day";
 import { requireViewer } from "@/lib/auth";
 import { catchUpDays, todayContext } from "@/lib/data/today";
+import { loadDrawingRecord } from "@/lib/data/drawings";
 import { dateForDay, greeting, nextMilestone, phaseForDay } from "@/lib/plan/calendar";
 import { DAY_STEPS, currentStep, type StepId } from "@/lib/plan/steps";
 import { currentStreak } from "@/lib/plan/streak";
@@ -28,13 +29,14 @@ export default async function HomePage() {
   const milestone = nextMilestone(examFacts.milestones, now);
   const prelims = examFacts.milestones.find((m) => m.id === "prelims");
 
-  const [{ data: completedRows }, { data: profile }, { data: tip }, { data: sketches }, catchUp, { data: openMock }] = await Promise.all([
+  const [{ data: completedRows }, { data: profile }, { data: tip }, { data: sketches }, catchUp, { data: openMock }, drawings] = await Promise.all([
     db.from("daily_plans").select("day_no").eq("user_id", viewer.id).eq("status", "completed"),
     db.from("profiles").select("why_nid").eq("id", viewer.id).single(),
     plan?.tip_id ? db.from("tips").select("title,body,category").eq("id", plan.tip_id).maybeSingle() : Promise.resolve({ data: null }),
     db.from("sketch_logs").select("date").eq("user_id", viewer.id).order("date", { ascending: false }).limit(120),
     catchUpDays(db, viewer.id, todayNo),
     db.from("mock_attempts").select("id,mocks(title)").eq("user_id", viewer.id).is("submitted_at", null).order("started_at", { ascending: false }).limit(1).maybeSingle(),
+    loadDrawingRecord(db, viewer.id, todayNo),
   ]);
   const completed = new Set((completedRows ?? []).map((p) => p.day_no as number));
   const freeDays = new Set(phases.phases.flatMap((p) => [...(p.restDays ?? []), ...(p.id === "EXAM" ? [p.fromDay] : [])]));
@@ -65,9 +67,8 @@ export default async function HomePage() {
 
   const dayDate = (ymd: string) => new Intl.DateTimeFormat("en-IN", { weekday: "short", day: "numeric", month: "short", timeZone: "Asia/Kolkata" }).format(new Date(`${ymd}T12:00:00+05:30`));
   const testDone = Boolean(steps.test);
-  // The daily test is questions, then drawing tasks; the questions alone already count as "taken".
+  // The test is the questions; drawing tasks are tracked separately (card below).
   const questionsDone = (progress?.testItemsDone ?? 0) > 0;
-  const drawingLeft = plan && !plan.mock_id ? plan.studio_task_ids.filter((t) => !(progress?.studioDone ?? []).includes(t)).length : 0;
   const testHref = hrefs.test;
   // Only the test needs to be done to count as "taken" for a missed day.
   const missed = catchUp.filter((c) => !c.steps?.test);
@@ -104,15 +105,9 @@ export default async function HomePage() {
             <>
               <p className="mt-1 flex items-center gap-1.5 text-sm text-good">
                 <CheckCircle2 className="size-4" aria-hidden />
-                {testDone ? "Done. Well played!" : `Questions done ✓ · ${drawingLeft} drawing task${drawingLeft === 1 ? "" : "s"} left`}
+                {testDone ? "Done. Well played!" : "Questions done ✓"}
               </p>
               <div className="mt-3 space-y-2">
-                {!testDone && drawingLeft > 0 && (
-                  <ButtonLink href={`/day/${n}/test`} className="w-full justify-between">
-                    <span>Continue: drawing tasks</span>
-                    <ArrowRight className="size-5" aria-hidden />
-                  </ButtonLink>
-                )}
                 <ButtonLink href={plan.mock_id ? `/mocks/${plan.mock_id}` : `/day/${n}/result`} variant="secondary" className="w-full">See results and mistakes</ButtonLink>
                 <ExtraTestButton />
               </div>
@@ -135,6 +130,27 @@ export default async function HomePage() {
           <p className="font-serif text-2xl leading-tight">Day 1 starts {dayDate(phases.startDate)}</p>
           <p className="mt-1 text-sm text-ink-2">Your first daily test unlocks then. Want to practise now?</p>
           <div className="mt-3"><ExtraTestButton label="Take a practice test now" question="Start a 30-question practice test with questions from every category?" /></div>
+        </Card>
+      )}
+
+      {drawings.pending.length > 0 && (
+        <Card>
+          <div className="flex items-baseline justify-between gap-2">
+            <CardLabel className="flex items-center gap-1.5"><PenTool className="size-3.5" aria-hidden />Drawing tasks to finish ({drawings.pending.length})</CardLabel>
+            <Link href="/studio/results" className="text-xs text-accent underline">Drawing results</Link>
+          </div>
+          <p className="mt-1 text-sm text-ink-2">Tracked separately from the question tests. Draw them whenever you have time.</p>
+          <ul className="mt-3 space-y-2">
+            {drawings.pending.slice(0, 3).map((p) => (
+              <li key={`${p.dayNo}:${p.taskId}`}>
+                <ButtonLink href={p.href} variant="secondary" className="w-full justify-between">
+                  <span className="truncate text-left">{p.title}</span>
+                  <span className="shrink-0 text-xs text-ink-3">Day {p.dayNo} · {p.minutes} min</span>
+                </ButtonLink>
+              </li>
+            ))}
+          </ul>
+          {drawings.pending.length > 3 && <Link href="/studio/results" className="mt-2 block text-center text-sm text-accent underline">See all {drawings.pending.length}</Link>}
         </Card>
       )}
 

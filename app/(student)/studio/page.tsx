@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CheckCircle2, Images, Pencil, PenTool, Timer } from "lucide-react";
+import { CheckCircle2, ClipboardCheck, Images, Pencil, PenTool, Timer } from "lucide-react";
 import { Card, CardLabel } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
 import { Badge } from "@/components/ui/badge";
@@ -30,6 +30,10 @@ export default async function StudioHome({ searchParams }: { searchParams: Promi
       </PageHeader>
 
       <div className="grid grid-cols-2 gap-3">
+        <Link href="/studio/results" className="col-span-2 flex items-center gap-3 rounded-2xl border-2 border-accent bg-accent-soft p-4">
+          <ClipboardCheck className="size-5 text-accent" aria-hidden />
+          <span className="flex-1"><span className="block font-medium">Drawing results</span><span className="text-xs text-ink-2">Tasks to draw, GB&apos;s marks and your average</span></span>
+        </Link>
         <Link href="/studio/portfolio" className="flex items-center gap-3 rounded-2xl border border-line bg-surface p-4">
           <Images className="size-5 text-accent" aria-hidden /> <span className="font-medium">Portfolio wall</span>
         </Link>

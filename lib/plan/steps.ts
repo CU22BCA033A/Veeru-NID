@@ -1,6 +1,6 @@
 export const DAY_STEPS = [
   { id: "warmup", label: "Morning warm-up", detail: "Tip of the day + 5 visual puzzles", minutes: 5 },
-  { id: "test", label: "Daily test", detail: "Quick items, creative answers and studio tasks", minutes: 70 },
+  { id: "test", label: "Daily test", detail: "Questions from every category (drawing tasks can be finished later)", minutes: 50 },
   { id: "result", label: "Result & explanations", detail: "See what went well and what to fix", minutes: 10 },
   { id: "homework", label: "Homework", detail: "Re-attempt mistakes + 2 new variants each", minutes: 15 },
   { id: "task", label: "Studio challenge", detail: "Today's bigger drawing / making task", minutes: 30 },

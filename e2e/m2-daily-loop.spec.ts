@@ -82,6 +82,13 @@ test("warm-up → test → results → homework → reflection", async ({ page }
   await expect(page.getByRole("img", { name: /of 6 steps done/ })).toBeVisible();
   await page.screenshot({ path: "test-results/home-after.png", fullPage: true });
 
+  // Drawing tasks are tracked apart from the questions: the test counts as done, drawings wait.
+  await expect(page.getByText("Questions done ✓").or(page.getByText("Done. Well played!")).first()).toBeVisible();
+  await page.goto("/studio/results");
+  await expect(page.getByRole("heading", { name: /To draw \(\d+\)/ })).toBeVisible();
+  await expect(page.getByText(/Day 3 · .* test drawing/).first()).toBeVisible();
+  await page.goto("/");
+
   // Second test of the day: asks first, then a mixed extra test with mistakes-first results.
   await page.getByRole("button", { name: /Take another test today/ }).click();
   await expect(page.getByText(/Start an extra 30-question mixed test now/)).toBeVisible();

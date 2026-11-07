@@ -30,7 +30,7 @@ export default async function TestOverview({ params }: { params: Promise<{ n: st
   return (
     <div className="space-y-5">
       <PageHeader title="Daily test" kicker={`Day ${plan.day_no}${plan.tough_day ? " · tough-day mode" : ""}`} back={{ href: "/", label: "Today" }}>
-        Attempt at least {progress.required} items to close the day. Questions first, then the drawing tasks on paper.
+        Answer at least {progress.required} questions to complete today&apos;s test. The drawing tasks are tracked separately: do them now or later, on paper.
       </PageHeader>
 
       {!questionsDone && (earlierHomework ?? 0) > 0 && <HomeworkGate count={earlierHomework ?? 0} />}
@@ -39,10 +39,10 @@ export default async function TestOverview({ params }: { params: Promise<{ n: st
         <div className="flex justify-between text-sm">
           <span className="text-ink-2">Progress</span>
           <span className="tabular-nums">
-            {progress.attempted}/{progress.required} items
+            {progress.attempted}/{progress.required} questions
           </span>
         </div>
-        <ProgressBar value={progress.attempted} max={progress.required} label="Items attempted" className="mt-2" tone={progress.attempted >= progress.required ? "good" : "accent"} />
+        <ProgressBar value={progress.attempted} max={progress.required} label="Questions answered" className="mt-2" tone={progress.attempted >= progress.required ? "good" : "accent"} />
       </Card>
 
       <Card className="p-0">
@@ -61,7 +61,11 @@ export default async function TestOverview({ params }: { params: Promise<{ n: st
       </Card>
 
       <section>
-        <CardLabel className="mb-2">Part B · Studio tasks (on paper)</CardLabel>
+        <div className="mb-2 flex items-baseline justify-between gap-2">
+          <CardLabel>Part B · Drawing tasks (on paper)</CardLabel>
+          <Link href="/studio/results" className="text-xs text-accent underline">Drawing results</Link>
+        </div>
+        <p className="mb-3 text-xs text-ink-3">Finish them today or later. Their results and GB&apos;s marks are kept separately from the questions.</p>
         <div className="space-y-3">
           {(tasks ?? []).map((t) => {
             const done = progress.studioDone.includes(t.id as string);

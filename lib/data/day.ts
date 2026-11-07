@@ -15,11 +15,14 @@ export interface DayProgress {
   complete: boolean;
 }
 
-/** Items required to close a day (halved on a tough day). */
+/**
+ * Questions required to close a day (halved on a tough day). Drawing tasks are tracked
+ * separately (see lib/data/drawings.ts) and can be finished on a later day.
+ */
 export function requiredItems(plan: PlanRow, settings: AppSettings): number {
   const phase = phaseForDay(plan.day_no, settings.phases);
   const base = phase?.minItems ?? 0;
-  const total = plan.item_ids.length + plan.studio_task_ids.length;
+  const total = plan.item_ids.length;
   const req = Math.min(base, total);
   return plan.tough_day ? Math.ceil(req / 2) : req;
 }
@@ -44,7 +47,7 @@ export async function refreshDay(db: SupabaseClient, plan: PlanRow, settings: Ap
   const studioDone = [...new Set((studio ?? []).filter((s) => s.context === "test").map((s) => s.task_id as string))];
   const dailyTaskDone = (studio ?? []).some((s) => s.context === "daily" || s.context === "mains");
   const required = requiredItems(plan, settings);
-  const attempted = dailyItems.size + studioDone.length;
+  const attempted = dailyItems.size;
 
   const now = new Date().toISOString();
   const steps: StepState = { ...plan.steps };
@@ -52,7 +55,8 @@ export async function refreshDay(db: SupabaseClient, plan: PlanRow, settings: Ap
     if (cond && !steps[k]) steps[k] = now;
   };
   set("warmup", warmupDone || plan.warmup_item_ids.length === 0);
-  const testDone = plan.mock_id ? Boolean(mockAttempt) : dailyItems.size > 0 && attempted >= required && plan.studio_task_ids.every((t) => studioDone.includes(t) || plan.tough_day);
+  // The test is the questions; its drawing tasks don't hold the day up.
+  const testDone = plan.mock_id ? Boolean(mockAttempt) : dailyItems.size > 0 && attempted >= required;
   set("test", testDone);
   set("homework", Boolean(steps.result) && (pendingHw ?? 0) === 0);
   set("task", dailyTaskDone || !plan.daily_task_id);

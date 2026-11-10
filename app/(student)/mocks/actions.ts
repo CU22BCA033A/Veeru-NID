@@ -65,7 +65,12 @@ export async function startMock(mockId: string, mode: "screen" | "paper") {
 
   const answers: MockAnswers = { uploads: {} };
   const objective = mock.questions.find((q) => q.kind === "objective");
-  if (objective) answers.objectiveItemIds = await pickObjectiveItems(db, viewer.id, objective.count ?? 30);
+  if (objective?.itemIds?.length) {
+    // A real paper (e.g. NID's sample paper): its own questions, in its own order, every time.
+    const { data: live } = await db.from("items").select("id").in("id", objective.itemIds).eq("status", "live");
+    const ok = new Set((live ?? []).map((r) => r.id as string));
+    answers.objectiveItemIds = objective.itemIds.filter((id) => ok.has(id));
+  } else if (objective) answers.objectiveItemIds = await pickObjectiveItems(db, viewer.id, objective.count ?? 30);
   const { data, error } = await db.from("mock_attempts").insert({ user_id: viewer.id, mock_id: mock.id, mode, answers }).select("id").single();
   if (error) throw new Error(error.message);
   redirect(`/mocks/attempt/${data.id}`);

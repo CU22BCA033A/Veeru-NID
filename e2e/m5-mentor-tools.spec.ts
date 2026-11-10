@@ -72,3 +72,19 @@ test("student pages: learn, notebook, interview, more", async ({ page }) => {
     await expect(page.getByText(text).first()).toBeVisible();
   }
 });
+
+test("mentor imports the question-paper pack (needs E2E_PACK_KEY)", async ({ page }) => {
+  test.skip(!process.env.E2E_PACK_KEY, "pack key not provided");
+  test.setTimeout(120_000);
+  await login(page, MENTOR);
+  await page.goto("/admin/settings");
+  await page.waitForLoadState("networkidle");
+  await page.getByPlaceholder("Pack key").fill("not-the-right-key-not-the-right-key-xx");
+  await page.getByRole("button", { name: /Import question papers/ }).click();
+  await expect(page.getByText(/Wrong key|right length/)).toBeVisible({ timeout: 60_000 });
+  await page.getByPlaceholder("Pack key").fill(process.env.E2E_PACK_KEY!);
+  await page.getByRole("button", { name: /Import question papers/ }).click();
+  await expect(page.getByText(/Imported 67 questions, 10 drawing tasks and 2 mock papers/)).toBeVisible({ timeout: 60_000 });
+  const { count } = await admin().from("items").select("*", { count: "exact", head: true }).like("id", "pyq-nid2223-%").eq("status", "live");
+  expect(count).toBe(23);
+});

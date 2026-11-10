@@ -1,0 +1,1410 @@
+{
+ "items": [
+  {
+   "id": "mq-ca-001",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "In June 2025, who became the first Indian astronaut to visit the International Space Station (Axiom-4 mission)?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Shubhanshu Shukla"
+    },
+    {
+     "id": "b",
+     "text": "Rakesh Sharma"
+    },
+    {
+     "id": "c",
+     "text": "Sunita Williams"
+    },
+    {
+     "id": "d",
+     "text": "Prasanth Nair"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Group Captain Shubhanshu Shukla of the Indian Air Force flew on Axiom Mission 4 in June 2025 and spent about two weeks on the ISS.",
+   "distractors": {
+    "b": "He was the first Indian in space, in 1984, aboard a Soviet mission; there was no ISS then.",
+    "c": "She is a NASA astronaut of Indian origin, not an Indian astronaut.",
+    "d": "A Gaganyaan astronaut-designate who was the backup for Axiom-4."
+   },
+   "takeaway": "First Indian on the ISS: Shubhanshu Shukla (Ax-4, 2025).",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-002",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "With the SpaDeX mission in January 2025, India became which country to dock two satellites in space?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The sixth"
+    },
+    {
+     "id": "b",
+     "text": "The fourth, after the USA, Russia and China"
+    },
+    {
+     "id": "c",
+     "text": "The first"
+    },
+    {
+     "id": "d",
+     "text": "The second"
+    }
+   ],
+   "answer": "b",
+   "explanation": "ISRO's Space Docking Experiment (SpaDeX) joined two small satellites in orbit, a key step for Gaganyaan and a future Indian space station.",
+   "distractors": {
+    "c": "The USA and Russia did it decades earlier.",
+    "d": "Russia (then the USSR) and the USA came first.",
+    "a": "Only three countries had done it before India."
+   },
+   "takeaway": "SpaDeX 2025: India is the 4th country to dock in space.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-003",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "NISAR, the Earth-observation satellite launched in July 2025, is a joint mission of ISRO and:",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "ESA"
+    },
+    {
+     "id": "b",
+     "text": "JAXA"
+    },
+    {
+     "id": "c",
+     "text": "Roscosmos"
+    },
+    {
+     "id": "d",
+     "text": "NASA"
+    }
+   ],
+   "answer": "d",
+   "explanation": "NISAR (NASA-ISRO Synthetic Aperture Radar) maps Earth's land and ice surfaces in fine detail. It was launched from Sriharikota on a GSLV rocket.",
+   "distractors": {
+    "a": "The European Space Agency is not a partner in NISAR.",
+    "b": "Japan's agency partnered India on other missions, not NISAR.",
+    "c": "Russia's agency is not involved."
+   },
+   "takeaway": "NISAR = NASA + ISRO radar satellite (2025).",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-004",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "The Chenab Rail Bridge, opened in 2025 and called the world's highest railway arch bridge, is in which state or union territory?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Jammu and Kashmir"
+    },
+    {
+     "id": "b",
+     "text": "Himachal Pradesh"
+    },
+    {
+     "id": "c",
+     "text": "Uttarakhand"
+    },
+    {
+     "id": "d",
+     "text": "Sikkim"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The steel arch bridge stands about 359 m above the Chenab river, higher than the Eiffel Tower, and links Kashmir to the rest of India's rail network.",
+   "distractors": {
+    "b": "The bridge is on the Udhampur–Srinagar–Baramulla line.",
+    "c": "Not here.",
+    "d": "Not here."
+   },
+   "takeaway": "World's highest rail arch bridge: Chenab, J&K.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-005",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "The New Pamban Bridge, opened in April 2025 as India's first vertical-lift railway sea bridge, connects the mainland to:",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kochi, Kerala"
+    },
+    {
+     "id": "b",
+     "text": "Diu"
+    },
+    {
+     "id": "c",
+     "text": "Port Blair, Andaman"
+    },
+    {
+     "id": "d",
+     "text": "Rameswaram, Tamil Nadu"
+    }
+   ],
+   "answer": "d",
+   "explanation": "A central span lifts straight up so ships can pass underneath. It replaced the 1914 Pamban bridge.",
+   "distractors": {
+    "a": "Not here.",
+    "b": "Not here.",
+    "c": "That's an island far out at sea."
+   },
+   "takeaway": "Vertical-lift sea bridge: New Pamban, Rameswaram.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-006",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "Operation Sindoor (May 2025) was India's military response to the terror attack at:",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Pulwama"
+    },
+    {
+     "id": "b",
+     "text": "Uri"
+    },
+    {
+     "id": "c",
+     "text": "Gulmarg"
+    },
+    {
+     "id": "d",
+     "text": "Pahalgam"
+    }
+   ],
+   "answer": "d",
+   "explanation": "After the April 2025 attack on tourists at Pahalgam, India struck terror camps in Pakistan and Pakistan-administered Kashmir in Operation Sindoor.",
+   "distractors": {
+    "a": "The Pulwama attack was in 2019 (followed by the Balakot strike).",
+    "b": "The Uri attack was in 2016 (followed by surgical strikes).",
+    "c": "Not the site of this attack."
+   },
+   "takeaway": "Pahalgam attack → Operation Sindoor (2025).",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-007",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "The Maha Kumbh Mela of 2025 was held at:",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Nashik"
+    },
+    {
+     "id": "b",
+     "text": "Ujjain"
+    },
+    {
+     "id": "c",
+     "text": "Prayagraj"
+    },
+    {
+     "id": "d",
+     "text": "Haridwar"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The 2025 Maha Kumbh at the confluence of the Ganga, Yamuna and mythical Saraswati drew record crowds. Managing such crowds is a huge design and planning challenge.",
+   "distractors": {
+    "d": "Haridwar hosts Kumbh too, but not the 2025 Maha Kumbh.",
+    "a": "Nashik hosts Simhastha Kumbh in other years.",
+    "b": "Ujjain hosts Simhastha Kumbh in other years."
+   },
+   "takeaway": "Maha Kumbh 2025: Prayagraj.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-008",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "The terminal of Navi Mumbai International Airport, opened in 2025, takes its form from the:",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Banyan tree"
+    },
+    {
+     "id": "b",
+     "text": "Conch shell"
+    },
+    {
+     "id": "c",
+     "text": "Lotus"
+    },
+    {
+     "id": "d",
+     "text": "Peacock"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The terminal by Zaha Hadid Architects uses lotus-petal forms for its roof and columns, linking the building to India's national flower.",
+   "distractors": {
+    "d": "Not this design.",
+    "a": "Not this design.",
+    "b": "Not this design."
+   },
+   "takeaway": "NMIA terminal design: lotus-inspired.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-009",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "Under the GST reform that came into effect in September 2025, most goods fall into which two main tax slabs?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "12% and 28%"
+    },
+    {
+     "id": "b",
+     "text": "0% and 10%"
+    },
+    {
+     "id": "c",
+     "text": "5% and 12%"
+    },
+    {
+     "id": "d",
+     "text": "5% and 18%"
+    }
+   ],
+   "answer": "d",
+   "explanation": "'GST 2.0' cut most items to 5% or 18%, with a separate higher rate for luxury and 'sin' goods.",
+   "distractors": {
+    "a": "These slabs were removed or merged in the reform.",
+    "b": "These were never the main slabs.",
+    "c": "12% was merged into the other slabs."
+   },
+   "takeaway": "GST 2.0 (2025): two main slabs, 5% and 18%.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-010",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "Hyderabad hosted which international pageant in May 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Miss Universe"
+    },
+    {
+     "id": "b",
+     "text": "Femina Miss India only"
+    },
+    {
+     "id": "c",
+     "text": "Mr World"
+    },
+    {
+     "id": "d",
+     "text": "Miss World"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The 72nd Miss World final took place in Hyderabad, Telangana; Opal Suchata Chuangsri of Thailand won.",
+   "distractors": {
+    "a": "Not held in India in 2025.",
+    "b": "It was the global Miss World final.",
+    "c": "Not this event."
+   },
+   "takeaway": "Miss World 2025: Hyderabad.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-011",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "Which Indian city was chosen to host the 2030 Commonwealth Games?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mumbai"
+    },
+    {
+     "id": "b",
+     "text": "Bengaluru"
+    },
+    {
+     "id": "c",
+     "text": "Ahmedabad"
+    },
+    {
+     "id": "d",
+     "text": "New Delhi"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Commonwealth Sport approved Ahmedabad (home of NID) as the 2030 host, the centenary edition of the Games.",
+   "distractors": {
+    "d": "Delhi hosted the 2010 Games.",
+    "a": "Not chosen.",
+    "b": "Not chosen."
+   },
+   "takeaway": "CWG 2030: Ahmedabad.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-012",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "Who was elected Vice-President of India in September 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Om Birla"
+    },
+    {
+     "id": "b",
+     "text": "C. P. Radhakrishnan"
+    },
+    {
+     "id": "c",
+     "text": "Jagdeep Dhankhar"
+    },
+    {
+     "id": "d",
+     "text": "Venkaiah Naidu"
+    }
+   ],
+   "answer": "b",
+   "explanation": "C. P. Radhakrishnan, earlier Governor of Maharashtra, became India's 15th Vice-President.",
+   "distractors": {
+    "c": "He resigned in July 2025, which led to the election.",
+    "d": "He was Vice-President from 2017 to 2022.",
+    "a": "He is the Speaker of the Lok Sabha."
+   },
+   "takeaway": "Vice-President (2025): C. P. Radhakrishnan.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-013",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "Who became Chief Justice of India in November 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Justice D. Y. Chandrachud"
+    },
+    {
+     "id": "b",
+     "text": "Justice Sanjiv Khanna"
+    },
+    {
+     "id": "c",
+     "text": "Justice Surya Kant"
+    },
+    {
+     "id": "d",
+     "text": "Justice B. R. Gavai"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Justice Surya Kant became the 53rd Chief Justice of India.",
+   "distractors": {
+    "d": "He was Chief Justice before him, from May to November 2025.",
+    "a": "He retired in 2024.",
+    "b": "He was Chief Justice from late 2024 to May 2025."
+   },
+   "takeaway": "CJI from Nov 2025: Surya Kant.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-014",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "In May 2025 the Catholic Church elected Pope Leo XIV. He is the first pope from which country?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "The United States"
+    },
+    {
+     "id": "b",
+     "text": "Italy"
+    },
+    {
+     "id": "c",
+     "text": "Argentina"
+    },
+    {
+     "id": "d",
+     "text": "Peru"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Robert Francis Prevost, born in Chicago, was elected after Pope Francis died in April 2025.",
+   "distractors": {
+    "b": "Many earlier popes were Italian.",
+    "c": "Pope Francis, his predecessor, was from Argentina.",
+    "d": "He worked for many years in Peru and is also its citizen, but he was born in Chicago."
+   },
+   "takeaway": "Pope Leo XIV: first pope from the USA.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-015",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "Who became Prime Minister of Canada in March 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Justin Trudeau"
+    },
+    {
+     "id": "b",
+     "text": "Pierre Poilievre"
+    },
+    {
+     "id": "c",
+     "text": "Jagmeet Singh"
+    },
+    {
+     "id": "d",
+     "text": "Mark Carney"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Mark Carney, a former governor of the Bank of Canada and the Bank of England, replaced Justin Trudeau and then won the April 2025 election.",
+   "distractors": {
+    "a": "He stepped down in 2025.",
+    "b": "He led the opposition Conservatives.",
+    "c": "He led the New Democratic Party."
+   },
+   "takeaway": "Canada PM (2025): Mark Carney.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-016",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "In October 2025, Sanae Takaichi became the first woman to hold which office?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Prime Minister of Japan"
+    },
+    {
+     "id": "b",
+     "text": "President of South Korea"
+    },
+    {
+     "id": "c",
+     "text": "Prime Minister of the UK"
+    },
+    {
+     "id": "d",
+     "text": "Secretary-General of the UN"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Sanae Takaichi became Japan's first woman Prime Minister.",
+   "distractors": {
+    "b": "Not her office.",
+    "c": "The UK has had women Prime Ministers before.",
+    "d": "Not her office."
+   },
+   "takeaway": "Japan's first woman PM: Sanae Takaichi (2025).",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-017",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "Who began his second term as President of the United States in January 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Barack Obama"
+    },
+    {
+     "id": "b",
+     "text": "Kamala Harris"
+    },
+    {
+     "id": "c",
+     "text": "Donald Trump"
+    },
+    {
+     "id": "d",
+     "text": "Joe Biden"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Donald Trump became the 47th president, after also serving as the 45th (2017–2021).",
+   "distractors": {
+    "d": "He was president from 2021 to 2025.",
+    "a": "He served from 2009 to 2017.",
+    "b": "She lost the 2024 election."
+   },
+   "takeaway": "US President from 2025: Donald Trump.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-018",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "'Heart Lamp', winner of the International Booker Prize 2025, was translated from which Indian language?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Bengali"
+    },
+    {
+     "id": "b",
+     "text": "Kannada"
+    },
+    {
+     "id": "c",
+     "text": "Hindi"
+    },
+    {
+     "id": "d",
+     "text": "Malayalam"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Banu Mushtaq's short stories, translated by Deepa Bhasthi, became the first Kannada book to win the prize.",
+   "distractors": {
+    "c": "Geetanjali Shree's 'Tomb of Sand', the 2022 winner, was in Hindi.",
+    "d": "Not this book.",
+    "a": "Not this book."
+   },
+   "takeaway": "International Booker 2025: 'Heart Lamp', Kannada.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-019",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "Which Hindi writer received the Jnanpith Award announced in 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mahasweta Devi"
+    },
+    {
+     "id": "b",
+     "text": "Javed Akhtar"
+    },
+    {
+     "id": "c",
+     "text": "Vinod Kumar Shukla"
+    },
+    {
+     "id": "d",
+     "text": "Gulzar"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Vinod Kumar Shukla, from Chhattisgarh, is known for 'Naukar Ki Kameez' and his gentle, unusual style.",
+   "distractors": {
+    "d": "He shared the Jnanpith announced in 2024.",
+    "a": "She was a Bengali writer who won much earlier.",
+    "b": "Not a Jnanpith winner."
+   },
+   "takeaway": "59th Jnanpith: Vinod Kumar Shukla.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-020",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "Who won the Nobel Peace Prize 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Nihon Hidankyo"
+    },
+    {
+     "id": "b",
+     "text": "María Corina Machado"
+    },
+    {
+     "id": "c",
+     "text": "Malala Yousafzai"
+    },
+    {
+     "id": "d",
+     "text": "Narges Mohammadi"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The prize honoured Venezuela's opposition leader for her struggle for democracy.",
+   "distractors": {
+    "c": "She won in 2014.",
+    "d": "She won in 2023.",
+    "a": "This Japanese group won in 2024."
+   },
+   "takeaway": "Nobel Peace 2025: María Corina Machado.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-021",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "Who won the Nobel Prize in Literature 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Salman Rushdie"
+    },
+    {
+     "id": "b",
+     "text": "László Krasznahorkai"
+    },
+    {
+     "id": "c",
+     "text": "Han Kang"
+    },
+    {
+     "id": "d",
+     "text": "Annie Ernaux"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The Hungarian novelist is known for long, intense sentences and dark, visionary books.",
+   "distractors": {
+    "c": "She won in 2024.",
+    "d": "She won in 2022.",
+    "a": "Not a Nobel winner."
+   },
+   "takeaway": "Nobel Literature 2025: László Krasznahorkai.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-022",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "The Pritzker Architecture Prize, often called architecture's Nobel, went in 2025 to:",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Riken Yamamoto"
+    },
+    {
+     "id": "b",
+     "text": "Zaha Hadid"
+    },
+    {
+     "id": "c",
+     "text": "Liu Jiakun"
+    },
+    {
+     "id": "d",
+     "text": "Balkrishna Doshi"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Chinese architect Liu Jiakun is known for buildings that respond to everyday life, local materials and community, such as the West Village in Chengdu.",
+   "distractors": {
+    "d": "The Indian architect won in 2018.",
+    "a": "He won in 2024.",
+    "b": "She won in 2004."
+   },
+   "takeaway": "Pritzker 2025: Liu Jiakun (China).",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-023",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "World Expo 2025 was held in which city?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Osaka"
+    },
+    {
+     "id": "b",
+     "text": "Dubai"
+    },
+    {
+     "id": "c",
+     "text": "Paris"
+    },
+    {
+     "id": "d",
+     "text": "Riyadh"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Expo 2025 Osaka, Kansai had the theme 'Designing Future Society for Our Lives'.",
+   "distractors": {
+    "b": "Dubai hosted Expo 2020 (held in 2021–22).",
+    "c": "Not 2025.",
+    "d": "Riyadh will host Expo 2030."
+   },
+   "takeaway": "Expo 2025: Osaka, Japan.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-024",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "The 'Grand Ring' at Expo 2025 Osaka, recognised as the world's largest wooden architectural structure, was designed by:",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Tadao Ando"
+    },
+    {
+     "id": "b",
+     "text": "Bjarke Ingels"
+    },
+    {
+     "id": "c",
+     "text": "Sou Fujimoto"
+    },
+    {
+     "id": "d",
+     "text": "Kengo Kuma"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The 2 km ring of timber, built with traditional Japanese joinery, framed the Expo site and showed how wood can build at a huge scale.",
+   "distractors": {
+    "d": "Another Japanese architect known for wood, but not the Grand Ring.",
+    "a": "Known for concrete, not this ring.",
+    "b": "A Danish architect, not involved."
+   },
+   "takeaway": "Expo 2025's Grand Ring: Sou Fujimoto, timber.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-025",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "Who curated the 2025 Venice Architecture Biennale, titled 'Intelligens. Natural. Artificial. Collective.'?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Carlo Ratti"
+    },
+    {
+     "id": "b",
+     "text": "Lesley Lokko"
+    },
+    {
+     "id": "c",
+     "text": "Hashim Sarkis"
+    },
+    {
+     "id": "d",
+     "text": "Rem Koolhaas"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Italian architect-engineer Carlo Ratti asked how natural, artificial and collective intelligence can help us adapt to a changing climate.",
+   "distractors": {
+    "b": "She curated the 2023 edition.",
+    "c": "He curated the 2021 edition.",
+    "d": "He curated in 2014."
+   },
+   "takeaway": "Venice Architecture Biennale 2025: Carlo Ratti.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-026",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "Which region holds the title World Design Capital for 2026?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Frankfurt RheinMain, Germany"
+    },
+    {
+     "id": "b",
+     "text": "Valencia, Spain"
+    },
+    {
+     "id": "c",
+     "text": "San Diego–Tijuana"
+    },
+    {
+     "id": "d",
+     "text": "Cape Town, South Africa"
+    }
+   ],
+   "answer": "a",
+   "explanation": "World Design Capital is awarded by the World Design Organization to cities that use design to improve life.",
+   "distractors": {
+    "b": "Valencia was World Design Capital in 2022.",
+    "c": "They shared the title in 2024.",
+    "d": "Cape Town held it in 2014."
+   },
+   "takeaway": "World Design Capital 2026: Frankfurt RheinMain.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-027",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "Where was the UN climate summit COP30 held in November 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Belém, Brazil"
+    },
+    {
+     "id": "b",
+     "text": "Dubai, UAE"
+    },
+    {
+     "id": "c",
+     "text": "Baku, Azerbaijan"
+    },
+    {
+     "id": "d",
+     "text": "Glasgow, UK"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Belém sits at the edge of the Amazon rainforest, which put forests at the centre of the talks.",
+   "distractors": {
+    "b": "COP28 was in Dubai (2023).",
+    "c": "COP29 was in Baku (2024).",
+    "d": "COP26 was in Glasgow (2021)."
+   },
+   "takeaway": "COP30 (2025): Belém, Brazil.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-028",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "The 2026 Winter Olympics were held in:",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Beijing, China"
+    },
+    {
+     "id": "b",
+     "text": "Paris, France"
+    },
+    {
+     "id": "c",
+     "text": "Sapporo, Japan"
+    },
+    {
+     "id": "d",
+     "text": "Milan and Cortina d'Ampezzo, Italy"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The Games were shared between the city of Milan and the mountain resort of Cortina.",
+   "distractors": {
+    "a": "Beijing hosted in 2022.",
+    "b": "Paris hosted the 2024 Summer Olympics.",
+    "c": "Not 2026."
+   },
+   "takeaway": "Winter Olympics 2026: Milan–Cortina.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-029",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "The 2026 FIFA World Cup is jointly hosted by:",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Saudi Arabia"
+    },
+    {
+     "id": "b",
+     "text": "The USA, Canada and Mexico"
+    },
+    {
+     "id": "c",
+     "text": "Qatar"
+    },
+    {
+     "id": "d",
+     "text": "Brazil and Argentina"
+    }
+   ],
+   "answer": "b",
+   "explanation": "It is the first World Cup with 48 teams and the first hosted by three countries.",
+   "distractors": {
+    "c": "Qatar hosted in 2022.",
+    "d": "Not 2026.",
+    "a": "Saudi Arabia is set to host in 2034."
+   },
+   "takeaway": "FIFA World Cup 2026: USA, Canada, Mexico (48 teams).",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-030",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "Which team won the ICC Champions Trophy 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Pakistan"
+    },
+    {
+     "id": "b",
+     "text": "India"
+    },
+    {
+     "id": "c",
+     "text": "New Zealand"
+    },
+    {
+     "id": "d",
+     "text": "Australia"
+    }
+   ],
+   "answer": "b",
+   "explanation": "India beat New Zealand in the final to win their third Champions Trophy.",
+   "distractors": {
+    "c": "They lost to India in the final in Dubai.",
+    "d": "Not the 2025 winner.",
+    "a": "Pakistan was the host."
+   },
+   "takeaway": "Champions Trophy 2025: India.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-031",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 1,
+   "source": "Expected-2027",
+   "stem": "In June 2025, which team won its first-ever IPL title?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Chennai Super Kings"
+    },
+    {
+     "id": "b",
+     "text": "Royal Challengers Bengaluru"
+    },
+    {
+     "id": "c",
+     "text": "Punjab Kings"
+    },
+    {
+     "id": "d",
+     "text": "Delhi Capitals"
+    }
+   ],
+   "answer": "b",
+   "explanation": "RCB beat Punjab Kings in the final, ending an 18-year wait for a title.",
+   "distractors": {
+    "c": "They lost the final.",
+    "d": "Not the 2025 winner.",
+    "a": "They have won several titles before."
+   },
+   "takeaway": "IPL 2025: RCB's first title.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-032",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "Who won the ICC Women's Cricket World Cup 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "India"
+    },
+    {
+     "id": "b",
+     "text": "Australia"
+    },
+    {
+     "id": "c",
+     "text": "England"
+    },
+    {
+     "id": "d",
+     "text": "South Africa"
+    }
+   ],
+   "answer": "a",
+   "explanation": "India, led by Harmanpreet Kaur, won their first Women's World Cup, beating South Africa in the final at Navi Mumbai.",
+   "distractors": {
+    "b": "Australia has won it many times, but not in 2025.",
+    "c": "Not the 2025 winner.",
+    "d": "They lost to India in the final."
+   },
+   "takeaway": "Women's World Cup 2025: India's first title.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-033",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "In December 2024, D. Gukesh became the youngest undisputed world champion in which sport?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Badminton"
+    },
+    {
+     "id": "b",
+     "text": "Table tennis"
+    },
+    {
+     "id": "c",
+     "text": "Shooting"
+    },
+    {
+     "id": "d",
+     "text": "Chess"
+    }
+   ],
+   "answer": "d",
+   "explanation": "At 18, Gukesh beat Ding Liren of China to become World Chess Champion.",
+   "distractors": {
+    "a": "Not his sport.",
+    "b": "Not his sport.",
+    "c": "Not his sport."
+   },
+   "takeaway": "Gukesh: youngest world chess champion (2024).",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-034",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 3,
+   "source": "Expected-2027",
+   "stem": "Divya Deshmukh won the FIDE Women's World Cup 2025 by beating which Indian player in the final?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Vaishali Rameshbabu"
+    },
+    {
+     "id": "b",
+     "text": "Tania Sachdev"
+    },
+    {
+     "id": "c",
+     "text": "Koneru Humpy"
+    },
+    {
+     "id": "d",
+     "text": "Harika Dronavalli"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The all-Indian final made Divya, aged 19, the champion and a grandmaster.",
+   "distractors": {
+    "d": "Not the finalist.",
+    "a": "Not the finalist.",
+    "b": "Not the finalist."
+   },
+   "takeaway": "Women's World Cup 2025: Divya Deshmukh beat Koneru Humpy.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-035",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "In 2025, Neeraj Chopra threw beyond which distance in javelin for the first time?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "85 metres"
+    },
+    {
+     "id": "b",
+     "text": "90 metres"
+    },
+    {
+     "id": "c",
+     "text": "80 metres"
+    },
+    {
+     "id": "d",
+     "text": "100 metres"
+    }
+   ],
+   "answer": "b",
+   "explanation": "His throw of 90.23 m at the Doha Diamond League in May 2025 broke the 90 m barrier.",
+   "distractors": {
+    "c": "He passed 80 m years earlier.",
+    "d": "Nobody throws the modern javelin that far.",
+    "a": "He had thrown beyond 85 m many times before."
+   },
+   "takeaway": "Neeraj Chopra crossed 90 m in 2025.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-036",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "Who won the men's singles title at Wimbledon 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "Novak Djokovic"
+    },
+    {
+     "id": "b",
+     "text": "Carlos Alcaraz"
+    },
+    {
+     "id": "c",
+     "text": "Roger Federer"
+    },
+    {
+     "id": "d",
+     "text": "Jannik Sinner"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Sinner became the first Italian to win the Wimbledon singles title.",
+   "distractors": {
+    "a": "He has won Wimbledon many times, but not in 2025.",
+    "b": "He won in 2023 and 2024 and lost the 2025 final.",
+    "c": "He has retired."
+   },
+   "takeaway": "Wimbledon 2025: Jannik Sinner.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  },
+  {
+   "id": "mq-ca-037",
+   "type": "mcq",
+   "subtopic": "gk.current",
+   "difficulty": 2,
+   "source": "Expected-2027",
+   "stem": "Which team won the men's Asia Cup cricket tournament in September 2025?",
+   "imageIds": [],
+   "options": [
+    {
+     "id": "a",
+     "text": "India"
+    },
+    {
+     "id": "b",
+     "text": "Pakistan"
+    },
+    {
+     "id": "c",
+     "text": "Sri Lanka"
+    },
+    {
+     "id": "d",
+     "text": "Afghanistan"
+    }
+   ],
+   "answer": "a",
+   "explanation": "India beat Pakistan in the final in Dubai.",
+   "distractors": {
+    "b": "They lost to India in the final.",
+    "c": "Not the 2025 winner.",
+    "d": "Not the 2025 winner."
+   },
+   "takeaway": "Asia Cup 2025: India.",
+   "tags": [],
+   "needsReview": true,
+   "validUntil": "2027-06-30"
+  }
+ ]
+}

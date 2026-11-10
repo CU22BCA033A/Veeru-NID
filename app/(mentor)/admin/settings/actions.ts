@@ -75,3 +75,17 @@ export async function saveAccount(_prev: { message: string | null }, form: FormD
   revalidatePath("/admin/settings");
   return { message: `Saved. ${d.role === "student" ? "Veeru" : "You"} can now sign in as “${d.username}”${d.password ? " with the new password" : ""}.` };
 }
+
+/** Import the encrypted question-paper pack with the key the owner was given. */
+export async function importPapers(key: string): Promise<{ message: string; ok: boolean }> {
+  await requireViewer("mentor");
+  const { importPaperPack } = await import("@/lib/seed/packs");
+  const { supabaseAdmin } = await import("@/lib/supabase/server");
+  try {
+    const r = await importPaperPack(supabaseAdmin(), z.string().trim().min(20).max(100).parse(key));
+    revalidatePath("/", "layout");
+    return { ok: true, message: `Imported ${r.items} questions, ${r.tasks} drawing tasks and ${r.mocks} mock papers.` };
+  } catch (e) {
+    return { ok: false, message: e instanceof z.ZodError ? "Paste the full key." : e instanceof Error ? e.message : String(e) };
+  }
+}

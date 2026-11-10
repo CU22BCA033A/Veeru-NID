@@ -4,6 +4,7 @@ import { colour, drawing } from "./mcq/colour-drawing";
 import { design } from "./mcq/design";
 import { gk, global, indian } from "./mcq/indian-global-gk";
 import { colourExtra, drawingExtra, gkExtra, globalExtra } from "./mcq/extra";
+import { currentAffairs } from "./mcq/current-affairs";
 import { toItem, type Q } from "./mcq/lib";
 
 const sets: [string, string, Q[]][] = [
@@ -13,6 +14,7 @@ const sets: [string, string, Q[]][] = [
   ["indian", "mq-ind", indian],
   ["global", "mq-glb", [...global, ...globalExtra]],
   ["gk", "mq-gk", [...gk, ...gkExtra]],
+  ["current-affairs", "mq-ca", currentAffairs],
 ];
 let total = 0;
 for (const [name, prefix, list] of sets) {

@@ -12,6 +12,8 @@ export interface Q {
   take: string;
   source?: ItemInput["source"];
   review?: boolean;
+  /** Time-sensitive facts (current affairs) stop being served after this date. */
+  validUntil?: string;
 }
 
 /** Correct option is authored first; rotate deterministically so answers spread across a–d. */
@@ -39,5 +41,6 @@ export function toItem(prefix: string, q: Q, n: number): ItemInput {
     takeaway: q.take,
     tags: [],
     needsReview: q.review ?? false,
+    ...(q.validUntil ? { validUntil: q.validUntil } : {}),
   };
 }

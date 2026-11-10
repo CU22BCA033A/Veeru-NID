@@ -9,6 +9,8 @@ import { SignOutButton } from "@/components/pwa/register-sw";
 import { AccountForm } from "./account-form";
 import { SettingsForm } from "./settings-form";
 import { SyncButton } from "./sync-button";
+import { ImportPapers } from "./import-papers";
+import { PAPER_PACK_NAME } from "@/lib/seed/packs";
 
 export const maxDuration = 60;
 
@@ -34,6 +36,10 @@ export default async function SettingsPage() {
           {meta?.content_synced_at && <> Last synced {new Intl.DateTimeFormat("en-IN", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Kolkata" }).format(new Date(meta.content_synced_at as string))}.</>}
         </p>
         <SyncButton />
+      </Card>
+      <Card>
+        <CardLabel className="mb-1">Question papers</CardLabel>
+        <ImportPapers name={PAPER_PACK_NAME} />
       </Card>
       {student && (
         <Card>
